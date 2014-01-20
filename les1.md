@@ -1,4 +1,4 @@
-#Les 1: Give me a fucking <br />#
+#Les 1: Give me a fucking [br /]#
 In de eerste les wordt behandeld: WTF is HTML5? Hoe en waarvoor wordt HTML5 gebruikt en hoe wordt deze nieuwste webtechnologie ondersteund? 
 We gaan aan de slag met de semantiek van HTML5, de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, en meer.
 
@@ -15,53 +15,56 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Doctype, Html, Header, Body, Meta Charset
 
 ##Programma (200 minuten)##
-1 Huishoudelijke mededelingen (30)  
-2 College (30)  
-3 Artikel bespreking (30)  
-4 Aan de slag (90)  
-5 Eindopdracht (...)  
-6 Terugkijken (20)
+1. Huishoudelijke mededelingen (30)  
+2. College (30)  
+3. Artikel bespreking (30)  
+4. Aan de slag (90)  
+5. Eindopdracht (...)  
+6. Terugkijken (20)  
+
 ## 1. Huishoudelijke mededelingen - 30 minuten (30/200) ##
 
-Introductie Docenten, 
+* __Introductie Docenten,__
 	Wie is wie? Wie doet wat?
 
-Intentie van het vak
+* __Intentie van het vak__
 	Zie intranet > studiegids tekst: intentie van het vak  
 		Kun je de toekomst voorspellen?  
 		Wat moet je kunnen over 5 jaar? > Het Web begrijpen  
 
-Eindopdracht   
+* __Eindopdracht__   
 	Wat kun je maken na 9 lessen?   
 	Voorbeeld responsive design: www.tropenmuseum.nl  
 	Voorbeeld responsive design: www.q42.nl  
 	Voorbeeld responsive webshop (demo): vasilis e-retail  
 
-Werkwijze: Hoe zien de lessen eruit?  
+* __Werkwijze: Hoe zien de lessen eruit?__  
 	Zie intranet > studiegids tekst: werkwijze  
 	Huiswerk  
 	Artikelen lezen voor sessie  
 	Werken in duo’s/Wisselen van duo’s. Je werkt aan je eigen project   
 
-Huishoudelijke mededelingen  
+* __Huishoudelijke mededelingen__  
 	Op tijd komen voor het college/discussie, anders wachten tot we klaar zijn  
 	Niet mailen, mededelingen op intranet    
 		vraag het aan je mede-studenten of wacht tot volgende week  
 	Vragen stellen en elkaar helpen  
 	Laptop voor werkopdrachten  
 	Papier en pen voor discussies en college   
-Planning, lesprogramma, toetsen en criteria   	3 onderwerpen. Zie intranet > lesprogramma  
+* __Planning, lesprogramma, toetsen en criteria__  
+	Drie onderwerpen. Zie intranet > lesprogramma  
 		les 1 en 2: data = html5 semantiek > toets  
-		Les 3 en 4: vormgeving = Css 3 ? bling bling toets  
+		Les 3 en 4: vormgeving = Css 3 ? bling bling > toets  
 		Les 5 - 8: ; layout & interactie = Eindtoets responsive design  
-	toetsing en criteria. Zie intranet maakopdracht
-## 2. College - 30 minuten (60/200)  
-Materiaal Papier en pen voor aantekeningen  
+	Toetsing en criteria. Zie intranet maakopdracht
+
+## 2. College - 30 minuten (60/200)  
+_Materiaal Papier en pen voor aantekeningen  
 Meenemen: Boekje HTML5, CSS3 en Responsive webdesign  
-Opstelling Rijen, college opstelling  
+Opstelling Rijen, college opstelling_  
 
 Gebruik hiervoor het artikel WTF is HTML5, and why should we care?  
-http://visual.ly/wtf-html5-and-why-should-we-all-care  
+[http://visual.ly/wtf-html5-and-why-should-we-all-care](http://visual.ly/wtf-html5-and-why-should-we-all-care)  
 
 Gratis online versie van het boek  Html5 for webdesigner  
 van Jeremy Keith, HTML5 For Web Designers, A Book Apart   Dit boek wordt door de docenten gebruikt voor colleges en de les opdrachten, handig als naslag werk.  
