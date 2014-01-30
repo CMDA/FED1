@@ -97,21 +97,8 @@ _Materiaal Laptop en internet
 Opstelling Werkeilanden waar twee duo’s aan kunnen zitten  
 Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten_
 
-###Opdracht 1 - GitHub - 20 minuten###
 
-####1a Maak een account aan op GitHub####
-
-####1b Maak de repository 'FED' aan####
-
-Maak onderstaande mappen aan in de repository:  
-/opdrachten
-/deeltoets1
-/deeltoets2
-/eindopdracht
-
-
-
-###Opdracht 2 - Semantic Markup #1 - 20 minuten###
+###Opdracht 1 - Semantic Markup #1 - 20 minuten###
 
 Maak deze ‘traditionele’ pagina-indeling in HTML5.
 Gebruik hiervoor de HTML5 tags:Nav, Section, Article, Aside, Footer
@@ -135,7 +122,7 @@ Handig: HTML editor met syntax coloring & hints
 ###_Bespreking opdracht 2 - 10 minuten_###
 
 
-### Opdracht 3 - Semantic Markup #3 - 30 minuten ###
+### Opdracht 2 - Semantic Markup #2 - 30 minuten ###
 
 ####3a De HTML pagina####
 De gemaakte pagina in opdracht 1 is nog GEEN html pagina  
@@ -143,7 +130,7 @@ Wanneer is een pagina een html pagina?
  
 Met: HTML, HEAD, BODY tags/elementen  
 Voeg deze toe...
-####_Bespreking 3a_####
+####_Bespreking 2a_####
 
 ####2b Doctype en Validatie####
 Een doctype 
@@ -152,7 +139,7 @@ Het zorgt ervoor dat de browser weet welke HTML-variant er wordt gebruikt.
 
 Zo weet een validator op basis van welke regels het document moet worden beoordeeld.
 
-####_Bespreking 3b_####
+####_Bespreking 2b_####
 
 Elementen bespreken die zijn gebruikt.
 	Studenten vragen dit uit te leggen
@@ -189,7 +176,7 @@ Metadata van het document
 
 ####_Bespreking 3c_####
 
-###Opdracht 4 - 10 minuten###
+###Opdracht 3 - 10 minuten###
 
 Extreme programming : Meekijken met docent:    
 Hiërarchie van elementen    Header in een Section en het gebruik van de H1.  
@@ -198,6 +185,17 @@ Hiërarchie van elementen    Header in een Section en het gebruik van de H1.
 _HTML 5 Outliner:_  
 http://gsnedders.html5.org/outliner/
 
+###Opdracht 4 - GitHub - 20 minuten###
+
+####1a Maak een account aan op GitHub####
+
+####1b Maak de repository 'FED' aan####
+
+Maak onderstaande mappen aan in de repository:  
+/opdrachten
+/deeltoets1
+/deeltoets2
+/eindopdracht
 ##5.) Werken aan de eindopdracht - ... minuten##
 _Materiaal Laptop en internet  
 Opstelling Werkeilanden waar twee duo’s aan kunnen zitten_
