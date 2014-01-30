@@ -124,7 +124,7 @@ Handig: HTML editor met syntax coloring & hints
 
 ### Opdracht 2 - Semantic Markup #2 - 30 minuten ###
 
-####3a De HTML pagina####
+####2a De HTML pagina####
 De gemaakte pagina in opdracht 1 is nog GEEN html pagina  
 Wanneer is een pagina een html pagina?  
  
@@ -166,7 +166,7 @@ _Chrome:_
 Webdeveloper    
 Firebug Lite  
 
-####3c Meta tag
+####2c Meta tag
 Metadata van het document    
 	Charset  
 	Content  
@@ -174,7 +174,7 @@ Metadata van het document
 	Keywords  
 
 
-####_Bespreking 3c_####
+####_Bespreking 2c_####
 
 ###Opdracht 3 - 10 minuten###
 
