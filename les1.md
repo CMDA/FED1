@@ -20,9 +20,9 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 3. Artikel bespreking (30)  
 4. Aan de slag (90)  
 5. Eindopdracht (...)  
-6. Terugkijken (20)  
+6. Terugkijken (20)    
 
-## 1. Huishoudelijke mededelingen - 30 minuten (30/200) ##
+##1. Huishoudelijke mededelingen - 30 minuten (30/200)##
 
 * __Introductie Docenten,__
 	Wie is wie? Wie doet wat?
@@ -58,7 +58,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 		Les 5 - 8: ; layout & interactie = Eindtoets responsive design  
 	Toetsing en criteria. Zie intranet maakopdracht
 
-## 2. College - 30 minuten (60/200)  
+## 2. College - 30 minuten (60/200)##  
 _Materiaal Papier en pen voor aantekeningen  
 Meenemen: Boekje HTML5, CSS3 en Responsive webdesign  
 Opstelling Rijen, college opstelling_  
