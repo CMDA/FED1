@@ -15,17 +15,19 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Doctype, Html, Header, Body, Meta Charset
 
 ##Programma (200 minuten)##
-1. Huishoudelijke mededelingen (30)  
-2. College (30)  
-3. Artikel bespreking (30)  
-4. Aan de slag (90)  
-5. Eindopdracht (...)  
-6. Terugkijken (20)    
+1. Huishoudelijke mededelingen (30)
+2. College (30)
+3. Artikel bespreking (30)
+4. Aan de slag (90) Eindopdracht (...)
+5. Terugkijken (20)
 
-##1. Huishoudelijke mededelingen - 30 minuten (30/200)##
 
-* __Introductie Docenten,__
-	Wie is wie? Wie doet wat?
+##1. Huishoudelijke mededelingen - 30 minuten (30/200)##  
+
+
+* __Introductie Docenten,__  
+	Wie is wie?   
+	Wie doet wat?
 
 * __Intentie van het vak__
 	Zie intranet > studiegids tekst: intentie van het vak  
