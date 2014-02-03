@@ -1,4 +1,4 @@
-#Les 1: Give me a fucking [br /]#
+#Les 1: Give me a fucking &lt;br /&gt;#
 In de eerste les wordt behandeld: WTF is HTML5? Hoe en waarvoor wordt HTML5 gebruikt en hoe wordt deze nieuwste webtechnologie ondersteund? 
 We gaan aan de slag met de semantiek van HTML5, de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, en meer.
 
@@ -22,7 +22,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 5. Terugkijken (20)
 
 
-##1. Huishoudelijke mededelingen - 30 minuten (30/200)##  
+##1. Huishoudelijke mededelingen - 30 minuten (30/200)
 
 
 * __Introductie Docenten,__  
@@ -60,7 +60,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 		Les 5 - 8: ; layout & interactie = Eindtoets responsive design  
 	Toetsing en criteria. Zie intranet maakopdracht
 
-## 2. College - 30 minuten (60/200)##  
+## 2. College - 30 minuten (60/200)
 _Materiaal Papier en pen voor aantekeningen  
 Meenemen: Boekje HTML5, CSS3 en Responsive webdesign  
 Opstelling Rijen, college opstelling_  
