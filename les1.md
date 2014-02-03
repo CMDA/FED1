@@ -34,9 +34,9 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 
 * __Eindopdracht__   
 	Wat kun je maken na 9 lessen?   
-	Voorbeeld responsive design: [www.tropenmuseum.nl](www.tropenmuseum.nl) 
-	Voorbeeld responsive design: [www.q42.nl](www.q42.nl)  
-	Voorbeeld responsive webshop (demo): vasilis e-retail  
+	Voorbeeld responsive design: [www.tropenmuseum.nl](www.tropenmuseum.nl)   
+	Voorbeeld responsive design: [www.q42.nl](www.q42.nl)    
+	Voorbeeld responsive webshop (demo): vasilis e-retail    
 
 * __Werkwijze: Hoe zien de lessen eruit?__  
 	Zie intranet > studiegids tekst: werkwijze  
@@ -100,9 +100,10 @@ Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten_
 
 ### Opdracht 1 - Semantic Markup #1 - 20 minuten###
 
-Maak deze ‘traditionele’ pagina-indeling in HTML5.
+Maak deze ‘traditionele’ pagina-indeling in HTML5.  
 Gebruik hiervoor de HTML5 tags:Nav, Section, Article, Aside, Footer
 
+**Op bord tekenen:**   
 DIV ID=”nav”  
 DIV ID=”main”     
 DIV class=”item”  
@@ -192,22 +193,22 @@ http://gsnedders.html5.org/outliner/
 ####1b Maak de repository 'FED' aan####
 
 Maak onderstaande mappen aan in de repository:  
-/opdrachten
-/deeltoets1
-/deeltoets2
-/eindopdracht
+/opdrachten  
+/deeltoets1  
+/deeltoets2  
+/eindopdracht  
 ##5.) Werken aan de eindopdracht - ... minuten##
 _Materiaal Laptop en internet  
 Opstelling Werkeilanden waar twee duo’s aan kunnen zitten_
 
-Wat moet je af hebben voor de volgende les?
-Artikel pagina: Semantisch correcte pagina met de elementen zoals we die hebben behandeld in les 1
-Nav, Section, Article, Aside, Footer, Doctype, Html, Header, Body, Meta Charset
-Nu de content in de gemaakte pagina hangen 
-Zie content op het intranet, pagina ‘Maakopdracht’.
+**Wat moet je af hebben voor de volgende les?**     
+Artikel pagina: Semantisch correcte pagina met de elementen zoals we die hebben behandeld in les 1  
+Nav, Section, Article, Aside, Footer, Doctype, Html, Header, Body, Meta Charset  
+Nu de content in de gemaakte pagina hangen   
+Zie content op het intranet, pagina ‘Maakopdracht’    
 
 
-Wat moet je af hebben voor de deeltoets in lesweek 3? Deeltoets 1  
+**Wat moet je af hebben voor de deeltoets in lesweek 3 - Deeltoets 1**  
 - Een artikel pagina: Een semantisch correcte pagina zoals behandeld in Les 1 met content van de gekozen opdracht.   
 - Een formulier pagina: Zoals we die gaan behandelen in Les 2
 
@@ -220,6 +221,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 Namen doorgeven van duo’s
 
 Huiswerk aankondigen
-	Lees artikelen voor les 2, zie intranet
+	Lees artikelen voor les 2, zie intranet  
+	Verder werken aan de eindopdracht  
 
 
