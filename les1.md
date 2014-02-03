@@ -34,8 +34,8 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 
 * __Eindopdracht__   
 	Wat kun je maken na 9 lessen?   
-	Voorbeeld responsive design: www.tropenmuseum.nl  
-	Voorbeeld responsive design: www.q42.nl  
+	Voorbeeld responsive design: [www.tropenmuseum.nl](www.tropenmuseum.nl) 
+	Voorbeeld responsive design: [www.q42.nl](www.q42.nl)  
 	Voorbeeld responsive webshop (demo): vasilis e-retail  
 
 * __Werkwijze: Hoe zien de lessen eruit?__  
@@ -64,7 +64,7 @@ Meenemen: Boekje HTML5, CSS3 en Responsive webdesign
 Opstelling Rijen, college opstelling_  
 
 Gebruik hiervoor het artikel WTF is HTML5, and why should we care?  
-[http://visual.ly/wtf-html5-and-why-should-we-all-care](http://visual.ly/wtf-html5-and-why-should-we-all-care)  
+[http://visual.ly/what-html5-infographic](http://visual.ly/what-html5-infographic)  
 
 Gratis online versie van het boek  Html5 for webdesigner  
 van Jeremy Keith, HTML5 For Web Designers, A Book Apart   Dit boek wordt door de docenten gebruikt voor colleges en de les opdrachten, handig als naslag werk.  
@@ -98,7 +98,7 @@ Opstelling Werkeilanden waar twee duo’s aan kunnen zitten
 Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten_
 
 
-###Opdracht 1 - Semantic Markup #1 - 20 minuten###
+### Opdracht 1 - Semantic Markup #1 - 20 minuten###
 
 Maak deze ‘traditionele’ pagina-indeling in HTML5.
 Gebruik hiervoor de HTML5 tags:Nav, Section, Article, Aside, Footer
