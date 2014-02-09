@@ -29,7 +29,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Wie is wie?   
 	Wie doet wat?
 
-* __Intentie van het vak__
+* __Intentie van het vak__  
 	Zie intranet > studiegids tekst: intentie van het vak  
 		Kun je de toekomst voorspellen?  
 		Wat moet je kunnen over 5 jaar? > Het Web begrijpen  
