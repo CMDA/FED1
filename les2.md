@@ -91,7 +91,7 @@ HTML5 Periodic Table of Elements http://joshduck.com/periodic-table.html > specs
 **Het video element**   
 Plaats de onderstaande bronbestanden in een \<video> Hij moet voor iedereen met een hedendaagse browser werken. Zorg voor een fallback voor oude browsers. Er moet een caption track toegevoegd worden.  
 
-Captions http://developer.longtailvideo.com/trac/export/2584/trunk/jw6/test/assets/captions/bunny-en.vtt
+Captions http://developer.longtailvideo.com/trac/export/2584/trunk/jw6/test/assets/captions/bunny-en.vtt  
 Webm http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm  
 OGG http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv  
 MP4 http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4  
