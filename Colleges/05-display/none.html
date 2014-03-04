@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>display: none</title>
+	
+	<link href="slideshow.css" rel="stylesheet" />
+	<link href="theme.css" rel="stylesheet" />
+	<link href="talk.css" rel="stylesheet" />
+	<link href="self-populating.css" rel="stylesheet" />
+	<script src="prefixfree/prefixfree.min.js"></script>
+</head>
+<body data-duration="30">
+<section>
+	<section class="slide" title="Vorige lessen">
+		<h1>Vorige lessen</h1>
+		<ul>
+			<li>HTML5 semantics</li>
+			<li>HTML5 geschiedenis</li>
+			<li>CSS3 vormgeving + effecten</li>
+			<li>CSS selectors</li>
+		</ul>
+	</section>
+</section>
+<section>
+	<header class="slide" title="display:none">
+		<hgroup>
+			<h1>display: none</h1>
+			<h2>Layout met CSS</h2>
+		</hgroup>
+	</header>
+	<section class="slide">
+		<h1>Vroeger</h1>
+		<ul>
+			<li>Tabellen</li>
+			<li>Transparante gifs</li>
+		</ul>
+	</section>
+    <section class="slide">
+        <h1>Tegenwoordig</h1>
+        <ul>
+            <li>Hacks</li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>Hacks?</h1>
+        <ul>
+            <li>Floating</li>
+            <li>Positioning</li>
+            <li>Display</li>
+        </ul>
+    </section>
+</section>
+<section>
+	<section class="slide">	
+		<h1>Floating</h1>
+		<ul>
+            <li>Links of rechts</li>
+            <li>Content 'float' om het element heen</li>
+            <li>Lastig</li>
+        </ul>
+	</section>
+    <section class="slide">
+        <h1>Positioning</h1>
+        <ul>
+            <li>Eenvoudig te begrijpen</li>
+            <li>Niet geschikt voor dynamische content</li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>Display</h1>
+        <ul>
+            <li>none</li>
+            <li>block</li>
+            <li>inline</li>
+            <li>inline-block</li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>display: inline-block</h1>
+        <ul>
+            <li>Makkelijk</li>
+            <li>Niet pixel-perfect</li>
+            <li>Hack voor IE6/7</li>
+        </ul>
+    </section>
+</section>
+<section>
+    <section class="slide">
+        <h1>Toekomst</h1>
+        <ul>
+            <li>Column</li>
+            <li>Grid</li>
+            <li>Flex</li>
+            <li><a href="http://corlan.org/downloads/simple_single_thread.html">Regions</a></li>
+            <li>...</li>
+        </ul>
+    </section>
+</section>
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+<script src="selector-snippet.js"></script>
+</body>
+</html>

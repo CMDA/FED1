@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>I've got &lt;em></title>
+	
+	<link href="slideshow.css" rel="stylesheet" />
+	<link href="theme.css" rel="stylesheet" />
+	<link href="talk.css" rel="stylesheet" />
+	<link href="self-populating.css" rel="stylesheet" />
+	<script src="prefixfree/prefixfree.min.js"></script>
+	<style>
+	#xhtml, #html5 {
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+	#xhtml {
+		background-image: url('img/backwards.jpg');
+		background-size: 750px 610px;
+	}
+	#html5 {
+		background-image: url('img/html5.jpg');
+		background-size: 750px 610px;
+	}
+	</style>
+</head>
+<body data-duration="30">
+<section>
+	<header class="slide" title="&lt;img&gt; is everything">
+		<hgroup>
+			<h1>&lt;img> is everything</h1>
+			<h2>Laatste college</h2>
+		</hgroup>
+	</header>
+</section>
+<section>
+	<section class="slide" id="xhtml">
+		<h1>XHTML</h1>
+		<ul>
+			<li>Theoretisch perfect</li>
+			<li>Draconische error afhandeling</li>
+			<li>Niet backwards compatible</li>
+		</ul>
+	</section>
+	<section class="slide" id="html5">
+		<h1>HTML5</h1>
+		<ul>
+			<li>Praktisch</li>
+			<li>Fouten niet onverbiddelijk afgestraft</li>
+			<li>Backwards compatible</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>Design principles van HTML5 *</h1>
+		<ul>
+			<li>Do not reinvent the wheel</li>
+			<li>Pave the cowpaths</li>
+			<li>If it ain’t broke, don’t fix it</li>
+		</ul>
+		<footer>
+			<p>* <a href="http://html5forwebdesigners.com" target="_blank">http://html5forwebdesigners.com</a>
+		</footer>
+	</section>
+	<section class="slide">
+		<h1>In case of conflicts consider... *</h1>
+		<ul>
+			<li>users</li>
+			<li>authors</li>
+			<li>implementers</li>
+			<li>specifiers</li>
+			<li>theoretical purity</li>
+		</ul>
+		<footer>
+			<p>* <a href="http://html5forwebdesigners.com" target="_blank">http://html5forwebdesigners.com</a>
+		</footer>
+	</section>
+</section>
+<section>
+	<section class="slide">
+		<h1>Nieuwe elementen</h1>
+		<ul>
+			<li>Semantische elementen</li>
+			<li>Media elementen</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>CSS(3)</h1>
+		<ul>
+			<li>opacity &amp; color</li>
+			<li>border-radius</li>
+			<li>box-shadow &amp; text-shadow</li>
+			<li>transforms</li>
+			<li>transities</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>Selectors</h1>
+		<ul>
+			<li>General sibling, adjacent sibling, direct child</li>
+			<li>Attribute</li>
+			<li>:nth-child()</li>
+			<li>:nth-of-type()</li>
+			<li>andere pseudo classes</li>
+			<li>pseudo elements</li>
+		</ul>
+		<footer>
+			<p><a href="http://twostepmedia.co.uk/cssselectors/" target="_blank">Selectors Tool</a>
+		</footer>
+	</section>
+	<section class="slide">
+		<h1>Layouts</h1>
+		<ul>
+			<li>Float</li>
+			<li>Positioning</li>
+			<li>Display</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>Layouts</h1>
+		<ul>
+			<li>Fixed</li>
+			<li>Fluid, relative, elastic</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>Responsive layouts</h1>
+		<ul>
+			<li>Fluid layouts</li>
+			<li>Flexibele units (em, %, ...)</li>
+			<li>Media queries</li>
+		</ul>
+	</section>
+</section>
+<section>
+	<section class="slide">
+		<h1>Responsive design</h1>
+		<ul>
+			<li>Responsive layout</li>
+			<li>Feature detection</li>
+			<li>Progressive enhancement</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>Conditioneel</h1>
+		<ul>
+			<li>Conditional comments</li>
+			<li>Feature detection</li>
+		</ul>
+	</section>
+	<section class="slide">
+		<h1>Conditional comments</h1>
+		<code>
+			<p>&lt;!--[if IE]>HTML voor IE&lt;![endif]--></p>
+			<p>&nbsp;</p>
+			<p>&lt;!--[if lt IE 9]>HTML voor ...&lt;![endif]--></p>
+			<p>&nbsp;</p>
+			<p>&lt;!--[if lte IE 8]>HTML voor ...&lt;![endif]--></p>
+			<p>&nbsp;</p>
+			<p>&lt;!--[if gte IE 9]>-->HTML voor ...&lt;!--&lt;![endif]--></p>
+		</code>
+	</section>
+	<section class="slide">
+		<h1>Feature detection</h1>
+		<code>
+			<p>&lt;script src="modernizr.js">&lt;/script></p>
+			<p>&nbsp;</p>
+			<p>&lt;html class="no-js"></p>
+			<p>&nbsp;</p>
+			<p>&lt;html class="js geolocation no-touch"></p>
+		</code>
+		<footer>
+			<p><a href="http://modernizr.com/">Modernizr</a></p>
+		</footer>
+	</section>
+</section>
+
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+<script src="selector-snippet.js"></script>
+</body>
+</html>

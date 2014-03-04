@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Can't get it out of my &lt;head></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<link rel="stylesheet" href="themes/ribbon/styles/style.css">
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Can't get it out of my &lt;head></h1>
+		<p>Frontend Development Basics - curriculum</p>
+	</header>
+	<div class="slide" id="introduction1"><div>
+		<section>
+			<header>
+				<h2>Vorige week</h2>
+			</header>
+			<ul>
+				<li>Browser support &amp; statistics</li>
+				<li>Versimpeling van tags in head</li>
+				<li>Semantische structuur elementen</li>
+				<li>Korte geschiedenis</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide" id="introduction2"><div>
+		<section>
+			<header>
+				<h2>De geschiedenis &amp; ontwikkeling van HTML</h2>
+			</header>
+			<ul>
+				<li>HTML5 is de specificatie waar we in de lessen mee werken.</li>
+				<li>Hoe is deze specificatie tot stand aan het komen?</li>
+				<li>Wat is de tijdslijn van HTML5?</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide" id="beginning"><div>
+		<section>
+			<header>
+				<h2>Het begin</h2>
+			</header>
+			<ul>
+				<li>Sir Tim Berners-Lee is de uitvinder van het WWW en HTML.</li>
+				<li>Ontwikkelde op basis van SGML definitie voor HTML.</li>
+				<li>Plus een browser, WorldWideWeb, voor weergave.</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide image" id="server"><div>
+		<section>
+			<header>
+				<h2>Informatie delen</h2>
+			</header>
+			<ul>
+				<li>Ontwikkeld voor het gezamenlijk<br>delen &amp; organiseren van informatie.</li>
+				<li>Eenvoud, hyperlinks &amp; juist tijd<br>(toegang internet wijder verspreid +<br>DNS).</li>
+			</ul>
+			<img src="pictures/server.jpg" alt="">
+		</section>
+	</div></div>
+	<div class="slide" id="browsers"><div>
+		<section>
+			<header>
+				<h2>Browsers</h2>
+			</header>
+			<p>Nodig om HTML te kunnen renderen.</p>
+			<ul>
+				<li>Mosaic (1993, <code>img</code> &amp; forms)</li>
+				<li>Netscape (1994, Javascript)</li>
+				<li>Opera (1995)</li>
+				<li>Internet Explorer (1995, licenseerde Mosaic engine)</li>
+				<li>Safari, Firefox, Chrome...</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide" id="html2"><div>
+		<section>
+			<header>
+				<h2>In de tussentijd...</h2>
+			</header>
+			<p>De eerste HTML specificatie in 1995 door het IETF uitgegeven onder de noemer HTML 2.0.</p>
+			<p>Hierin <code>table</code>, <code>map</code> &amp; <code>img</code> elementen en form uploads.</p>
+		</section>
+	</div></div>
+	<div class="slide" id="browser-wars1"><div>
+		<section>
+			<header>
+				<h2>Browser wars</h2>
+			</header>
+			<p>1995: Netscape meest gebruikte browser, Internet Explorer met Windows meegevelerd en later gratis.</p>
+			<p>Features van elkaar overgenomen<br>Er worden HTML features buiten de specificatie om ingevoerd.</p>
+			<p>Eindigt in Internet Explorer als grote winnaar - nauwlijks andere browsers op het PC platform in gebruik.</p>
+		</section>
+	</div></div>
+	<div class="slide" id="browser-wars2"><div>
+		<section>
+			<header>
+				<h2>Browser wars</h2>
+			</header>
+			<ul>
+				Gevolgen:
+				<li>Innovatie in browsers verminderde - het web stond stil.</li>
+				<li>Web authors moeten nog steeds browser specifieke code schrijven (IE fixes).</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide" id="browser-wars3"><div>
+		<section>
+			<header>
+				<h2>Browser wars</h2>
+			</header>
+			<p>Vanaf 2002 weer gedegen concurrentie voor IE.</p>
+			<ul>
+				<li>Firefox, op basis van Gecko (Netscape) layout engine.</li>
+				<li>Chrome en Safari op basis van Webkit layout engine.</li>
+			</ul>
+			<p>Ondanks verschillende browsers kan een rendering engine weer hetzelfde gaan doen als IE.</p>
+		</section>
+	</div></div>
+	<div class="slide" id="html3"><div>
+		<section>
+			<header>
+				<h2>In de tussentijd...</h2>
+			</header>
+			<p>De W3C - World Wide Web Consortium - neemt HTML specificatie taken over van IETF.</p>
+			<p>De W3C stelt specificaties op voor HTML 3, 3.2 en uiteindelijk 4.0, waarin veel onderdelen eerst door browser ontwikkelaars geïmplementeerd.</p>
+			<p>Maar ook: specifieke browser onderdelen komen niet in de specificaties.</p>
+		</section>
+	</div></div>
+	<div class="slide" id="xhtml"><div>
+		<section>
+			<header>
+				<h2>XHTML</h2>
+			</header>
+			<p>Om HTML uitbreidbaar te maken en gemakkelijker met andere systemen te laten werken (bijvoorbeeld XML tools).</p>
+			<p>Striktheid van XML.</p>
+			<p>Wat was ook alweer het gevolg?</p>
+		</section>
+	</div></div>
+	<div class="slide image" id="draconian"><div>
+		<section>
+			<header>
+				<h2>XHTML</h2>
+			</header>
+			<ul>
+				<li>Draconische error afhandeling</li>
+				<li><em>Niet</em> backwards compatible</li>
+			</ul>
+			<img src="pictures/backwards.jpg" alt="">
+		</section>
+	</div></div>
+	<div class="slide image" id="rebellion"><div>
+		<section>
+			<header>
+				<h2>Rebellie</h2>
+			</header>
+			<p>Met XHTML 2 lijkt W3C realiteit uit<br>oog te verliezen. Niet praktisch.</p>
+			<p>2004: Voorstel web apps geweigerd.</p>
+			<p>De WHATWG* wordt gevormd<br>devs Apple, Mozilla &amp; Opera.</p>
+			<img src="pictures/html5.jpg" alt="">
+			<footer>
+				<small>* Web Hypertext Application Technology Working Group</small>
+			</footer>
+		</section>
+	</div></div>
+	<div class="slide" id="whatwg"><div>
+		<section>
+			<header>
+				<h2>WHATWG</h2>
+			</header>
+			<ul>
+				WHATWG houdt zich bezig met:
+				<li>Specificatie HTML</li>
+				<li>Specificatie Web Forms 2.0</li>
+				<li>Tezamen vormt dit met Web Workers, Web Storage, Web Sockets &amp; Server-Sent Events HTML5</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide" id="timeline"><div>
+		<section>
+			<header>
+				<h2>Timeline</h2>
+			</header>
+			<p>HTML5 specificatie is ontwikkeling.</p>
+			<p>Wanneer is de specificatie klaar?</p>
+		</section>
+	</div></div>
+	<div class="slide image" id="werkijze-w3c"><div>
+		<section>
+			<header>
+				<h2>Werkwijze W3C</h2>
+			</header>
+			<ul>
+				<li>Beslissingen worden genomen op<br>basis van consensus.</li>
+				<li>Issues worden aangedragen,<br>bediscussieerd en over gestemd.</li>
+				<li>Klinkt democratisch, maar politiek<br> en interne conflicten vertragen<br>het proces.</li>
+			</ul>
+			<img src="pictures/un-general-assembly.jpg" alt="">
+		</section>
+	</div></div>
+	<div class="slide" id="werkijze-whatwg"><div>
+		<section>
+			<header>
+				<h2>Werkwijze WHATWG</h2>
+			</header>
+			<ul>
+				<li>Ook hier worden issues aangedragen &amp; bediscussieerd.</li>
+				<li>Echter is er één editor die beslist wat er in de HTML5 specificatie gaat.</li>
+				<li>Resulteert in een sneller proces.</li>
+			</ul>
+		</section>
+	</div></div>
+	<div class="slide" id="html5"><div>
+		<section>
+			<header>
+				<h2>W3C &amp; WHATWG</h2>
+			</header>
+			<ul>
+				<li>2009: W3C staakt ontwikkeling specificatie XHTML 2.</li>
+				<li>W3C gebruikt specificaties van WHATWG als basis voor HTML5 specificatie.</li>
+				<li>Specificatie mogelijk klaar in 2022.</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="input1"><div>
+		<section>
+			<header>
+				<h2>forms &amp; progressive enhancement</h2>
+			</header>
+			<ul>
+				<li><a href="examples/contact-form-simple.html">Minimaal</a></li>
+				<li><a href="examples/contact-form-javascript.html">Javascript validatie</a></li>
+				<li><a href="examples/contact-form-html5.html">HTML5 validatie</a></li>
+				<li><a href="examples/contact-form.html">Bijna compleet</a></li>
+			</ul>
+		</section>
+	</div></div>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="scripts/script.js"></script>
+	<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>

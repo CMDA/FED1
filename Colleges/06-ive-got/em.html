@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>I've got &lt;em></title>
+	
+	<link href="slideshow.css" rel="stylesheet" />
+	<link href="theme.css" rel="stylesheet" />
+	<link href="talk.css" rel="stylesheet" />
+	<link href="self-populating.css" rel="stylesheet" />
+	<script src="prefixfree/prefixfree.min.js"></script>
+</head>
+<body data-duration="30">
+<section>
+	<section class="slide" title="Vorige lessen">
+		<h1>Vorige lessen</h1>
+		<ul>
+			<li>HTML5 semantics</li>
+			<li>HTML5 geschiedenis</li>
+			<li>CSS3 vormgeving + effecten</li>
+			<li>CSS selectors</li>
+            <li>CSS layout (hacks)</li>
+		</ul>
+	</section>
+</section>
+<section>
+	<header class="slide" title="display:none">
+		<hgroup>
+			<h1>I've got &lt;em></h1>
+			<h2>Layout + mediaqueries</h2>
+		</hgroup>
+	</header>
+</section>
+<section>
+	<section class="slide">	
+		<h1>Manieren van layout</h1>
+        <ul>
+            <li>Fixed</li>
+            <li>Fluid</li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>Fixed layout</h1>
+        <ul>
+            <li>Handig voor papier</li>
+            <li>Handig voor exacte omgevingen</li>
+            <li><a href="http://www.nu.nl" target="_blank">Niet geschikt voor het web</a></li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>Fluid layout</h1>
+        <ul>
+            <li>Uitstekend geschikt voor alles</li>
+            <li>Ontwerpen in verhoudingen</li>
+            <li><a href="http://trashchique.nl/trashchique/" target="_blank">Iets complexer</a></li>
+        </ul>
+    </section>
+</section>
+<section>
+    <section class="slide">
+        <h1>Flexibele units</h1>
+        <ul>
+            <li>em</li>
+            <li>rem</li>
+            <li>%</li>
+            <li>vw/vh</li>
+        </ul>
+        <footer><a href="http://matthewjamestaylor.com/blog/ultimate-3-column-holy-grail-pixels.htm" target="_blank">Voorbeelden</a></footer>
+    </section>
+    <section class="slide">
+        <h1>em</h1>
+        <ul>
+            <li>De breedte van de letter 'm' (theoretisch)</li>
+            <li>1em is de standaard font size van de browser</li>
+            <li>Vrijwel altijd 16px</li>
+            <li>Context gevoelig</li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>rem</h1>
+        <ul>
+            <li>De font size van het 'root element'</li>
+            <li>Niet context gevoelig</li>
+            <li><a href="http://caniuse.com/#search=rem" target="_blank">Support</a></li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>%</h1>
+        <ul>
+            <li>Context gevoelig</li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>vw/vh</h1>
+        <ul>
+            <li>Viewport relative units (width/height)</li>
+            <li>Relatief t.o.v. het initial containing block</li>
+            <li>Support: IE10+ &amp; Chrome20+</li>
+        </ul>
+    </section>
+</section>
+<section>
+    <section class="slide">
+        <h1>Adaptive layouts</h1>
+        <ul>
+            <li>Fluid layouts</li>
+            <li>Passen zich aan aan viewport</li>
+        </ul>
+        <footer><a href="http://mediaqueri.es/" target="_blank">Voorbeeld</a></footer>
+    </section>
+    <section class="slide">
+        <h1>Media queries<h1>
+        <ul>
+            <li>Conditionele CSS</li>
+            <li>
+                <code>@media <em>media type</em> and (<em>condition</em>) ... {}</code>
+                <ul>
+                    <li>width, height</li>
+                    <li>device-width, device-height</li>
+                    <li>orientation</li>
+                    <li>...</li>
+                </ul>
+            </li>
+            <li><code>@media (min-width: 400px) {}</code></li>
+            <li><code>@media (max-width: 400px) {}</code></li>
+            <li><a href="http://caniuse.com/#search=media%20queries" target="_blank">Support</a></li>
+        </ul>
+    </section>
+    <section class="slide">
+        <h1>Viewport meta</h1>
+        <ul>
+            <li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/></code></li>
+        </ul>
+    </section>
+</section>
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+<script src="selector-snippet.js"></script>
+</body>
+</html>

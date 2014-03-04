@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie);
+
+@font-face {
+	font-family: Beteckna;
+	src: url(Beteckna.otf);
+}
+
+/**
+ * Variables
+ */
+header.slide > h1,
+header.slide > hgroup,
+a:hover {
+	color: black;
+	text-shadow: 0 .1em yellow, .05em 0 yellow, 0 -.1em yellow, -.05em 0 yellow, 
+		.1em .05em yellow, -.05em .1em yellow, .05em -.1em yellow, -.1em -.05em yellow;
+}
+
+/**
+ * Styles
+ */
+ 
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+body {
+	font-family: Futura, 'Century Gothic', 'Segoe UI', Beteckna, sans-serif;
+}
+
+code, pre, script, style {
+	font-family: Consolas, 'Andale Mono', monospace;
+	font-size: 95%;
+}
+
+a {
+	color: slategray;
+	text-decoration: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: .2em;
+	
+	-moz-transform: scale(2);
+	-moz-transform-origin: bottom right;
+	-ms-transform: scale(2);
+	-ms-transform-origin: bottom right;
+	-o-transform: scale(2);
+	-o-transform-origin: bottom right;
+	-webkit-transform: scale(2);
+	-webkit-transform-origin: bottom right;
+	transform: scale(2);
+	transform-origin: bottom right;
+}
+
+textarea {
+	width: 100%;
+	background: rgba(255,255,255,.6);
+	text-shadow: 0 1px white;
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+pre, style, script {
+	padding: .3em .5em;
+	margin: 1em -.3em;
+	background: rgba(0,0,0,.4);
+	white-space: pre;
+	border-radius: .3em;
+}
+
+pre:last-child {
+	margin-bottom: .5em;
+}
+
+input {
+	padding: .2em .5em;
+	border: 0;
+	background: rgba(255,255,255,.8);
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.slide {
+	padding: 0 1em;
+}
+
+	.slide > h1,
+	.slide > hgroup > h1 {
+		font-size: 250%;
+	}
+	
+	header.slide > h1,
+	header.slide > hgroup {
+		position: absolute;
+		top: 50%;
+		right: 10%;
+		left: 10%;
+		margin-top: -.7em;
+		font-size: 300%;
+		line-height: 1.2;
+		text-align: center;
+	}
+	
+.slide > hgroup > h1 + h2 {
+	margin-top: -.5em;
+	font: 130% 'Reenie Beanie';
+}
+	

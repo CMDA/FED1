@@ -1,0 +1,53 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact form</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://jzaefferer.github.com/jquery-validation/jquery.validate.js"></script>
+	<style>
+		label {
+			display: inline-block;
+			vertical-align: top;
+			width: 10em;
+		}
+		em {
+			padding-right: 0.3em;
+			vertical-align: top;
+		}
+		input[type="submit"] {
+			margin-left: 13.3em;
+		}
+	</style>
+	<script>
+		$(document).ready(function() {
+			$("#contactForm").validate();
+		});
+	</script>
+</head>
+<body>
+	<form id="contactForm" action="#" method="get">
+		<fieldset>
+			<legend>Contact</legend>
+			<p>
+				<label for="name">Naam:</label>
+				<em>*</em><input type="text" id="name" name="name" class="required" minlength="6"/>
+			</p>
+			<p>
+				<label for="email">Email:</label>
+				<em>*</em><input type="text" id="email" name="email" class="required email"/>
+			</p>
+			<p>
+				<label for="website">Website:</label>
+				<em>&nbsp;&nbsp;</em><input type="text" id="website" name="website" class="url"/>
+			</p>
+			<p>
+				<label for="message">Bericht:</label>
+				<em>*</em><textarea id="message" name="message" class="required"></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Verstuur"/>
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>

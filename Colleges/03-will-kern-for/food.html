@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>will kern for &lt;food></title>
+	
+	<link href="slideshow.css" rel="stylesheet" />
+	<link href="theme.css" rel="stylesheet" />
+	<link href="talk.css" rel="stylesheet" />
+	<script src="prefixfree/prefixfree.min.js"></script>
+</head>
+<body data-duration="0">
+<section>
+	<section class="slide" title="Vorige lessen">
+		<h1>Vorige lessen</h1>
+		<ul>
+			<li>Browser support &amp; statistics</li>
+			<li>Versimpeling van doctype &amp; tags in head</li>
+			<li>Semantische structuur elementen</li>
+			<li>Geschiedenis van HTML5</li>
+		</ul>
+	</section>
+	
+	<section class="slide iframe">
+		<iframe data-src="http://ie.microsoft.com/testdrive/Performance/BetaFishIE/"></iframe>
+	</section>
+	
+	<section class="slide">
+		<hgroup>
+			<h1>CSS3</h1>
+		</hgroup>
+		<p>Wat is CSS?</p>
+		<p class="delayed"><em>Cascading</em> Style Sheets</p>
+		<pre class="delayed">body {
+    background: slategray;
+}</pre>
+		<p class="delayed">Voor opmaak van gestructureerde data.</p>
+	</section>
+	
+	<section class="slide">
+		<hgroup>
+			<h1><em>Cascading</em> Style Sheets</h1>
+			<h2>Eenvoudige fallbacks</h2>
+		</hgroup>
+		<pre class="delayed">body {
+    background: slategray;
+    <del>background: mycolor;</del>
+}</pre>
+		<pre class="delayed">body {
+    background: slategray;
+    <del>myproperty: red;</del>
+}</pre>
+		<pre class="delayed"><del>:first-element { background: green; }</del>
+:first-child { background: slategray; }</pre>
+	</section>
+	
+	<section class="slide">
+		<hgroup>
+			<h1><em>Cascading</em> Style Sheets</h1>
+			<h2>Prefixes</h2>
+		</hgroup>
+		<p>CSS is constant in ontwikkeling; browsers vendors voegen experimentele of specifieke functionaliteit toe.</p>
+		<p class="delayed">Vaak afgehandeld door een prefix voor deze CSS commando's.</p>
+		<pre class="delayed">body {
+    <em>-webkit-</em>border-radius: 16px;
+}</pre>
+	</section>
+	
+	<section class="slide">
+		<hgroup>
+			<h1><em>Cascading</em> Style Sheets</h1>
+			<h2>Eenvoudige fallbacks</h2>
+		</hgroup>
+		<textarea class="snippet" data-subject>-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+		</textarea>
+	</section>
+	
+	<section class="slide">
+		<hgroup>
+			<h1>Properties</h1>
+			<h2>Welke properties zijn al bruikbaar?</h2>
+		</hgroup>
+		
+		<ul>
+			<li><code>opacity</code></li>
+			<li><code>rgba/hsl(a)</code></li>
+			<li><code>border-radius</code></li>
+			<li><code>text-shadow</code></li>
+			<li><code>box-shadow</code></li>
+			<li>…en veel meer</li>
+		</ul>
+		
+		<p><a href="http://caniuse.com/#search=css3">caniuse.com</a></p>
+	</section>
+</section>
+<!-- Color & opacity -->
+<section>
+	<header class="slide opacity-color">
+		<h1>Opacity &amp; color</h1>
+	</header>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://24ways.org/"></iframe>
+	</section>
+	
+	<section class="demo slide">
+		<ul class="delayed-children">
+			<li>Opacity</li>
+			<li>RGBA</li>
+			<li>HSL(A)</li>
+			<li>currentColor</li>
+		</ul>
+		<textarea class="snippet demo-box dont-adjust" data-subject>opacity: 1;</textarea>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>opacity</h1>
+		<table class="noprefix">
+			<thead>
+				<tr>
+					<td>Zonder prefix</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>1</td>
+				</tr>
+				<tr title="Opera">
+					<td>9</td>
+				</tr>
+				<tr title="IE">
+					<td>9</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 1.2</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>RGBA, HSL(A)</h1>
+		<table class="noprefix">
+			<thead>
+				<tr>
+					<td>Zonder prefix</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>3</td>
+				</tr>
+				<tr title="Opera">
+					<td>10</td>
+				</tr>
+				<tr title="IE">
+					<td>9</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 3.1</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>currentColor</h1>
+		<table class="noprefix">
+			<thead>
+				<tr>
+					<td>Zonder prefix</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>1.5</td>
+				</tr>
+				<tr title="Opera">
+					<td>9.5</td>
+				</tr>
+				<tr title="IE">
+					<td>9</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 4</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+<!-- Border radius -->
+<section>
+	<header class="slide border-radius">
+		<hgroup>
+			<h1>border-radius</h1>
+			<h2>Geeft een element ronde hoeken</h2>
+		</hgroup>
+	</header>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://web.archive.org/web/20130330040050/http://lab.simurai.com/buttons"></iframe>
+	</section>
+	
+	<section class="slide demo">
+		<ul class="delayed-children">
+			<li>Alle hoeken</li>
+			<li>Elke hoek apart</li>
+			<li>Horizontal / verticaal</li>
+			<li>Percentages</li>
+		</ul>
+		<textarea class="snippet demo-box dont-adjust" data-subject>border-radius: 20px;</textarea>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<hgroup>
+			<h1>border-radius</h1>
+		</hgroup>
+		<table>
+			<thead>
+				<tr>
+					<td>Met -prefix-</td>
+					<td>Zonder prefix</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>1</td>
+					<td>4</td>
+				</tr>
+				<tr title="Opera">
+					<td>-</td>
+					<td>10.5</td>
+				</tr>
+				<tr title="IE">
+					<td>-</td>
+					<td>9</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 3</td>
+					<td>Safari 5</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+<!-- Box shadow -->
+<section>
+	<header class="slide box-shadow">
+		<hgroup>
+			<h1>box-shadow</h1>
+			<h2>Voegt een schaduw toe aan een element</h2>
+		</hgroup>
+	</header>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://web.archive.org/web/20131026071401/http://viget.com/uploads/file/boxshadows/"></iframe>
+	</section>
+	
+	<section class="slide demo">
+		<ul class="delayed-children">
+			<li>Gewoon</li>
+			<li>Andere eenheden</li>
+			<li>Inset shadows</li>
+			<li>Spread</li>
+			<li>Met RGBA</li>
+			<li>Met border-radius</li>
+			<li>Multiple shadows</li>
+		</ul>
+		<textarea class="snippet demo-box dont-adjust" data-subject>box-shadow: 5px 5px 20px black;</textarea>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>box-shadow</h1>
+		<table>
+			<thead>
+				<tr>
+					<td>Met -prefix-</td>
+					<td>Zonder prefix</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>3.5</td>
+					<td>4</td>
+				</tr>
+				<tr title="Opera">
+					<td>-</td>
+					<td>10.5</td>
+				</tr>
+				<tr title="IE">
+					<td>-</td>
+					<td>9</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 3</td>
+					<td>Safari 5.1</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+<!-- Text shadow -->
+<section>
+	<header class="slide">
+		<hgroup>
+			<h1>text-shadow</h1>
+			<h2></h2>
+		</hgroup>
+	</header>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://webexpedition18.com/download/css3_text_shadow/"></iframe>
+	</section>
+	
+	<section class="slide demo">
+		<ul class="delayed-children">
+			<li>Gewoon</li>
+			<li>Inset &amp; spread</li>
+			<li>Met RGBA</li>
+			<li>Multiple shadows</li>
+			<li>Effects</li>
+		</ul>
+		<textarea class="snippet demo-box dont-adjust" data-subject>text-shadow: 2px 2px 10px black;</textarea>
+	</section>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://mothereffingtextshadow.com/"></iframe>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>text-shadow</h1>
+		<table class="noprefix">
+			<thead>
+				<tr>
+					<td>Zonder prefix</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>3.5</td>
+				</tr>
+				<tr title="Opera">
+					<td>9.5</td>
+				</tr>
+				<tr title="IE">
+					<td>10</td>
+				</tr>
+				<tr title="Webkit">
+					<td>
+						Safari 1.1
+						<p class="note">Multiple since Safari 4</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+<!-- Transforms -->
+<section>
+	<header class="slide transform">
+		<h1>Transforms</h1>
+		<h2>Roteren, schalen, verplaatsen &amp; skew aanpassen</h2>
+	</header>
+	
+	<section class="slide">
+		<iframe data-src="http://www.paulrhayes.com/experiments/cube/multiCubes.html"></iframe>
+	</section>
+	
+	<section class="demo slide">
+		<ul class="delayed-children">
+			<li>rotate</li>
+			<li>scale</li>
+			<li>skew</li>
+			<li>translate</li>
+			<li>Combineren</li>
+			<li>Origin</li>
+		</ul>
+		<textarea class="snippet demo-box dont-adjust" data-subject>transform: rotate(1deg);</textarea>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>transform</h1>
+		<table class="">
+			<thead>
+				<tr>
+					<td>Met -prefix-</td>
+					<td>Zonder -prefix-</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>3.5</td>
+					<td>26</td>
+				</tr>
+				<tr title="Opera">
+					<td>10.5</td>
+					<td></td>
+				</tr>
+				<tr title="IE">
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 3.1</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+<!-- Transitions -->
+<section>
+	<header class="slide transitions">
+		<h1>CSS transities</h1>
+	</header>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://www.3site.eu/examples/gallery/"></iframe>
+	</section>
+	
+	<section class="slide demo">
+		<ul class="delayed-children">
+			<li>Gewoon</li>
+			<li>Enkele properties</li>
+			<li>Aaneenschakelingen</li>
+			<li>Complexere animaties</li>
+			<li>Easing</li>
+		</ul>
+		<textarea class="snippet demo-box dont-adjust" data-subject data-raw>textarea { transition: 1s; }
+textarea:hover { background: black; }</textarea>
+	</section>
+	
+	<section class="iframe slide">
+		<iframe data-src="http://cubic-bezier.com"></iframe>
+	</section>
+	
+	<section class="slide" data-type="browser support">
+		<h1>CSS transitions</h1>
+		<table class="prefix">
+			<thead>
+				<tr>
+					<td>Met -prefix-</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr title="Firefox">
+					<td>4</td>
+				</tr>
+				<tr title="Opera">
+					<td>10.5
+						<p class="note">No steps() support</p>
+					</td>
+				</tr>
+				<tr title="IE">
+					<td>10</td>
+				</tr>
+				<tr title="Webkit">
+					<td>Safari 3
+						<p class="note">No cubic-bezier values out of the 0-1 range</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+<!-- Exercises -->
+<section>
+	<header class="slide exercises">
+		<hgroup>
+			<h1>Oefeningen</h1>
+			<h2>http://www.joostfaber.nl/hva/css3-oefeningen/food.html</h2>
+		</hgroup>
+	</header>
+</section>
+
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+	
+</body>
+</html>
