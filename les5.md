@@ -23,7 +23,8 @@ Positioneer de html elementen uit opdracht 1 met behulp van Flexbox.
 
 **Resources:**
  
-http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+[http://css-tricks.com/snippets/css/a-guide-to-flexbox/](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+[http://the-echoplex.net/flexyboxes/](http://the-echoplex.net/flexyboxes/)
 
 
 
