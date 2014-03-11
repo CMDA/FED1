@@ -13,9 +13,20 @@ Materiaal Papier en pen voor aantekeningen  Opstelling College opstelling####
 ####Opdracht 1 - Flexible typesetting / Font verhouding - 20 minutenMaak onderstaande title + read more link na met de juiste font verhouding, kleur, spatiëring etcetera.  **gebruik em waarde!**<h1> I know so little about you. <a href=”#” style="font-size:10px">Read More &raquo;</a></h1>
 **Code:**  \<h1\> I know so little about you. \<a href=”#” style="font-size:10px">Read More &raquo;\</a>\</h1>background-color: #eee  h1: 24 px, #222a: 10 px, uppercase, #999####Opdracht 2 - flexible grid - 60 minuten
 
-Maak de hier afgebeelde pagina na in HTML5: [https://github.com/CMDA/FED1/blob/master/assets/flexible-grid.png](https://github.com/CMDA/FED1/blob/master/assets/flexible-grid.png)  Positioneer de elementen door middel van een float.  Gebruik em voor de verhoudingen van breedtes, marges en/of padding. 
+Maak de hier afgebeelde pagina na in HTML5: [https://github.com/CMDA/FED1/blob/master/assets/flexible-grid.png](https://github.com/CMDA/FED1/blob/master/assets/flexible-grid.png)  Positioneer de elementen door middel van een float.  2a. Gebruik **em** voor de verhoudingen van breedtes, marges en/of padding. 
+2b. Doe hetzelfde met **procenten**.
 ####Opdracht 3 - floating, positioning en inline-block - 30 minuten
 Floating: [http://dabblet.com/gist/1974771](http://dabblet.com/gist/1974771)Positioning: [http://dabblet.com/gist/1974849](http://dabblet.com/gist/1974849)Inline-blok: [http://dabblet.com/gist/1974861](http://dabblet.com/gist/1974861)
+####Opdracht 4 - Flexbox
+
+Positioneer de html elementen uit opdracht 1 met behulp van Flexbox.
+
+**Resources:**
+ 
+http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
 #### Deeltoets 2
 **Deeltoets 2: CSS3 en vormgeving**  De tweede deeltoets is een mondeling over vormgeving met CSS3. Voor deze toets moeten de artikel- en formulierpagina verder worden uitgewerkt met CSS3.  De artikelpagina moeten worden opgemaakt door gebruik te maken van (direct) child-, sibling-, en andere selectors (zonder classes en ID's). Voor de formulierpagina moeten onderdelen van het formulier worden opgemaakt met border-radius, box- en text-shadow, transitions, attribute-selectors en pseudo-elements. Transforms zijn optioneel maar mogen in allebei de documenten gebruikt worden.De pagina's bevat alle onderwerpen zoals die in de lessen 3 en 4 zijn behandeld. ###5 Terugkijken 10 minuten (200/200)**Huiswerk aankondigen:**  Download en installeer onderstaande emulator voor mobile testing:Voor Windows-gebruikers: https://developer.android.com/sdk/index.htmlHier een uitleg: https://developer.android.com/guide/developing/devices/emulator.html Voor OSX-gebruikers: https://developer.apple.com/xcode/index.phpIn Xcode zit de simulator.**Volgende stap:** 
 Docs en materiaal op intranet voor volgende week. Zet de footer, menu en aside informatie in je artikelpagina en formulierpagina.
