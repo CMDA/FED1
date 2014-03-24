@@ -1,0 +1,9 @@
+section {
+	margin:1em;
+	padding:1em;
+	background-color: #eee;
+	box-shadow: 2px 2px 5px #000
+}
+.no-boxshadow section {
+	border: 1px solid #000;
+}
