@@ -18,6 +18,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Doctype, Html, Header, Body, Meta Charset
 	
 ![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
+Format: ![Alt Text](url)
 
 
 ##Programma (200 minuten)##
