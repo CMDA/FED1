@@ -1,11 +1,14 @@
 #Les 1: Give me a fucking &lt;br /&gt;#
 In de eerste les wordt behandeld: WTF is HTML5? Hoe en waarvoor wordt HTML5 gebruikt en hoe wordt deze nieuwste webtechnologie ondersteund? 
-We gaan aan de slag met de semantiek van HTML5, de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, en meer.
+We gaan aan de slag met de semantiek van HTML5, de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, en we gaan formulieren maken.
 
 ##Docenten##
-David de Vries   
-Vasilis van Gemert  
-Joost Faber  
+Koop Reynders (c)
+David de Vries
+Vasilis van Gemert
+Sanne 't Hooft
+Jonathan Leenman
+Jan van Hellemond
 
 ##Lesdoelen##
 Werkwijze en planning van het vak doornemen
@@ -15,7 +18,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Doctype, Html, Header, Body, Meta Charset
 
 ##Programma (200 minuten)##
-1. Huishoudelijke mededelingen (30)
+1. Introduktie (30)
 2. College (30)
 3. Artikel bespreking (30)
 4. Aan de slag (90) Eindopdracht (...)
@@ -35,7 +38,7 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 		Wat moet je kunnen over 5 jaar? > Het Web begrijpen  
 
 * __Eindopdracht__   
-	Wat kun je maken na 9 lessen?   
+	Wat kun je maken na 8 lessen?   
 	Voorbeeld responsive design: [www.tropenmuseum.nl](www.tropenmuseum.nl)   
 	Voorbeeld responsive design: [www.q42.nl](www.q42.nl)    
 	Voorbeeld responsive webshop (demo): vasilis e-retail    
@@ -44,10 +47,10 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Zie intranet > studiegids tekst: werkwijze  
 	Huiswerk  
 	Artikelen lezen voor sessie  
-	Werken in duo’s/Wisselen van duo’s. Je werkt aan je eigen project   
+	Werken in duo’s/Wisselen van duo’s. Je werkt aan je eigen opdracht   
 
 * __Huishoudelijke mededelingen__  
-	Op tijd komen voor het college/discussie, anders wachten tot we klaar zijn  
+	Op tijd komen voor het college/discussie, anders buiten wachten tot we klaar zijn  
 	Niet mailen, mededelingen op intranet    
 		vraag het aan je mede-studenten of wacht tot volgende week  
 	Vragen stellen en elkaar helpen  
@@ -210,7 +213,7 @@ Nu de content in de gemaakte pagina hangen
 Zie content op het intranet, pagina ‘Maakopdracht’    
 
 
-**Wat moet je af hebben voor de deeltoets in lesweek 3 - Deeltoets 1**  
+**Wat moet je af hebben voor de deeltoets in lesweek 2? - Deeltoets 1**  
 - Een artikel pagina: Een semantisch correcte pagina zoals behandeld in Les 1 met content van de gekozen opdracht.   
 - Een formulier pagina: Zoals we die gaan behandelen in Les 2
 
