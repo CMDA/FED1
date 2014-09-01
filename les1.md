@@ -16,6 +16,9 @@ Introductie HTML5. Basis van HTML5 begrijpen. Browser support en web stats
 Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Nav, Section, Article, Aside, Footer, 
 	Doctype, Html, Header, Body, Meta Charset
+	
+![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
+
 
 ##Programma (200 minuten)##
 1. Introduktie (30)
