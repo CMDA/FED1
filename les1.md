@@ -1,16 +1,24 @@
-#Les 1: Give me a fucking &lt;br /&gt;#
-In de eerste les wordt behandeld: WTF is HTML5? Hoe en waarvoor wordt HTML5 gebruikt en hoe wordt deze nieuwste webtechnologie ondersteund? 
-We gaan aan de slag met de semantiek van HTML5, de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, en we gaan formulieren maken.
 
-##Docenten##
-Koop Reynders (c)
-David de Vries
-Vasilis van Gemert
-Sanne 't Hooft
-Jonathan Leenman
-Jan van Hellemond
+# Give me a fucking &lt;br /&gt;
+###### Frontend development - les 1
 
-##Lesdoelen##
+!
+
+# Give me a fucking &lt;br /&gt;
+
+In deze gaan we het hebben over: WTF is HTML5? (ook alweer?). Hoe wordt deze  webtechnologie ondersteund? We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. Én we gaan formulieren maken.
+
+##Programma (200 minuten)##
+1. Introduktie (30)
+2. College (30)
+3. Artikel bespreking (30)
+4. Aan de slag (90)
+5. Terugkijken (20)
+
+!
+
+
+# Lesdoelen
 Werkwijze en planning van het vak doornemen
 Introductie HTML5. Basis van HTML5 begrijpen. Browser support en web stats
 Belangrijkste HTML5 structuur elementen begrijpen en toepassen
@@ -18,16 +26,10 @@ Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Doctype, Html, Header, Body, Meta Charset
 	
 ![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
-Format: ![Alt Text](url)
 
 
-##Programma (200 minuten)##
-1. Introduktie (30)
-2. College (30)
-3. Artikel bespreking (30)
-4. Aan de slag (90) Eindopdracht (...)
-5. Terugkijken (20)
 
+!
 
 ##1. Huishoudelijke mededelingen - 30 minuten (30/200)
 
