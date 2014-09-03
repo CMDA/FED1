@@ -5,7 +5,7 @@ FED1
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
 #Lessen
-1. [Give me a fucking < br / > ](/FED1/Presentaties/les1.html)
+1. [Give me a fucking < br / > ](Presentaties/les1.html)
 2. [You are the CSS to my HTML](Presentaties/les2.html)
 3. [I’ve got < em >](Presentaties/les3.html)
 4. [Display: none](Presentaties/les4.html)
