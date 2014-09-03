@@ -12,7 +12,7 @@ In het vak Frontend development leren studenten een responsive website maken, ee
 5. Will Kern for Food
 6. <img> is everything
 7. /* no comment */
-8. </HTML>
+8. < / HTML >
 
 #Intentie van het vak
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. In de propedeuse ligt de nadruk op het maken van een eenvoudige websites. Dit vak gaat een stap verder. 
