@@ -8,26 +8,31 @@
 
 In deze gaan we het hebben over: WTF is HTML5? (ook alweer?). Hoe wordt deze  webtechnologie ondersteund? We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. Én we gaan formulieren maken.
 
+![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
+
+!
+
 ##Programma (200 minuten)##
 1. Introduktie (30)
 2. College (30)
-3. Artikel bespreking (30)
-4. Aan de slag (90)
+3. Weekly Nerd (30)
+4. Klussen (90)
 5. Terugkijken (20)
 
 !
 
 
 # Lesdoelen
+
 Werkwijze en planning van het vak doornemen
+
 Introductie HTML5. Basis van HTML5 begrijpen. Browser support en web stats
+
 Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Nav, Section, Article, Aside, Footer, 
 	Doctype, Html, Header, Body, Meta Charset
-	
-![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
 
-
+Formulieren maken
 
 !
 
