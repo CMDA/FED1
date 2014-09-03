@@ -5,14 +5,14 @@ FED1
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
 #Lessen
-1. Give me a fucking < br / > 
-2. You are the CSS to my HTML
-3. I’ve got < em >
-4. Display: none
-5. Will Kern for Food
-6. < img > is everything
-7. /* no comment */
-8. < / HTML >
+1. [Give me a fucking < br / > ](Presentaties/les1.html)
+2. [You are the CSS to my HTML](Presentaties/les2.html)
+3. [I’ve got < em >](Presentaties/les3.html)
+4. [Display: none](Presentaties/les4.html)
+5. [Will Kern for Food](Presentaties/les5.html)
+6. [< img > is everything](Presentaties/les6.html)
+7. [/* no comment */](Presentaties/les7.html)
+8. [< / HTML >](Presentaties/les8.html)
 
 #Intentie van het vak
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. In de propedeuse ligt de nadruk op het maken van een eenvoudige websites. Dit vak gaat een stap verder. 
