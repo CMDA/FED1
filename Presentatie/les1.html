@@ -31,22 +31,34 @@
 
     }
     h1, h2, h3, h4, h5, h6 {
-        margin: .5em 0 .5em 0;
+        margin: 0.5em 0;
+        clear:both;
     }
-    h2{color:#555;}
-    /* subtitle */
-    h6{
-        background-color:#fc0;
-        font-size: 1.2em;
+    h6{     /* subtitle */
+        background-color:gold;
+        font-size: 1em;
         display: inline-block;
-        margin: 0;
+        margin:0;
+    }
+    h5{ /* subsubtitle */
+        background-color:gold;
+        font-size: 0.6em;
+        display: inline-block;
+        float: right;
+        margin-bottom: 1em;
+        padding: 0 1em;        
     } 
-
     p {
         margin: 0 0 1em 0;
         text-align: left;
     }
-    a{ color:666;}
+    a:link,a:visited { 
+        color:DarkGoldenrod;
+    }
+    a:hover{
+        background-color: Goldenrod ;
+        color: #333;
+    }
     code {
         display: block;
         margin: .5em 0;

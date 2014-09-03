@@ -6,13 +6,13 @@
 
 # Give me a fucking &lt;br /&gt;
 
-In deze gaan we het hebben over: WTF is HTML5? (ook alweer?). Hoe wordt deze  webtechnologie ondersteund? We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. Én we gaan formulieren maken.
+Deze les gaat over: WTF is HTML5? (ook alweer?). Hoe wordt deze  webtechnologie ondersteund? We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. Én we gaan formulieren maken.
 
 ![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
 
 !
 
-##Programma (200 minuten)##
+# Programma (200 minuten)##
 1. Introduktie (30)
 2. College (30)
 3. Weekly Nerd (30)
@@ -21,32 +21,47 @@ In deze gaan we het hebben over: WTF is HTML5? (ook alweer?). Hoe wordt deze  we
 
 !
 
-
+##### 1. Introduktie (30/200 minuten)
 # Lesdoelen
 
-Werkwijze en planning van het vak doornemen
-
-Introductie HTML5. Basis van HTML5 begrijpen. Browser support en web stats
-
-Belangrijkste HTML5 structuur elementen begrijpen en toepassen
+* Werkwijze en planning van het vak doornemen
+* Introductie HTML5. Recap van vorg jaar.
+* Belangrijkste HTML5 structuur elementen begrijpen en toepassen
 	Nav, Section, Article, Aside, Footer, 
 	Doctype, Html, Header, Body, Meta Charset
+* Formulieren maken
 
-Formulieren maken
 
 !
 
-##1. Huishoudelijke mededelingen - 30 minuten (30/200)
+##### 1. Introduktie (30/200 minuten)
+# Huishoudelijke mededelingen
+
+* Op tijd komen, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Niet mailen: mededelingen op [Intranet](https://cmd.dmci.hva.nl/NL/Paginas/default.aspx), 
+lesprogramma op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131), alle sources op [Github](https://github.com/CMDA/FED1)
+* Vraag het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in)
+* Laptop nodig voor de werkopdrachten  
+* Papier en pen voor discussies en college
+
+!
+
+##### 1. Introduktie (30/200 minuten)
+# Docenten
+
+Wie is wie?   
+
+Wie doet wat?
 
 
-* __Introductie Docenten,__  
-	Wie is wie?   
-	Wie doet wat?
+!
 
 * __Intentie van het vak__  
 	Zie intranet > studiegids tekst: intentie van het vak  
 		Kun je de toekomst voorspellen?  
 		Wat moet je kunnen over 5 jaar? > Het Web begrijpen  
+
+!
 
 * __Eindopdracht__   
 	Wat kun je maken na 8 lessen?   
@@ -54,25 +69,28 @@ Formulieren maken
 	Voorbeeld responsive design: [www.q42.nl](www.q42.nl)    
 	Voorbeeld responsive webshop (demo): vasilis e-retail    
 
+!
+
 * __Werkwijze: Hoe zien de lessen eruit?__  
 	Zie intranet > studiegids tekst: werkwijze  
 	Huiswerk  
 	Artikelen lezen voor sessie  
 	Werken in duo’s/Wisselen van duo’s. Je werkt aan je eigen opdracht   
 
-* __Huishoudelijke mededelingen__  
-	Op tijd komen voor het college/discussie, anders buiten wachten tot we klaar zijn  
-	Niet mailen, mededelingen op intranet    
-		vraag het aan je mede-studenten of wacht tot volgende week  
-	Vragen stellen en elkaar helpen  
-	Laptop voor werkopdrachten  
-	Papier en pen voor discussies en college   
+!
+
 * __Planning, lesprogramma, toetsen en criteria__  
 	Drie onderwerpen. Zie intranet > lesprogramma  
 		les 1 en 2: data = html5 semantiek > toets  
 		Les 3 en 4: vormgeving = Css 3 ? bling bling > toets  
 		Les 5 - 8: ; layout & interactie = Eindtoets responsive design  
 	Toetsing en criteria. Zie intranet maakopdracht
+
+
+
+!
+
+
 
 ## 2. College - 30 minuten (60/200)
 _Materiaal Papier en pen voor aantekeningen  
@@ -95,7 +113,15 @@ _HTML5 Cheatsheet_
 	[http://www.html5rocks.com](http://www.html5rocks.com)  
 
 Is jouw browser HTML5 proof? [www.html5test.com](www.html5test.com)
-## 3. Artikel bespreking - 30 minuten (90/200)
+
+!
+
+# 3. Weekly Nerd - 30 minuten (90/200)
+
+Wie zit waar?
+Hoe ziet het lokaal er uit?
+
+
 
 Artikel: Het artikel Concept to Code : Code literacy in UX van Ryan Betts wordt besproken.
 http://uxmag.com/articles/concept-to-code
@@ -108,10 +134,17 @@ Welk type ben jij of wil je worden? En waarom?   Geef een beschrijving van het
 Het artikel beschrijft verschillende manier hoe je over code kunt denken, welke?   Code as Pattern, they distill a common use case into something simple and prescriptive   Code as material, designing for different languages is like sculpting in different materials   Code as narrative, you begin to describe the user experience and see how it will work   Code as play, once you hit a certain degree of code literacy writing code becomes fun  
 Wat bedoelt Ryan Betts met 'Code literacy can help you achieve a higher quality end product'?  
 
-## 4 Aan de slag - 90 minuten (180/200)
+!
+
+# 4 Aan de slag - 90 minuten (180/200)
 _Materiaal Laptop en internet  
 Opstelling Werkeilanden waar twee duo’s aan kunnen zitten  
 Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten_
+
+
+Wie zit waar?
+Hoe ziet het lokaal er uit?
+
 
 
 ### Opdracht 1 - Semantic Markup #1 - 20 minuten###
@@ -213,7 +246,8 @@ Maak onderstaande mappen aan in de repository:
 /deeltoets1  
 /deeltoets2  
 /eindopdracht  
-##5.) Werken aan de eindopdracht - ... minuten##
+
+##5.) Werken aan de eindopdracht - ... minuten##
 _Materiaal Laptop en internet  
 Opstelling Werkeilanden waar twee duo’s aan kunnen zitten_
 
@@ -228,7 +262,9 @@ Zie content op het intranet, pagina ‘Maakopdracht’
 - Een artikel pagina: Een semantisch correcte pagina zoals behandeld in Les 1 met content van de gekozen opdracht.   
 - Een formulier pagina: Zoals we die gaan behandelen in Les 2
 
-##6.) Terugkijken - 20 minuten (200/200)##
+!
+
+# 5. Terugkijken - 20 minuten (200/200)##
 Wat hebben we behandeld?
 Werkwijze en planning van het vak
 Introductie HTML5. Basis van HTML5 begrijpen. Browser support en web stats
