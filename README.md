@@ -1,6 +1,8 @@
-!
+######FED1
+====
 
-#Frontend development, 2e jaars kernvak CMD Amsterdam
+#Frontend development
+#2e jaars kernvak CMD Amsterdam
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
 #Lessen & eindopdracht
@@ -17,7 +19,7 @@ Picture element en feature detection.
 
 !
 
-##Lessen
+#Lessen
 1. Give me a fucking < br / > 
 2. You are the CSS to my HTML
 3. I’ve got < em >
