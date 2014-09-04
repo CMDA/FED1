@@ -16,6 +16,7 @@ Box model, Positioning,
 Responsive design, media queries, 
 Picture element en feature detection.
 
+##Lessen
 1. Give me a fucking < br / > 
 2. You are the CSS to my HTML
 3. I’ve got < em >
