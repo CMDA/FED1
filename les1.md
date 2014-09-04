@@ -35,6 +35,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
     Formulieren, input types
 * Formulieren maken
 
+
 ##### 1. Introduktie (30/200 minuten)
 
 
@@ -49,77 +50,71 @@ lesprogramma op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=
 * Laptop nodig voor de werkopdrachten  
 * Papier en pen voor discussies en college
 
+
 ##### 1. Introduktie (30/200 minuten)
 
 !
 
-##### 1. Introduktie (30/200 minuten)
 # Docenten
 
 Wie is wie?   
 
 Wie doet wat?
 
+##### 1. Introduktie (30/200 minuten)
 
 !
+
+# Wat gaan we maken?
+Wat kun je over 8 weken?
 
 * __Intentie van het vak__  
 	Zie intranet > studiegids tekst: intentie van het vak  
 		Kun je de toekomst voorspellen?  
 		Wat moet je kunnen over 5 jaar? > Het Web begrijpen  
 
-!
-
 * __Eindopdracht__   
-	Wat kun je maken na 8 lessen?   
 	Voorbeeld responsive design: [www.tropenmuseum.nl](www.tropenmuseum.nl)   
 	Voorbeeld responsive design: [www.q42.nl](www.q42.nl)    
 	Voorbeeld responsive webshop (demo): vasilis e-retail    
 
-!
-
-* __Werkwijze: Hoe zien de lessen eruit?__  
-	Zie intranet > studiegids tekst: werkwijze  
-	Huiswerk  
-	Artikelen lezen voor sessie  
-	Werken in duo’s/Wisselen van duo’s. Je werkt aan je eigen opdracht   
+##### 1. Introduktie (30/200 minuten)
 
 !
 
-* __Planning, lesprogramma, toetsen en criteria__  
-	Drie onderwerpen. Zie intranet > lesprogramma  
-		les 1 en 2: data = html5 semantiek > toets  
-		Les 3 en 4: vormgeving = Css 3 ? bling bling > toets  
-		Les 5 - 8: ; layout & interactie = Eindtoets responsive design  
-	Toetsing en criteria. Zie intranet maakopdracht
+# Werkwijze
+Hoe zien de lessen van 4 uur eruit?
+
+Zie Moodle voor het lesprogramma
+
+Zie Github voor de source files
+
+Artikelen lezen voor de Weekly Nerd
+
+In de les werken en huiswerk voor de eindopdracht.
+Werken in duo’s Je werkt aan je eigen opdracht   
+
+##### 1. Introduktie (30/200 minuten)
+
+!
+
+# Planning & toetsplan
+
+Onderwerpen
+
+Toetsen
 
 
+##### 1. Introduktie (30/200 minuten)
 
 !
 
 
 
-## 2. College - 30 minuten (60/200)
-_Materiaal Papier en pen voor aantekeningen  
-Meenemen: Boekje HTML5, CSS3 en Responsive webdesign  
-Opstelling Rijen, college opstelling_  
+# 2. College - 30 minuten (60/200)
 
-Gebruik hiervoor het artikel WTF is HTML5, and why should we care?  
-[http://visual.ly/what-html5-infographic](http://visual.ly/what-html5-infographic)  
 
-Gratis online versie van het boek  Html5 for webdesigner  
-van Jeremy Keith, HTML5 For Web Designers, A Book Apart   Dit boek wordt door de docenten gebruikt voor colleges en de les opdrachten, handig als naslag werk.  
-
-_HTML5 Onderwerpen_ 
-	Semantics - Elements, Structural, Interactive, Maakt het uit?  
-	accessibility, searchability, internationalization and interoperability  
-	[http://coding.smashingmagazine.com/2011/11/18/html5-semantics/](http://coding.smashingmagazine.com/2011/11/18/html5-semantics/)  
-
-_HTML5 Cheatsheet_  
-	[http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/ )   
-	[http://www.html5rocks.com](http://www.html5rocks.com)  
-
-Is jouw browser HTML5 proof? [www.html5test.com](www.html5test.com)
+##### 2. College (30 - 60/200 minuten)
 
 !
 
