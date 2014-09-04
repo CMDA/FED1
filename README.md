@@ -22,7 +22,7 @@ Picture element en feature detection.
 
 Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3 en Javascript. In 8 weken werken studenten in de les en thuis aan de eindopdracht. 
 
-1. [Give me a fucking < br / >](Presentatie/les1.html)
+1. Give me a fucking < br / > [Presentatie](Presentaties/les1.html) [College](Colleges/01-gimme-a-fucking/index.html)
 2. You are the CSS to my HTML
 3. I’ve got < em >
 4. Display: none
