@@ -1,5 +1,4 @@
-FED1
-====
+!
 
 #Frontend development, 2e jaars kernvak CMD Amsterdam
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
