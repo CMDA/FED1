@@ -16,6 +16,8 @@ Box model, Positioning,
 Responsive design, media queries, 
 Picture element en feature detection.
 
+!
+
 ##Lessen
 1. Give me a fucking < br / > 
 2. You are the CSS to my HTML
@@ -26,6 +28,7 @@ Picture element en feature detection.
 7. /* no comment */
 8. < / HTML >
 
+!
 
 #Intentie van het vak
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. In de propedeuse ligt de nadruk op het maken van een eenvoudige websites. Dit vak gaat een stap verder. 
