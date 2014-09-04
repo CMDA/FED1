@@ -5,6 +5,15 @@ FED1
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
 #Lessen
+De onderwerpen die we gaan behandelen zijn HTML5 elementen, formulieren, 
+CSS3 effecten, CSS selectors, 
+Javascript classList object, 
+Flexbox, 
+Untis, pixels, em, procenten, 
+Box model, Positioning, 
+Responsive design, media queries, 
+Picture element en feature detection.
+
 1. Give me a fucking < br / > 
 2. You are the CSS to my HTML
 3. I’ve got < em >
@@ -13,6 +22,7 @@ In het vak Frontend development leren studenten een responsive website maken, ee
 6. < img > is everything
 7. /* no comment */
 8. < / HTML >
+
 
 #Intentie van het vak
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. In de propedeuse ligt de nadruk op het maken van een eenvoudige websites. Dit vak gaat een stap verder. 
