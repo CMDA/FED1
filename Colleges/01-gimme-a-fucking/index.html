@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Give me a fucking &lt;br> — Hoorcollege 1 — Front-end development V1</title>
+
+		<meta name="description" content="Hoorcollege bij les 1 van Frontend Development in de V1 op de HvA.">
+		<meta name="author" content="Vasilis van Gemert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<style>
+		.reveal video {
+			max-height: 90vh;
+		}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Give me a fucking &ltbr></h1>
+					<h3>Frontend Development Les 1</h3>
+				</section>
+
+				<section>
+					<h1>Waarom dit vak?</h1>
+					<p>Nou?</p>
+					<aside class="notes">
+						Vraag dit aan je studenten, schrijf het eventueel op het bord. Benadruk al deze punten ook. 
+						<ul>
+						- Materiaalkennis<br> 
+						- Hoe weet je wat je kunt ontwerpen als je niet weet wat er wel en niet kan? <br>
+						- Hoe weet je of iets goedkoop of duur is om te maken? <br>
+						- Waar houden je collega's zich mee bezig?<br>
+						- Het is tof!
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Frontend development was een rotvak</h2>
+						<ul>
+							<li>Slechte browsers</li>
+							<li>Slechte ontwerpers</li>
+						</ul>
+
+						<aside class="notes">
+							Tot niet zo lang geleden was je als Frontend developer vooral iemand die de idiote quirks van de verschillende browsers kende. Bovendien kende je allemaal hacks om de onmogelijke designs van fantasierijke ontwerpers tóch mogelijk te maken.
+						</aside>
+					</section>
+					<section>
+						<h2>Frontend development is tof</h2>
+						<ul>
+							<li>Browsers die normaal doen</li>
+							<li>Betere ontwerpers</li>
+							<li>Meer, toffere mogelijkheden</li>
+							<li class="fragment">Slechte browsers zijn bijna dood</li>
+							<li class="fragment">Slechte ontwerpers zijn managers geworden</li>
+						</ul>
+						<aside class="notes">
+							Tegenwoordig kan je aan <em>browser spitting</em> doen: als code geschreven is volgens de specificatie, dan kan je er vanuit gaan dat het werkt in alle browsers. Natuurlijk nog niet helemaal waar, maar inmiddels véél beter dan vroeger. Ontwerpers zijn ook beter geworden. En er is meer mogelijk: browsers zijn beter, sneller, er kan veel meer met CSS.
+						</aside>
+					</section>
+					<section>
+						<h2>Hoe kan dat?</h2>
+						<p>Wat is er veranderd?</p>
+						<aside class="notes">
+							Kort geschiedenislesje vanaf de volgende slide. Je zou nu op ongeveer 5 minuten van je hoorcollege moeten zitten. Niet veel langer!
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Vroeger…</h2>
+						<ol>
+							<li>Browsermonopolie</li>
+							<li>Device monopolie</li>
+							<li>Weinig standaarden</li>
+							<li>Het web werd niet begrepen</li>
+						</ol>
+						<aside class="notes">
+							Toen het web nog zwart/wit was, hadden we IE als browsermonopolie. We hielden alleen rekening met vaste schermformaten en manieren van input (muis). Standaarden werden slecht ondersteund. Hierdood werd het web niet echt begrepen: het was iets met computers. En met computers kan alles, was de gedachte.
+						</aside>
+					</section>
+					<section data-background-size="contain" data-background-image="img/theoretisch.jpg">
+						<h2 style="background: hsla(0,0%,0%,.3)">XHTML</h2>
+						<p style="background: hsla(0,0%,0%,.3)">Theoretisch perfect</p>
+						<aside class="notes">
+							Een poging tot verbetering kwam in de vorm van XHTML. Het idee was om alles weg te gooien en helemaal opnieuw te beginnen met een soort Bijlmereske utopie. Theoretisch perfect, zoals een Rietveldstoel…
+						</aside>
+					</section>
+					<section data-background-size="contain" data-background-image="img/draconian.jpg">
+						<h2 style="background: hsla(0,0%,0%,.3)">XHTML</h2>
+						<p style="background: hsla(0,0%,0%,.3)">Draconische foutafhandeling</p>
+						<aside class="notes">
+							…maar er zaten een paar zeer negatieve kanten aan: drakonische error handling. Hier een oude uitleg: http://annevankesteren.nl/2005/11/draconian
+						</aside>
+					</section>
+					<section data-background-size="contain" data-background-image="img/backwards.jpg">
+						<h2 style="background: hsla(0,0%,0%,.3)">XHTML</h2>
+						<p style="background: hsla(0,0%,0%,.3)">Niet backwards compatible</p>
+						<aside class="notes">
+							En niet backwards compatible. Alles wat er tot dan toe op het web bestond zou kapot zijn.
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>HTML</h2>
+						<ul>
+							<li>Praktisch</li>
+							<li>Tolerant</li>
+							<li>Backwards compatible</li>
+						</ul>
+						<aside class="notes">
+							Als tegenreactie kwam de WHATWG (bonuspunten voor wie weet waar dat voor staat). Met een veel pragmatischere aanpak
+						</aside>
+					</section>
+					<section>
+						<h2>WHATWG</h2>
+						<p>Veel pragmatischer</p>
+						<p>Gericht op standaardiseren van alles</p>
+						<aside class="notes">
+							Het web is misschien wel stuk, maar het werkt wel. En er zijn gewoon teveel mensen die het gebruiken. Beter om datgene wát ze gebruiken te standaardiseren.
+						</aside>
+					</section>
+					<section>
+						<h2>Standaardisering</h2>
+						<ul>
+							<li>Hoe moet code werken in een browser</li>
+							<li>Hoe moet <em>slechte</em> code werken in een browser</li>
+						</ul>
+						<aside class="notes">
+							Er wordt gestandaardiseerd hoe valide code moet renderen in de browser. Maar er wordt ook gestandaardiseerd hoe invalide code moet renderen. WHATWG geniet de steun van alle browsers. Dit is belangrijk: dit stelt ons in staat om te *browser spitten*. We kunnen er vanuit gaan dat alles overal hetzelfde rendert. Wat staads vaker ook zo is. Hierdoor wordt ons vak weer leuk. Lees dit hoofdstuk even om je geheugen op te frissen: http://html5forwebdesigners.com/design/index.html
+						</aside>
+					</section>
+					<section>
+						<h2>Design principes HTML5</h2>
+						<ul>
+							<li>Do not reinvent the wheel</li>
+							<li>Pave the cowpaths</li>
+							<li>If it ain't broke, don't fix it</li>
+						</ul>
+						<aside class="notes">
+							Geen dingen opnieuw uitvinden die al werken. Bijvoorbeeld drag and drop (hoewel dat wellicht wél opnieuw uitgevonden had moeten worden). Als mensen bepaalde patronen herhalen, standaardiseer ze dan, zoals veelvoorkomende classnames vervangen door semantische elementen. 
+						</aside>
+					</section>
+					<section>
+						<h2>In case of conflict</h2>
+						<ol>
+							<li>users</li>
+							<li>authors</li>
+							<li>implementers</li>
+							<li>specifiers</li>
+							<li>theoretical purity</li>
+						</ol>
+						<aside class="notes">
+							Hoe los je iets op als er een conflict van belangen bestaat bij een bepaald feature. Dit is een pracht van een beslisboom natuurlijk. Die zouden meer organisaties moeten gebruiken. Dan kregen we bijvoorbeeld geen termen als V1 voor tweedejaars, of V2 voor derdejaars. Users (bezoekers), authors (designer, developers, content mensen), implementers (browser bouwers), specifiers (mensen die de HTML spec schrijven).
+						</aside>
+					</section>
+					<section>
+						<h2>Pave the cowpaths</h2>
+						<pre><code data-trim contenteditable>
+&lt;meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+						</pre></code>
+						<pre class="fragment"><code data-trim contenteditable>
+&lt;meta charset=utf-8>
+						</pre></code>
+						<aside class="notes">
+							Hoe werken sommige dingen nu echt? Zoals bijvoorbeel DOCTYPE. Of Meta Charset. Het bleek dat mensen die bizarre string niet begrijpen. Niet alleen de mensen die HTML typen, ook de mensen die de browsers maken niet. Browsers zoeken heel pragmatisch naar de string charset=utf-8 en negeren de rest.
+						</aside>
+					</section>
+					<section>
+						<h2>Pave the cowpaths</h2>
+						<pre><code data-trim contenteditable>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+						</pre></code>
+						<pre class="fragment"><code data-trim contenteditable>
+&lt;!DOCTYPE html>
+						</pre></code>
+						<pre class="fragment"><code data-trim contenteditable>
+&lt;!doctype html>
+						</pre></code>
+						<aside class="notes">
+							Browsers snappen, net zoals mensen, niks van al die bizarre letters. Alleen doctype html doet er toe. Schreeuwen doen we alleen op CAPSLOCK DAY. Fijn met kleine letters
+						</aside>
+					</section>
+					
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Nieuwe elementen</h2>
+						<ul>
+							<li>Header</li>
+							<li>Footer</li>
+							<li>Aside</li>
+							<li>Nav</li>
+							<li>Main</li>
+						</ul>
+						<aside class="notes">
+							Vraag of iemand weet waar deze dingen voor zijn. Ze zijn nogal vanzelfsprekend. Leg uit dat ze niet alleen op pagina-niveau gebruikt kunnen worden, maar ook op element-niveau: een article kan prima een footer en een aside hebben. Er is discussie over het main-element, of dat maar één keer of vaker op een pagina mag staan, en of het überhaupt wel nodig is. Je kan ze beschouwen als specifieke sectioning elementen. Lees de precieze details hier nog even door: http://html5forwebdesigners.com/semantics/index.html Video en Audio behandelen we later, bij de lessen over responsive, bij het concept dat er veel verschillende verschijningsvormen zijn.
+						</aside>
+					</section>
+
+					<section>
+						<h2>Nieuwe elementen</h2>
+						<ul>
+							<li>Article</li>
+							<li>Section</li>
+						</ul>
+						<aside class="notes">
+							Deze zijn lastiger, en vaak inwisselbaar. Een article kan uit meerdere sections bestaan (bijvoorbeeld de secties in een lang artikel) en een section kan meerdere articles hebben (bijvoorbeeld een thematische sectie op een homepage met daarin een aantal items). Lees dit er nog even op na: http://html5forwebdesigners.com/semantics/index.html#article en dit http://html5forwebdesigners.com/semantics/index.html#section
+							Noem een paar voorbeelden. Noem ook de sectioning flowchart die helpt bij het kiezen van het juiste sectioning-element: http://www.html5doctor.com/downloads/h5d-sectioning-flowchart.pdf
+						</aside>
+					</section>
+					
+				</section>
+
+				<section>
+					<section>
+						<h1>Formulieren</h1>
+						<aside class="notes">
+							De HTML5 spec begon als reactie op het feit dat formulieren niet krachtig genoeg waren. Vandaar een heleboel nieuwe attributen. Minder elementen hier.
+						</aside>
+					</section>
+					<section>
+						<h2>Nieuwe input types</h2>
+						<pre><code data-trim contenteditable>
+&lt;input type="text">
+&lt;input type="email">
+&lt;input type="url">
+&lt;input type="number">
+&lt;input type="tel" required>
+&lt;input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}">
+						</pre></code>
+						<aside class="notes">
+							Nieuwe types. Lekker makkelijk. Handig ook. In de volgende slides staan twee filmpjes gemaakt op een iPhone. De ene zonder deze attributen, de andere met. 
+						</aside>
+					</section>
+					<section>
+						<video controls src="img/slechtevideo.webm"></video>
+					</section>
+					<section>
+						<video controls src="img/goedevideo.webm"></video>
+					</section>
+					<section>
+						<h2>Sections in formulieren</h2>
+						<pre class="fragment"><code data-trim contenteditable>
+&lt;form>
+	&lt;fieldset>
+	    &lt;legend>Contactgegevens&lt;/legend>
+	    …
+	&lt;/fieldset>
+
+	&lt;fieldset>
+	    &lt;legend>Voorkeuren&lt;/legend>
+	    …
+	&lt/fieldset>
+&lt;/form>
+						</pre></code>
+						<aside class="notes">
+							Dit zouden ze moeten weten, vraag het even voor je het laat zien. Goede vraag voor tijdens het mondeling. 
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Browsers en devices</h1>
+						<aside class="notes">
+								Alles wat op het web staat moet op alle mogelijke apparaten werken. Kleine schermen, grote schermen, goede schermen, slechte schermen, snelle en trage computers en alle mogelijke vormen van input (muis, vinger, toetsenbord, stem, etc). Er zijn twee manieren om dit te doen: graceful degradation, progressive enhancement.
+						</aside>
+					</section>
+					<section data-background-image="img/graceful-degradation.jpg" data-background-size="cover">
+						<h2 style="background: hsla(0,0%,0%,.3)">Graceful degradation</h2>
+						<aside class="notes">
+							Eerst iets bouwen wat werkt in de beste browser en daarna, zo nodig, aanpassen zodat het werkt in oude browsers.
+						</aside>
+					</section>
+					<section data-background-image="img/progressive-enhancement.jpg" data-background-size="cover">
+						<h2 style="background: hsla(0,0%,0%,.3)">Progressive enhancement</h2>
+						<aside class="notes">
+							Iets opbouwen in lagen. Als een browser/apparaat een feature ondersteunt, dan is dat leuk, maar nooit noodzakelijk. Mooi voorbeeld van PE is een roltrap. Als ie niet rolt dan doet ie het nog. Einde van het hoorcollege. Dit zou in een half uur moeten passen.
+						</aside>
+					</section>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
