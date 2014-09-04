@@ -6,7 +6,10 @@
 
 # Give me a fucking &lt;br /&gt;
 
-Deze les gaat over: WTF is HTML5? (ook alweer?). Hoe wordt deze  webtechnologie ondersteund? We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. Én we gaan formulieren maken.
+Deze les gaat over: WTF is HTML5? (ook alweer?). 
+Hoe wordt deze  webtechnologie ondersteund? 
+We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. 
+Én we gaan formulieren maken.
 
 ![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
 
@@ -21,20 +24,22 @@ Deze les gaat over: WTF is HTML5? (ook alweer?). Hoe wordt deze  webtechnologie 
 
 !
 
-##### 1. Introduktie (30/200 minuten)
 # Lesdoelen
 
 * Werkwijze en planning van het vak doornemen
 * Introductie HTML5. Recap van vorg jaar.
 * Belangrijkste HTML5 structuur elementen begrijpen en toepassen
-	Nav, Section, Article, Aside, Footer, 
-	Doctype, Html, Header, Body, Meta Charset
+    Doctype, Meta, Script, 
+    Header, Main, Footer, Nav, Aside, 
+    Section, Article, 
+    Formulieren, input types
 * Formulieren maken
+
+##### 1. Introduktie (30/200 minuten)
 
 
 !
 
-##### 1. Introduktie (30/200 minuten)
 # Huishoudelijke mededelingen
 
 * Op tijd komen, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
@@ -43,6 +48,8 @@ lesprogramma op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=
 * Vraag het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in)
 * Laptop nodig voor de werkopdrachten  
 * Papier en pen voor discussies en college
+
+##### 1. Introduktie (30/200 minuten)
 
 !
 
