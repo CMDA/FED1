@@ -15,16 +15,19 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 !
 
-# Programma (200 minuten)##
+# Give me a fucking &lt;br /&gt;
+## Programma (200 minuten)##
 1. Introduktie (20)
 2. College (30)
 3. Weekly Nerd (30)
 4. Klussen (100)
 5. Terugkijken (20)
 
+
 !
 
-# Lesdoelen
+# Give me a fucking &lt;br /&gt;
+## Lesdoelen
 
 * Werkwijze en planning van het vak doornemen
 * Introductie HTML5. Recap van vorg jaar.
@@ -36,8 +39,12 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 * Formulieren maken
 
 
-##### 1. Introduktie (20/200 minuten)
+!
 
+# 1. Introduktie (20 minuten)
+Wat gaan we doen de komende 8 weken?
+
+##### 1. Introduktie (20/200 minuten)
 
 !
 
@@ -60,7 +67,7 @@ Wie is wie?
 
 Wie doet wat?
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie 20/200 minuten)
 
 !
 
@@ -94,7 +101,7 @@ Artikelen lezen voor de Weekly Nerd
 In de les werken en huiswerk voor de eindopdracht.
 Werken in duo’s Je werkt aan je eigen opdracht   
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie - 20/200 minuten)
 
 !
 
@@ -104,7 +111,7 @@ Onderwerpen
 
 Toetsen
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie - 20/200 minuten)
 
 !
 
@@ -121,15 +128,12 @@ Over Waarom dit vak? Vroeger. HTML5 elementen en formulieren. Browsers en device
 # 3. Weekly Nerd - 30 minuten
 Artikelen bespreken in kleine groepen. 
 
-### Hoe ziet het lokaal er uit?
-
-image
 
 ##### 3. Weekly Nerd (30 - 80/200 minuten)
 
 !
 
-## Artikelen deze week
+# Weekly Nerd artikelen voor vandaag
 
 [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
 
@@ -145,7 +149,11 @@ image
 
 !
 
-## Wie zit waar?
+# Wie zit waar?
+
+image
+
+lijst 
 
 
 
