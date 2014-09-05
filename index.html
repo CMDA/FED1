@@ -24,12 +24,15 @@
 
         background-color:#ddd;
     }
+    td{
+        vertical-align: top;
+    }
     h1, h2, h3, h4, h5, h6 {
         margin: 0.5em 0;
         clear:both;
     }
     h1{
-        margin-top:0.2em
+        margin-top:0.6em
     }
     h6{     /* subtitle */
         background-color:gold;
@@ -38,12 +41,12 @@
         
     }
     h5{ /* subsubtitle */
-        background-color:gold;
-        font-size: 0.6em;
         display: inline-block;
         position: absolute;
         bottom: 1%;
         padding: 0 1em; 
+        background-color:gold;
+        font-size: 0.6em;
     } 
     p {
         margin: 0 0 1em 0;
@@ -56,19 +59,23 @@
         background-color: Goldenrod ;
         color: #333;
     }
-    a.nav{
+    nav{
         display: inline-block;
-        color: DarkGoldenrod;
-        text-decoration: none;
+        position: absolute;
+        bottom: 2%;        
+    }
+    nav a{
         margin: 2em 1em 0 0;
         padding: 0 0.3em;
+
+        color: DarkGoldenrod;
+        text-decoration: none;
         border: 1px solid DarkGoldenrod;
         border-radius: 15px;
     }
-    a.nav:hover{
+    nav a:hover{
         color: #333;
         border-color: Goldenrod;
-        
     }
     code {
         display: block;

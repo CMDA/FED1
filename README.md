@@ -14,7 +14,7 @@ Responsive design, media queries,
 Picture element en feature detection.
 
 
-<a class="nav" href="#2">&gt;</a>
+<nav><a href="#2">&gt;</a></nav>
 
 !
 
@@ -34,7 +34,7 @@ Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3
 
 
 
-<a class="nav" href="#1">&lt;</a><a class="nav" href="#3">&gt;</a>
+<nav><a href="#1">&lt;</a><a href="#3">&gt;</a></nav>
 
 !
 
@@ -51,4 +51,4 @@ De website kunnen ze maken met behulp van de webtechnieken HTML5, CSS3 en Javasc
 Frontend development is een kernvak. In dit vak wordt de basis gelegd voor de beroepsrollen Webdeveloper, Webdesigner en Interaction designer, ook een CMD Content designer moet in staat zijn een responsive website te maken en begrijpen.
 
 
-<a class="nav" href="#2">&lt;</a>
+<nav><a href="#2">&lt;</a></nav>
