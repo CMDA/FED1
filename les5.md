@@ -12,7 +12,7 @@ We gaan beginnen met Responsive Webdesign met behulp van Media queries.
 
 !
 
-# Display: none
+# You are the CSS to my HTML
 ## Programma (200 minuten)
 1. Introduktie (5)
 2. College (30)

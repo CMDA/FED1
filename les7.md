@@ -12,7 +12,7 @@ Verder gaan we in de les doorwerken aan de eindopdracht.
 
 !
 
-# Display: none
+# /* no comment */
 ## Programma (200 minuten)
 1. Introduktie (5)
 2. College (30)

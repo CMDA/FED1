@@ -12,7 +12,7 @@ Je leert bijvoorbeeld hoe je kan testen of je website op een smartphone wordt be
 
 !
 
-# Display: none
+# < img > is everything
 ## Programma (200 minuten)
 1. Introduktie (5)
 2. College (30)
