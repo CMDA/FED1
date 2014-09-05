@@ -4,6 +4,7 @@
 !
 
 # Give me a fucking &lt;br /&gt;
+###### Frontend development - les 1
 
 Deze les gaat over: WTF is HTML5? (ook alweer?). 
 Hoe wordt deze  webtechnologie ondersteund? 
@@ -15,6 +16,8 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 !
 
 # Give me a fucking &lt;br /&gt;
+###### Frontend development - les 1
+
 ## Programma (200 minuten)
 1. Introduktie (20)
 2. College (30)
@@ -26,6 +29,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 !
 
 # Give me a fucking &lt;br /&gt;
+###### Frontend development - les 1
 ## Lesdoelen
 
 * Werkwijze en planning van het vak doornemen
@@ -41,12 +45,13 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 !
 
 # 1. Introduktie (20 minuten)
-Wat gaan we doen de komende 8 weken?
+###### Frontend development - les 1
 
-##### 1. Introduktie (20/200 minuten)
+Wat gaan we doen de komende 8 weken?
 
 !
 
+##### 1. Introduktie (20/200 minuten)
 # Huishoudelijke mededelingen
 
 * Op tijd komen, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
@@ -56,20 +61,20 @@ het lesprogramma staat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/vi
 * Laptop nodig voor de werkopdrachten  
 * Papier en pen voor discussies en college
 
-##### 1. Introduktie (20/200 minuten)
+
 
 !
 
+##### 1. Introduktie 20/200 minuten)
 # Docenten
 
 Wie is wie?   
 
 Wie doet wat?
 
-##### 1. Introduktie 20/200 minuten)
-
 !
 
+##### 1. Introduktie (20/200 minuten)
 # Wat gaan we maken?
 In het vak Frontend development leren studenten een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
@@ -84,10 +89,11 @@ Eindopdracht is een responsive website van ons intranet. Een artikelpagina en ee
     * [httpster](http://httpster.net/style/responsive/)
     
 
-##### 1. Introduktie (20/200 minuten)
+
 
 !
 
+##### 1. Introduktie - 20/200 minuten)
 # Werkwijze
 Hoe zien de lessen van 4 uur eruit?
 
@@ -100,50 +106,54 @@ Artikelen lezen voor de Weekly Nerd
 In de les werken en huiswerk voor de eindopdracht.
 Werken in duo’s Je werkt aan je eigen opdracht   
 
-##### 1. Introduktie - 20/200 minuten)
+
 
 !
 
+##### 1. Introduktie - 20/200 minuten)
 # Planning & toetsplan
 
 Onderwerpen
 
 Toetsen
 
-##### 1. Introduktie - 20/200 minuten)
+
 
 !
 
-
 # 2. College - 30 minuten
+###### Frontend development - les 1
 
-[College Give me a Fucking <br/>](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
-Over Waarom dit vak? Vroeger. HTML5 elementen en formulieren. Browsers en devices.
+College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
+Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
-##### 2. College (30 - 50/200 minuten)
+
 
 !
 
 # 3. Weekly Nerd - 30 minuten
+###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
 
-##### 3. Weekly Nerd (30 - 80/200 minuten)
+
 
 !
 
-# Weekly Nerd artikelen voor vandaag
+##### 3. Weekly Nerd (30 - 80/200 minuten)
+# Artikelen voor vandaag
 
 * [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
 * [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
 * [Importance of sections by Haydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
 
 
-##### 3. Weekly Nerd (30 - 80/200 minuten)
+
 
 
 !
 
+##### 3. Weekly Nerd (30 - 80/200 minuten)
 # Wie zit waar?
 
 image
@@ -153,10 +163,11 @@ lijst
 
 
 
-##### 3. Weekly Nerd (30 - 80/200 minuten)
+
 
 !
 
+##### 3. Weekly Nerd (30 - 80/200 minuten)
 ## Weekly Nerd vragen
 Waar gaat het artikel over? User experiences are forged in code. Code is the material that breathes life into a user experience, so we ought to get familiar with it.  
 Wat betekent Code Literacy, zoals het in het artikel is beschreven? the ability to identify, understand, interpret, create, communicate, and use rules that shape and reshape information in order to participate fully in the creation of new information.
@@ -171,11 +182,13 @@ Geef een beschrijving van het type
 Het artikel beschrijft verschillende manier hoe je over code kunt denken, welke?   Code as Pattern, they distill a common use case into something simple and prescriptive   Code as material, designing for different languages is like sculpting in different materials   Code as narrative, you begin to describe the user experience and see how it will work   Code as play, once you hit a certain degree of code literacy writing code becomes fun  
 Wat bedoelt Ryan Betts met 'Code literacy can help you achieve a higher quality end product'?  
 
-##### 3. Weekly Nerd (30 - 80/200 minuten)
+
 
 !
 
 # 4 Klussen - 100 minuten
+###### Frontend development - les 1
+
 Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
@@ -187,11 +200,11 @@ Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten
 
 img
 
-##### 4. Klussen (100 - 180/200 minuten)
+
 
 !
 
-
+##### 4. Klussen (100 - 180/200 minuten)
 ## Opdracht 1.1 - Semantic Markup #1 - 20 minuten
 
 Maak deze ‘traditionele’ pagina-indeling in HTML5.  
@@ -311,11 +324,11 @@ Zie content op het intranet, pagina ‘Maakopdracht’
 - Een artikel pagina: Een semantisch correcte pagina zoals behandeld in Les 1 met content van de gekozen opdracht.   
 - Een formulier pagina: Zoals we die gaan behandelen in Les 2
 
-##### 4. Klussen (100 - 180/200 minuten)
 
 !
 
 # 5. Terugkijken 20 minuten
+###### Frontend development - les 1
 
 Wat hebben we behandeld?
 
@@ -334,5 +347,3 @@ Mondelinge
 Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten
 Herkansen ? Wanneer ?
 
-
-##### 5. Terugkijken (20 - 20/200 minuten)
