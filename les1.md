@@ -16,7 +16,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 !
 
 # Give me a fucking &lt;br /&gt;
-## Programma (200 minuten)##
+## Programma (200 minuten)
 1. Introduktie (20)
 2. College (30)
 3. Weekly Nerd (30)
@@ -135,13 +135,9 @@ Artikelen bespreken in kleine groepen.
 
 # Weekly Nerd artikelen voor vandaag
 
-[Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
-
-
-[Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
-
-
-[Importance of sections by Haydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
+* [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
+* [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
+* [Importance of sections by Haydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
 
 
 ##### 3. Weekly Nerd (30 - 80/200 minuten)

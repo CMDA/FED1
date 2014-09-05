@@ -1,3 +1,118 @@
+
+# Kiss my CSS
+###### Frontend development - les 2
+
+!
+
+# Kiss my CSS
+
+Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors. 
+
+
+
+!
+
+# Kiss my CSS
+## Programma (200 minuten)
+1. Introduktie (5)
+2. College (30)
+3. Weekly Nerd (30)
+4. Klussen (120) && toetsen deeltoets 1 (120)
+5. Terugkijken (10)
+
+
+!
+
+# 1. Introduktie (5 minuten)
+Lesdoelen en planning van vandaag.
+
+
+##### 1. Introduktie (5/200 minuten)
+
+!
+
+
+# 2. College - 30 minuten
+
+[College Kiss my CSS](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
+Over ...
+
+##### 2. College (30 - 35/200 minuten)
+
+!
+
+# 3. Weekly Nerd - 30 minuten
+Artikelen bespreken in kleine groepen. 
+
+
+##### 3. Weekly Nerd (30 - 65/200 minuten)
+
+!
+
+# Weekly Nerd artikelen voor vandaag
+
+* ...
+* ...
+* ...
+
+##### 3. Weekly Nerd (30 - 65/200 minuten)
+
+!
+
+# Wie zit waar?
+
+image
+
+lijst 
+
+##### 3. Weekly Nerd (30 - 65/200 minuten)
+
+!
+
+# Weekly Nerd vragen
+
+
+##### 3. Weekly Nerd (30 - 65/200 minuten)
+
+!
+
+# 4 Klussen - 120 minuten
+Laptop en internet.
+
+##Wie zit waar?
+Opstelling Werkeilanden van 6 personen.
+Duo's zitten naast elkaar.
+
+### Hoe ziet het lokaal eruit?
+
+img
+
+##### 4. Klussen (120 - 180/200 minuten)
+
+!
+
+# 5. Terugkijken 10 minuten
+Wat hebben we vandaag behandeld?
+Huiswerk voor volgende week.
+
+
+##### 5. Terugkijken (10 - 190/200 minuten)
+
+
+
+
+
+!
+
+!
+
+!
+
+#OLD OLD OLD 
+#2013 programma
+
+!
+
 #Les 2: Can’t get it out of my \<head>
 Les 2 gaat over de geschiedenis van HTML. Het W3C en WHATWG. Ook wordt de HTML5 timeline besproken.   
 In de les ga je werken aan Validatie & Code lezen, Rich media elementen: Audio, Video en de mogelijkheden van Web Forms 2.0.
