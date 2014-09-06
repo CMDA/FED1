@@ -138,7 +138,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w700)
+![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w1200)
 
 
 !
