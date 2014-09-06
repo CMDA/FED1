@@ -12,7 +12,7 @@ Hoe wordt deze  webtechnologie ondersteund?
 We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. 
 Én we gaan formulieren maken.
 
-![Will Code HTML For Food](http://farm1.staticflickr.com/79/265918244_f16ba8182a.jpg)
+![Will Code HTML For Food](assets/willCodeHTMLforFood.jpg)
 
 !
 
@@ -50,7 +50,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 Wat gaan we doen de komende 8 weken?
 
-< img >
+![Will Code HTML For Food](assets/draconischeErrorHandling.jpg)
 
 !
 
@@ -90,8 +90,6 @@ Eindopdracht is een responsive website van ons intranet. Een artikelpagina en ee
 * Inspiratie
     * [Mediaqueri.es](http://www.mediaqueri.es)
     * [httpster](http://httpster.net/style/responsive/)
-    
-
 
 
 !
@@ -100,15 +98,16 @@ Eindopdracht is een responsive website van ons intranet. Een artikelpagina en ee
 # Werkwijze
 Hoe zien de lessen van 4 uur eruit?
 
-Zie Moodle voor het lesprogramma
+1. Iedere les krijg je een **college** van een half uur.
+2. Daarna gaan we artikelen bespreken in de **Weekly Nerd**. 
+De artikelen moet je als huiswerk lezen.
+3. Dan is het **klussen, coden, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De studentassistenten en docenten lopen rond om te helpen. Je werk in duo's ana je eigen opdracht. 
 
-Zie Github voor de source files
+Zie [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) voor het lesprogramma. 
 
-Artikelen lezen voor de Weekly Nerd
+De colleges en lesplannen staan ook [online](http://cmda.github.io/FED1/).
 
-In de les werken en huiswerk voor de eindopdracht.
-Werken in duo’s Je werkt aan je eigen opdracht   
-
+Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 
 !
@@ -116,11 +115,18 @@ Werken in duo’s Je werkt aan je eigen opdracht
 ##### 1. Introduktie - 20/200 minuten)
 # Planning & toetsplan
 
-Onderwerpen
+Het vak bestaat uit 2 AVV deeltoetsen, de eindopdracht en een tentamen.
 
-Toetsen
+1. Deeltoets 1 (AVV) - les 2. 
+Over HTML5 & formulieren
+2. Deeltoets 2 (AVV) - les 5. 
+Over CSS3 effecten, selectors, flexbox & boxmodel
+3. Tentamen (AVV) - les 8.
+Alle artikelen van de Weelky Nerd.
+4. Eindopdracht (Cijfer) - Les 8.
+Een Responsive webdesign
 
-
+De twee deeltoetsen worden tijdens de les getoetst met een mondeling. De herkansing is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
 
 !
 
@@ -131,7 +137,7 @@ College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gi
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
-![College opstelling](https://lh6.googleusercontent.com/QjiO4N4zyWykaBLLLXAZsiCcPRz3qQHznZXPpKaF21j8TvFbwsT1O11nuSHprD-NaTv41Fd0Oas=w720)
+![College opstelling](assets/1College01.jpg)
 
 
 !
@@ -140,9 +146,8 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](https://lh3.googleusercontent.com/5e9dpK1eYRHXXooM0K2p9txWV13hkQzp5z6QoyAyzFKLqQp_d5TgDDqchnf_pSFK9hlLRjaxVLk=w720)
+![Discussie rondje](assets/2WeeklyNerd01.jpg)
 
-< img >
 
 
 !
@@ -153,8 +158,6 @@ Artikelen bespreken in kleine groepen.
 * [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
 * [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
 * [Importance of sections by Haydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
-
-
 
 
 
@@ -174,7 +177,7 @@ lijst
 Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
-![9 groepen van 6](https://lh6.googleusercontent.com/-ApVjrQTDaHzULc-FBEbWO2m1eXgEuBW3x374LxqFWVxZdIQVtwKVrNZb1FnTIJNgPtS7IlcTPw=w720)
+![9 groepen van 6](assets/3Klussen03.jpg)
 
 
 !
