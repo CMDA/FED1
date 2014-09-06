@@ -180,16 +180,12 @@ Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 !
 
 ##### 4. Klussen (100 - 180/200 minuten)
-## Wie zit waar?
-Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten
-
-##### 4. Klussen (100 - 180/200 minuten)
 ##Werken in duo's aan je eigen website
-Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten
+Introductie duo’s maken en aan de tafels naast elkaar gaan zitten
 
-• Wie had gemiddled een hoger cijfer dan 8 op IS + Prog?
-* Wie heeft al eens een website gemaakt voor een klant?
-* Wie heeft extra hulp nodig?
+* Wie had gemiddeled een 8 of hoger op IS + Prog? +1
+* Wie heeft al eens een website gemaakt voor een klant? +1
+
 
 !
 
