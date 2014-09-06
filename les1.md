@@ -129,7 +129,7 @@ College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gi
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
-![College opstelleing](https://drive.google.com/file/d/0B_S6YavJbbFJTGZRQkpVcnllblk/)
+![College opstelling](https://lh5.googleusercontent.com/yXiF8URFnC5U3-vOKbQkWb7kIc5DAtE0F_mgVlpWx0Zz0_pofM-__RkrVW7Rcrtzpw9Fi_wPLgM=w2560-h1292)
 
 
 !
