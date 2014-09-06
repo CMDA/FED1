@@ -129,7 +129,7 @@ College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gi
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
-![College opstelling](https://lh5.googleusercontent.com/yXiF8URFnC5U3-vOKbQkWb7kIc5DAtE0F_mgVlpWx0Zz0_pofM-__RkrVW7Rcrtzpw9Fi_wPLgM=w700)
+![College opstelling](https://lh6.googleusercontent.com/QjiO4N4zyWykaBLLLXAZsiCcPRz3qQHznZXPpKaF21j8TvFbwsT1O11nuSHprD-NaTv41Fd0Oas=w720)
 
 
 !
@@ -138,7 +138,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w1200)
+![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w720)
 
 
 !
@@ -195,13 +195,14 @@ Wat bedoelt Ryan Betts met 'Code literacy can help you achieve a higher quality 
 Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
-##Wie zit waar?
+![9 groepen van 6](https://lh6.googleusercontent.com/-ApVjrQTDaHzULc-FBEbWO2m1eXgEuBW3x374LxqFWVxZdIQVtwKVrNZb1FnTIJNgPtS7IlcTPw=w720)
+
+
+!
+
+##### 4. Klussen (100 - 180/200 minuten)
+## Wie zit waar?
 Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten
-
-
-### Hoe ziet het lokaal eruit?
-
-img
 
 
 
