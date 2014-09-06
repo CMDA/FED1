@@ -167,28 +167,6 @@ lijst
 
 
 
-
-
-
-!
-
-##### 3. Weekly Nerd (30 - 80/200 minuten)
-## Weekly Nerd vragen
-Waar gaat het artikel over? User experiences are forged in code. Code is the material that breathes life into a user experience, so we ought to get familiar with it.  
-Wat betekent Code Literacy, zoals het in het artikel is beschreven? the ability to identify, understand, interpret, create, communicate, and use rules that shape and reshape information in order to participate fully in the creation of new information.
-Wat beweert Ryan Betts?   As we take care to understand the principles of visual design, we should also take care to understand the principles of code  
-Welke archetypes staan in het artikel beschreven? 
-* The enthusiast, understand the principles of code, and no more  
-* The mash-up artist, people whose code curiosity has blossomed  
-* The inventor,  knows at least one language to write code from scratch  
-* The wizard, are the developers that you respect and admire, kunnen alles, weten alles  
-Welk type ben jij of wil je worden? En waarom? 
-Geef een beschrijving van het type  
-Het artikel beschrijft verschillende manier hoe je over code kunt denken, welke?   Code as Pattern, they distill a common use case into something simple and prescriptive   Code as material, designing for different languages is like sculpting in different materials   Code as narrative, you begin to describe the user experience and see how it will work   Code as play, once you hit a certain degree of code literacy writing code becomes fun  
-Wat bedoelt Ryan Betts met 'Code literacy can help you achieve a higher quality end product'?  
-
-
-
 !
 
 # 4 Klussen - 100 minuten
