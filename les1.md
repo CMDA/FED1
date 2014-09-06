@@ -138,7 +138,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w720)
+![Discussie rondje](https://lh3.googleusercontent.com/5e9dpK1eYRHXXooM0K2p9txWV13hkQzp5z6QoyAyzFKLqQp_d5TgDDqchnf_pSFK9hlLRjaxVLk=w720)
 
 
 !
@@ -159,7 +159,6 @@ Artikelen bespreken in kleine groepen.
 ##### 3. Weekly Nerd (30 - 80/200 minuten)
 # Wie zit waar?
 
-image
 
 lijst 
 
