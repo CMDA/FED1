@@ -129,7 +129,7 @@ College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gi
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
-![College opstelling](https://lh5.googleusercontent.com/yXiF8URFnC5U3-vOKbQkWb7kIc5DAtE0F_mgVlpWx0Zz0_pofM-__RkrVW7Rcrtzpw9Fi_wPLgM=w640-h480)
+![College opstelling](https://lh5.googleusercontent.com/yXiF8URFnC5U3-vOKbQkWb7kIc5DAtE0F_mgVlpWx0Zz0_pofM-__RkrVW7Rcrtzpw9Fi_wPLgM=w700)
 
 
 !
@@ -138,7 +138,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w640-h480)
+![Discussie rondje](https://lh5.googleusercontent.com/xrsl6599m9GHJKHyy2mlsv4q_kGN_cqlgjq5TnBsp9yCPBiKBcVXrTSfddr3LSMFJTFDLM9CzyU=w700)
 
 
 !
