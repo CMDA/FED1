@@ -131,6 +131,8 @@ College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gi
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
+![College opstelling](https://lh6.googleusercontent.com/QjiO4N4zyWykaBLLLXAZsiCcPRz3qQHznZXPpKaF21j8TvFbwsT1O11nuSHprD-NaTv41Fd0Oas=w720)
+
 
 !
 
@@ -138,7 +140,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-
+![Discussie rondje](https://lh3.googleusercontent.com/5e9dpK1eYRHXXooM0K2p9txWV13hkQzp5z6QoyAyzFKLqQp_d5TgDDqchnf_pSFK9hlLRjaxVLk=w720)
 
 < img >
 
@@ -191,14 +193,17 @@ Wat bedoelt Ryan Betts met 'Code literacy can help you achieve a higher quality 
 
 # 4 Klussen - 100 minuten
 ###### Frontend development - les 1
-Laptop en internet 
-
-< img >
-
-
+Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
+![9 groepen van 6](https://lh6.googleusercontent.com/-ApVjrQTDaHzULc-FBEbWO2m1eXgEuBW3x374LxqFWVxZdIQVtwKVrNZb1FnTIJNgPtS7IlcTPw=w720)
+
+
 !
+
+##### 4. Klussen (100 - 180/200 minuten)
+## Wie zit waar?
+Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten
 
 ##### 4. Klussen (100 - 180/200 minuten)
 ##Werken in duo's aan je eigen website
