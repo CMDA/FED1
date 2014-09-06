@@ -50,6 +50,8 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 Wat gaan we doen de komende 8 weken?
 
+< img >
+
 !
 
 ##### 1. Introduktie (20/200 minuten)
@@ -138,6 +140,8 @@ Artikelen bespreken in kleine groepen.
 
 
 
+< img >
+
 
 !
 
@@ -156,8 +160,6 @@ Artikelen bespreken in kleine groepen.
 
 ##### 3. Weekly Nerd (30 - 80/200 minuten)
 # Wie zit waar?
-
-image
 
 lijst 
 
@@ -189,19 +191,22 @@ Wat bedoelt Ryan Betts met 'Code literacy can help you achieve a higher quality 
 
 # 4 Klussen - 100 minuten
 ###### Frontend development - les 1
+Laptop en internet 
 
-Laptop en internet  
+< img >
+
+
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
-##Wie zit waar?
+!
+
+##### 4. Klussen (100 - 180/200 minuten)
+##Werken in duo's aan je eigen website
 Introductie Duo’s maken en aan de tafels naast elkaar gaan zitten
 
-
-### Hoe ziet het lokaal eruit?
-
-img
-
-
+• Wie had gemiddled een hoger cijfer dan 8 op IS + Prog?
+* Wie heeft al eens een website gemaakt voor een klant?
+* Wie heeft extra hulp nodig?
 
 !
 
