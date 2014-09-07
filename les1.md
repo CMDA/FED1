@@ -130,10 +130,7 @@ Toetsen
 College [Give me a Fucking < br / >](Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
-<iframe src="https://docs.google.com/file/d/0B_S6YavJbbFJTGZRQkpVcnllblk/preview" width="640" height="480"></iframe>
-
-<!-- [College opstelling](https://lh6.googleusercontent.com/QjiO4N4zyWykaBLLLXAZsiCcPRz3qQHznZXPpKaF21j8TvFbwsT1O11nuSHprD-NaTv41Fd0Oas=w720) -->
-
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
 
 !
 
@@ -141,12 +138,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-<!-- iframe src="https://docs.google.com/file/d/0B_S6YavJbbFJX2ViNjEyUFo4LTQ/preview" width="640" height="480"></iframe -->
-
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
-
-<!-- [Discussie rondje](https://lh3.googleusercontent.com/5e9dpK1eYRHXXooM0K2p9txWV13hkQzp5z6QoyAyzFKLqQp_d5TgDDqchnf_pSFK9hlLRjaxVLk=w720) -->
-
 
 !
 
@@ -177,10 +169,7 @@ lijst
 Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
-<iframe src="https://docs.google.com/file/d/0B_S6YavJbbFJbmZRTWlJNzJQTU0/preview" width="640" height="480"></iframe>
-
-<!-- ![9 groepen van 6](https://lh6.googleusercontent.com/-ApVjrQTDaHzULc-FBEbWO2m1eXgEuBW3x374LxqFWVxZdIQVtwKVrNZb1FnTIJNgPtS7IlcTPw=w720) -->
-
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
 !
 
