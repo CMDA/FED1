@@ -69,7 +69,7 @@ het lesprogramma staat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/vi
 
 !
 
-##### 1. Introduktie 20/200 minuten)
+##### 1. Introduktie (20/200 minuten)
 # Docenten
 
 Wie is wie?   
@@ -96,7 +96,7 @@ Eindopdracht is een responsive website van ons intranet. Een artikelpagina en ee
 
 !
 
-##### 1. Introduktie - 20/200 minuten)
+##### 1. Introduktie (20/200 minuten)
 # Werkwijze
 Hoe zien de lessen van 4 uur eruit?
 
@@ -112,21 +112,25 @@ Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 !
 
-##### 1. Introduktie - 20/200 minuten)
+##### 1. Introduktie (20/200 minuten)
 # Planning & toetsplan
 
-Het vak bestaat uit 2 AVV deeltoetsen, de eindopdracht en een tentamen.
+Het vak bestaat uit 2 deeltoetsen, de eindopdracht en de Weekly Nerd.
 
 1. **Deeltoets 1** (AVV) - les 2. 
 Over HTML5 & formulieren
 2. **Deeltoets 2** (AVV) - les 5. 
 Over CSS3 effecten, selectors, flexbox & boxmodel
-3. **Tentamen** (AVV) - les 8.
-Alle artikelen van de Weelky Nerd.
-4. **Eindopdracht** (Cijfer) - Les 8.
+3. **Eindopdracht** (Cijfer) - Les 8.
 Een Responsive webdesign
+4. **Weekly Nerd** (AVV) - iedere week.
+Artikelen lezen en bespreken.
 
-De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later, buiten de les. Als je een deeltoets niet haalt kun je het vak niet meer halen.
+Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen. 
+
+De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
+
+
 
 !
 
@@ -142,7 +146,9 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 
 # 3. Weekly Nerd - 30 minuten
 ###### Frontend development - les 1
-Artikelen bespreken in kleine groepen. 
+Iedere les gaan we artikelen bespreken in kleine groepen. 
+
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er niet meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
@@ -181,118 +187,294 @@ Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 ##Werken in duo's aan je eigen website
 Introductie duo’s maken en aan de tafels naast elkaar gaan zitten
 
-* Wie had gemiddeled een 8 of hoger op IS + Prog? +1
-* Wie heeft al eens een website gemaakt voor een klant? +1
+
+
+
+
 
 
 !
 
 ##### 4. Klussen (100 - 180/200 minuten)
-## Opdracht 1.1 - Semantic Markup #1 - 20 minuten
+### Opdracht 1.1 - 15 minuten
+## Semantic Markup #1 
 
 Maak deze ‘traditionele’ pagina-indeling in HTML5.  
-Gebruik hiervoor de HTML5 tags:Nav, Section, Article, Aside, Footer
+Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
 
-**Op bord tekenen:**   
-DIV ID=”nav”  
-DIV ID=”main”     
-DIV class=”item”  
-DIV class=”item”   
-DIV ID=”sidebar”  
-DIV ID=”footer”  
+<img src="assets/1.1traditionelePagina.png" width="100%" alt="Traditionele pagina">
  
-_Resources_    
+**Resources**
+
 [HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
+
 [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
 
-_Editor_  
-Handig: HTML editor met syntax coloring & hints   
-	Win: Sublime Text 2, Edit plus Notepad++   
-	Mac: Sublime2, Smultron, TextMate, Aptana
+!
 
-###_Bespreking opdracht 2 - 10 minuten_###
+### Bespreken Opdracht 1.1
+## Semantic Markup #1 
+
+Voorbeeld van studenten in Dabblet tonen.
+
+Ga naar [www.dabblet.com](http://www.dabblet.com)
+
+'new Dabblet ' Maak een nieuwe Dabblet aan (of koppel deze aan je Github)
+
+'Save anonymously' Bewaar de Dabblet 
+
+'Throw url' Gooi de url op het bord
 
 
-## Opdracht 2 - Semantic Markup #2 - 30 minuten ###
+[http://dabblet.com/gist/1717587](http://dabblet.com/gist/1717587)
 
-####2a De HTML pagina####
+
+
+
+
+
+
+!
+
+
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 1.2 - 15 minuten
+## De HTML pagina
+
 De gemaakte pagina in opdracht 1 is nog GEEN html pagina  
+
 Wanneer is een pagina een html pagina?  
  
 Met: HTML, HEAD, BODY tags/elementen  
-Voeg deze toe...
-####Bespreking 2a
 
-####2b Doctype en Validatie
-Een doctype 
-De doctype-tag staat helemaal bovenaan een HTML document, nog boven de <html> tag. 
+Voeg deze toe...
+
+!
+
+### Bespreken Opdracht 1.2 
+## De HTML pagina
+
+Laten zien 
+
+[http://dabblet.com/gist/1717587](http://dabblet.com/gist/1722640)
+
+!
+
+
+
+
+
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 1.3 - 10 minuten
+## Doctype en Validatie
+De doctype-tag staat helemaal bovenaan een HTML document, nog boven de < html > tag. 
 Het zorgt ervoor dat de browser weet welke HTML-variant er wordt gebruikt.
 
 Zo weet een validator op basis van welke regels het document moet worden beoordeeld.
 
-#### Bespreking 2b
+Voeg de doctype toe
 
-Elementen bespreken die zijn gebruikt.
-	Studenten vragen dit uit te leggen
-	Gebruik een Gist van een student
+en valideer je pagina, kijken wat er gebeurt:
 
-Pagina valideren, kijken wat er gebeurt:
 [http://validator.w3.org](http://validator.w3.org)  
+
+[http://html5.validator.nu/](http://html5.validator.nu/)  
+
+!
+
+### Bespreken Opdracht 1.3
+## Doctype en Validatie
+
+Pagina valideren, kan hier:
+
+[http://validator.w3.org](http://validator.w3.org)  
+
 [http://html5.validator.nu/](http://html5.validator.nu/)  
 
 
-__Developers tools voor de browser:__  
-_Safari:_  
-[Developer](https://developer.apple.com/technologies/safari/developer-tools.html)  
-[W3C Validator](https://extensions.apple.com/)  
-[Firebug lite](https://extensions.apple.com/)  
-[Resize me](https://extensions.apple.com/)
+Developers tools voor de browser:
+Safari:
 
-_Firefox:_  
-[Webdev extensions](https://addons.mozilla.org/en-US/firefox/extensions/web-development/)  
-[Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug)  
-[Webdeveloper](https://addons.mozilla.org/z//en-US/firefox/addon/web-developer/  )
+- [Developer](https://developer.apple.com/technologies/safari/developer-tools.html)  
+- [W3C Validator](https://extensions.apple.com/)  
+- [Firebug lite](https://extensions.apple.com/)  
+- [Resize me](https://extensions.apple.com/)
 
-_Chrome:_  
-[Web development extensions](https://chrome.google.com/webstore/category/ext/11-web-development)  
-Webdeveloper    
-Firebug Lite  
+Firefox:
 
+- [Webdev extensions](https://addons.mozilla.org/en-US/firefox/extensions/web-development/)  
+- [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug)  
+- [Webdeveloper](https://addons.mozilla.org/z//en-US/firefox/addon/web-developer/  )
 
-####2c Meta tag
-Metadata van het document    
-	Charset  
-	Content  
-	Description  
-	Keywords  
+Chrome:_  
+
+- [Web development extensions](https://chrome.google.com/webstore/category/ext/11-web-development)  
+- Webdeveloper    
+- Firebug Lite  
 
 
-####_Bespreking 2c_####
+!
 
 
-###Opdracht 3 - 10 minuten###
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 1.4 - 10 minuten
+## Hiërarchie van elementen 
 
-Extreme programming : Meekijken met docent:    
-Hiërarchie van elementen
+Extreme programming: Meekijken met docent:    
+
 Header in een Section en het gebruik van de H1.  
 
+[HTML 5 Outliner](http://gsnedders.html5.org/outliner/)
 
-HTML 5 Outliner:
-http://gsnedders.html5.org/outliner/
 
-###Opdracht 4 - GitHub - 20 minuten
 
-####1a Maak een account aan op GitHub
+!
 
-####1b Maak de repository 'FED' aan
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 1.5 - 50 minuten
+## HTML5 Webforms 2.0
 
-Maak onderstaande mappen aan in de repository:  
-/opdrachten  
-/deeltoets1  
-/deeltoets2  
-/eindopdracht  
 
-##5.) Werken aan de eindopdracht - ... minuten
+In HTML5 zijn hele veel meer (functionele) mogelijkheden bedacht voor formulieren
+
+placeholder > text voor leeg form field
+
+    <input type=text id=hobbies placeholder=”gimme some”>
+
+!
+
+autofocus
+
+    <input type=text id=status autofocus>
+
+!
+
+required
+
+    <input type=password id=pw required> 
+
+!
+
+autocomplete > disable auto-complete, bv veiligheid
+
+    <form autocomplete=off>
+
+of
+
+    <input type=text autocomplete=off>
+
+!
+
+datalist
+
+    <input type=text id=all_your_coders_r_belong_to_us list=code _archetypes>
+        <datalist id=code _archetypes>
+            <option value=enthusiast >
+            <option value=mash-up-artist>
+            <option value= inventor >
+            <option value= wizard >
+        </datalist
+
+!
+
+Input types 
+
+    <input type=””>
+
+searching
+
+contact types: email, website, phone
+
+range (slider)
+
+number
+
+dates and times
+
+color pickers
+
+pattern 
+
+
+!
+
+
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 1.5 - 50 minuten
+## HTML5 Webforms 2.0
+
+Maak het volgende formulier met valide, toegankelijke HTML. 
+Gebruik labels voor de verschillende elementen, vb:
+
+    <label for”naam”>naam</label>
+	<input id=”naam”>
+
+Formulier:
+opdracht staat ook hier [http://dabblet.com/gist/2339774](http://dabblet.com/gist/2339774)
+
+    1. Contactgegevens
+    1a. Naam
+    1b. E-mail
+    1c. Straatnaam
+    1d. Nummer
+    1e. Postcode
+    1f. Land
+    1g. Telefoonnummer
+
+    2. Voorkeuren
+    2a. Lievelingskleur
+    2b. Leukste maand
+    2c. Hoe goed is dit ongeveer? (1 tm 10)
+
+
+!
+
+
+### Bespreken Opdracht 1.5
+## HTML5 Webforms 2.0
+Heeft een student een mooie oplossing?
+
+Gooi in [Dabblet](http://www.dabblet.com)!
+
+
+
+Het resultaat moet er ongeveer zo uitzien:
+[Uitgewerkt formulier](http://dabblet.com/gist/2339841)
+
+Klassiek formulier zou er zo uit zien: 
+[Uitgewerkt formulier](http://dabblet.com/gist/2339794)
+
+!
+
+### Opmerkingen over formulieren
+
+Waar zitten de fieldsets? Met de fieldset groepeer je content die thematisch bij elkaar hoort.
+
+Een < legend > geeft aan waar het fieldset over gaat. Een titel van de fieldset. Dit element is primair gekoppeld aan de fieldset.
+
+Kloppen de label/input paren?
+
+Een label is gekoppeld aan een input of textarea. Dit is ook belangrijk voor screenreaders. Handig voor gebruik is dat je op een label kan klikken om een element focus te geven.
+
+Met required (bool) geef je aan welke form elementen verplicht zijn (overigens kun je die ook heel makkelijk stylen)
+
+Het attribuut placeholder kun je heel eenvoudig een standaard tekst in een input laten zien. Oude browsers negeren dit.
+
+Bij het number type krijg je in sommige browsers automatisch pijltjes naast het element. Als je geen pijltjes wil, bijvoorbeeld om dat je dit lelijk vindt, zou je bijvoorbeeld een pattern kunnen gebruiken. Dan geef je met een regular-expression aan wat de gebruiker mag invullen... Let op, browsers verwerken dit niet allemaal hetzelfde.
+
+Color type en date geven in sommige browsers een color picker en calender object.
+
+Op IOS, mobile OS van Apple, verandert het toetsenbord afhankelijk van het type dat je meegeeft. Bijvoorbeeld type=email geeft een toetsenbord met een @, type=number geeft een numeriek toetsenbord. Vasilis is helemaal fan van type=date op IOS. Probeer dit maar eens met de verschillende HTML5 input types .... (OS heeft voor de mac een Iphone emulator die je kan gebruiken met de development kit.)
+
+Bij type=search laat IOS bijvoorbeeld standaard een x (clear) in het field zien: Handig!
+
+!
+
+
+
+
+
+##5. Werken aan de eindopdracht - ... minuten
 _Materiaal Laptop en internet  
 Opstelling Werkeilanden waar twee duo’s aan kunnen zitten_
 
@@ -315,22 +497,67 @@ Zie content op het intranet, pagina ‘Maakopdracht’
 
 Wat hebben we behandeld?
 
+* Werkwijze en planning van het vak doornemen
+* Introductie HTML5. Recap van vorg jaar.
+* Belangrijkste HTML5 structuur elementen begrijpen en toepassen
+    Doctype, Meta, Script, 
+    Header, Main, Footer, Nav, Aside, 
+    Section, Article, 
+    Formulieren, input types
+* Formulieren maken
 
-Werkwijze en planning van het vak
+
+*Namen doorgeven van duo’s, als je dit nog niet hebt gedaan bij de studentassistent*
 
 
-Namen doorgeven van duo’s
-
-
-Huiswerk aankondigen
-
-Deeltoets 1 uitleggen
-Mondelinge
-15 minuten per quatro (dubbele duo's)
-Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten
-Herkansen ? Wanneer ?
 
 !
+
+##### 5. Terugkijken (20 - 200/200 minuten)
+# Huiswerk aankondigen
+
+* Weekly Nerd voorbereiden. Lezen wat op Moodle staat bij les 2.
+* Deeltoets 1 voorbereiden: 2 pagina's maken
+    1. Artikel pagina
+    2. Formulier pagina
+
+
+
+!
+
+
+##### 5. Terugkijken (20 - 200/200 minuten)
+# Deeltoets 1 Opdracht
+
+De eerste deeltoets is een mondeling over de HTML (structuur) semantiek en een webformulier. Er moet een artikelpagina en een formulierpagina worden gemaakt. Voor de pagina's kunnen de benodigde files hieronder gedownload worden. In de Contents Matrix staat met geel aangegeven welke pagina's uitgewerkt moeten worden.
+
+
+1. Werk je HTML pagina verder uit met de teksten die op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staan bij les 2.
+
+2. Maak van je formulier pagina het formulier dat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131)  staat.
+
+
+
+
+!
+
+##### 5. Terugkijken (20 - 200/200 minuten)
+# Deeltoets 1 Mondeling
+
+
+De deeltoets wordt tijdens de les afgenomen. 
+
+Het schema komt op bord.
+
+15 minuten per quatro (dubbele duo's)
+Dat is dus hard werken !
+
+Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten
+
+Herkansen ? 48 uur later ...
+
+!
+
 
 ## op.
 
