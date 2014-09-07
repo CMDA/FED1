@@ -117,16 +117,16 @@ Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 Het vak bestaat uit 2 AVV deeltoetsen, de eindopdracht en een tentamen.
 
-1. Deeltoets 1 (AVV) - les 2. 
+1. **Deeltoets 1** (AVV) - les 2. 
 Over HTML5 & formulieren
-2. Deeltoets 2 (AVV) - les 5. 
+2. **Deeltoets 2** (AVV) - les 5. 
 Over CSS3 effecten, selectors, flexbox & boxmodel
-3. Tentamen (AVV) - les 8.
+3. **Tentamen** (AVV) - les 8.
 Alle artikelen van de Weelky Nerd.
-4. Eindopdracht (Cijfer) - Les 8.
+4. **Eindopdracht** (Cijfer) - Les 8.
 Een Responsive webdesign
 
-De twee deeltoetsen worden tijdens de les getoetst met een mondeling. De herkansing is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
+De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later, buiten de les. Als je een deeltoets niet haalt kun je het vak niet meer halen.
 
 !
 
