@@ -20,7 +20,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 ###### Frontend development - les 1
 
 ## Programma (200 minuten)
-1. Introduktie (20)
+1. Introductie (20)
 2. College (30)
 3. Weekly Nerd (30)
 4. Klussen (100)
@@ -45,7 +45,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 !
 
-# 1. Introduktie (20 minuten)
+# 1. Introductie (20 minuten)
 ###### Frontend development - les 1
 
 Wat gaan we doen de komende 8 weken?
@@ -79,7 +79,7 @@ Wie doet wat?
 
 ##### 1. Introduktie (20/200 minuten)
 # Wat gaan we maken?
-In het vak Frontend development leren studenten een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
+In het vak Frontend development leer je een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
 Eindopdracht is een responsive website van ons intranet. Een artikelpagina en een formulierpagina
 
@@ -107,7 +107,7 @@ Zie Github voor de source files
 Artikelen lezen voor de Weekly Nerd
 
 In de les werken en huiswerk voor de eindopdracht.
-Werken in duo’s Je werkt aan je eigen opdracht   
+Werken in duo’s. Je werkt aan je eigen opdracht   
 
 
 
@@ -127,11 +127,12 @@ Toetsen
 # 2. College - 30 minuten
 ###### Frontend development - les 1
 
-College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
+College [Give me a Fucking < br / >](Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
+<iframe src="https://docs.google.com/file/d/0B_S6YavJbbFJTGZRQkpVcnllblk/preview" width="640" height="480"></iframe>
 
-![College opstelling](https://lh6.googleusercontent.com/QjiO4N4zyWykaBLLLXAZsiCcPRz3qQHznZXPpKaF21j8TvFbwsT1O11nuSHprD-NaTv41Fd0Oas=w720)
+<!-- [College opstelling](https://lh6.googleusercontent.com/QjiO4N4zyWykaBLLLXAZsiCcPRz3qQHznZXPpKaF21j8TvFbwsT1O11nuSHprD-NaTv41Fd0Oas=w720) -->
 
 
 !
@@ -140,9 +141,11 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](https://lh3.googleusercontent.com/5e9dpK1eYRHXXooM0K2p9txWV13hkQzp5z6QoyAyzFKLqQp_d5TgDDqchnf_pSFK9hlLRjaxVLk=w720)
+<!-- iframe src="https://docs.google.com/file/d/0B_S6YavJbbFJX2ViNjEyUFo4LTQ/preview" width="640" height="480"></iframe -->
 
-< img >
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
+
+<!-- [Discussie rondje](https://lh3.googleusercontent.com/5e9dpK1eYRHXXooM0K2p9txWV13hkQzp5z6QoyAyzFKLqQp_d5TgDDqchnf_pSFK9hlLRjaxVLk=w720) -->
 
 
 !
@@ -174,7 +177,9 @@ lijst
 Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
-![9 groepen van 6](https://lh6.googleusercontent.com/-ApVjrQTDaHzULc-FBEbWO2m1eXgEuBW3x374LxqFWVxZdIQVtwKVrNZb1FnTIJNgPtS7IlcTPw=w720)
+<iframe src="https://docs.google.com/file/d/0B_S6YavJbbFJbmZRTWlJNzJQTU0/preview" width="640" height="480"></iframe>
+
+<!-- ![9 groepen van 6](https://lh6.googleusercontent.com/-ApVjrQTDaHzULc-FBEbWO2m1eXgEuBW3x374LxqFWVxZdIQVtwKVrNZb1FnTIJNgPtS7IlcTPw=w720) -->
 
 
 !
