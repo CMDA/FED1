@@ -20,7 +20,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 ###### Frontend development - les 1
 
 ## Programma (200 minuten)
-1. Introduktie (20)
+1. Introductie (20)
 2. College (30)
 3. Weekly Nerd (30)
 4. Klussen (100)
@@ -45,7 +45,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 !
 
-# 1. Introduktie (20 minuten)
+# 1. Introductie (20 minuten)
 ###### Frontend development - les 1
 
 Wat gaan we doen de komende 8 weken?
@@ -79,7 +79,7 @@ Wie doet wat?
 
 ##### 1. Introduktie (20/200 minuten)
 # Wat gaan we maken?
-In het vak Frontend development leren studenten een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
+In het vak Frontend development leer je een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
 Eindopdracht is een responsive website van ons intranet. Een artikelpagina en een formulierpagina
 
@@ -105,9 +105,7 @@ De artikelen moet je als huiswerk lezen.
 3. Dan is het **klussen, coden, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De studentassistenten en docenten lopen rond om te helpen. Je werk in duo's ana je eigen opdracht. 
 
 Zie [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) voor het lesprogramma. 
-
 De colleges en lesplannen staan ook [online](http://cmda.github.io/FED1/).
-
 Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 
@@ -134,12 +132,12 @@ De twee deeltoetsen worden tijdens de les getoetst met een mondeling. De herkans
 # 2. College - 30 minuten
 ###### Frontend development - les 1
 
-College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
+College [Give me a Fucking < br / >](Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
 ![College opstelling](assets/1College01.jpg)
-
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
 
 !
 
@@ -148,8 +146,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 Artikelen bespreken in kleine groepen. 
 
 ![Discussie rondje](assets/2WeeklyNerd01.jpg)
-
-
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
 !
 
@@ -179,7 +176,7 @@ Laptop en internet
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
 ![9 groepen van 6](assets/3Klussen03.jpg)
-
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
 !
 
