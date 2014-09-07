@@ -85,11 +85,12 @@ Eindopdracht is een responsive website van ons intranet. Een artikelpagina en ee
 
 * Wat kun je over 8 weken?
 	* [www.tropenmuseum.nl](http://www.tropenmuseum.nl) Voorbeeld Responsive 2011 
-	* [www.q42.nl](http://www.q42.nl) Voorbeeld Responsive 2013
+	* [www.rijksmuseum.nl](http://www.rijksmuseum.nl) Total web experience ? 2013
+    * [decorrespondent.nl](https://decorrespondent.nl/home#) 100% Leesbaar multi device
 	* [Komkommersalade](http://vasilis.nl/presentaties/eretail/site/shop.php) Voorbeeld Responsive webshop (P4)
 * Inspiratie
     * [Mediaqueri.es](http://www.mediaqueri.es)
-    * [httpster](http://httpster.net/style/responsive/)
+
 
 
 !
