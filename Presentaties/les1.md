@@ -468,27 +468,6 @@ Op IOS, mobile OS van Apple, verandert het toetsenbord afhankelijk van het type 
 
 Bij type=search laat IOS bijvoorbeeld standaard een x (clear) in het field zien: Handig!
 
-!
-
-
-
-
-
-##5. Werken aan de eindopdracht - ... minuten
-_Materiaal Laptop en internet  
-Opstelling Werkeilanden waar twee duo’s aan kunnen zitten_
-
-**Wat moet je af hebben voor de volgende les?   
-Artikel pagina: Semantisch correcte pagina met de elementen zoals we die hebben behandeld in les 1  
-Nav, Section, Article, Aside, Footer, Doctype, Html, Header, Body, Meta Charset  
-Nu de content in de gemaakte pagina hangen   
-Zie content op het intranet, pagina ‘Maakopdracht’    
-
-
-**Wat moet je af hebben voor de deeltoets in lesweek 2? - Deeltoets 1
-- Een artikel pagina: Een semantisch correcte pagina zoals behandeld in Les 1 met content van de gekozen opdracht.   
-- Een formulier pagina: Zoals we die gaan behandelen in Les 2
-
 
 !
 
@@ -529,12 +508,14 @@ Wat hebben we behandeld?
 ##### 5. Terugkijken (20 - 200/200 minuten)
 # Deeltoets 1 Opdracht
 
-De eerste deeltoets is een mondeling over de HTML (structuur) semantiek en een webformulier. Er moet een artikelpagina en een formulierpagina worden gemaakt. Voor de pagina's kunnen de benodigde files hieronder gedownload worden. In de Contents Matrix staat met geel aangegeven welke pagina's uitgewerkt moeten worden.
+###Wat moet je af hebben voor de deeltoets volgende week?
 
+1. Een artikelpagina: Een semantisch correcte pagina met teksten die op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staan bij les 2.  
+2. Een formulierpagina: Maak van je formulier pagina het formulier dat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staat.
 
-1. Werk je HTML pagina verder uit met de teksten die op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staan bij les 2.
+Artikelpagina: Semantisch correcte pagina met de elementen zoals we die hebben behandeld in les 1: Nav, Section, Article, Aside, Footer, Doctype, Html, Header, Body, Charset, Meta
 
-2. Maak van je formulier pagina het formulier dat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131)  staat.
+Formulierpagina met veschillende input types, gebruik fieldsets, required, en je moet natuurlijk van alle skunnen uitleggen wat het betekent en hoe het werkt !
 
 
 
@@ -544,6 +525,7 @@ De eerste deeltoets is een mondeling over de HTML (structuur) semantiek en een w
 ##### 5. Terugkijken (20 - 200/200 minuten)
 # Deeltoets 1 Mondeling
 
+### Hoe werkt dat zo'n mondeling?
 
 De deeltoets wordt tijdens de les afgenomen. 
 
