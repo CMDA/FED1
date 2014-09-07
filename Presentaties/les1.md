@@ -12,7 +12,7 @@ Hoe wordt deze  webtechnologie ondersteund?
 We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen komen aan bod, Doctype, Meta, Script, Section, Header, Footer, Nav, Article, Main. 
 Én we gaan formulieren maken.
 
-![Will Code HTML For Food](assets/willCodeHTMLforFood.jpg)
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJaWhGUXpIVHRtcXc" alt="Will Code HTML For Food">
 
 !
 
@@ -50,7 +50,8 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 Wat gaan we doen de komende 8 weken?
 
-![Will Code HTML For Food](assets/draconischeErrorHandling.jpg)
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJUjFKLUh4bzNXaUk" width="100%" alt="Do Epic Shit">
+
 
 !
 
@@ -135,8 +136,6 @@ De twee deeltoetsen worden tijdens de les getoetst met een mondeling. De herkans
 College [Give me a Fucking < br / >](Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
-
-![College opstelling](assets/1College01.jpg)
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
 
 !
@@ -145,7 +144,6 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Artikelen bespreken in kleine groepen. 
 
-![Discussie rondje](assets/2WeeklyNerd01.jpg)
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
 !
@@ -175,7 +173,6 @@ lijst
 Laptop en internet  
 Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
 
-![9 groepen van 6](assets/3Klussen03.jpg)
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
 !
