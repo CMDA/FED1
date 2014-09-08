@@ -405,7 +405,7 @@ pattern
 Maak het volgende formulier met valide, toegankelijke HTML. 
 Gebruik labels voor de verschillende elementen, vb:
 
-    <label for”naam”>naam</label>
+    <label for=”naam”>naam</label>
 	<input id=”naam”>
 
 Formulier:
