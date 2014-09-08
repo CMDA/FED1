@@ -412,7 +412,7 @@ Gebruik labels voor de verschillende elementen, vb:
 	<input id=”naam”>
 
 Formulier:
-opdracht staat ook hier [http://dabblet.com/gist/2339774](http://dabblet.com/gist/2339774)
+opdracht staat ook hier [http://dabblet.com/gist/19109aa625ef7e222432](http://dabblet.com/gist/19109aa625ef7e222432)
 
     1. Contactgegevens
     1a. Naam
