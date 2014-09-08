@@ -211,6 +211,9 @@ Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
 
 [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
 
+[HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
+
+
 !
 
 ### Bespreken Opdracht 1.1
