@@ -34,14 +34,14 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 ###### Frontend development - les 1
 ## Lesdoelen
 
-* Werkwijze en planning van het vak doornemen
-* Introductie HTML5. Recap van vorg jaar.
-* Belangrijkste HTML5 structuur elementen begrijpen en toepassen:
+* **Werkwijze en planning** van het vak doornemen
+* **Introductie HTML5**. Recap van vorg jaar.
+* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
     * Doctype, Meta, Script, 
     * Header, Main, Footer, Nav, Aside, 
     * Section, Article, 
     * Formulieren, input types
-* Formulieren maken
+* **Formulieren** maken
 
 
 !
@@ -59,12 +59,12 @@ Wat gaan we doen de komende 8 weken?
 ##### 1. Introduktie (20/200 minuten)
 # Huishoudelijke mededelingen
 
-* Op tijd komen, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-* Mededelingen komen op [Intranet](https://cmd.dmci.hva.nl/NL/Paginas/default.aspx), 
-het lesprogramma staat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131), alle sources op [Github](https://github.com/CMDA/FED1)
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). Niet mailen.
-* Laptop nodig voor de werkopdrachten  
-* Papier en pen voor discussies en college
+* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Mededelingen komen op **[Intranet](https://cmd.dmci.hva.nl/NL/Paginas/default.aspx)**, 
+het lesprogramma staat op **[Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131)**, alle sources op **[Github](https://github.com/CMDA/FED1)**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+* **Laptop** nodig voor de werkopdrachten  
+* **Papier en pen** voor discussies en college
 
 
 
@@ -138,7 +138,7 @@ De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing 
 # 2. College - 30 minuten
 ###### Frontend development - les 1
 
-College [Give me a Fucking < br / >](Colleges/les1-gimme-a-fucking-br/index.html)
+College [Give me a Fucking < br / >](../Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
@@ -178,7 +178,7 @@ lijst
 # 4 Klussen - 100 minuten
 ###### Frontend development - les 1
 Laptop en internet  
-Opstelling Werkeilanden van 6 personen - duo's zitten naast elkaar
+Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
