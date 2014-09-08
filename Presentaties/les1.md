@@ -494,10 +494,10 @@ Wat hebben we behandeld?
 ##### 5. Terugkijken (20 - 200/200 minuten)
 # Huiswerk aankondigen
 
-* Weekly Nerd voorbereiden:  
+* **Weekly Nerd** voorbereiden:  
   Lezen wat op Moodle staat bij les 2.
   
-* Deeltoets 1 voorbereiden: 2 pagina's maken:
+* **Deeltoets 1** voorbereiden: 2 pagina's maken:
     1. Artikel pagina
     2. Formulier pagina
 
@@ -511,8 +511,8 @@ Wat hebben we behandeld?
 
 ###Wat moet je af hebben voor de deeltoets volgende week?
 
-1. Een artikelpagina: Een semantisch correcte pagina met teksten die op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staan bij les 2.  
-2. Een formulierpagina: Maak van je formulier pagina het formulier dat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staat.
+1. Een **artikelpagina**: Een semantisch correcte pagina met teksten die op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staan bij les 2.  
+2. Een **formulierpagina**: Maak van je formulier pagina het formulier dat op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) staat.
 
 Artikelpagina: Semantisch correcte pagina met de elementen zoals we die hebben behandeld in les 1: Nav, Section, Article, Aside, Footer, Doctype, Html, Header, Body, Charset, Meta
 
@@ -534,10 +534,10 @@ De deeltoets wordt tijdens de les afgenomen.
 
 Het schema komt op bord.
 
-15 minuten per quatro (dubbele duo's)
+15 minuten per quatro (dubbele duo's). 
 Dat is dus hard werken !
 
-Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten
+Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten.
 
 Herkansen ? 48 uur later ...
 
