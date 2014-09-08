@@ -35,11 +35,11 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 * Werkwijze en planning van het vak doornemen
 * Introductie HTML5. Recap van vorg jaar.
-* Belangrijkste HTML5 structuur elementen begrijpen en toepassen
-    Doctype, Meta, Script, 
-    Header, Main, Footer, Nav, Aside, 
-    Section, Article, 
-    Formulieren, input types
+* Belangrijkste HTML5 structuur elementen begrijpen en toepassen:
+    * Doctype, Meta, Script, 
+    * Header, Main, Footer, Nav, Aside, 
+    * Section, Article, 
+    * Formulieren, input types
 * Formulieren maken
 
 
@@ -80,9 +80,9 @@ Wie doet wat?
 
 ##### 1. Introduktie (20/200 minuten)
 # Wat gaan we maken?
-In het vak Frontend development leer je een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
+In het vak Frontend development leer je een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactiemogelijkheden.
 
-Eindopdracht is een responsive website van ons intranet. Een artikelpagina en een formulierpagina
+**Eindopdracht is een responsive website van ons intranet: een artikelpagina en een formulierpagina**
 
 * Wat kun je over 8 weken?
 	* [www.tropenmuseum.nl](http://www.tropenmuseum.nl) Voorbeeld Responsive 2011 
@@ -103,7 +103,7 @@ Hoe zien de lessen van 4 uur eruit?
 1. Iedere les krijg je een **college** van een half uur.
 2. Daarna gaan we artikelen bespreken in de **Weekly Nerd**. 
 De artikelen moet je als huiswerk lezen.
-3. Dan is het **klussen, coden, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De studentassistenten en docenten lopen rond om te helpen. Je werk in duo's ana je eigen opdracht. 
+3. Dan is het **klussen, coden, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De studentassistenten en docenten lopen rond om te helpen. Je werk in duo's aan je eigen opdracht. 
 
 Zie [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) voor het lesprogramma. 
 De colleges en lesplannen staan ook [online](http://cmda.github.io/FED1/).
@@ -117,7 +117,7 @@ Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 Het vak bestaat uit 2 deeltoetsen, de eindopdracht en de Weekly Nerd.
 
-1. **Deeltoets 1** (AVV) - les 2. 
+1. **Deeltoets 1** (AVV) - les 2 (volgende week). 
 Over HTML5 & formulieren
 2. **Deeltoets 2** (AVV) - les 5. 
 Over CSS3 effecten, selectors, flexbox & boxmodel
@@ -126,7 +126,7 @@ Een Responsive webdesign
 4. **Weekly Nerd** (AVV) - iedere week.
 Artikelen lezen en bespreken.
 
-Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen. 
+Als je niet voldoet aan de gestelde criteria voor de Weekly Nerd dan kun je dat onderdeel herkansen door een tentamen te maken.
 
 De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
 
@@ -148,7 +148,7 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Iedere les gaan we artikelen bespreken in kleine groepen. 
 
-Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er niet meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
@@ -177,7 +177,7 @@ lijst
 # 4 Klussen - 100 minuten
 ###### Frontend development - les 1
 Laptop en internet  
-Opstelling Werkeilanden van 6 personen, Duo's zitten naast elkaar
+Opstelling Werkeilanden van 6 personen - duo's zitten naast elkaar
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
@@ -272,9 +272,9 @@ Het zorgt ervoor dat de browser weet welke HTML-variant er wordt gebruikt.
 
 Zo weet een validator op basis van welke regels het document moet worden beoordeeld.
 
-Voeg de doctype toe
+Voeg de doctype toe ...
 
-en valideer je pagina, kijken wat er gebeurt:
+... en valideer je pagina, kijken wat er gebeurt:
 
 [http://validator.w3.org](http://validator.w3.org)  
 
@@ -292,22 +292,20 @@ Pagina valideren, kan hier:
 [http://html5.validator.nu/](http://html5.validator.nu/)  
 
 
-Developers tools voor de browser:
-Safari:
+Developers tools voor de browser:  
 
+Safari:  
 - [Developer](https://developer.apple.com/technologies/safari/developer-tools.html)  
 - [W3C Validator](https://extensions.apple.com/)  
 - [Firebug lite](https://extensions.apple.com/)  
 - [Resize me](https://extensions.apple.com/)
 
-Firefox:
-
+Firefox:  
 - [Webdev extensions](https://addons.mozilla.org/en-US/firefox/extensions/web-development/)  
 - [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug)  
 - [Webdeveloper](https://addons.mozilla.org/z//en-US/firefox/addon/web-developer/  )
 
-Chrome:_  
-
+Chrome:  
 - [Web development extensions](https://chrome.google.com/webstore/category/ext/11-web-development)  
 - Webdeveloper    
 - Firebug Lite  
@@ -339,40 +337,40 @@ In HTML5 zijn hele veel meer (functionele) mogelijkheden bedacht voor formuliere
 
 placeholder > text voor leeg form field
 
-    <input type=text id=hobbies placeholder=”gimme some”>
+    <input type="text" id="hobbies" placeholder=”gimme some”>
 
 !
 
 autofocus
 
-    <input type=text id=status autofocus>
+    <input type="text" id="status" autofocus>
 
 !
 
 required
 
-    <input type=password id=pw required> 
+    <input type="password" id="pw" required> 
 
 !
 
 autocomplete > disable auto-complete, bv veiligheid
 
-    <form autocomplete=off>
+    <form autocomplete="off">
 
 of
 
-    <input type=text autocomplete=off>
+    <input type="text" autocomplete="off">
 
 !
 
 datalist
 
-    <input type=text id=all_your_coders_r_belong_to_us list=code _archetypes>
-        <datalist id=code _archetypes>
-            <option value=enthusiast >
-            <option value=mash-up-artist>
-            <option value= inventor >
-            <option value= wizard >
+    <input type="text" id="all_your_coders_r_belong_to_us" list="code_archetypes">
+        <datalist id="code_archetypes">
+            <option value="enthusiast">
+            <option value="mash-up-artist">
+            <option value="inventor">
+            <option value="wizard">
         </datalist
 
 !
@@ -456,17 +454,17 @@ Kloppen de label/input paren?
 
 Een label is gekoppeld aan een input of textarea. Dit is ook belangrijk voor screenreaders. Handig voor gebruik is dat je op een label kan klikken om een element focus te geven.
 
-Met required (bool) geef je aan welke form elementen verplicht zijn (overigens kun je die ook heel makkelijk stylen)
+Met required (bool) geef je aan welke form elementen verplicht zijn (overigens kun je die ook heel makkelijk stylen).
 
 Het attribuut placeholder kun je heel eenvoudig een standaard tekst in een input laten zien. Oude browsers negeren dit.
 
-Bij het number type krijg je in sommige browsers automatisch pijltjes naast het element. Als je geen pijltjes wil, bijvoorbeeld om dat je dit lelijk vindt, zou je bijvoorbeeld een pattern kunnen gebruiken. Dan geef je met een regular-expression aan wat de gebruiker mag invullen... Let op, browsers verwerken dit niet allemaal hetzelfde.
+Bij het number type krijg je in sommige browsers automatisch pijltjes naast het element. Als je geen pijltjes wil, bijvoorbeeld omdat je dit lelijk vindt, zou je een pattern kunnen gebruiken. Dan geef je met een regular-expression aan wat de gebruiker mag invullen... Let op, browsers verwerken dit niet allemaal hetzelfde.
 
 Color type en date geven in sommige browsers een color picker en calender object.
 
-Op IOS, mobile OS van Apple, verandert het toetsenbord afhankelijk van het type dat je meegeeft. Bijvoorbeeld type=email geeft een toetsenbord met een @, type=number geeft een numeriek toetsenbord. Vasilis is helemaal fan van type=date op IOS. Probeer dit maar eens met de verschillende HTML5 input types .... (OS heeft voor de mac een Iphone emulator die je kan gebruiken met de development kit.)
+Op iOS, mobile OS van Apple, verandert het toetsenbord afhankelijk van het type dat je meegeeft. Bijvoorbeeld type="email" geeft een toetsenbord met een @, type="number" geeft een numeriek toetsenbord. Vasilis is helemaal fan van type="date" op iOS. Probeer dit maar eens met de verschillende HTML5 input types .... (OS heeft voor de mac een Iphone emulator die je kan gebruiken met de development kit.)
 
-Bij type=search laat IOS bijvoorbeeld standaard een x (clear) in het field zien: Handig!
+Bij type="search" laat IOS bijvoorbeeld standaard een x (clear) in het field zien: Handig!
 
 
 !
@@ -476,14 +474,14 @@ Bij type=search laat IOS bijvoorbeeld standaard een x (clear) in het field zien:
 
 Wat hebben we behandeld?
 
-* Werkwijze en planning van het vak doornemen
-* Introductie HTML5. Recap van vorg jaar.
-* Belangrijkste HTML5 structuur elementen begrijpen en toepassen
+* **Werkwijze en planning** van het vak doornemen
+* **Introductie HTML5.** Recap van vorg jaar.
+* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
     Doctype, Meta, Script, 
     Header, Main, Footer, Nav, Aside, 
     Section, Article, 
     Formulieren, input types
-* Formulieren maken
+* **Formulieren** maken
 
 
 *Namen doorgeven van duo’s, als je dit nog niet hebt gedaan bij de studentassistent*
@@ -495,8 +493,10 @@ Wat hebben we behandeld?
 ##### 5. Terugkijken (20 - 200/200 minuten)
 # Huiswerk aankondigen
 
-* Weekly Nerd voorbereiden. Lezen wat op Moodle staat bij les 2.
-* Deeltoets 1 voorbereiden: 2 pagina's maken
+* Weekly Nerd voorbereiden:  
+  Lezen wat op Moodle staat bij les 2.
+  
+* Deeltoets 1 voorbereiden: 2 pagina's maken:
     1. Artikel pagina
     2. Formulier pagina
 
@@ -515,7 +515,9 @@ Wat hebben we behandeld?
 
 Artikelpagina: Semantisch correcte pagina met de elementen zoals we die hebben behandeld in les 1: Nav, Section, Article, Aside, Footer, Doctype, Html, Header, Body, Charset, Meta
 
-Formulierpagina met veschillende input types, gebruik fieldsets, required, en je moet natuurlijk van alle skunnen uitleggen wat het betekent en hoe het werkt !
+Formulierpagina met veschillende input types, labels, fieldsets, required
+
+En je moet natuurlijk van alles kunnen uitleggen wat het betekent en hoe het werkt !
 
 
 
