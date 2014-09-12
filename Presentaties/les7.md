@@ -1,18 +1,21 @@
+< section >
 # /* no comment */
 ###### Frontend development - les 7
 
 !
 
 # /* no comment */
+###### Frontend development - les 7
+Deze les gaat over:  
 
-Deze les gaat over andere HTML5 Api's en we gaan het hebben over wat een frontend developer is en doet. 
-Verder gaan we in de les doorwerken aan de eindopdracht.
-
+<img src="kledingvoorschriften" alt="kledingvoorschriften">
 
 
 !
 
 # /* no comment */
+###### Frontend development - les 7
+
 ## Programma (200 minuten)
 1. Introduktie (5)
 2. College (30)
@@ -23,80 +26,115 @@ Verder gaan we in de les doorwerken aan de eindopdracht.
 
 !
 
-# 1. Introduktie (5 minuten)
-Lesdoelen en planning van vandaag.
+# 1. Introduktie - 5 minuten
+###### Frontend development - les 7
+
+## Lesdoelen
+- 
+- 
+- 
 
 
-##### 1. Introduktie (5/200 minuten)
 
 !
 
-
 # 2. College - 30 minuten
+###### Frontend development - les 7
 
-[College /* no comment */](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
-Over ...
+College [titel](http://cmda.github.io/FED1/Colleges/???.html)
+Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
-##### 2. College (30 - 35/200 minuten)
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
 
 !
 
 # 3. Weekly Nerd - 30 minuten
-Artikelen bespreken in kleine groepen. 
+###### Frontend development - les 7
+Iedere les gaan we artikelen bespreken in kleine groepen. 
 
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
 
-##### 3. Weekly Nerd (30 - 65/200 minuten)
-
-!
-
-# Weekly Nerd artikelen voor vandaag
-
-* ...
-* ...
-* ...
-
-##### 3. Weekly Nerd (30 - 65/200 minuten)
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
 !
 
+##### 3. Weekly Nerd (30 - 65/200 minuten)
+# Artikelen voor vandaag
+
+* [artikel](link)
+* 
+
+
+
+!
+
+##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Wie zit waar?
 
-image
-
-lijst 
-
-##### 3. Weekly Nerd (30 - 65/200 minuten)
-
-!
-
-# Weekly Nerd vragen
+lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) laten zien
 
 
-##### 3. Weekly Nerd (30 - 65/200 minuten)
 
 !
 
 # 4 Klussen - 120 minuten
-Laptop en internet.
+###### Frontend development - les 7
+Laptop en internet  
+Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
-##Wie zit waar?
-Opstelling Werkeilanden van 6 personen.
-Duo's zitten naast elkaar.
+<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
-### Hoe ziet het lokaal eruit?
-
-img
-
-##### 4. Klussen (120 - 180/200 minuten)
 
 !
 
-# 5. Terugkijken 10 minuten
-Wat hebben we vandaag behandeld?
-Huiswerk voor volgende week.
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 7.1 - 15 minuten
+## Semantic Markup #1 
+
+Tekst en uitleg
 
 
-##### 5. Terugkijken (10 - 190/200 minuten)
+!
+
+### Bespreken Opdracht 7.1
+## Semantic Markup #1 
+
+Tekst en uitleg
+Voorbeeld van studenten in Dabblet tonen.
+Antwoord in Dablet tonen
+
+!
+
+# 5. Terugkijken 20 minuten
+###### Frontend development - les 7
+
+Wat hebben we behandeld (lesdoelen)?
+
+*
+*
+* 
+
+
+!
+
+##### 5. Terugkijken (20 - 200/200 minuten)
+# Huiswerk aankondigen
+
+  
+* **Klussen** Hoe ver moet je zijn?
+    1. Artikel pagina
+    2. Formulier pagina
+
+
+!
+
+## op.
+
+
+< / section >
+
+
 
 
 
