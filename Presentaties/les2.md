@@ -32,7 +32,8 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 ## Lesdoelen
 - Introductie CSS3 vormgeving en effecten + selectors (college)  
 - The Design of HTML5 en de funky Border radius (Weekly Nerd)  
-- Effecten, Opacity, Transparancy, animation, transform en selectors (klussen)  
+- Klussen met effecten: Border-radius, box-shaddow, transities, transforms, css transitions
+- Klussen met selectors: Selectors in een artikelpagina en formulier
 - Mondeling afnemen: Formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
 (Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
@@ -145,22 +146,21 @@ c [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oe
 
 ### Bespreken Opdracht 2.1 - 2.5
 
-Voorbeeld van studenten in Dabblet tonen.
 
 
 
 !
 
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.6 - ? minuten
-## Artikel pagina met selectors
+##### 4. Klussen (60 - 185/200 minuten)
+### Opdracht 2.6 - 30 minuten
+## Artikelpagina met selectors
 
 [http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
 
 
-### Opdracht 2.7 - ? minuten
-## Formulier pagina met selectors
+### Opdracht 2.7 - 30 minuten
+## Formulierpagina met selectors
 [http://dabblet.com/gist/1865805](http://dabblet.com/gist/1865805)
 
 
@@ -169,8 +169,21 @@ Voorbeeld van studenten in Dabblet tonen.
 
 ### Bespreken Opdracht 2.6 en 2.7
 
+Voorbeeld van studenten in Dabblet tonen?
 
-Voorbeeld van studenten in Dabblet tonen.
+
+####Opdracht 2.6 - Artikelpagina met selectors
+Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien:
+
+
+####Opdracht 2.7 - Formulierpagina met selectors
+Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien:
+
+
+
+
+
+ 
 
 
 !
