@@ -32,7 +32,7 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 ## Lesdoelen
 - Introductie CSS3 vormgeving en effecten + selectors (college)  
 - The Design of HTML5 en de funky Border radius (Weekly Nerd)  
-- Effecten, Opacity, Transparancy, aniamtion, transform en selectors (klussen)  
+- Effecten, Opacity, Transparancy, animation, transform en selectors (klussen)  
 - Mondeling afnemen: Formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
 (Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
@@ -62,9 +62,9 @@ Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 s
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Artikelen voor vandaag
 
-* [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
-* [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
-* [Importance of sections by Haydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
+* [The humble border-radius by Lea Verou](https://www.youtube.com/watch?v=JSaMl2OKjfQ) [video - 15 minuten]
+* [How to use pseudo classes by Richard Shepherd](http://www.smashingmagazine.com/2011/03/30/how-to-use-css3-pseudo-classes/)
+* [The Design of HTML5 by Jeremy Keith](https://vimeo.com/15755349) [video - 70 minuten]
 
 
 
@@ -91,17 +91,84 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.1 - 15 minuten
-## Semantic Markup #1 
+### Opdracht 2.1 - ? minuten
+## Border-radius
 
-Maak deze ‘traditionele’ pagina-indeling in HTML5.  
-Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
+[http://vasilis.nl/hva/03/oefeningen.html#slide2](http://vasilis.nl/hva/03/oefeningen.html#slide2)  
+
+*4 opdrachten*  
+a [http://vasilis.nl/hva/03/oefeningen.html#slide3](http://vasilis.nl/hva/03/oefeningen.html#slide3)  
+b [http://vasilis.nl/hva/03/oefeningen.html#slide4](http://vasilis.nl/hva/03/oefeningen.html#slide4)  
+c [http://vasilis.nl/hva/03/oefeningen.html#slide5](http://vasilis.nl/hva/03/oefeningen.html#slide5)  
+d [http://vasilis.nl/hva/03/oefeningen.html#slide6](http://vasilis.nl/hva/03/oefeningen.html#slide6)  
+
+### Opdracht 2.2 - ? minuten
+## box-shadow
+
+[http://vasilis.nl/hva/03/oefeningen.html#slide7](http://vasilis.nl/hva/03/oefeningen.html#slide7)  
+
+*4 opdrachten*    
+a [http://vasilis.nl/hva/03/oefeningen.html#slide8](http://vasilis.nl/hva/03/oefeningen.html#slide8)  
+b [http://vasilis.nl/hva/03/oefeningen.html#slide9](http://vasilis.nl/hva/03/oefeningen.html#slide9)  
+c [http://vasilis.nl/hva/03/oefeningen.html#slide10](http://vasilis.nl/hva/03/oefeningen.html#slide10)  
+d [http://vasilis.nl/hva/03/oefeningen.html#slide11](http://vasilis.nl/hva/03/oefeningen.html#slide11)  
+
+### Opdracht 2.3 - ? minuten
+## Transities
+[http://vasilis.nl/hva/03/oefeningen.html#slide12](http://vasilis.nl/hva/03/oefeningen.html#slide12)    
+
+*4 opdrachten*
+a [http://vasilis.nl/hva/03/oefeningen.html#slide13](http://vasilis.nl/hva/03/oefeningen.html#slide13)  
+b [http://vasilis.nl/hva/03/oefeningen.html#slide14](http://vasilis.nl/hva/03/oefeningen.html#slide14)  
+c [http://vasilis.nl/hva/03/oefeningen.html#slide15](http://vasilis.nl/hva/03/oefeningen.html#slide15)  
+d [http://vasilis.nl/hva/03/oefeningen.html#slide16](http://vasilis.nl/hva/03/oefeningen.html#slide16)  
+
+### Opdracht 2.4 - ? minuten
+## Transforms
+
+[http://vasilis.nl/hva/03/oefeningen.html#slide17](http://vasilis.nl/hva/03/oefeningen.html#slide17)    
+
+*1 opdracht*    
+a [http://vasilis.nl/hva/03/oefeningen.html#slide18](http://vasilis.nl/hva/03/oefeningen.html#slide18)  
+
+### Opdracht 2.5 - ? minuten
+## CSS transitions
+
+[http://vasilis.nl/hva/03/oefeningen.html#slide19](http://vasilis.nl/hva/03/oefeningen.html#slide19)  
+
+*3 opdrachten*  
+a [http://vasilis.nl/hva/03/oefeningen.html#slide20](http://vasilis.nl/hva/03/oefeningen.html#slide20)  
+b [http://vasilis.nl/hva/03/oefeningen.html#transitions](http://vasilis.nl/hva/03/oefeningen.html#transitions)  
+c [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oefeningen.html#slide22) 
+
+!
+
+### Bespreken Opdracht 2.1 - 2.5
+
+Voorbeeld van studenten in Dabblet tonen.
+
 
 
 !
 
-### Bespreken Opdracht 1.1
-## Semantic Markup #1 
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 2.6 - ? minuten
+## Artikel pagina met selectors
+
+[http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
+
+
+### Opdracht 2.7 - ? minuten
+## Formulier pagina met selectors
+[http://dabblet.com/gist/1865805](http://dabblet.com/gist/1865805)
+
+
+
+!
+
+### Bespreken Opdracht 2.6 en 2.7
+
 
 Voorbeeld van studenten in Dabblet tonen.
 
