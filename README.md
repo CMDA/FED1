@@ -14,8 +14,6 @@ Responsive design, media queries,
 Picture element en feature detection.
 
 
-<nav><a href="#2">&gt;</a></nav>
-
 !
 
 ###### Frontend development
@@ -33,9 +31,6 @@ Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3
 8. < / HTML >
 
 
-
-<nav><a href="#1">&lt;</a><a href="#3">&gt;</a></nav>
-
 !
 
 ###### Frontend development
@@ -49,6 +44,3 @@ De context wordt bepaald door de verschillende eigenschappen van de verschillend
 De website kunnen ze maken met behulp van de webtechnieken HTML5, CSS3 en Javascript en deze technieken worden volgens de juiste semantiek en gevalideerd toegepast.  Het vak geeft inzicht in de mogelijkheden en beperkingen van deze technieken. Voor het maken van de website zijn studenten in staat betrouwbare bronnen te zoeken en raadplegen en de studenten zijn in staat code van anderen te lezen en te hergebruiken.
 
 Frontend development is een kernvak. In dit vak wordt de basis gelegd voor de beroepsrollen Webdeveloper, Webdesigner en Interaction designer, ook een CMD Content manager moet in staat zijn een responsive website te maken en begrijpen.
-
-
-<nav><a href="#2">&lt;</a></nav>
