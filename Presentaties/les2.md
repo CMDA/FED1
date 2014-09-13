@@ -43,7 +43,7 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 # 2. College - 30 minuten
 ###### Frontend development - les 2
 
-College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html)
+College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html#/)
 Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
