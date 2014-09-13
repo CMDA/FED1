@@ -100,7 +100,7 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.1 - ? minuten
+### Opdracht 2.1 - 15 minuten
 ## Border-radius
 
 4 opdrachten om de border-radius te begrijpen:
@@ -127,7 +127,7 @@ Uitleg over de border-radius
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.2 - ? minuten
+### Opdracht 2.2 - 15 minuten
 ## box-shadow
 
 4 opdrachten om de box-shadow te begrijpen:   
@@ -157,7 +157,7 @@ Uitleg over de box-shadow
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.3 - ? minuten
+### Opdracht 2.3 - 15 minuten
 ## Text shadow
 
 4 opdrachten om text-shadow te begrijpen:  
@@ -189,7 +189,7 @@ Uitleg over text shadow
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.4 - ? minuten
+### Opdracht 2.4 - 15 minuten
 ## Transforms
 
 Opdrachten om transform te begrijpen:  
@@ -208,12 +208,12 @@ Uitleg over transforms
         scale(.5) skew(45deg);
     
 
-[transforms]()
+[transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.5 - ? minuten
+### Opdracht 2.5 - 15 minuten
 ## CSS transitions
 
 3 opdrachten om CSS transistions te begrijpen:  
@@ -237,8 +237,8 @@ Uitleg over CSS transitions
 !
 
 
-##### 4. Klussen (60 - 185/200 minuten)
-### Opdracht 2.6 - 30 minuten
+##### 4. Klussen (45 - 185/200 minuten)
+### Opdracht 2.6 - 20 minuten
 ## Artikelpagina met selectors
 Child selectors en sibling combinators oefening
 
@@ -247,7 +247,7 @@ Vervang alle … door de juiste selector of combinatie.
 De omschrijving staat er telkens boven. [http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
 
 
-### Opdracht 2.7 - 30 minuten
+### Opdracht 2.7 - 20 minuten
 ## Formulierpagina met selectors
 Attribute selectors and bling oefening
 
@@ -301,6 +301,9 @@ Wat hebben we behandeld (lesdoelen van vandaag)?
 
 * **Weekly Nerd** voorbereiden:  
   Lezen wat op Moodle staat bij les 3.
+  
+* **Klussen** Oefen alle opdrachten van deze les (nog een keer)
+    Deze moet je volgende week kunnen toepassen
   
 * **Deeltoets 1** niet gehaald?
 ≈ 48 uur is de herkansing. Zie je rooster.
