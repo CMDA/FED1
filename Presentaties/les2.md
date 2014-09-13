@@ -31,10 +31,10 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 
 ## Lesdoelen
 - Introductie CSS3 vormgeving en effecten + selectors (college)  
-- The Design of HTML5 en de funky Border radius (Weekly Nerd)  
-- Klussen met effecten: Border-radius, box-shaddow, transities, transforms, css transitions
-- Klussen met selectors: Selectors in een artikelpagina en formulier
-- Mondeling afnemen: Formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
+- The Design principles of HTML5 en de funky border-radius (Weekly Nerd)  
+- Klussen met effecten: border-radius, box-shaddow, transities, transforms, css transitions
+- Klussen met selectors: selectors in een artikelpagina en formulier
+- Mondeling afnemen: formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
 (Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
 
@@ -101,7 +101,7 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 ### Opdracht 2.1 - ? minuten
 ## Border-radius
 
-4 opdrachten om de Border-radius te begrijpen:
+4 opdrachten om de border-radius te begrijpen:
 [http://vasilis.nl/hva/03/oefeningen.html#slide2](http://vasilis.nl/hva/03/oefeningen.html#slide2)  
 
 
@@ -178,7 +178,7 @@ Opdrachten om transform te begrijpen:
 
 ### Bespreken Opdracht 2.4
 ## Transforms
-Uitleg over rransforms
+Uitleg over transforms
 
 
 !
@@ -214,7 +214,8 @@ Uitleg over CSS transitions
 Child selectors en sibling combinators oefening
 
 Opdracht:
-Vervang alle … door de juiste selector of combinatie. De omschrijving staat er telkens boven. [http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
+Vervang alle … door de juiste selector of combinatie. 
+De omschrijving staat er telkens boven. [http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
 
 
 ### Opdracht 2.7 - 30 minuten
@@ -235,37 +236,34 @@ Voorbeeld van studenten in Dabblet tonen?
 
 
 ####Opdracht 2.6 - Artikelpagina met child selectors en sibling combinators
-Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien:
+Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien.
 
 
 ####Opdracht 2.7 - Formulierpagina attribute selectors and bling
-Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien:
+Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien.
 
 
 
-
-
- 
 
 
 !
 
-# 5. Terugkijken 20 minuten
+# 5. Terugkijken 10 minuten
 ###### Frontend development - les 2
 
-Wat hebben we behandeld (lesdoelen)?
+Wat hebben we behandeld (lesdoelen van vandaag)?
 
 - Introductie CSS3 vormgeving en effecten + selectors (college)  
-- The Design of HTML5 en de funky Border radius (Weekly Nerd)  
-- Klussen met effecten: Border-radius, box-shaddow, transities, transforms, css transitions
-- Klussen met selectors: Selectors in een artikelpagina en formulier
-- Mondeling afnemen: Formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
+- The Design principles of HTML5 en de funky border-radius (Weekly Nerd)  
+- Klussen met effecten: border-radius, box-shaddow, transities, transforms, css transitions
+- Klussen met selectors: selectors in een artikelpagina en formulier
+- Mondeling afnemen: formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
 (Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
 
 !
 
-##### 5. Terugkijken (20 - 200/200 minuten)
+##### 5. Terugkijken (10 - 200/200 minuten)
 # Huiswerk aankondigen
 
 * **Weekly Nerd** voorbereiden:  
@@ -278,6 +276,11 @@ Wat hebben we behandeld (lesdoelen)?
 !
 
 ## op.
+
+<br/>
+<br/>
+
+[Tussenstand](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) op bord tonen 
 
 
 < / section >
