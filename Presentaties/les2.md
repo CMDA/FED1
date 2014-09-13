@@ -116,7 +116,11 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 ## Border-radius
 Uitleg over de border-radius
 
+    border-radius: 50% / 60% 60% 40% 40%;
+    border-radius:500px 50px;
 
+    
+[border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius?redirectlocale=en-US&redirectslug=CSS%2Fborder-radius)
 
 !
 
@@ -128,10 +132,10 @@ Uitleg over de border-radius
 [http://vasilis.nl/hva/03/oefeningen.html#slide7](http://vasilis.nl/hva/03/oefeningen.html#slide7)  
 
  
-a [http://vasilis.nl/hva/03/oefeningen.html#slide8](http://vasilis.nl/hva/03/oefeningen.html#slide8)  
-b [http://vasilis.nl/hva/03/oefeningen.html#slide9](http://vasilis.nl/hva/03/oefeningen.html#slide9)  
-c [http://vasilis.nl/hva/03/oefeningen.html#slide10](http://vasilis.nl/hva/03/oefeningen.html#slide10)  
-d [http://vasilis.nl/hva/03/oefeningen.html#slide11](http://vasilis.nl/hva/03/oefeningen.html#slide11)  
+1. [http://vasilis.nl/hva/03/oefeningen.html#slide8](http://vasilis.nl/hva/03/oefeningen.html#slide8)  
+2. [http://vasilis.nl/hva/03/oefeningen.html#slide9](http://vasilis.nl/hva/03/oefeningen.html#slide9)  
+3. [http://vasilis.nl/hva/03/oefeningen.html#slide10](http://vasilis.nl/hva/03/oefeningen.html#slide10)  
+4. [http://vasilis.nl/hva/03/oefeningen.html#slide11](http://vasilis.nl/hva/03/oefeningen.html#slide11)  
 
 !
 
@@ -140,29 +144,47 @@ d [http://vasilis.nl/hva/03/oefeningen.html#slide11](http://vasilis.nl/hva/03/oe
 ## box-shadow
 Uitleg over de box-shadow
 
+    box-shadow: 0 100px 0 rgba(255,255,255,.2) inset;
+    box-shadow:0 10px 10px -5px black
+    box-shadow: inset 0 200px 100px -100px white;
+    box-shadow: 0 0 0 10px hsla(210, 13%, 50%, .5),
+            5px 5px 10px black;
+
+[box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.3 - ? minuten
-## Transities
+## Text shadow
 
-4 opdrachten om transities te begrijpen:  
+4 opdrachten om text-shadow te begrijpen:  
 [http://vasilis.nl/hva/03/oefeningen.html#slide12](http://vasilis.nl/hva/03/oefeningen.html#slide12)    
 
 
-a [http://vasilis.nl/hva/03/oefeningen.html#slide13](http://vasilis.nl/hva/03/oefeningen.html#slide13)  
-b [http://vasilis.nl/hva/03/oefeningen.html#slide14](http://vasilis.nl/hva/03/oefeningen.html#slide14)  
-c [http://vasilis.nl/hva/03/oefeningen.html#slide15](http://vasilis.nl/hva/03/oefeningen.html#slide15)  
-d [http://vasilis.nl/hva/03/oefeningen.html#slide16](http://vasilis.nl/hva/03/oefeningen.html#slide16)  
+1. [http://vasilis.nl/hva/03/oefeningen.html#slide13](http://vasilis.nl/hva/03/oefeningen.html#slide13)  
+2. [http://vasilis.nl/hva/03/oefeningen.html#slide14](http://vasilis.nl/hva/03/oefeningen.html#slide14)  
+3. [http://vasilis.nl/hva/03/oefeningen.html#slide15](http://vasilis.nl/hva/03/oefeningen.html#slide15)  
+4. [http://vasilis.nl/hva/03/oefeningen.html#slide16](http://vasilis.nl/hva/03/oefeningen.html#slide16)  
 
 !
 
 ### Bespreken Opdracht 2.3
-## Transities
-Uitleg over transities
+## Text shadow
+Uitleg over text shadow
+
+    text-shadow:0 0 .1em white, 0 0 .2em white;
+    text-shadow:0 0 .4em black
+    text-shadow:1px 1px rgba(0,0,0,.5), -1px -1px white;
+    text-shadow:1px 1px #bbb, 2px 2px #aaa, 3px 3px #999,
+        4px 4px #888, 5px 5px #777, 6px 6px #666,
+            6px 6px 6px black;    
+
+[Text shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
+
 
 !
+
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.4 - ? minuten
@@ -180,6 +202,11 @@ Opdrachten om transform te begrijpen:
 ## Transforms
 Uitleg over transforms
 
+    transform: translate(0,10%) rotate(90deg) 
+        scale(.5) skew(45deg);
+    
+
+[transforms]()
 
 !
 
@@ -243,6 +270,10 @@ Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien.
 Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien.
 
 
+
+* [Direct child selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors) >
+* [Adjacent sibling selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) +
+* [Attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors?redirectlocale=en-US&redirectslug=CSS%2FAttribute_selectors) [attr]
 
 
 
