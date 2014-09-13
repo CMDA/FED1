@@ -43,7 +43,7 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 # 2. College - 30 minuten
 ###### Frontend development - les 2
 
-College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-css/index.html)
+College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html)
 Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
@@ -90,61 +90,110 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 !
 
-
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.1 - ? minuten
 ## Border-radius
 
+4 opdrachten om de Border-radius te begrijpen:
 [http://vasilis.nl/hva/03/oefeningen.html#slide2](http://vasilis.nl/hva/03/oefeningen.html#slide2)  
 
-*4 opdrachten*  
-a [http://vasilis.nl/hva/03/oefeningen.html#slide3](http://vasilis.nl/hva/03/oefeningen.html#slide3)  
-b [http://vasilis.nl/hva/03/oefeningen.html#slide4](http://vasilis.nl/hva/03/oefeningen.html#slide4)  
-c [http://vasilis.nl/hva/03/oefeningen.html#slide5](http://vasilis.nl/hva/03/oefeningen.html#slide5)  
-d [http://vasilis.nl/hva/03/oefeningen.html#slide6](http://vasilis.nl/hva/03/oefeningen.html#slide6)  
 
+1. [http://vasilis.nl/hva/03/oefeningen.html#slide3](http://vasilis.nl/hva/03/oefeningen.html#slide3)  
+2. [http://vasilis.nl/hva/03/oefeningen.html#slide4](http://vasilis.nl/hva/03/oefeningen.html#slide4)  
+3. [http://vasilis.nl/hva/03/oefeningen.html#slide5](http://vasilis.nl/hva/03/oefeningen.html#slide5)  
+4. [http://vasilis.nl/hva/03/oefeningen.html#slide6](http://vasilis.nl/hva/03/oefeningen.html#slide6)  
+
+!
+
+### Bespreken Opdracht 2.1
+## Border-radius
+Uitleg over de border-radius
+
+
+
+!
+
+##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.2 - ? minuten
 ## box-shadow
 
+4 opdrachten om de box-shadow te begrijpen:   
 [http://vasilis.nl/hva/03/oefeningen.html#slide7](http://vasilis.nl/hva/03/oefeningen.html#slide7)  
 
-*4 opdrachten*    
+ 
 a [http://vasilis.nl/hva/03/oefeningen.html#slide8](http://vasilis.nl/hva/03/oefeningen.html#slide8)  
 b [http://vasilis.nl/hva/03/oefeningen.html#slide9](http://vasilis.nl/hva/03/oefeningen.html#slide9)  
 c [http://vasilis.nl/hva/03/oefeningen.html#slide10](http://vasilis.nl/hva/03/oefeningen.html#slide10)  
 d [http://vasilis.nl/hva/03/oefeningen.html#slide11](http://vasilis.nl/hva/03/oefeningen.html#slide11)  
 
+!
+
+
+### Bespreken Opdracht 2.2
+## box-shadow
+Uitleg over de box-shadow
+
+
+!
+
+##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.3 - ? minuten
 ## Transities
+
+4 opdrachten om transities te begrijpen:  
 [http://vasilis.nl/hva/03/oefeningen.html#slide12](http://vasilis.nl/hva/03/oefeningen.html#slide12)    
 
-*4 opdrachten*
+
 a [http://vasilis.nl/hva/03/oefeningen.html#slide13](http://vasilis.nl/hva/03/oefeningen.html#slide13)  
 b [http://vasilis.nl/hva/03/oefeningen.html#slide14](http://vasilis.nl/hva/03/oefeningen.html#slide14)  
 c [http://vasilis.nl/hva/03/oefeningen.html#slide15](http://vasilis.nl/hva/03/oefeningen.html#slide15)  
 d [http://vasilis.nl/hva/03/oefeningen.html#slide16](http://vasilis.nl/hva/03/oefeningen.html#slide16)  
 
-### Opdracht 2.4 - ? minuten
-## Transforms
+!
 
-[http://vasilis.nl/hva/03/oefeningen.html#slide17](http://vasilis.nl/hva/03/oefeningen.html#slide17)    
-
-*1 opdracht*    
-a [http://vasilis.nl/hva/03/oefeningen.html#slide18](http://vasilis.nl/hva/03/oefeningen.html#slide18)  
-
-### Opdracht 2.5 - ? minuten
-## CSS transitions
-
-[http://vasilis.nl/hva/03/oefeningen.html#slide19](http://vasilis.nl/hva/03/oefeningen.html#slide19)  
-
-*3 opdrachten*  
-a [http://vasilis.nl/hva/03/oefeningen.html#slide20](http://vasilis.nl/hva/03/oefeningen.html#slide20)  
-b [http://vasilis.nl/hva/03/oefeningen.html#transitions](http://vasilis.nl/hva/03/oefeningen.html#transitions)  
-c [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oefeningen.html#slide22) 
+### Bespreken Opdracht 2.3
+## Transities
+Uitleg over transities
 
 !
 
-### Bespreken Opdracht 2.1 - 2.5
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 2.4 - ? minuten
+## Transforms
+
+Opdrachten om transform te begrijpen:  
+[http://vasilis.nl/hva/03/oefeningen.html#slide17](http://vasilis.nl/hva/03/oefeningen.html#slide17)    
+
+1. [http://vasilis.nl/hva/03/oefeningen.html#slide18](http://vasilis.nl/hva/03/oefeningen.html#slide18)  
+
+
+!
+
+### Bespreken Opdracht 2.4
+## Transforms
+Uitleg over rransforms
+
+
+!
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 2.5 - ? minuten
+## CSS transitions
+
+3 opdrachten om CSS transistions te begrijpen:  
+[http://vasilis.nl/hva/03/oefeningen.html#slide19](http://vasilis.nl/hva/03/oefeningen.html#slide19)  
+
+1. [http://vasilis.nl/hva/03/oefeningen.html#slide20](http://vasilis.nl/hva/03/oefeningen.html#slide20)  
+2. [http://vasilis.nl/hva/03/oefeningen.html#transitions](http://vasilis.nl/hva/03/oefeningen.html#transitions)  
+3. [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oefeningen.html#slide22) 
+
+
+!
+
+### Bespreken Opdracht 2.5
+## CSS transitions
+Uitleg over CSS transitions
+
 
 
 
@@ -155,13 +204,19 @@ c [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oe
 ##### 4. Klussen (60 - 185/200 minuten)
 ### Opdracht 2.6 - 30 minuten
 ## Artikelpagina met selectors
+Child selectors en sibling combinators oefening
 
-[http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
+Opdracht:
+Vervang alle … door de juiste selector of combinatie. De omschrijving staat er telkens boven. [http://dabblet.com/gist/1864659](http://dabblet.com/gist/1864659)
 
 
 ### Opdracht 2.7 - 30 minuten
 ## Formulierpagina met selectors
-[http://dabblet.com/gist/1865805](http://dabblet.com/gist/1865805)
+Attribute selectors and bling oefening
+
+Opdracht:
+Vervang alle … door de juiste selector of combinatie.
+De omschrijving staat er telkens boven. [http://dabblet.com/gist/1865805](http://dabblet.com/gist/1865805)
 
 
 
@@ -172,11 +227,11 @@ c [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oe
 Voorbeeld van studenten in Dabblet tonen?
 
 
-####Opdracht 2.6 - Artikelpagina met selectors
+####Opdracht 2.6 - Artikelpagina met child selectors en sibling combinators
 Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien:
 
 
-####Opdracht 2.7 - Formulierpagina met selectors
+####Opdracht 2.7 - Formulierpagina attribute selectors and bling
 Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien:
 
 
