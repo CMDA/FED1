@@ -85,6 +85,13 @@ lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgU
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
+
+###Deeltoets 1
+- De deeltoets wordt tijdens de les afgenomen. 
+- Het schema komt op bord, achter in de klas.
+- 15 minuten per quatro (dubbele duo's). 
+- Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten.
+
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
 
@@ -248,9 +255,12 @@ Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien:
 
 Wat hebben we behandeld (lesdoelen)?
 
-- 
--
-- 
+- Introductie CSS3 vormgeving en effecten + selectors (college)  
+- The Design of HTML5 en de funky Border radius (Weekly Nerd)  
+- Klussen met effecten: Border-radius, box-shaddow, transities, transforms, css transitions
+- Klussen met selectors: Selectors in een artikelpagina en formulier
+- Mondeling afnemen: Formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
+(Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
 
 !
@@ -259,11 +269,10 @@ Wat hebben we behandeld (lesdoelen)?
 # Huiswerk aankondigen
 
 * **Weekly Nerd** voorbereiden:  
-  Lezen wat op Moodle staat bij les 2.
+  Lezen wat op Moodle staat bij les 3.
   
-* **Deeltoets 1** voorbereiden: 2 pagina's maken:
-    1. Artikel pagina
-    2. Formulier pagina
+* **Deeltoets 1** niet gehaald?
+≈ 48 uur is de herkansing. Zie je rooster.
 
 
 !
