@@ -82,6 +82,8 @@ lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgU
 
 # 4 Klussen - 120 minuten
 ###### Frontend development - les 2
+
+###Klussen
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
