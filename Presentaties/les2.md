@@ -54,7 +54,10 @@ Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 ###### Frontend development - les 2
 Iedere les gaan we artikelen bespreken in kleine groepen. 
 
-Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
+Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. 
+Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd 
+dan moet dit onderdeel herkanst worden met een tentamen.
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
@@ -106,7 +109,6 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 4 opdrachten om de border-radius te begrijpen:
 [http://vasilis.nl/hva/03/oefeningen.html#slide2](http://vasilis.nl/hva/03/oefeningen.html#slide2)  
 
-
 1. [http://vasilis.nl/hva/03/oefeningen.html#slide3](http://vasilis.nl/hva/03/oefeningen.html#slide3)  
 2. [http://vasilis.nl/hva/03/oefeningen.html#slide4](http://vasilis.nl/hva/03/oefeningen.html#slide4)  
 3. [http://vasilis.nl/hva/03/oefeningen.html#slide5](http://vasilis.nl/hva/03/oefeningen.html#slide5)  
@@ -121,7 +123,11 @@ Uitleg over de border-radius
     border-radius: 50% / 60% 60% 40% 40%;
     border-radius:500px 50px;
 
-    
+<!--dablet uitleg-->
+
+
+**Resources**    
+
 [border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius?redirectlocale=en-US&redirectslug=CSS%2Fborder-radius)
 
 !
@@ -132,7 +138,6 @@ Uitleg over de border-radius
 
 4 opdrachten om de box-shadow te begrijpen:   
 [http://vasilis.nl/hva/03/oefeningen.html#slide7](http://vasilis.nl/hva/03/oefeningen.html#slide7)  
-
  
 1. [http://vasilis.nl/hva/03/oefeningen.html#slide8](http://vasilis.nl/hva/03/oefeningen.html#slide8)  
 2. [http://vasilis.nl/hva/03/oefeningen.html#slide9](http://vasilis.nl/hva/03/oefeningen.html#slide9)  
@@ -152,6 +157,12 @@ Uitleg over de box-shadow
     box-shadow: 0 0 0 10px hsla(210, 13%, 50%, .5),
             5px 5px 10px black;
 
+<!--dablet uitleg-->
+
+
+
+**Resources**    
+
 [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
 !
@@ -162,7 +173,6 @@ Uitleg over de box-shadow
 
 4 opdrachten om text-shadow te begrijpen:  
 [http://vasilis.nl/hva/03/oefeningen.html#slide12](http://vasilis.nl/hva/03/oefeningen.html#slide12)    
-
 
 1. [http://vasilis.nl/hva/03/oefeningen.html#slide13](http://vasilis.nl/hva/03/oefeningen.html#slide13)  
 2. [http://vasilis.nl/hva/03/oefeningen.html#slide14](http://vasilis.nl/hva/03/oefeningen.html#slide14)  
@@ -181,6 +191,13 @@ Uitleg over text shadow
     text-shadow:1px 1px #bbb, 2px 2px #aaa, 3px 3px #999,
         4px 4px #888, 5px 5px #777, 6px 6px #666,
             6px 6px 6px black;    
+
+<!--dablet uitleg-->
+
+
+
+
+**Resources**    
 
 [Text shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
 
@@ -207,6 +224,12 @@ Uitleg over transforms
     transform: translate(0,10%) rotate(90deg) 
         scale(.5) skew(45deg);
     
+<!--dablet uitleg-->
+
+
+
+
+**Resources**    
 
 [transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
@@ -230,7 +253,10 @@ Uitleg over transforms
 ## CSS transitions
 Uitleg over CSS transitions
 
+<!--dablet uitleg-->
 
+
+**Resources**    
 
 
 
@@ -260,9 +286,10 @@ De omschrijving staat er telkens boven. [http://dabblet.com/gist/1865805](http:/
 !
 
 ### Bespreken Opdracht 2.6 en 2.7
-
 Voorbeeld van studenten in Dabblet tonen?
 
+
+<!--dablet uitleg-->
 
 ####Opdracht 2.6 - Artikelpagina met child selectors en sibling combinators
 Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien.
@@ -272,6 +299,7 @@ Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien.
 Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien.
 
 
+**Resources**    
 
 * [Direct child selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors) >
 * [Adjacent sibling selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) +

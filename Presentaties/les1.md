@@ -207,11 +207,9 @@ Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
  
 **Resources**
 
-[HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
-
-[HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
-
-[HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
+* [HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
+* [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
+* [HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 
 
 !
@@ -231,10 +229,6 @@ Ga naar [www.dabblet.com](http://www.dabblet.com)
 
 
 [http://dabblet.com/gist/1717587](http://dabblet.com/gist/1717587)
-
-
-
-
 
 
 
