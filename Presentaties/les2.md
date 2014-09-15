@@ -334,7 +334,17 @@ Wat hebben we behandeld (lesdoelen van vandaag)?
     Deze moet je volgende week kunnen toepassen
   
 * **Deeltoets 1** niet gehaald?
-≈ 48 uur is de herkansing. Zie je rooster.
+    ≈ 48 uur is de herkansing. Zie je rooster.
+
+
+1. **Groep 1** Koop & David -  woensdag  09:20 - 11:00
+2. **Groep 2** Sanne & Jan -  donderdag	11:10 - 13:40
+3. **Groep 3** Koop & Vasilis -  donderdag 11:10 - 12:50
+4. **Groep 4** David & Jonathan -  donderdag 13:40 - 15:20
+5. **Groep 5** Vasilis & Jonathan -  vrijdag 11:10 - 12:50
+
+
+
 
 
 !
