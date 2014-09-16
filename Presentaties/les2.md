@@ -239,12 +239,18 @@ Uitleg over transforms
 ### Opdracht 2.5 - 15 minuten
 ## CSS transitions
 
-3 opdrachten om CSS transistions te begrijpen:  
+1 opdracht om CSS transistions te begrijpen:  
 [http://vasilis.nl/hva/03/oefeningen.html#slide19](http://vasilis.nl/hva/03/oefeningen.html#slide19)  
+ 
+1. [http://vasilis.nl/hva/03/oefeningen.html#transitions](http://vasilis.nl/hva/03/oefeningen.html#transitions)  
 
-1. [http://vasilis.nl/hva/03/oefeningen.html#slide20](http://vasilis.nl/hva/03/oefeningen.html#slide20)  
-2. [http://vasilis.nl/hva/03/oefeningen.html#transitions](http://vasilis.nl/hva/03/oefeningen.html#transitions)  
-3. [http://vasilis.nl/hva/03/oefeningen.html#slide22](http://vasilis.nl/hva/03/oefeningen.html#slide22) 
+Spelen met transities:
+
+- Verander de timing delay
+- Verander de actergrondkleur
+- Verander transparrantie
+- Zorg dat alleen de background animeert
+- ...
 
 
 !
