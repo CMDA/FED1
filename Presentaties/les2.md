@@ -360,7 +360,7 @@ Wat hebben we behandeld (lesdoelen van vandaag)?
 <br/>
 <br/>
 
-[Tussenstand](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) op bord tonen 
+[Tussenstand AVV's en Weekly Nerd](https://docs.google.com/spreadsheets/d/1Uo9a3xRDhs6M3dWl0AgJ05UZNJDh6REjCwpxT3aZs2w/pubhtml) klik klik klik
 
 
 < / section >

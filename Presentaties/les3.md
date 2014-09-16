@@ -133,6 +133,11 @@ Wat hebben we behandeld (lesdoelen)?
 
 ## op.
 
+<br/>
+<br/>
+
+[Tussenstand AVV's en Weekly Nerd](https://docs.google.com/spreadsheets/d/1Uo9a3xRDhs6M3dWl0AgJ05UZNJDh6REjCwpxT3aZs2w/pubhtml) klik klik klik
+
 
 < / section >
 
