@@ -32,7 +32,7 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 ## Lesdoelen
 - Introductie CSS3 vormgeving en effecten + selectors (college)  
 - The Design principles of HTML5 en de funky border-radius (Weekly Nerd)  
-- Klussen met effecten: border-radius, box-shaddow, transities, transforms, css transitions
+- Klussen met effecten: border-radius, box-shadow, text-shadow, transforms, css transitions
 - Klussen met selectors: selectors in een artikelpagina en formulier
 - Mondeling afnemen: formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
 (Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
@@ -134,7 +134,7 @@ Uitleg over de border-radius
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.2 - 15 minuten
-## box-shadow
+## Box-shadow
 
 4 opdrachten om de box-shadow te begrijpen:   
 [http://vasilis.nl/hva/03/oefeningen.html#slide7](http://vasilis.nl/hva/03/oefeningen.html#slide7)  
@@ -148,7 +148,7 @@ Uitleg over de border-radius
 
 
 ### Bespreken Opdracht 2.2
-## box-shadow
+## Box-shadow
 Uitleg over de box-shadow
 
     box-shadow: 0 100px 0 rgba(255,255,255,.2) inset;
@@ -169,7 +169,7 @@ Uitleg over de box-shadow
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.3 - 15 minuten
-## Text shadow
+## Text-shadow
 
 4 opdrachten om text-shadow te begrijpen:  
 [http://vasilis.nl/hva/03/oefeningen.html#slide12](http://vasilis.nl/hva/03/oefeningen.html#slide12)    
@@ -271,8 +271,8 @@ Uitleg over CSS transitions
 
 ##### 4. Klussen (45 - 185/200 minuten)
 ### Opdracht 2.6 - 20 minuten
-## Artikelpagina met selectors
-Child selectors en sibling combinators oefening
+## Child selectors en sibling combinators
+Artikelpagina met child selectors en sibling combinators oefening
 
 Opdracht:
 Vervang alle … door de juiste selector of combinatie. 
@@ -280,8 +280,8 @@ De omschrijving staat er telkens boven. [http://dabblet.com/gist/1864659](http:/
 
 
 ### Opdracht 2.7 - 20 minuten
-## Formulierpagina met selectors
-Attribute selectors and bling oefening
+## Attribute selectors
+Formulierpagina met attribute selectors
 
 Opdracht:
 Vervang alle … door de juiste selector of combinatie.
@@ -297,12 +297,12 @@ Voorbeeld van studenten in Dabblet tonen?
 
 <!--dablet uitleg-->
 
-####Opdracht 2.6 - Artikelpagina met child selectors en sibling combinators
-Het resultaat moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien.
+####Opdracht 2.6 - Child selectors en sibling combinators
+De artikelpagina moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien.
 
 
-####Opdracht 2.7 - Formulierpagina attribute selectors and bling
-Het formulier moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien.
+####Opdracht 2.7 - Attribute selectors
+De formulierpagina moet er ongeveer [zo](http://dabblet.com/gist/1865228) uitzien.
 
 
 **Resources**    

@@ -198,7 +198,7 @@ Introductie duo’s maken en aan de tafels naast elkaar gaan zitten
 
 ##### 4. Klussen (100 - 180/200 minuten)
 ### Opdracht 1.1 - 15 minuten
-## Semantic Markup #1 
+## Semantic Markup 
 
 Maak deze ‘traditionele’ pagina-indeling in HTML5.  
 Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
@@ -215,7 +215,7 @@ Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
 !
 
 ### Bespreken Opdracht 1.1
-## Semantic Markup #1 
+## Semantic Markup 
 
 Voorbeeld van studenten in Dabblet tonen.
 
@@ -237,7 +237,7 @@ Ga naar [www.dabblet.com](http://www.dabblet.com)
 
 ##### 4. Klussen (100 - 180/200 minuten)
 ### Opdracht 1.2 - 15 minuten
-## De HTML pagina
+## HTML pagina?
 
 De gemaakte pagina in opdracht 1 is nog GEEN html pagina  
 
@@ -250,7 +250,7 @@ Voeg deze toe...
 !
 
 ### Bespreken Opdracht 1.2 
-## De HTML pagina
+## HTML pagina?
 
 Laten zien 
 
@@ -431,7 +431,6 @@ opdracht staat ook hier [http://dabblet.com/gist/19109aa625ef7e222432](http://da
 Heeft een student een mooie oplossing?
 
 Gooi in [Dabblet](http://www.dabblet.com)!
-
 
 
 Het resultaat moet er ongeveer zo uitzien:
