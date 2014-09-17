@@ -22,10 +22,10 @@ Picture element en feature detection.
 Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3 en Javascript. In 8 weken werken studenten in de les en thuis aan de eindopdracht. 
 
 1. Give me a fucking < br / > [Presentatie](Presentaties/les1-gimme-a-fucking-br.html) [College](Colleges/les1-gimme-a-fucking-br/index.html) [pdf](Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
-2. Kiss my CSS [Presentatie](Presentaties/les2-kiss-my-css.html) [College](Colleges/les2-kiss-my-css/index.html) [pdf](Colleges/les2-kiss-my-css/kiss-my-css.pdf)
-3. I’ve got < em > [Presentatie](Presentaties/les3-i-ve-got-em.html) [College](Colleges/les3-I-ve-got-em/index.html) [pdf](Colleges/les3-I-ve-got-em/I-ve-got-em.pdf)
+2. Kiss my CSS [Presentatie](Presentaties/les2-kiss-my-css.html) [College](Colleges/les2-kiss-my-CSS/index.html) [pdf](Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
+3. I’ve got < em > [Presentatie](Presentaties/les3-i-ve-got-em.html) [College](Colleges/les3-i-ve-got-em/index.html) [pdf](Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
 4. Display: none [Presentatie](Presentaties/les4-display-none.html) [College](Colleges/les4-display-none/index.html) [pdf](Colleges/les4-display-none/display-none.pdf)
-5. You are the CSS to my HTML [Presentatie](Presentaties/les5-you-are-the-css-to-my-html.html) [College](Colleges/les5-you-are-the-css-to-my-html/index.html) [pdf](Colleges/les5-you-are-the-css-to-my-html/you-are-the-css-to-my-html.pdf)
+5. You are the CSS to my HTML [Presentatie](Presentaties/les5-you-are-the-css-to-my-html.html) [College](Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) [pdf](Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
 6. < img > is everything [Presentatie](Presentaties/les6-img-is-everything.html) [College](Colleges/les6-img-is-everything/index.html) [pdf](Colleges/les6-img-is-everything/img-is-everything.pdf)
 7. /* no comment */ [Presentatie](Presentaties/les7-no-comment.html) [College](Colleges/les7-no-comment/index.html) [pdf](Colleges/les7-no-comment/no-comment.pdf)
 8. < / HTML >
