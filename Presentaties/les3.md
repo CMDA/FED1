@@ -160,7 +160,7 @@ Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9 ) uit.
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 3.1 - 30 minuten
-## Javascript ClassList Object aanspreken met query selector functie
+## Javascript ClassList Object aanspreken met query selector functie - 1
 
 
 ### Download een pdf file
@@ -192,9 +192,22 @@ Antwoord in Dablet tonen (Vasilis maakt de opdracht in Dablet)
 
 !
 
-
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 3.2 - 20 minuten
+## Javascript ClassList Object aanspreken met query selector functie - 2
+
+### Model dialog openen
+3.2 Opdracht: 
+Model dialog openen (pop over): Javascript ClassList Object aanspreken met query selector functie, 
+classes toevoegen, query selectors: toggelen met javascript
+
+
+!
+
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 3.3 - 20 minuten
 ## Flexible typesetting
 
 ### I know so little about you
@@ -211,7 +224,7 @@ responsive les ...
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.2 - 20 minuten
+### Opdracht 3.3 - 20 minuten
 ## Flexible typesetting
 
 ### I know so little about you
@@ -228,7 +241,7 @@ Maak de title + read more na
 
 
 
-### Bespreken Opdracht 3.2
+### Bespreken Opdracht 3.3
 ## Flexible typesetting
 
 
