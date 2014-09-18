@@ -230,6 +230,7 @@ nextStep.classList.toggle('is-visible');</code></pre>
 				<section>
 					<section>
 						<h2>Flexbox</h2>
+						<p><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">Zie hier</a></p>
 						
 						<aside class="notes">
 							CSS was voor teksten. We misbruikten proprties om layouts te kunnen maken. Er was behoefte aan krachtigere tools om mee te layouten. Een daarvan is Flexbox.
@@ -345,79 +346,73 @@ nextStep.classList.toggle('is-visible');</code></pre>
 							Om één item anders uit te laten lijnen dan de standaard uitlijning.
 						</aside>
 					</section>
+					<section>
+						<h2>Flexbox in de praktijk</h2>
+						<p><a href="http://philipwalton.github.io/solved-by-flexbox/">Mooie voorbeelden</a></p>
+					</section>
 				</section>
 				<section>
 					<section>
-						<h1>Selectors</h1>
+						<h1>Units voor typografie</h1>
 					</section>
 					<section>
-						<h2>Universal selector</h2>
+						<h2>Vroeger</h2>
 						<pre><code data-trim contenteditable>
-* {
-	color: green;
-	border: 1px solid green;
-}</code></pre>
-						<aside class="notes">
-							Wat vooral belangrijk is is dat studenten begrijpen wát ze kunnen vormgeven. Het is interessant als een designer weet dat je een element wat na een ander element staat kunt stijlen (maar niet iets wat er voor staat). Of dat je de laatste drie dingen kunt stijlen (hoewel we daar pas volgende week mee aan de slag gaan).
-						</aside>
-					</section>
-					<section>
-						<h2>Type selector</h2>
-						<pre><code data-trim contenteditable>
+
+
+h1 {
+    font-size: 32px;
+}
+h2{
+    font-size:22px;
+}
+h3{
+    font-size:15px;
+}
+h4{
+    font-size:13px;
+}
+button {
+    font-size: 14px;
+}
 body {
-	background: white;
-}</code></pre>
-					</section>
-					<section>
-						<h2>Descendant selector</h2>
-						<pre><code data-trim contenteditable>
-body div {
-	background: white;
-}</code></pre>
-					</section>
-					<section>
-						<h2>Direct child selector</h2>
-						<pre><code data-trim contenteditable>
-body > div {
-	background: white;
-}</code></pre>
-<pre class="fragment"><code data-trim contenteditable>
-body div {
-	background: white;
+    font-size: 12px;
 }</code></pre>
 						<aside class="notes">
-							Wat is het verschil. Dat lijkt me een prima vraag om even in de klas te stellen.
+							Vroeger gebruikten we pixels voor typografie. Daar zitten een aantal nadelen aan. Dat is alsof bokvorbeeld je een liedje laat horen en de geluidsinstellingen van de luisteraar negeert. Onbeleefd. 
 						</aside>
 					</section>
-					<section>
-						<h2>Adjacent sibling selector</h2>
-						<pre><code data-trim contenteditable>
-label + input {
-	background: none;
-}</code></pre>
+					<section data-background="img/font-pref-1.jpg" data-background-size="contain"></section>
+					<section data-background="img/font-pref-2.jpg" data-background-size="contain">
+						
 						<aside class="notes">
-							Dit is een hele krachtige waarmee je relaties kunt leggen.
+							Wat zou er gebeuren als we de grootte van ons font aanpassen in de voorkeuren?
 						</aside>
 					</section>
-					<section>
-						<h2>Attribute selector</h2>
-						<pre><code data-trim contenteditable>
-[for="email"] {
-    background: slategray;
-}</code></pre>
-<pre><code data-trim contenteditable>
-a[href^="https://"] {
-    background: url(veiligelink.svg);
-}</code></pre>
-<pre><code data-trim contenteditable>
-img[src$=".jpg"] + p {
-    font-style: italic;
-}</code></pre>
+					<section data-background="img/font-pref-3.jpg" data-background-size="contain">
 						<aside class="notes">
-							Geen classes nodig, gewoon dingen stijlen aan de hand van attributen die ze al hebben. Kan je dingen <em>semantisch</em> stijlen. Veilig icoontje als een link met https// begint. De paragraaf die direct na een jpg staat anders stijlen dan die na een gif staat. ETC.
-							Dit moet allemaal in een half uur passen. 
+							Als we besluiten dat de fonts allemaal eigenlijk te klein zijn, zoals hier overduidelijk het geval is, dan moeten we alle font-size declaraties aan gaan passen.
 						</aside>
 					</section>
+					<section data-background="img/death-to-the-pixels.jpg" data-background-size="contain"></section>
+					<section>
+						<h2>EM</h2>
+						<pre><code data-trim contenteditable>
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}</code></pre>
+						<aside class="notes">
+							In plaats van pixels kunnen we typografie beter opzetten in verhoudingen. De unit die we daarvoor gebruiken is de em. Hiermee worden de voorkeuren van gebruikers niet genegeerd. Bovendien, als wij besluiten dat de font-size voortaan groter moet, dan kunnen we dat gewoon doen door alleen de font-size op de html te vergroten.
+						</aside>
+					</section>
+					<section data-background="img/em-layout-2.png" data-background-size="contain"></section>
+					<section data-background="img/em-layout-3.png" data-background-size="contain"></section>
 					
 				</section>
 			</div>
