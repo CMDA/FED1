@@ -258,49 +258,91 @@ nextStep.classList.toggle('is-visible');</code></pre>
   flex-direction: row | row-reverse | column | column-reverse;
 }</code></pre>
 						<aside class="notes">
-							Zo maak je een container een flexbox. 
+							Je kan de content vier richtingen meegeven
 						</aside>
 					</section>
 					<section>
-						<h2>Box-shadow</h2>
-						<textarea class="snippet demo-box dont-adjust" data-subject>box-shadow: 5px 5px 20px black;</textarea>
+						<h2>Properties for the parent</h2>
+						<p>justify-content</p>
+						<img src="img/justify-content.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}</code></pre>
 						<aside class="notes">
-							Laat zien waar elke waarde voor dient. Voeg ook het vierde cijfer, spread, toe. Laat ook zien dat hsla() of rgba() voor mooiere resultaten kan zorgen. Toon wat het woordje 'inset' doet: box-shadow: inset 0 0 15px 14px white;<br>
-							Laat ook multiple backgrounds zien. bijvoorbeeld: <br>
-							box-shadow: 0 0 0 2px black,0 0 0 4px green,0 0 0 6px red, 0 0 0 8px yellow, 0 0 0 10px olivedrab, 0 0 0 12px purple, 0 0 0 14px white;
+							Uitlijning kan op een aantal manieren. Lekker flexibel!
 						</aside>
 					</section>
 					<section>
-						<iframe src="http://mothereffingtextshadow.com/">Voorbeeld</iframe>
+						<h2>Properties for the parent</h2>
+						<p>align-items</p>
+						<img src="img/align-items.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
 						<aside class="notes">
-							Klik vooral even op de All the way button
+							Uitlijning kan op een aantal manieren. Lekker flexibel!
 						</aside>
 					</section>
 					<section>
-						<h2>Transform</h2>
-						<textarea class="snippet demo-box dont-adjust" data-subject>transform: rotate(1deg);</textarea>
+						<h2>Properties for the parent</h2>
+						<p>flex-wrap</p>
+						<img src="img/flex-wrap.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+	flex-wrap: nowrap | wrap | wrap-reverse;
+}</code></pre>
 						<aside class="notes">
-							 Laat zien: scale(1.1) en skew(0deg, 20deg) en translate(10px, 10px). Laat ook combinaties zien, of leg ze uit dat combinaties mogelijk zijn. transform-origin: 0 0; is ook goed om te laten zien. 
+							Je kan ook over meerdere regels flexen. Zonder deze property zal alles op een regel gepropt worden
 						</aside>
 					</section>
 					<section>
-						<h2>Transities</h2>
-						<iframe src="transitions.html">Voorbeeld</iframe>
+						<h2>Properties for the parent</h2>
+						<p>align-content</p>
+						<img src="img/align-content.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}</code></pre>
 						<aside class="notes">
-							soms doet deze slide het niet. Open dan http://vvg.gr/ih in een nieuwe tab
-							 Je kan alleen een enkele propertie animeren, bijvoorbeeld<br>
-							 textarea { transition: color 1s; }<br>
-							textarea:hover { background: green; color: yellow }<br>
-							Je kan ook een trasition delay toevoegen: <br>
-							textarea { transition: color 1s 1s; }
-							Voor easing kan je keywords gebruiken zoals linear, ease-in, ease-out. 
+							Met flex-wrap aan kan je ook bepalen wat er met de content tussen de regels gebeurt
 						</aside>
 					</section>
 					<section>
-						<h2>Transities</h2>
-						<iframe src="http://cubic-bezier.com/#.17,.67,.83,.67"></iframe>
+						<h2>Properties for the Children</h2>
+						<p>order</p>
+						<img src="img/order.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  order: &lt;integer>;
+}</code></pre>
 						<aside class="notes">
-							Laat ze hier mee spelen. Zeker voor de mensen die motion design tof vinden is deze pagina heel belangrijk: hiermee hebben ze fine control over hoe een component animeert. Geef ze de URL cubic-bezier.com/
+							Op welke plek moet dit ding staan. Superhandig voor responsive designs waar de volgorde van de code niet altijd overeenkomt met de ideale visuele volgorde.
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>flex-grow</p>
+						<img src="img/flex-grow.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  flex-grow: &lt;number>; /* default 0 */
+}</code></pre>
+						<aside class="notes">
+							Hoeveel ruimte moet dit ding innemen in verhouding tot de andere items? Als alles op 1 staat, dan is alles even breed. Als er echter eentje op 2 staat dan is die twee keer zo breed dan de andere items.
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>align-self</p>
+						<img src="img/align-self.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
+						<aside class="notes">
+							Om één item anders uit te laten lijnen dan de standaard uitlijning.
 						</aside>
 					</section>
 				</section>
