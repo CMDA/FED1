@@ -6,7 +6,8 @@
 
 # Display: none
 ###### Frontend development - les 4
-Deze les gaat over:  
+Deze les gaan we verder aan de slag met de Flexbox. 
+We gaan het Box-model bespreken met positionering, en we gaan oefenen met Units voor layouts.
 
 <img src="kledingvoorschriften" alt="kledingvoorschriften">
 
@@ -87,24 +88,91 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 !
 
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 3.3 - 20 minuten
+## Flexbox
+
+
+
+!
+
+### Bespreken Opdracht 3.3
+## Flexbox
+
+
+
+!
+
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.1 - 15 minuten
-## Semantic Markup #1 
+### Opdracht 4 - 20 minuten
+## Opdrachten
 
-Tekst en uitleg
+
+4.1 Box model
+4.2 Positioneren elementen in een container
+4.3 Display
+4.4 Units: I know so little about you (typogrsfie en de em)
+4.5 Units: layout opzetten in verhoudigen
 
 
 !
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.1 - 20 minuten
+## Flexible typesetting: Units voor typografie
+
+### I know so little about you
+
+
+Intro
+
+en uiteenzetten wat we wanneer gaan leren
+flex box ...
+responsive les ...
+
+
+!
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.1 - 20 minuten
+## Flexible typesetting
+
+### I know so little about you
+
+
+Klussen
+
+Maak de title + read more na
+
+
+
+!
+
 
 ### Bespreken Opdracht 4.1
-## Semantic Markup #1 
+## Flexible typesetting
 
-Tekst en uitleg
-Voorbeeld van studenten in Dabblet tonen.
-Antwoord in Dablet tonen
+
 
 !
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.2 - 20 minuten
+## Units voor layout
+
+
+* Margin en padding in rem
+* Layout in procenten
+* of alles in viewport relative units
+
+
+
+
+
 
 # 5. Terugkijken 20 minuten
 ###### Frontend development - les 4

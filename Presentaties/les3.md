@@ -8,7 +8,7 @@
 ###### Frontend development - les 3
 Deze les gaat over het Javascript ClassList Object, 
 waarmee je dom elementen kunt selecteren en classes kan toewijzen. 
-We gaan aan de slag met de Flexbox, Grids en units, zoals pixels, ems en procenten. 
+We gaan aan de slag met de Flexbox en units for typografie, zoals pixels, ems en procenten. 
 
 <img src="http://image.spreadshirt.com/image-server/v1/products/110835203/views/1,width=280,height=280.png" alt="kledingvoorschriften">
 
@@ -187,7 +187,11 @@ Tekst en uitleg
 
 Voorbeeld van studenten in Dabblet tonen.
 
-Antwoord in Dablet tonen (Vasilis maakt de opdracht in Dablet)
+Antwoord in Dablet tonen [Vasilis maakt de opdracht in Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b)
+
+
+Laat zien hoe content werkt: zowel met “content tussen quotes”, als met de url() en de attr() functies en combinaties daarvan.
+
 
 
 !
@@ -206,47 +210,7 @@ classes toevoegen, query selectors: toggelen met javascript
 
 
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.3 - 20 minuten
-## Flexible typesetting
 
-### I know so little about you
-
-
-Intro
-
-en uiteenzetten wat we wanneer gaan leren
-flex box ...
-responsive les ...
-
-
-!
-
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.3 - 20 minuten
-## Flexible typesetting
-
-### I know so little about you
-
-
-Klussen
-
-Maak de title + read more na
-
-
-
-!
-
-
-
-
-### Bespreken Opdracht 3.3
-## Flexible typesetting
-
-
-
-!
 
 
 
