@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Kiss my CSS — Hoorcollege 2 — Front-end development V1</title>
+		<title>I've got em — Hoorcollege 3 — Front-end development V1</title>
 
-		<meta name="description" content="Hoorcollege bij les 2 van Frontend Development in de V1 op de HvA.">
+		<meta name="description" content="Hoorcollege bij les 3 van Frontend Development in de V1 op de HvA.">
 		<meta name="author" content="Vasilis van Gemert">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -46,6 +46,9 @@ iframe {
 iframe {
 	height: 80vh;
 }
+.reveal section img[src$=".svg"] {
+	background: white;
+}
 		</style>
 
 		<!--[if lt IE 9]>
@@ -60,16 +63,15 @@ iframe {
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Kiss my CSS</h1>
-					<h3>Frontend Development Les 2</h3>
+					<h1>I've got em</h1>
+					<h3>Frontend Development Les 3</h3>
 				</section>
 
 				<section>
 					<h1>Vorige week</h1>
 					<ul>
-						<li>Geschiedenis van HTML</li>
-						<li>Nieuwe, semantische elementen</li>
-						<li>Formulieren</li>
+						<li>CSS bling</li>
+						<li>Selectors deel 1</li>
 					</ul>
 					<aside class="notes">
 						Even heel kort samenvatten waar we het ook al weer over hebben gehad vorige week. Niet te lang bij stilstaan want er is heel veel materiaal te behandelen.
@@ -79,113 +81,184 @@ iframe {
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>CSS</h2>
-						<p><em>Cascading</em> Stylesheets</p>
-						<blockquote class="fragment"><p>The process of combining several style sheets and resolving conflicts between them.</p><cite>Håkon Wium Lie</cite></blockquote>
-
+						<h2>Selectors</h2>
+						<p>Deel 2</p>
+						
 						<aside class="notes">
-							Wat is een cascade? Volgens woordenboeken is het een waterval. Een opeenvolging van dingen. Vooral één richtingsverkeer dus. De code wordt lineair gelezen. Lekker simpel. De definitie van Håkon Wium Lie, een van de bedenkers van CSS is lekker duidelijk. Cascading heeft een paar toffe eigenschappen tot gevolg:
+							We gaan verder in op selectors. Even nog de nth-child en nth-of-type selectors bespreken en dan vooral bekijken wat we er allemaal mee kunnen doen.
 						</aside>
 					</section>
 					<section>
-						<h2>Overerving</h2>
+						<h2>Rechts naar links</h2>
 						<pre><code data-trim contenteditable>
-body {
+body > div {
 	color: green;
-	border: 1px solid green;
 }
-p {
-	/* Kleur is vanzelf green,
-	Border is niet vanzelf 1px solid green */
-	border: inherit;
+h1 + p {
+	margin-top: -1em;
+}
+h1, p {
+	font-weight: normal;
 }</pre></code>
 						<aside class="notes">
-							Sommige eigenschappen worden vanzelf overgeërfd, andere niet. Het lijkt dat vooral eigenschappen om tekst en tabellen te stijlen overgeërfd worden. Met het woordje 'inherit' kan je het forceren.
+							De makkelijkste manier om een selector te lezen is om van rechts naar links te lezen: een div die direct in de body staat. Een p die direct na een h1 staat. Die derde staat er bij omdat mensen soms denken dat de + hetzelfde is als de komma.
 						</aside>
 					</section>
 					<section>
-						<h2>CSS is tolerant</h2>
+						<h2>child selectors</h2>
 						<pre><code data-trim contenteditable>
-bdoy {
-	colour: #gghhjj;
+p:first-child {
+	font-size: 1.414em;
 }</code></pre>
 						<aside class="notes">
-							Een andere fijne eigenschap is het feit dat code die niet begrepen wordt gewoon genegeerd wordt. Dit lijkt een <em>minor detail</em>, maar dit is essentieel om te kunnen innoveren:
+							De meeste studenten kunnen wel verzinnen wat dit betekent
 						</aside>
 					</section>
 					<section>
-						<h2>CSS is dus handig</h2>
+						<h2>child selectors</h2>
 						<pre><code data-trim contenteditable>
-body {
-	background: green; /* oude browsers */
-	background: hsla(0,50%,50%,.5); /* nieuwe browsers */
+p:first-child {
+	font-size: 1.414em;
 }</code></pre>
-						
+<pre><code data-trim contenteditable>
+p:first-of-type {
+	font-size: 1.414em;
+}</code></pre>
 						<aside class="notes">
-							Zonder deze eigenschap hadden we nooit nieuwe CSS kunnen gebruiken. Wat niet begrepen wordt wordt genegeerd, wat wel begrepen wordt overschrijft datgene wat er aan vooraf ging. Hoera, vooruitgang!
+							Vraag ze naar het verschil tussen deze twee. De eerste is alleen voor paragrafen die daadwerkelijk de eerste child zijn van hun parent. De tweede is voor elke eerste paragraaf in een parent, ook als er bijvoorbeeld een h1 voor staat. Of 100 ul's.
 						</aside>
 					</section>
 					<section>
-						<h2>CSS is dus handig</h2>
-						<pre><code data-trim contenteditable>body {
-	background: green;
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+li:nth-of-type(2) {
+	background: papayawhip;
+}</code></pre>
+<pre><code data-trim contenteditable>
+li:nth-of-type(2n) {
+	background: papayawhip;
+}</code></pre>
+						<aside class="notes">
+							Zebrastriping doe je zo
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+<pre><code data-trim contenteditable>
+li {
+	background: rebeccapurple;
 }
-body {
-	background: white;
+li:nth-of-type(3n + 2) {
+	background: papayawhip;
+}
+li:nth-of-type(3n + 3) {
+	background: olivedrab;
 }</code></pre>
-<pre class="fragment"><code data-trim contenteditable>.night-modus {
-	background: black;
-}</code></pre>
-						
 						<aside class="notes">
-							Door een class toe te voegen kunnen we er dus voor zorgen dat dingen er anders uit gaan zien. 
+							Clownstriping — met drie kleuren — doe je zo. Laat zien dat het makkelijk is als je rechts begint met lezen: Selecteer de derde, neem vervolgens telkens een stap van drie.
+						</aside>
+					</section>
+					<section>
+						<h2>De laatste drie selecteren</h2>
+<pre class="fragment"><code data-trim contenteditable>
+div:nth-last-of-type(-n + 3) {
+	width: 33.33333%;
+}
+</code></pre>			
+						<aside class="notes">
+							Begin op de derde vanaf en eind, en tel er dan telkens -1 bij op (is hetzelfde als trek er telkens 1 van af ja).
 						</aside>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>Bling!</h2>
+						<h2>JavaScript!</h2>
 						<aside class="notes">
-							De overgang van de vorige slide naar deze is met CSS gedaan. 
+							Deze selectors kunnen we ook in JavaScript gebruiken, om een class te togglen op een element.
 						</aside>
 					</section>
 					<section>
-						<h2>Vroeger</h2>
-<pre><code data-trim contenteditable>body {
-	font: 100%/1.5 helvetica, arial, sans-serif;
-	color: papayawhip;
-	border: 1em solid olivedrab;
-}</code></pre>
+						<h2>querySelector</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');</code></pre>
 						<aside class="notes">
-							CSS is ooit ontwikkeld om tekstdocumenten mee vorm te geven. Het is in de eerste 15 jaar eigenlijk nauwelijks geüpdatet. Omdat we toch ook mooie dingen wilden maken gingen we hacken. Ook bij CSS3 gold: mensen willen dit doen, laten we er voor zorgen dat dat dan ook kan.
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
 						</aside>
 					</section>
 					<section>
-						<h2>Dus</h2>
-<pre><code style="border-radius: .3em;" data-trim contenteditable>div {
-	border-radius: .3em;
-}</code></pre>
+						<h2>querySelectorAll</h2>
+<pre><code data-trim contenteditable>
+var secondSteps = document.querySelectorAll('fieldset:nth-of-type(2n)');</code></pre>
 						<aside class="notes">
-							Mensen willen ronde hoekjes? Dat kan. 
+							querySelectorAll maakt een nodelist van elke tweede fieldset. Als er zes fieldsets zijn dan zijn er drie items in deze nodelist. secondSteps[1] zou de tweede daarvan aanspreken.
 						</aside>
 					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+					<p><a href="examples/fieldsets.html">voorbeeld</a></p>
+						<aside class="notes">
+							Met classList kan je heel makkelijk classes toevoegen, verwijderen of togglen
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+nextStep.classList.add('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.remove('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.toggle('is-visible');</code></pre>
 					
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
 				</section>
 
 				<section>
 					<section>
-						<h2>Opacity</h2>
-						<textarea class="snippet demo-box dont-adjust" data-subject>opacity: 1;</textarea>
+						<h2>Flexbox</h2>
+						
 						<aside class="notes">
-							LIVE CODING! De CSS die je in deze box typt beinvloedt de box! 
-							Laat hier zien dat je ook hsla(0,50%,50%,0.5) kunt doen om alleen de achtergrond transparant te maken. Toon het duidelijke verschil met opacity. Als je zin hebt kun je ook nog background: currentColor; laten zien.
+							CSS was voor teksten. We misbruikten proprties om layouts te kunnen maken. Er was behoefte aan krachtigere tools om mee te layouten. Een daarvan is Flexbox.
+							Het idee achter flexbox is dat je het parent-element de mogelijkheid om de beschikbare ruimte zo goed mogelijk te verdelen onder de children. 
+							Lees deze pagina goed door. Dat is voor een groot deel onze les: http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+							Bekijk ook deze pagina, want daar staan hele goed voorbeelden: http://philipwalton.github.io/solved-by-flexbox/
 						</aside>
 					</section>
 					<section>
-						<h2>Border-radius</h2>
-						<textarea class="snippet demo-box dont-adjust" data-subject>border-radius: 20px;</textarea>
+						<h2>Properties for the parent</h2>
+						<img src="img/flex-container.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  display: flex;
+}</code></pre>
 						<aside class="notes">
-							Laat zien dat je alle hoeken apart kunt aanpassen door bijvoorbeeld 20px 80px 40px 0 te typen. Laat ook horizontale en verticale border radius zien door dingen als '20px / 80px;' of 20px 100px 0 100% / 80px of percentages te laten zien. Hier gaan ze mee oefenen, niet te lang op doorgaan dus!
+							Zo maak je een container een flexbox. 
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<p>flex-direction</p>
+						<img src="img/flex-direction1.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}</code></pre>
+						<aside class="notes">
+							Zo maak je een container een flexbox. 
 						</aside>
 					</section>
 					<section>
