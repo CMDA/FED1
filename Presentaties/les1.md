@@ -169,7 +169,7 @@ Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 s
 ##### 3. Weekly Nerd (30 - 80/200 minuten)
 # Wie zit waar?
 
-lijst 
+lijst op beamer tonen met wie waar zit ...
 
 
 

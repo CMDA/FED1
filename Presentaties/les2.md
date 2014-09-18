@@ -77,8 +77,7 @@ dan moet dit onderdeel herkanst worden met een tentamen.
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Wie zit waar?
 
-lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) laten zien
-
+lijst op beamer tonen met wie waar zit ...
 
 
 !
@@ -292,6 +291,8 @@ De omschrijving staat er telkens boven. [http://dabblet.com/gist/1865805](http:/
 !
 
 ### Bespreken Opdracht 2.6 en 2.7
+## Child selectors en sibling combinators
+## Attribute selectors
 Voorbeeld van studenten in Dabblet tonen?
 
 

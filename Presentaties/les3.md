@@ -33,11 +33,10 @@ We gaan aan de slag met de Flexbox, Grids en units, zoals pixels, ems en procent
 
 ## Lesdoelen
 
-- 
-- 
-- 
 
-
+- Leren hoe het Javascript ClassList Object en de Query selector te gebruiken om dynamisch classes toe te voegen
+- Spelen met de Flexbox en grids
+- Leren over units, pixels, em's, procenten
 
 !
 
@@ -55,7 +54,10 @@ Over Javascript ClassList Object aanspreken met query selector functie, de Flexb
 ###### Frontend development - les 3
 Iedere les bespreken we artikelen in kleine groepen. 
 
-Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
+Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. 
+Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd 
+dan moet dit onderdeel herkanst worden met een tentamen.
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
 
@@ -75,7 +77,7 @@ Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 s
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Wie zit waar?
 
-lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) laten zien
+lijst op beamer tonen met wie waar zit ...
 
 
 
@@ -104,20 +106,70 @@ margin, width, afmeting
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 2.6 - 25 minuten
-## required sterretje
+### Opdracht 2.7.3 - 10 minuten
+## Attribute selectors: Toon dat sterretje
 
+Hoe ging dit ook alweer?
+
+**Toon met CSS dynamisch iets op het scherm**
+
+Dit blok zorgt er voor dat er een rood sterretje komt te staan
+achter de elementen die hieraan voldoen:
+Een element met het attribuut for="naam"
+Een element met het attribuut for="email"
+
+
+	<label for="naam">Naam</label>
+	<input type="text" id="naam" required>
+
+    <label for="email">Email</label>
+	<input type="email" id="email" required>
+
+
+Voeg dit toe aan je artikel pagina:
+
+1. maak een CSS file
+2. Voeg het file toe aan je HTML
+3. Fix dat sterretje !
+
+
+!
+
+### Bespreken Opdracht 2.7.3
+## Attribute selectors: Toon dat sterretje
+
+<!--dablet uitleg-->
+Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9 ) uit.
+
+    /* 
+    Dit blok zorgt er voor dat er een rood sterretje komt te 
+    staan voor/achter de elementen die hieraan voldoen:
+    Een element met het attribuut for="naam"
+    Een element met het attribuut for="email"
+    */
+    
+    [for="naam"]:before,
+    [for="email"]:after {
+	   content: " *";
+	   color: red;
+	   font-size: 2em;
+    }
 
 
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.1 - 25 minuten
-## Attribute selectors Before After 
+### Opdracht 3.1 - 30 minuten
+## Javascript ClassList Object aanspreken met query selector functie
+
+
+### Download een pdf file
 
 In opdracht 2.7 van vorige les zat de opdracht met het *. 
 
-<a href=“http://example.com/file.pdf” data-kb=“1337”>A white paper</a>
+Nu gaan we dat gebruiken, samen met de Javascript Classlist object en de query selector
+
+    <a href=“http://example.com/file.pdf” data-kb=“1337”>A white paper</a>
 
 Zorg er voor dat dit er uit komt te zien als 
 
@@ -129,42 +181,74 @@ Zorg er voor dat dit er uit komt te zien als
 !
 
 ### Bespreken Opdracht 3.1
-## Before after
+## Download een pdf file
 
 Tekst en uitleg
+
 Voorbeeld van studenten in Dabblet tonen.
-Antwoord in Dablet tonen
+
+Antwoord in Dablet tonen (Vasilis maakt de opdracht in Dablet)
+
 
 !
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.2 - 45 minuten
-## Javascript ClassList Object aanspreken met query selector functie
+### Opdracht 3.2 - 20 minuten
+## Flexible typesetting
 
-<a href=“http://example.com/file.pdf” data-kb=“1337”>A white paper</a>
+### I know so little about you
 
-Zorg er voor dat dit er uit komt te zien als 
 
-[pdf-logo] A white paper (1337kb)
+Intro
+
+en uiteenzetten wat we wanneer gaan leren
+flex box ...
+responsive les ...
 
 
 !
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 3.2 - 20 minuten
+## Flexible typesetting
+
+### I know so little about you
+
+
+Klussen
+
+Maak de title + read more na
+
+
+
+!
+
+
+
 
 ### Bespreken Opdracht 3.2
-## Javascript ClassList Object aanspreken met query selector functie
+## Flexible typesetting
 
-Tekst en uitleg
-Voorbeeld van studenten in Dabblet tonen.
-Antwoord in Dablet tonen
+
 
 !
+
 
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 3.3 - 60 minuten
 ## Flexbox
+
+Flexbox oefening
+kan hier ook iet smet flexible grid uit les 5 van 2011 programma?
+Dat studenten ook rekenen met em waardes (en proenten?)
+Dus Flexbox gebruiken
+daarna een pagina met de flexbox en em's ??
+
+
 
 Experimenteren met Flexbox: Maak dit na (misschien hier al html toevoegen?)
 
@@ -194,14 +278,16 @@ Antwoord in Dablet tonen
 
 
 
+
+
 # 5. Terugkijken 20 minuten
 ###### Frontend development - les 3
 
 Wat hebben we behandeld (lesdoelen)?
 
-*
-*
-* 
+- Leren hoe het Javascript ClassList Object en de Query selector te gebruiken om dynamisch classes toe te voegen
+- Spelen met de Flexbox en grids
+- Leren over units, pixels, em's, procenten
 
 
 !
