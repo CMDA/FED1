@@ -90,16 +90,11 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
-3 opdrachten
-1. "Opdracht: Download link maken: 
-Attribute selector before and after gebruiken ...
-2.  Opdracht: Model dialog openen (pop over): Javascript ClassList Object aanspreken met query selector functie, classes toevoegen, query selectors: toggelen met javascript
-3. Experimenteren met Flexbox: Maak dit na 
-misschien hier al html toevoegen?
 
-
-margin, width, afmeting
-
+1. Attribute selectors: Required sterretje
+2. Attribute selectors: Download PDF file
+3. Javascript ClassList Object aanspreken met query selector functie
+4. Flexbox
 
 
 !
@@ -107,17 +102,16 @@ margin, width, afmeting
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 2.7.3 - 10 minuten
-## Attribute selectors: Toon dat sterretje
+## Attribute selectors: Required sterretje
 
 Hoe ging dit ook alweer?
 
 **Toon met CSS dynamisch iets op het scherm**
 
-Dit blok zorgt er voor dat er een rood sterretje komt te staan
-achter de elementen die hieraan voldoen:
-Een element met het attribuut for="naam"
-Een element met het attribuut for="email"
+Voeg dit toe aan je formulier pagina:
 
+Zorg ervoor dat er een rood sterretje komt te staan bij de required input velden. 
+Gebruik hiervoor de attribute selector.
 
 	<label for="naam">Naam</label>
 	<input type="text" id="naam" required>
@@ -126,20 +120,18 @@ Een element met het attribuut for="email"
 	<input type="email" id="email" required>
 
 
-Voeg dit toe aan je artikel pagina:
 
-1. maak een CSS file
-2. Voeg het file toe aan je HTML
-3. Fix dat sterretje !
+
+
 
 
 !
 
 ### Bespreken Opdracht 2.7.3
-## Attribute selectors: Toon dat sterretje
+## Attribute selectors: Required sterretje
 
 <!--dablet uitleg-->
-Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9 ) uit.
+Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9) uit.
 
     /* 
     Dit blok zorgt er voor dat er een rood sterretje komt te 
@@ -160,12 +152,12 @@ Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9 ) uit.
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 3.1 - 30 minuten
-## Javascript ClassList Object aanspreken met query selector functie - 1
+## Attribute selectors: Download PDF file
 
+In opdracht 2.7 van vorige les zat de opdracht met het *.
+In CSS kun je met de Attribute selector en bofore/after content 'in je HTML schrijven'.
 
-### Download een pdf file
-
-In opdracht 2.7 van vorige les zat de opdracht met het *. 
+In deze oefening gaan we afhankelijk van 
 
 Nu gaan we dat gebruiken, samen met de Javascript Classlist object en de query selector
 
@@ -183,14 +175,13 @@ Zorg er voor dat dit er uit komt te zien als
 ### Bespreken Opdracht 3.1
 ## Download een pdf file
 
-Tekst en uitleg
+Tekst en uitleg.
 
-Voorbeeld van studenten in Dabblet tonen.
-
-Antwoord in Dablet tonen [Vasilis maakt de opdracht in Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b)
+Antwoord in [Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) tonen.
 
 
-Laat zien hoe content werkt: zowel met “content tussen quotes”, als met de url() en de attr() functies en combinaties daarvan.
+Laat zien hoe content werkt: zowel met “content tussen quotes”, 
+als met de url() en de attr() functies en combinaties daarvan.
 
 
 
@@ -198,12 +189,17 @@ Laat zien hoe content werkt: zowel met “content tussen quotes”, als met de u
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 3.2 - 20 minuten
-## Javascript ClassList Object aanspreken met query selector functie - 2
+## Javascript ClassList Object aanspreken met query selector functie
 
-### Model dialog openen
-3.2 Opdracht: 
-Model dialog openen (pop over): Javascript ClassList Object aanspreken met query selector functie, 
-classes toevoegen, query selectors: toggelen met javascript
+### Fieldset toggelen met button-klik
+
+Javascript ClassList Object aanspreken met query selector functie, 
+class dynamisch toevoegen, query selectors: toggelen met javascript
+
+
+
+Antwoord in [Dablet](http://dabblet.com/gist/9f0ec7016d111959d8ea) tonen
+
 
 
 !
@@ -220,10 +216,16 @@ classes toevoegen, query selectors: toggelen met javascript
 ## Flexbox
 
 Flexbox oefening
-kan hier ook iet smet flexible grid uit les 5 van 2011 programma?
+kan hier ook iets met flexible grid uit les 5 van 2011 programma?
 Dat studenten ook rekenen met em waardes (en proenten?)
 Dus Flexbox gebruiken
 daarna een pagina met de flexbox en em's ??
+
+
+3. Experimenteren met Flexbox: Maak dit na 
+misschien hier al html toevoegen?
+
+
 
 
 
