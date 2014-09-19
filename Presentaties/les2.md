@@ -37,6 +37,28 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 - Mondeling afnemen: formatieve toets: Wat is je niveau? Ken je de structuur semantiek? Kun je HTML5 basis elementen uitleggen? Begrijp je HTML 5 formulieren?  
 (Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
+!
+
+# 1. Introduktie - 5 minuten
+###### Frontend development - les 2
+
+##Deeltoets 1
+- De deeltoets wordt **tijdens de les** afgenomen.  
+- Het **schema komt op bord**, achter in de klas (Jan of Sanne).  
+- **15 minuten per quatro** (dubbele duo's).   
+- Toetsen **terwijl de klas doorwerkt** aan de lesopdrachten.     
+.  
+  
+nb. Zorg dat je je _**documenten open**_ hebt in je editor.
+
+nb. _**Vergroot je font**_, zodat 5 mensen je code kunnen lezen.
+
+nb. _**Valideer je code**_ en neem het resultaat mee.*
+  
+   
+nb. Mocht het onverhoopt misgaaan - _**donderdag herkansen**_.
+
+
 
 !
 
@@ -44,7 +66,7 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 ###### Frontend development - les 2
 
 College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html#/)
-Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
+Over wat is CSS (ook alweer)? Over CSS3 Bling en over Selectors
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
 
@@ -95,6 +117,9 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 - Het schema komt op bord, achter in de klas.
 - 15 minuten per quatro (dubbele duo's). 
 - Toetsen terwijl de rest van de klas doorwerkt aan de lesopdrachten.
+  
+**nb. Docs open - Groot font - Valideren**
+
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
