@@ -1,6 +1,5 @@
 #3 Projecten
 
-
 ##Project: Moet ik Rennen?
 
 ###Tagline: Moet ik rennen is een applicatie voor de Nederlandse treinen. Hij toont je exact hoeveel tijd er nog is, voordat je trein vertrekt.
@@ -21,15 +20,16 @@ Links:
 
 Download:
 
-* Project.pdf
-* Contactgegevens.vcf
-* Poster.jpg
+* Project_CMDA_Moet_ik_rennen.pdf
+* Contactgegevens_CMDA_Moet_ik_rennen.vcf
+* Poster_CMDA_Moet_ik_rennen.jpg
 
 
 
 ##Project: Muzieknote 
 
-###Tagline: Muzieknote is een webapplicatie waarbij de kracht van muziek en bijzondere verhalen worden gecombineerd om bewoners van Amersfoort met elkaar in contact te brengen en muzikaal te laten inspireren.
+###Tagline
+Muzieknote is een webapplicatie waarbij de kracht van muziek en bijzondere verhalen worden gecombineerd om bewoners van Amersfoort met elkaar in contact te brengen en muzikaal te laten inspireren.
 
 ###Omschrijving:
 Zorgresidentie Bonafide was op zoek naar een interactieve toepassing om buurtbewoners dichter bij elkaar te brengen, met als nadruk een hechtere binding tussen jong en oud. Sociale binding en zingeving waren belangrijke uitgangspunten. Concreet betekende dit dat het product dat ontworpen moest worden een mogelijkheid tot contact moest bieden tussen buurtbewoners en bewoners van de zorgresidentie.
@@ -50,9 +50,9 @@ Links:
 
 Download:
 
-* Project.pdf
-* Contactgegevens.vcf
-* Poster.jpg
+* Project_CMDA_Muzieknote.pdf
+* Contactgegevens_CMDA_Muzieknote.vcf
+* Poster_CMDA_Muzieknote.jpg
 
 
 
@@ -85,9 +85,9 @@ Links:
 
 Download:
 
-* Project.pdf
-* Contactgegevens.vcf
-* Poster.jpg
+* Project_CMDA_TWOSOME.pdf
+* Contactgegevens_CMDA_TWOSOME.vcf
+* Poster_CMDA_TWOSOME.jpg
 
 
 
