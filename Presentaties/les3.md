@@ -68,7 +68,7 @@ dan moet dit onderdeel herkanst worden met een tentamen.
 
 * [Using pixels is not very polite by Vasilis van Gemert](http://nerd.vasilis.nl/using-pixels-polite/)
 * [Classes? Where We’re Going, We Don’t Need Classes! by Haydon Pickering](http://www.smashingmagazine.com/2012/06/19/classes-where-were-going-we-dont-need-classes/)
-* [CSS Positioning by Noah Stokes](http://alistapart.com/article/css-positioning-101)
+* [Manipulating Classes Using The classList API by Matt West](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
 
 
 
