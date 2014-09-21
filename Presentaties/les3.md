@@ -211,7 +211,7 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
 ### Bespreken Opdracht 3.2
 ## Fieldset toggelen
 
-Antwoord in [Dablet](http://dabblet.com/gist/9f0ec7016d111959d8ea) tonen
+Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b) tonen
 
 **Resources** 
 [Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
