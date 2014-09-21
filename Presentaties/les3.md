@@ -229,20 +229,17 @@ Kun jij de toggle ook met een animatie maken ?
 ### Opdracht 3.3 - 50 minuten
 ## Flexbox
 
-3. Experimenteren met Flexbox: Maak dit na 
-misschien hier al html toevoegen?
+In deze opdracht gaan we experimenteren met Flexbox. 
 
-
-
-Html toevoegen aan je artikel-pagina, Stop dit in je header:
+Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 1. Nav met menu-items in een < ul >
 2. Titel van de pagina
+3. Beschrijving
 3. Logo
 4. Formulier met zoekveld
 5. Naam van een persoon die is ingelogd, met een link naar zij/haar profielpagina
 
-
-Navigatie met 5 items, naam van de persoon die is ingelogd, zoekveld. 
+[Hier](../Maakopdracht/header.html) staat voorbeeld HTML. Of pak het van [Github](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht)
 
 
 
