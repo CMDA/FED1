@@ -240,6 +240,9 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 
 !
 
+
+
+
 ### Opdracht 3.3.1
 ## Flexbox: perfect centering
 
@@ -255,14 +258,28 @@ En centreer de elementen in het midden.
 
 !
 
+### Bespreken Opdracht 3.3.5
+## Flexbox: perfect centering
+
+Antwoord in [Dablet](http://dabblet.com/gist/72f1c1ce513026d36e67)
+
+    header{ 
+        display: flex; 
+    }
+    child { 
+        margin: auto; 
+    }
+
+
+!
+
 ### Opdracht 3.3.1
 ## Flexbox: Flex-direction
 
 Zet de volgorde van de 6 items andersom,
 het laatste items vooraan (links) en de eerste achteraan (rechts)
 
-    display
-    flex-direction
+    flex-direction: row | row-reverse | column | column-reverse;
 
 
 !
@@ -272,6 +289,10 @@ het laatste items vooraan (links) en de eerste achteraan (rechts)
 
 Antwoord in [Dablet](http://dabblet.com/gist/e90a247fc8c019aff341)
 
+    header{ 
+        display: flex; 
+        flex-direction: row-reverse; 
+    }
 
 
 !
@@ -281,7 +302,7 @@ Antwoord in [Dablet](http://dabblet.com/gist/e90a247fc8c019aff341)
 
 Zet al de 6 items aan de rechterkant van de header
 
-    justify-content
+    justify-content: flex-start | flex-end | center | space-between | space-around;
 
 
 !
@@ -290,6 +311,11 @@ Zet al de 6 items aan de rechterkant van de header
 ## Flexbox: justify-content
 
 Antwoord in [Dablet](http://dabblet.com/gist/547ee2eb7ea4d05cf263)
+
+    header{ 
+        display: flex; 
+        justify-content: flex-end;
+    }
 
 
 
@@ -302,7 +328,7 @@ Maak de hoogte van de 6 items variable, afhankelijk van de content.
 
 Zet de items allemaal onder aan de header
 
-    justify-content
+    align-items: flex-start | flex-end | center | baseline | stretch;
 
 
 !
@@ -312,8 +338,10 @@ Zet de items allemaal onder aan de header
 
 Antwoord in [Dablet](http://dabblet.com/gist/5d905d60ad8780fb3335)
 
-
-
+    header{ 
+        display: flex; 
+        align-items: flex-end;
+    }
 
 !
 
@@ -324,7 +352,7 @@ Maak de hoogte van de 6 items variable, afhankelijk van de content.
 
 Zet de items allemaal onder aan de header
 
-    justify-content
+    order
 
 
 !
@@ -335,12 +363,13 @@ Zet de items allemaal onder aan de header
 Antwoord in [Dablet](http://dabblet.com/gist/2deaa9390b8a6051af1a)
 
 
-
+    child {
+        order: <integer>;
+    }
 
 !
 
-
-### Opdracht 3.3.5
+### Opdracht 3.3.6
 ## Flexbox: netjes flex-wrap
 
 Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
@@ -351,12 +380,12 @@ Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor da
     justify-content
 
 
-<img src="assets/3.3.5.png" width="100%" alt="Flexbox example">
+<img src="assets/3.3.6.png" width="100%" alt="Flexbox example">
 
 
 !
 
-### Bespreken Opdracht 3.3.5
+### Bespreken Opdracht 3.3.
 ## Flexbox: netjes flex-wrap
 
 Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
