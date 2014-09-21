@@ -155,15 +155,17 @@ Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9) uit.
 In opdracht 2.7 van vorige les zat de opdracht met het *.
 In CSS kun je met de Attribute selector en before/after content 'in je HTML schrijven'.
 
-In deze oefening gaan we dat gebruiken, samen met de Javascript Classlist object en de query selector om een 
+In deze oefening gaan we dat nogmaals gebruiken. Met het pseudo element Content kun je dynamisch je HTML stylen. Als bv een download link eindigt op .pdf dan kun je met CSS een icoontje plaatsen en het aantal kb's.
+
+Je hebt deze HTML
 
     <a href=“http://example.com/file.pdf” data-kb=“1337”>A white paper</a>
 
-Zorg er voor dat dit er uit komt te zien als 
+Zorg er voor dat dit er zo uit komt te zien 
 
-[pdf-logo] A white paper (1337kb)
+<img src="assets/3.1downloadPdfFile.png" width="100%" alt="Download PDF file">
 
-(als de download link eindigt op .pdf dan een icoontje plaatsen en het aantal kb)"
+
 
 
 !
