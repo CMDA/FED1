@@ -173,8 +173,6 @@ Zorg er voor dat dit er zo uit komt te zien
 ### Bespreken Opdracht 3.1
 ## Download een pdf file
 
-Tekst en uitleg.
-
 Antwoord in [Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) tonen.
 
 Laat zien hoe content werkt: zowel met “content tussen quotes”, 
@@ -191,7 +189,6 @@ als met de url() en de attr() functies en combinaties daarvan.
 ## Javascript ClassList Object aanspreken met query selector functie
 
 ### Fieldset toggelen
-
 
 In opdracht 2.7 en 3.1 heb je geleerd hoe je met CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
 
@@ -241,10 +238,68 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 
 [Hier](../Maakopdracht/header.html) staat voorbeeld HTML. Of pak het van [Github](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht)
 
+!
 
+
+### Opdracht 3.3.1
+## Flexbox: perfect centering
+
+Maak alle elementen in de header even breed/hoog, bv 200px/200px
+
+En centreer de elementen in het midden.
+
+    display
+    child: margin: auto
+
+<img src="assets/3.3.1.png" width="100%" alt="Flexbox example">
 
 
 !
+
+
+### Bespreken Opdracht 3.3.1
+## Flexbox: perfect centering
+
+Antwoord in [Dablet](http://dabblet.com/gist/72f1c1ce513026d36e67)
+
+    header{ display: flex; }
+    header > child { margin: auto; }
+
+**Resources**
+[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+!
+
+### Opdracht 3.3.2
+## Flexbox: netjes flex-wrap
+
+Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
+
+    display
+    flex-direction
+    flex-wrap
+    justify-content
+
+
+<img src="assets/3.3.2.png" width="100%" alt="Flexbox example">
+
+
+!
+
+### Bespreken Opdracht 3.3.2
+## Flexbox: netjes flex-wrap
+
+Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
+
+
+**Resources**
+[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+!
+
+
+
+
 
 ### Bespreken Opdracht 3.3
 ## Flexbox
