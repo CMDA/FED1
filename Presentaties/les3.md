@@ -211,7 +211,11 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
 ### Bespreken Opdracht 3.2
 ## Fieldset toggelen
 
-Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b) tonen
+Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b) tonen en besperken.
+
+Kun jij de toggle ook met een animatie maken ? 
+
+
 
 **Resources** 
 [Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
@@ -233,7 +237,7 @@ misschien hier al html toevoegen?
 Html toevoegen aan je artikel-pagina, Stop dit in je header:
 1. Nav met menu-items in een < ul >
 2. Titel van de pagina
-3. 
+3. Logo
 4. Formulier met zoekveld
 5. Naam van een persoon die is ingelogd, met een link naar zij/haar profielpagina
 
