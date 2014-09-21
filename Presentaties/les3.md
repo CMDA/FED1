@@ -219,36 +219,24 @@ Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b) tonen
 [Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
 [Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
 
-
-
 !
-
-
-
-
 
 ##### 4. Klussen (deel 2: 50 - 185/200 minuten)
 ### Opdracht 3.3 - 50 minuten
 ## Flexbox
-
-Flexbox oefening
-kan hier ook iets met flexible grid uit les 5 van 2011 programma?
-Dat studenten ook rekenen met em waardes (en proenten?)
-Dus Flexbox gebruiken
-daarna een pagina met de flexbox en em's ??
-
 
 3. Experimenteren met Flexbox: Maak dit na 
 misschien hier al html toevoegen?
 
 
 
+Html toevoegen aan je artikel-pagina, Stop dit in je header:
+1. Nav met menu-items in een < ul >
+2. Titel van de pagina
+3. 
+4. Formulier met zoekveld
+5. Naam van een persoon die is ingelogd, met een link naar zij/haar profielpagina
 
-
-Experimenteren met Flexbox: Maak dit na (misschien hier al html toevoegen?)
-
-
-Huiswerk: Html toevoegen: Meer artikelen, navigatie in header, zoekveld, aside informatie 
 
 Navigatie met 5 items, naam van de persoon die is ingelogd, zoekveld. 
 
@@ -264,16 +252,13 @@ Tekst en uitleg
 Voorbeeld van studenten in Dabblet tonen.
 Antwoord in Dablet tonen
 
+
+**Resources***
+[Css tricks: Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Voorbeelden: Solved with Flexbox](http://philipwalton.github.io/solved-by-flexbox/)
+
+
 !
-
-
-
-
-
-
-
-
-
 
 # 5. Terugkijken 10 minuten
 ###### Frontend development - les 3
@@ -281,8 +266,8 @@ Antwoord in Dablet tonen
 Wat hebben we behandeld (lesdoelen)?
 
 - Leren hoe het Javascript ClassList Object en de Query selector te gebruiken om dynamisch classes toe te voegen
-- Spelen met de Flexbox en grids
-- Leren over units, pixels, em's, procenten
+- Spelen met de Flexbox 
+- Leren over units, pixels, em's, procenten (gaan we volgende week mee verder)
 
 
 !
@@ -295,15 +280,14 @@ Wat hebben we behandeld (lesdoelen)?
   
 * **Klussen** Hoe ver moet je zijn?
 
-extra html toegevoegd .. waar staat deze nog meer?
+Vrandaag heb je extra html toegevoegd .. 
+Voor volgende week aan je artikelpagina nog meer content toevoegen.
+[Link naar waar dit staat]()
 
 
-Voor deeltoets 2 moet je 2 pagina's laten zien. We gaan toetsen op CSS3 bling: border-radius, box-shadow, text-shadow, transforms, css transitions. Je moet Selectors, Sibling combinators, Pseudo classes en attribute selectors gebruiken om je pagina te stylen. Je moet iets laten zien met Javscript Classlist object en query selectors en de layout moet opgemaakt zijn met Flexbox. 
-
-
+Voor **deeltoets 2** moet je 2 pagina's laten zien. We gaan toetsen op CSS3 bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions. Je moet Selectors, Sibling combinators, Pseudo classes en attribute selectors gebruiken om je pagina te stylen. Je moet iets laten zien met Javscript Classlist object en de query selectors en de layout moet opgemaakt zijn met Flexbox. 
 
 !
-
 
 ##### 5. Terugkijken (10 - 195/200 minuten)
 # Feedback verzamelen
@@ -322,7 +306,6 @@ Mondeling duidelijk? Over de feedback?
 <strong style="background-color:pink">Anders?</strong>
 Honger? Dorst? none-of-the-above? 
 
-
 !
 
 
@@ -335,9 +318,3 @@ Honger? Dorst? none-of-the-above?
 
 
 < / section >
-
-
-
-
-
-
