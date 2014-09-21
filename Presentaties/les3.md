@@ -240,7 +240,6 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 
 !
 
-
 ### Opdracht 3.3.1
 ## Flexbox: perfect centering
 
@@ -256,21 +255,92 @@ En centreer de elementen in het midden.
 
 !
 
+### Opdracht 3.3.1
+## Flexbox: Flex-direction
+
+Zet de volgorde van de 6 items andersom,
+het laatste items vooraan (links) en de eerste achteraan (rechts)
+
+    display
+    flex-direction
+
+
+!
 
 ### Bespreken Opdracht 3.3.1
-## Flexbox: perfect centering
+## Flexbox: Flex-direction
 
-Antwoord in [Dablet](http://dabblet.com/gist/72f1c1ce513026d36e67)
+Antwoord in [Dablet](http://dabblet.com/gist/e90a247fc8c019aff341)
 
-    header{ display: flex; }
-    header > child { margin: auto; }
 
-**Resources**
-[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 !
 
 ### Opdracht 3.3.2
+## Flexbox: justify-content
+
+Zet al de 6 items aan de rechterkant van de header
+
+    justify-content
+
+
+!
+
+### Bespreken Opdracht 3.3.2
+## Flexbox: justify-content
+
+Antwoord in [Dablet](http://dabblet.com/gist/547ee2eb7ea4d05cf263)
+
+
+
+!
+
+### Opdracht 3.3.3
+## Flexbox: align-items
+
+Maak de hoogte van de 6 items variable, afhankelijk van de content.
+
+Zet de items allemaal onder aan de header
+
+    justify-content
+
+
+!
+
+### Bespreken Opdracht 3.3.3
+## Flexbox: align-items
+
+Antwoord in [Dablet](http://dabblet.com/gist/5d905d60ad8780fb3335)
+
+
+
+
+!
+
+### Opdracht 3.3.4
+## Flexbox: order
+
+Maak de hoogte van de 6 items variable, afhankelijk van de content.
+
+Zet de items allemaal onder aan de header
+
+    justify-content
+
+
+!
+
+### Bespreken Opdracht 3.3.4
+## Flexbox: order
+
+Antwoord in [Dablet](http://dabblet.com/gist/2deaa9390b8a6051af1a)
+
+
+
+
+!
+
+
+### Opdracht 3.3.5
 ## Flexbox: netjes flex-wrap
 
 Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
@@ -281,12 +351,12 @@ Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor da
     justify-content
 
 
-<img src="assets/3.3.2.png" width="100%" alt="Flexbox example">
+<img src="assets/3.3.5.png" width="100%" alt="Flexbox example">
 
 
 !
 
-### Bespreken Opdracht 3.3.2
+### Bespreken Opdracht 3.3.5
 ## Flexbox: netjes flex-wrap
 
 Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
@@ -294,24 +364,6 @@ Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
 
 **Resources**
 [A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-!
-
-
-
-
-
-### Bespreken Opdracht 3.3
-## Flexbox
-
-Tekst en uitleg
-Voorbeeld van studenten in Dabblet tonen.
-Antwoord in Dablet tonen
-
-
-**Resources***
-[Css tricks: Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-[Voorbeelden: Solved with Flexbox](http://philipwalton.github.io/solved-by-flexbox/)
 
 
 !
