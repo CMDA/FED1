@@ -88,19 +88,20 @@ lijst op beamer tonen met wie waar zit ...
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
+1. Javascript & Attribute selectors (70 minuten)
+    * Attribute selectors: Required sterretje
+    * Attribute selectors: Download PDF file
+    * Javascript ClassList Object aanspreken met query selector functie
+2. Flexbox (50 minuten)
+
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
-
-1. Attribute selectors: Required sterretje
-2. Attribute selectors: Download PDF file
-3. Javascript ClassList Object aanspreken met query selector functie
-4. Flexbox
 
 
 !
 
 
-##### 4. Klussen (120 - 185/200 minuten)
+##### 4. Klussen (deel 1: 70 - 135/200 minuten)
 ### Opdracht 2.7.3 - 10 minuten
 ## Attribute selectors: Required sterretje
 
@@ -109,7 +110,6 @@ Hoe ging dit ook alweer?
 **Toon met CSS dynamisch iets op het scherm**
 
 Voeg dit toe aan je formulier pagina:
-
 Zorg ervoor dat er een rood sterretje komt te staan bij de required input velden. 
 Gebruik hiervoor de attribute selector.
 
@@ -119,16 +119,10 @@ Gebruik hiervoor de attribute selector.
     <label for="email">Email</label>
 	<input type="email" id="email" required>
 
-
-
-
-
-
-
 !
 
 ### Bespreken Opdracht 2.7.3
-## Attribute selectors: Required sterretje
+## Required sterretje
 
 <!--dablet uitleg-->
 Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9) uit.
@@ -146,20 +140,22 @@ Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9) uit.
 	   color: red;
 	   font-size: 2em;
     }
-
+    
+**Resources** 
+[Pseudo Element: Before & After](http://css-tricks.com/almanac/selectors/a/after-and-before/)
+[Attribute Selector](http://css-tricks.com/attribute-selectors/)
+[Pseudo Class Selector: Required](http://css-tricks.com/almanac/selectors/r/required/)
 
 !
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.1 - 30 minuten
+##### 4. Klussen (deel 1: 70 - 135/200 minuten)
+### Opdracht 3.1 - 20 minuten
 ## Attribute selectors: Download PDF file
 
 In opdracht 2.7 van vorige les zat de opdracht met het *.
-In CSS kun je met de Attribute selector en bofore/after content 'in je HTML schrijven'.
+In CSS kun je met de Attribute selector en before/after content 'in je HTML schrijven'.
 
-In deze oefening gaan we afhankelijk van 
-
-Nu gaan we dat gebruiken, samen met de Javascript Classlist object en de query selector
+In deze oefening gaan we dat gebruiken, samen met de Javascript Classlist object en de query selector om een 
 
     <a href=“http://example.com/file.pdf” data-kb=“1337”>A white paper</a>
 
@@ -167,7 +163,7 @@ Zorg er voor dat dit er uit komt te zien als
 
 [pdf-logo] A white paper (1337kb)
 
-(als de download link eindigt op .pdf dan een iccontje plaatsene en het aantal kb)"
+(als de download link eindigt op .pdf dan een icoontje plaatsen en het aantal kb)"
 
 
 !
@@ -179,27 +175,48 @@ Tekst en uitleg.
 
 Antwoord in [Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) tonen.
 
-
 Laat zien hoe content werkt: zowel met “content tussen quotes”, 
 als met de url() en de attr() functies en combinaties daarvan.
 
 
+**Resources**
+[Pseudo Element: Content](http://css-tricks.com/css-content/)
 
 !
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.2 - 20 minuten
+##### 4. Klussen (deel 1: 70 - 135/200 minuten)
+### Opdracht 3.2 - 40 minuten
 ## Javascript ClassList Object aanspreken met query selector functie
 
-### Fieldset toggelen met button-klik
-
-Javascript ClassList Object aanspreken met query selector functie, 
-class dynamisch toevoegen, query selectors: toggelen met javascript
+### Fieldset toggelen
 
 
+In opdracht 2.7 en 3.1 heb je geleerd hoe je met CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
+
+In deze oefening gaan we met de Javascript Classlist object en de query selector een Fieldset in je formulier toggelen. (aan/uit zetten)
+Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het formulier tonen.
+
+1. Maak een class aan die een fieldset displayed en/of 'uit' zet
+2. Voeg een Javascript file aan je Formulier pagina toe
+3. Schrijf een functie die een classlist toevoegt aan de fieldset
+    Tips:
+    * Gebruik de querySelector om de juiste Fieldset te selecteren 
+    * Gebruik de querySelector om de button of radio-button te selecteren
+    * Hang een functie aan de die de toggle uitvoert
+
+!
+
+### Bespreken Opdracht 3.2
+## Fieldset toggelen
 
 Antwoord in [Dablet](http://dabblet.com/gist/9f0ec7016d111959d8ea) tonen
 
+**Resources** 
+[Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
+[The Classlist Object](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
+[Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
+[Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
+
 
 
 !
@@ -208,11 +225,8 @@ Antwoord in [Dablet](http://dabblet.com/gist/9f0ec7016d111959d8ea) tonen
 
 
 
-
-
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.3 - 60 minuten
+##### 4. Klussen (deel 2: 50 - 185/200 minuten)
+### Opdracht 3.3 - 50 minuten
 ## Flexbox
 
 Flexbox oefening
@@ -259,7 +273,7 @@ Antwoord in Dablet tonen
 
 
 
-# 5. Terugkijken 20 minuten
+# 5. Terugkijken 10 minuten
 ###### Frontend development - les 3
 
 Wat hebben we behandeld (lesdoelen)?
@@ -271,18 +285,44 @@ Wat hebben we behandeld (lesdoelen)?
 
 !
 
-##### 5. Terugkijken (20 - 200/200 minuten)
+##### 5. Terugkijken (10 - 195/200 minuten)
 # Huiswerk aankondigen
 
 * **Weekly Nerd** voorbereiden:  
   Lezen wat op Moodle staat bij les 4.
   
 * **Klussen** Hoe ver moet je zijn?
-    1. Artikel pagina
-    2. Formulier pagina
+
+extra html toegevoegd .. waar staat deze nog meer?
+
+
+Voor deeltoets 2 moet je 2 pagina's laten zien. We gaan toetsen op CSS3 bling: border-radius, box-shadow, text-shadow, transforms, css transitions. Je moet Selectors, Sibling combinators, Pseudo classes en attribute selectors gebruiken om je pagina te stylen. Je moet iets laten zien met Javscript Classlist object en query selectors en de layout moet opgemaakt zijn met Flexbox. 
+
 
 
 !
+
+
+##### 5. Terugkijken (10 - 195/200 minuten)
+# Feedback verzamelen
+
+<br />
+## Sticky notes
+Schrijf je feedback op een sticky en plak op het bord.
+
+
+<strong style="background-color:yellow">Feedback op werkwijze</strong>
+Lesprogramma, lesstructuur, discussiesessie, werkdruk?  
+
+<strong style="background-color:PaleGreen">Feedback op deeltoets 1</strong> 
+Mondeling duidelijk? Over de feedback?   
+
+<strong style="background-color:pink">Anders?</strong>
+Honger? Dorst? none-of-the-above? 
+
+
+!
+
 
 ## op.
 

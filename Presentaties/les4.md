@@ -83,6 +83,16 @@ lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgU
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
+
+Vorige week was best moeilijk ?!?
+
+Nieuwe duos maken
+	 top of the pop > links
+	 ja best wel > midden
+	 hulp behoefende soort > rechts 
+     
+     
+     
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
 
 
