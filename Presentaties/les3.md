@@ -244,7 +244,7 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 ### Opdracht 3.3 - 50 minuten
 ## Flexbox
 
-Flexbox, (Can I Use?](http://caniuse.com/#feat=flexbox) 
+Flexbox, [Can I Use?](http://caniuse.com/#feat=flexbox) 
 
 
 !
