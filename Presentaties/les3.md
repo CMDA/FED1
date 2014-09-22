@@ -173,7 +173,7 @@ Zorg er voor dat dit er zo uit komt te zien
 ### Bespreken Opdracht 3.1
 ## Download een pdf file
 
-Antwoord in [Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) tonen.
+Antwoord in [Dablet](http://dabblet.com/gist/77c4ad3f79e24b0dce8b).
 
 Laat zien hoe content werkt: zowel met “content tussen quotes”, 
 als met de url() en de attr() functies en combinaties daarvan.
@@ -208,7 +208,7 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
 ### Bespreken Opdracht 3.2
 ## Fieldset toggelen
 
-Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b) tonen en besperken.
+Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b).
 
 Kun jij de toggle ook met een animatie maken ? 
 
@@ -236,7 +236,7 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 4. Formulier met zoekveld
 5. Naam van een persoon die is ingelogd, met een link naar zij/haar profielpagina
 
-[Hier](../Maakopdracht/header.html) staat voorbeeld HTML. Of pak het van [Github](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht)
+[Hier](../Maakopdracht/header.html) staat voorbeeld HTML. Of pak het van Github: [header.html](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht)
 
 !
 
@@ -253,12 +253,13 @@ En centreer de elementen in het midden.
     display
     child: margin: auto
 
+Zorg dat het er zo uit komt te zien: 
 <img src="assets/3.3.1.png" width="100%" alt="Flexbox example">
 
 
 !
 
-### Bespreken Opdracht 3.3.5
+### Bespreken Opdracht 3.3.1
 ## Flexbox: perfect centering
 
 Antwoord in [Dablet](http://dabblet.com/gist/72f1c1ce513026d36e67)
@@ -273,7 +274,7 @@ Antwoord in [Dablet](http://dabblet.com/gist/72f1c1ce513026d36e67)
 
 !
 
-### Opdracht 3.3.1
+### Opdracht 3.3.2
 ## Flexbox: Flex-direction
 
 Zet de volgorde van de 6 items andersom,
@@ -281,10 +282,12 @@ het laatste items vooraan (links) en de eerste achteraan (rechts)
 
     flex-direction: row | row-reverse | column | column-reverse;
 
+Dat ziet er zo uit: 
+<img src="assets/3.3.2.png" width="100%" alt="Flexbox example">
 
 !
 
-### Bespreken Opdracht 3.3.1
+### Bespreken Opdracht 3.3.2
 ## Flexbox: Flex-direction
 
 Antwoord in [Dablet](http://dabblet.com/gist/e90a247fc8c019aff341)
@@ -297,17 +300,21 @@ Antwoord in [Dablet](http://dabblet.com/gist/e90a247fc8c019aff341)
 
 !
 
-### Opdracht 3.3.2
+### Opdracht 3.3.3
 ## Flexbox: justify-content
 
-Zet al de 6 items aan de rechterkant van de header
+Zorg dat alle 6 items netjes horizontaal verdeeld worden, zonder dat je marges aan de child elementen meegeeft. Zet die marge op 0.
 
     justify-content: flex-start | flex-end | center | space-between | space-around;
+
+Dat ziet er zo uit: 
+<img src="assets/3.3.3.png" width="100%" alt="Flexbox example">
+
 
 
 !
 
-### Bespreken Opdracht 3.3.2
+### Bespreken Opdracht 3.3.3
 ## Flexbox: justify-content
 
 Antwoord in [Dablet](http://dabblet.com/gist/547ee2eb7ea4d05cf263)
@@ -321,19 +328,21 @@ Antwoord in [Dablet](http://dabblet.com/gist/547ee2eb7ea4d05cf263)
 
 !
 
-### Opdracht 3.3.3
+### Opdracht 3.3.4
 ## Flexbox: align-items
 
 Maak de hoogte van de 6 items variable, afhankelijk van de content.
-
-Zet de items allemaal onder aan de header
+Zet de items allemaal onder aan de header.
 
     align-items: flex-start | flex-end | center | baseline | stretch;
+
+Dat ziet er zo uit: 
+<img src="assets/3.3.4.png" width="100%" alt="Flexbox example">
 
 
 !
 
-### Bespreken Opdracht 3.3.3
+### Bespreken Opdracht 3.3.4
 ## Flexbox: align-items
 
 Antwoord in [Dablet](http://dabblet.com/gist/5d905d60ad8780fb3335)
@@ -345,19 +354,22 @@ Antwoord in [Dablet](http://dabblet.com/gist/5d905d60ad8780fb3335)
 
 !
 
-### Opdracht 3.3.4
+### Opdracht 3.3.5
 ## Flexbox: order
 
-Maak de hoogte van de 6 items variable, afhankelijk van de content.
+Verander nu de volgorde van de 6 items: 
+Zet de section met het logo vooraan zonder in de HTML te prutsen ...
 
-Zet de items allemaal onder aan de header
 
     order
+
+Dat ziet er zo uit: 
+<img src="assets/3.3.5.png" width="100%" alt="Flexbox example">
 
 
 !
 
-### Bespreken Opdracht 3.3.4
+### Bespreken Opdracht 3.3.5
 ## Flexbox: order
 
 Antwoord in [Dablet](http://dabblet.com/gist/2deaa9390b8a6051af1a)
@@ -417,8 +429,8 @@ Wat hebben we behandeld (lesdoelen)?
   
 * **Klussen** Hoe ver moet je zijn?
 
-Vrandaag heb je extra html toegevoegd .. 
-Voor volgende week aan je artikelpagina nog meer content toevoegen.
+Vandaag heb je extra html toegevoegd .. 
+Voor volgende week aan je artikelpagina nog meer content toevoegen: artikelen en projecten aan de artikel-pagina.
 [Link naar waar dit staat]()
 
 
