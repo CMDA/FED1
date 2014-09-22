@@ -442,7 +442,7 @@ Voor **deeltoets 2** moet je 2 pagina's laten zien. We gaan toetsen op CSS3 blin
 # Feedback verzamelen
 
 <br />
-## Sticky notes
+## stickies
 Schrijf je feedback op een sticky en plak op het bord.
 
 
