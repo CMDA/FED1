@@ -476,7 +476,7 @@ Honger? Dorst? none-of-the-above?
 <br/>
 <br/>
 
-[Tussenstand AVV's en Weekly Nerd](https://docs.google.com/spreadsheets/d/1Uo9a3xRDhs6M3dWl0AgJ05UZNJDh6REjCwpxT3aZs2w/pubhtml) klik klik klik
+[Tussenstand AVV's en Weekly Nerd](https://docs.google.com/spreadsheets/d/1Uo9a3xRDhs6M3dWl0AgJ05UZNJDh6REjCwpxT3aZs2w/edit?usp=sharing) klik klik klik
 
 
 < / section >
