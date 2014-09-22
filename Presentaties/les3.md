@@ -409,6 +409,13 @@ Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor da
 
 Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
 
+Kun je ook een paar items breder maken?
+Bijvoorbeeld de Nav en H1?
+    
+    child {
+        flex-grow: <number>; /* default 0 */
+        }
+
 
 **Resources**
 [A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
