@@ -430,11 +430,10 @@ Wat hebben we behandeld (lesdoelen)?
 * **Klussen** Hoe ver moet je zijn?
 
 Vandaag heb je extra html toegevoegd .. 
-Voor volgende week aan je artikelpagina nog meer content toevoegen: artikelen en projecten aan de artikel-pagina.
-[Link naar waar dit staat]()
+Voor volgende week aan je aan je artikelpagina nog meer content toevoegen: meer artikelen en projecten. [Artikelen.md en Projecten.md hier](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht)
 
 
-Voor **deeltoets 2** moet je 2 pagina's laten zien. We gaan toetsen op CSS3 bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions. Je moet Selectors, Sibling combinators, Pseudo classes en attribute selectors gebruiken om je pagina te stylen. Je moet iets laten zien met Javscript Classlist object en de query selectors en de layout moet opgemaakt zijn met Flexbox. 
+Voor **deeltoets 2** moet je 2 pagina's laten zien. We gaan toetsen op CSS3 bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions. Je moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om je pagina te stylen. Je moet iets laten zien met het Javscript Classlist object en de query selectors en de layout moet opgemaakt zijn met Flexbox. 
 
 !
 
