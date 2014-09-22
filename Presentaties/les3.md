@@ -240,7 +240,14 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 
 !
 
+##### 4. Klussen (deel 2: 50 - 185/200 minuten)
+### Opdracht 3.3 - 50 minuten
+## Flexbox
 
+Flexbox, (Can I Use?](http://caniuse.com/#feat=flexbox) 
+
+
+!
 
 
 ### Opdracht 3.3.1
