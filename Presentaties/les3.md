@@ -469,26 +469,6 @@ Voor volgende week aan je aan je artikelpagina nog meer content toevoegen: meer 
 
 Voor **deeltoets 2** moet je 2 pagina's laten zien. We gaan toetsen op CSS3 bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions. Je moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om je pagina te stylen. Je moet iets laten zien met het Javscript Classlist object en de query selectors en de layout moet opgemaakt zijn met Flexbox. 
 
-!
-
-##### 5. Terugkijken (10 - 195/200 minuten)
-# Feedback verzamelen
-
-<br />
-## stickies
-Schrijf je feedback op een sticky en plak op het bord.
-
-
-<strong style="background-color:yellow">Feedback op werkwijze</strong>
-Lesprogramma, lesstructuur, discussiesessie, werkdruk?  
-
-<strong style="background-color:PaleGreen">Feedback op deeltoets 1</strong> 
-Mondeling duidelijk? Over de feedback?   
-
-<strong style="background-color:pink">Anders?</strong>
-Honger? Dorst? none-of-the-above? 
-
-!
 
 
 ## op.
