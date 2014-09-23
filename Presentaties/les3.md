@@ -118,7 +118,15 @@ Gebruik hiervoor de attribute selector.
 
     <label for="email">Email</label>
 	<input type="email" id="email" required>  
+
 *tenzij het al op je formulier staat natuurlijk.	
+
+
+**Resources** 
+[Pseudo Element: Before & After](http://css-tricks.com/almanac/selectors/a/after-and-before/)
+[Attribute Selector](http://css-tricks.com/attribute-selectors/)
+[Pseudo Class Selector: Required](http://css-tricks.com/almanac/selectors/r/required/)
+
 
 !
 
@@ -142,10 +150,6 @@ Dat ziet er [zo](http://dabblet.com/gist/dc930a11e879bf6d2ef9) uit.
 	   font-size: 2em;
     }
     
-**Resources** 
-[Pseudo Element: Before & After](http://css-tricks.com/almanac/selectors/a/after-and-before/)
-[Attribute Selector](http://css-tricks.com/attribute-selectors/)
-[Pseudo Class Selector: Required](http://css-tricks.com/almanac/selectors/r/required/)
 
 !
 
@@ -167,6 +171,9 @@ Zorg er voor dat dit er zo uit komt te zien
 <img src="assets/3.1downloadPdfFile.png" width="100%" alt="Download PDF file">
 
 
+**Resources**
+[Pseudo Element: Content](http://css-tricks.com/css-content/)
+
 
 
 !
@@ -180,8 +187,6 @@ Laat zien hoe content werkt: zowel met “content tussen quotes”,
 als met de url() en de attr() functies en combinaties daarvan.
 
 
-**Resources**
-[Pseudo Element: Content](http://css-tricks.com/css-content/)
 
 !
 
@@ -204,6 +209,14 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
     * Gebruik de querySelector om de button of radio-button te selecteren
     * Hang een functie aan de die de toggle uitvoert
 
+
+**Resources** 
+[Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
+[The Classlist Object](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
+[Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
+[Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
+
+
 !
 
 ### Bespreken Opdracht 3.2
@@ -215,11 +228,7 @@ Kun jij de toggle ook met een animatie maken ?
 
 
 
-**Resources** 
-[Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
-[The Classlist Object](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
-[Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
-[Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
+
 
 !
 
@@ -248,6 +257,12 @@ Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
 Flexbox, [Can I Use?](http://caniuse.com/#feat=flexbox) 
 
 
+**Resources**
+[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
+
+
 !
 
 
@@ -263,6 +278,7 @@ En centreer de elementen in het midden.
 
 Zorg dat het er zo uit komt te zien: 
 <img src="assets/3.3.1.png" width="100%" alt="Flexbox example">
+
 
 
 !
@@ -403,6 +419,11 @@ Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor da
 <img src="assets/3.3.6.png" width="100%" alt="Flexbox example">
 
 
+**Resources**
+[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
+
 !
 
 ### Bespreken Opdracht 3.3.
@@ -418,8 +439,6 @@ Bijvoorbeeld de Nav en H1?
         }
 
 
-**Resources**
-[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 
 !
