@@ -109,7 +109,7 @@ Hoe ging dit ook alweer?
 
 **Toon met CSS dynamisch iets op het scherm**
 
-Voeg dit toe aan je formulier pagina:
+Voeg dit toe aan **je formulier** pagina*:  
 Zorg ervoor dat er een rood sterretje komt te staan bij de required input velden. 
 Gebruik hiervoor de attribute selector.
 
@@ -117,7 +117,8 @@ Gebruik hiervoor de attribute selector.
 	<input type="text" id="naam" required>
 
     <label for="email">Email</label>
-	<input type="email" id="email" required>
+	<input type="email" id="email" required>  
+*tenzij het al op je formulier staat natuurlijk.	
 
 !
 
