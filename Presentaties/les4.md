@@ -109,7 +109,7 @@ Een nieuwe header en extra content **voor je artikel**:
 College [titel](http://cmda.github.io/FED1/Colleges/???.html)
 Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
-<img src="assets/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
+<img src="assets/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
 
 !
 

@@ -68,7 +68,7 @@ nb. Mocht het onverhoopt misgaaan - _**donderdag herkansen**_.
 College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html#/)
 Over wat is CSS (ook alweer)? Over CSS3 Bling en over Selectors
 
-<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
+<img src="assests/StoelenEnTafels1College01" width="100%" alt="College opstelling">
 
 !
 

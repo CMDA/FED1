@@ -141,7 +141,7 @@ De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing 
 College [Give me a Fucking < br / >](../Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
-<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
+<img src="assests/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
 
 !
 
