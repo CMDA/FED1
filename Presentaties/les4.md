@@ -89,7 +89,7 @@ daar heb je skills, vaardigheden en kennis voor nodig
 
 ## Op naar deeltoets 2  
   
-Een nieuwe header voor je formulier:  
+Een nieuwe header **voor je formulier**:  
   
 <img src="assets/FormulierUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
 
@@ -97,7 +97,7 @@ Een nieuwe header voor je formulier:
 
 ## Op naar deeltoets 2  
   
-Een nieuwe header en extra content voor je artikel:  
+Een nieuwe header en extra content **voor je artikel**:  
 
 <img src="assets/ArtikelUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
 
