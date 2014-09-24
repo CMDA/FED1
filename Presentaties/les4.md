@@ -59,14 +59,14 @@ daar heb je skills, vaardigheden en kennis voor nodig
 
 !
 
-# Hoe gaat het tot nu toe?
+## Hoe gaat het tot nu toe?
 
 **Kijk jezelf aan in de spiegel**
 [link naar website met je webcam]()
 
 **Wat kom je hier doen?**
 
-- Hoe je een CSS file in je html plaatst? Had je moeite met waar je Javascrip file staat? Waarom een javascript bepaalde dom elementen niet kon selecteren?
+- Hoe je een CSS file in je html plaatst? Had je moeite met waar je Javascript file staat? Waarom een Javascript bepaalde dom elementen niet kon selecteren?
 - Dit heb je gehad in de P, bij programmeren
     1. We bouwen door op de kennis die je hebt geleerd in de P
 
@@ -85,6 +85,21 @@ daar heb je skills, vaardigheden en kennis voor nodig
     3. We gaan toffe dingen maken
 
 
+!
+
+## Op naar deeltoets 2  
+  
+Een nieuwe header voor je formulier:  
+  
+<img src="assets/FormulierUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
+
+!
+
+## Op naar deeltoets 2  
+  
+Een nieuwe header en extra content voor je artikel:  
+
+<img src="assets/ArtikelUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
 
 !
 
@@ -94,7 +109,7 @@ daar heb je skills, vaardigheden en kennis voor nodig
 College [titel](http://cmda.github.io/FED1/Colleges/???.html)
 Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
-<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
+<img src="assets/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
 
 !
 
