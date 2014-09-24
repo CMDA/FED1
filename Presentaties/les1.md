@@ -141,7 +141,7 @@ De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing 
 College [Give me a Fucking < br / >](../Colleges/les1-gimme-a-fucking-br/index.html)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
+<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
 
 !
 
@@ -151,7 +151,7 @@ Iedere les gaan we artikelen bespreken in kleine groepen.
 
 Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
+<img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
 
 !
 
@@ -180,7 +180,7 @@ lijst op beamer tonen met wie waar zit ...
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
+<img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
 
 !
 

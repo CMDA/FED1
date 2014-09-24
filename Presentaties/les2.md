@@ -68,7 +68,7 @@ nb. Mocht het onverhoopt misgaaan - _**donderdag herkansen**_.
 College [Kiss my CSS](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html#/)
 Over wat is CSS (ook alweer)? Over CSS3 Bling en over Selectors
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
+<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
 
 !
 
@@ -81,7 +81,7 @@ Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen.
 Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd 
 dan moet dit onderdeel herkanst worden met een tentamen.
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
+<img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
 
 !
 
@@ -120,8 +120,7 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
   
 **nb. Docs open - Groot font - Valideren**
 
-
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
+<img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
 
 
 !

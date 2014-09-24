@@ -44,7 +44,7 @@ Deze les gaat over:
 College [titel](http://cmda.github.io/FED1/Colleges/???.html)
 Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
+<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
 
 !
 
@@ -54,7 +54,7 @@ Iedere les gaan we artikelen bespreken in kleine groepen.
 
 Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
+<img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
 
 !
 
@@ -71,7 +71,7 @@ Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 s
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Wie zit waar?
 
-lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) laten zien
+lijst op Drive laten zien
 
 
 
@@ -82,7 +82,7 @@ lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgU
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
+<img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
 
 
 !

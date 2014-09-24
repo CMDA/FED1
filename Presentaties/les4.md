@@ -6,10 +6,10 @@
 
 # Display: none
 ###### Frontend development - les 4
-Deze les gaan we verder aan de slag met de Flexbox. 
-We gaan het Box-model bespreken met positionering, en we gaan oefenen met Units voor layouts.
+Deze les gaan we verder met de Flexbox. 
+We gaan het Box-model bespreken met positionering, en we gaan oefenen met units voor typografie en layout.
 
-<img src="kledingvoorschriften" alt="kledingvoorschriften">
+<img src="http://image.spreadshirt.com/image-server/v1/products/110832180/views/1,width=280,height=280.png" alt="kledingvoorschriften">
 
 
 !
@@ -36,6 +36,55 @@ We gaan het Box-model bespreken met positionering, en we gaan oefenen met Units 
 - 
 
 
+!
+
+## Hoe gaat het tot nu toe?
+
+# Hoe ging het vorige week?
+
+- rabarber rabarber
+
+
+!
+
+## Hoe gaat het tot nu toe?
+
+# Welkom in de V1 !
+
+1. We bouwen door op de kennis die je hebt geleerd in de P
+2. We gaan ervan uit dat je je goed voorbereid
+3. 1 + 2 = We gaan toffe dingen maken, 
+daar heb je skills, vaardigheden en kennis voor nodig
+
+
+!
+
+# Hoe gaat het tot nu toe?
+
+**Kijk jezelf aan in de spiegel**
+[link naar website met je webcam]()
+
+**Wat kom je hier doen?**
+
+- Hoe je een CSS file in je html plaatst? Had je moeite met waar je Javascrip file staat? Waarom een javascript bepaalde dom elementen niet kon selecteren?
+- Dit heb je gehad in de P, bij programmeren
+    1. We bouwen door op de kennis die je hebt geleerd in de P
+
+- Had je moeite met de attribute selector en het sterretje in het formulier? En de opdracht met de pdf download link?
+- Heb je alle (!) oefeningen uit les 2 thuis gemaakt? Heb je sowieso thuis doorgeklust aan je 2 pagina's?
+    De eerste opdracht in les 3 (3 bij required elementen in een form) was gelijk aan de laatste opdracht in les 2. De tweede opdracht in les 3 (pdf download link) was bijna hetzelfde als de eerste opdracht.
+    2. We gaan ervan uit dat je je goed voorbereid    
+    
+- Had je moeite met het javascript classlist object en query selector in les 3?
+- Heb je het artikel over het classlist object écht bestudeert? Heb je de voorbeelden uitgeprobeerd? Heb je het artikel nog een keer gelezen?
+- Alles wat je de vorige les hebt gedaan zit daar in ...
+    2. We gaan ervan uit dat je je goed voorbereid
+
+
+- let's go!
+    3. We gaan toffe dingen maken
+
+
 
 !
 
@@ -45,7 +94,7 @@ We gaan het Box-model bespreken met positionering, en we gaan oefenen met Units 
 College [titel](http://cmda.github.io/FED1/Colleges/???.html)
 Over wat is CSS (ookalweer)? Over CSS3 Bling en over Selectors
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJTGZRQkpVcnllblk" width="100%" alt="College opstelling">
+<img src="assests/StoelenEnTafels1College01_800" width="100%" alt="College opstelling">
 
 !
 
@@ -55,7 +104,7 @@ Iedere les gaan we artikelen bespreken in kleine groepen.
 
 Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
 
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJX2ViNjEyUFo4LTQ" width="100%" alt="Discussie rondje">
+<img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
 
 !
 
@@ -72,7 +121,7 @@ Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 s
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Wie zit waar?
 
-lijst op [Drive](https://docs.google.com/spreadsheets/d/1Ifn0bfmrxBTnOdEJvyGzwgUq3Bk8GHBRazeG4t8ByO4/edit#gid=0) laten zien
+lijst op laten zien
 
 
 
@@ -84,16 +133,16 @@ Laptop en internet
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 
-Vorige week was best moeilijk ?!?
+Vond je het vorige week moeilijk ?!?
+
+Pas je leerstrategie aan:
 
 Nieuwe duos maken
 	 top of the pop > links
 	 ja best wel > midden
 	 hulp behoefende soort > rechts 
-     
-     
-     
-<img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJbmZRTWlJNzJQTU0" width="100%" alt="9 groepen van 6">
+    
+<img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
 
 
 !
