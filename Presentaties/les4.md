@@ -98,6 +98,9 @@ lijst met indeling laten zien
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
+<img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
+
+
 !
 
 ## Hoe gaat het tot nu toe?
@@ -143,8 +146,6 @@ Nieuwe duos maken
 	 ja best wel > midden
 	 hulp behoefende soort > rechts 
     
-<img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
-
 
 
 !
