@@ -38,41 +38,6 @@ We gaan het Box-model bespreken met positionering, en we gaan oefenen met units 
 
 !
 
-## Hoe gaat het tot nu toe?
-
-# Hoe ging het vorige week?
-
-- rabarber rabarber
-
-
-!
-
-## Hoe gaat het tot nu toe?
-
-# Welkom in de V1 !
-
-1. We bouwen door op de kennis die je hebt geleerd in de P
-2. We gaan ervan uit dat je je goed voorbereid
-3. 1 + 2 = We gaan toffe dingen maken 
-    <br>daar heb je skills, vaardigheden en kennis voor nodig
-
-
-!
-
-## Hoe gaat het tot nu toe?
-
-### Kijk jezelf aan in de [spiegel](spiegel.html)
-
-!
-
-
-## Hoe gaat het tot nu toe?
-
-### Let's go!<br>We gaan toffe dingen maken
-
-
-!
-
 ## Op naar deeltoets 2  
   
 Een nieuwe header **voor je formulier**:  
@@ -133,8 +98,43 @@ lijst met indeling laten zien
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
+!
 
-Vond je het vorige week moeilijk ?!?
+## Hoe gaat het tot nu toe?
+# Hoe ging het vorige week?
+
+- rabarber rabarber
+
+
+!
+
+## Hoe gaat het tot nu toe?
+# Welkom in de V1 !
+
+1. We bouwen door op de kennis die je hebt geleerd in de P
+2. We gaan ervan uit dat je je goed voorbereid
+3. 1 + 2 = We gaan toffe dingen maken 
+    <br>daar heb je skills, vaardigheden en kennis voor nodig
+
+
+!
+
+## Hoe gaat het tot nu toe?
+### Kijk jezelf aan in de [spiegel](spiegel.html)
+
+!
+
+
+## Hoe gaat het tot nu toe?
+### Let's go! <br>We gaan toffe dingen maken
+
+!
+
+
+# 4 Klussen - 120 minuten
+###### Frontend development - les 4
+
+Vond je het vorige week moeilijk?
 
 Leerstrategie aanpassen:
 
@@ -144,6 +144,7 @@ Nieuwe duos maken
 	 hulp behoefende soort > rechts 
     
 <img src="assets/StoelenEnTafels3Klussen01.jpg" width="100%" alt="9 groepen van 6">
+
 
 
 !
