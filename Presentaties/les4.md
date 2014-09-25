@@ -61,25 +61,27 @@ daar heb je skills, vaardigheden en kennis voor nodig
 
 ## Hoe gaat het tot nu toe?
 
-**Kijk jezelf aan in de spiegel**
-[link naar website met je webcam]()
+**Kijk jezelf aan in de [spiegel](spiegel.html)**
 
-**Wat kom je hier doen?**
 
-- Hoe je een CSS file in je html plaatst? Had je moeite met waar je Javascript file staat? Waarom een Javascript bepaalde dom elementen niet kon selecteren?
+- had je vorige week moeite met het CSS file in je html plaatst? 
+- Had je moeite met hoe je een extern Javascript aan je HTMl kan koppelen? 
+- Waarom een Javascript bepaalde dom elementen niet kon selecteren?
 - Dit heb je gehad in de P, bij programmeren
     1. We bouwen door op de kennis die je hebt geleerd in de P
 
-- Had je moeite met de attribute selector en het sterretje in het formulier? En de opdracht met de pdf download link?
+- Had je moeite met de attribute selector en het sterretje in het formulier? 
+- En de opdracht met de pdf download link?
 - Heb je alle (!) oefeningen uit les 2 thuis gemaakt? Heb je sowieso thuis doorgeklust aan je 2 pagina's?
     De eerste opdracht in les 3 (3 bij required elementen in een form) was gelijk aan de laatste opdracht in les 2. De tweede opdracht in les 3 (pdf download link) was bijna hetzelfde als de eerste opdracht.
     2. We gaan ervan uit dat je je goed voorbereid    
     
 - Had je moeite met het javascript classlist object en query selector in les 3?
-- Heb je het artikel over het classlist object écht bestudeert? Heb je de voorbeelden uitgeprobeerd? Heb je het artikel nog een keer gelezen?
+- Heb je het artikel over het classlist object écht bestudeert? 
+- Heb je de voorbeelden uitgeprobeerd? 
+- Heb je het artikel nog een keer gelezen?
 - Alles wat je de vorige les hebt gedaan zit daar in ...
     2. We gaan ervan uit dat je je goed voorbereid
-
 
 - let's go!
     3. We gaan toffe dingen maken
