@@ -20,17 +20,18 @@
         }
         header{
             z-index:2;
-            height: 100%;
+            padding: 0.2em;
+            background-color: gold;
+            opacity: 1.0;
+
             /* We first create a flex layout context */
             display: flex;
-            flex-direction: row-reverse;
-            align-items:center;
-            justify-content:space-between;
-            background-color: gold;
-            opacity: 0.9;
+            align-items: baseline;
+            justify-content:center;
         }
         header p{
-            display:inline-block;
+            margin: 0;
+            padding: 0;
         }
         header > strong{
             font-size: 1.2em;
@@ -40,8 +41,10 @@
   
 <body>
 <header>
-    <strong>Kijk jezelf aan in de spiegel</strong>
-    Webcam spiegel voor Chrome, Firefox & Opera
+    <p>
+        <strong>Kijk jezelf aan in de spiegel</strong>
+        Webcam spiegel voor Chrome, Firefox & Opera
+    </p>
 </header>
     
 <video autoplay="true" id="videoElement">
