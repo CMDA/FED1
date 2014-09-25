@@ -14,10 +14,14 @@
         #videoElement {
             width: 100%;
             height: 100%;
+transform: scale(-1, 1);
+filter: FlipH;
+
         }
         header{
             float:left;
             font-size: 1em;
+            display: none;
         }
     </style>
 </head>
@@ -29,7 +33,7 @@
 </header>
     
 <video autoplay="true" id="videoElement">
-
+    <p>Your browser does not support the <code>video</code> element.</p>
 </video>
 <script>
     console.log("Webcam Spiegel - Chrome, Firefox & Opera");
