@@ -19,6 +19,8 @@
             transform: scale(-1, 1);
         }
         header{
+            position: absolute;
+            width: 100%;
             z-index:2;
             padding: 0.2em;
             background-color: gold;
@@ -67,9 +69,17 @@
         // do something
     }
     
-    
-/*
+var reflection = 0;
+var feedback = document.querySelector('header');
 
+    
+document.onkeypress=function(e){
+    //console.log("CharCode value: "+e.charCode);
+    if (e.charCode == 32) console.log("SPACE - "+e.charCode);
+    feedback.innerHTML = "Volgende Reflectie vraag";
+}
+
+/* 
 ## Hoe gaat het tot nu toe?
 
 - had je vorige week moeite met het CSS file in je html plaatst? 
