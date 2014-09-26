@@ -154,9 +154,9 @@ Nieuwe duos maken
 ### Opdracht 3.3.6 - 10 minuten
 ## Flexbox: netjes flex-wrap
 
-Flex wrap 
-+ 
+Laatste opdracht uit les 3 herhalen
 
+Hoe werkt de Flex Wrap?
 
 !
 
@@ -167,10 +167,15 @@ Flex wrap
 
 !
 
-### Opdracht 4.1
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.1 - 10 minuten
+## Flexbox toepassen op artikelen
 
-Artikelen en projecten toevoegen aan de artikel pagina
-de footer van de artikelen naar beneden plaatsen met Flexbox
+
+[Artikelen](Maakopdracht/Artikelen.html) en [Projecten](Maakopdracht/Projecten.html) toevoegen aan de artikel pagina:
+
+Zet de footer met de auteur-informatie onderaan het artikel met behulp van de Flexbox.
+
 
 
 

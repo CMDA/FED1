@@ -12,6 +12,7 @@
             background: #333;
             font-family: Helvetica, Verdana;
             font-size: 0.8em;
+            overflow:hidden;
         }
         #videoElement {
             width: 100%;
@@ -20,16 +21,18 @@
         }
         header{
             position: absolute;
-            width: 100%;
+            top: 50%;
+            width: 100%;;
             z-index:2;
             padding: 0.2em;
             background-color: gold;
-            opacity: 1.0;
+            opacity: 0.9;
 
             /* We first create a flex layout context */
             display: flex;
             align-items: baseline;
             justify-content:center;
+            flex-wrap: nowrap;
         }
         header p{
             margin: 0;
