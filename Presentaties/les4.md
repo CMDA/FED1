@@ -31,9 +31,10 @@ We gaan het Box-model bespreken met positionering, en we gaan oefenen met units 
 ###### Frontend development - les 4
 
 ## Lesdoelen
-- 
-- 
-- 
+* Leren over layout met CSS, floating, positioning, display
+* Positionering van elementen
+* Fonts in verhouding/em, rem, relative font-size
+* Layout in verhouding/vw, vh, relative viewport size
 
 
 !
@@ -106,7 +107,16 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 ## Hoe gaat het tot nu toe?
 # Hoe ging het vorige week?
 
+
 - rabarber rabarber
+
+[Panic](http://youtu.be/5cSKnCBcEDo?t=1m44s)
+
+Com'n just look at the problem:
+- Bill has 3 goldfish
+- He buys 2 more
+- How many dogs live in London?
+
 
 
 !
@@ -171,20 +181,14 @@ Hoe werkt de Flex Wrap?
 ### Opdracht 4.1 - 10 minuten
 ## Flexbox toepassen op artikelen
 
+Voeg deze HTML toe aan je artikel-pagina:
+[Artikelen](Maakopdracht/Artikelen.html) en [Projecten](Maakopdracht/Projecten.html).
 
-[Artikelen](Maakopdracht/Artikelen.html) en [Projecten](Maakopdracht/Projecten.html) toevoegen aan de artikel pagina:
-
-Zet de footer met de auteur-informatie onderaan het artikel met behulp van de Flexbox.
-
-
+Nu gaan we de auteur-informatie, die in het footer element staat, 
+onderaan het artikel zetten met behulp van de Flexbox.
 
 
 !
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4 - 20 minuten
-## Opdrachten
-
 
 4.1 Box model
 4.2 Positioneren elementen in een container
@@ -195,56 +199,179 @@ Zet de footer met de auteur-informatie onderaan het artikel met behulp van de Fl
 
 !
 
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.1 - 20 minuten
-## Flexible typesetting: Units voor typografie
-
-### I know so little about you
-
-
-Intro
-
-en uiteenzetten wat we wanneer gaan leren
-flex box ...
-responsive les ...
-
-
-!
-
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.1 - 20 minuten
-## Flexible typesetting
-
-### I know so little about you
-
-
-Klussen
-
-Maak de title + read more na
-
-
-
-!
-
-
 ### Bespreken Opdracht 4.1
-## Flexible typesetting
+## Flexbox toepassen op artikelen
 
+Voorbeeld in [Dablet](http://dabblet.com/gist/64c00123c655a866ce24)
+
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-between;
+	align-items: flex-start;*/
+
+    order: 1
+
+!
+
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.2.1 - 20 minuten
+## Positioning: Floating
+
+Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
+**Gebruik float ...**
+
+
+**Resources**
+[box-sizing](http://css-tricks.com/box-sizing/) 
+[all about floats](http://css-tricks.com/all-about-floats/)
+
+
+!
+
+### Bespreken Opdracht 4.2.1
+## Positioning: Floating
+
+Voorbeeld in [Dablet](http://dabblet.com/gist/0992755f1152de27b4e9)
+
+    float: left;
+    
+    float: right;
+    
+    clear: both;
 
 
 !
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.2 - 20 minuten
+### Opdracht 4.2.2 - 20 minuten
+## Positioning: Position
+
+Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
+**Gebruik position ...**
+
+**Resources**
+[positioning](http://css-tricks.com/almanac/properties/p/position/)
+[absolute positioning inside relative positioning](http://css-tricks.com/absolute-positioning-inside-relative-positioning/)
+
+
+!
+
+### Bespreken Opdracht 4.2.2
+## Positioning: Position
+
+Voorbeeld in [Dablet](http://dabblet.com/gist/b7ad46cb2843bb5b5e83)
+
+    position: relative;
+    top: ... ;
+    left: ... ;
+
+!
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.2.3 - 20 minuten
+## Positioning: Display: Inline block
+
+Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
+**Gebruik inline-block ...**
+
+**Resources**
+[display](http://css-tricks.com/almanac/properties/d/display/)
+[inline block](http://css-tricks.com/snippets/css/cross-browser-inline-block/)
+
+
+!
+
+### Bespreken Opdracht 4.2.3
+## Positioning: Display: Inline block
+
+Voorbeeld in [Dablet](http://dabblet.com/gist/6321f539abb0664e2ae0)
+
+
+    display: inline-block;
+    vertical-align: top;
+
+!
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.3 - 20 minuten
+## Units: The Flexible Web
+
+*I know so little about you - Ethan Marcotte, Responsive Web Design*
+<img src="assets/4.3Iknowsolittleaboutyou.jpg" width="100%" alt="I know so little about you">
+
+*(t)he control which designers know in the print medium, 
+and often desire in the web medium, 
+is simply a function of the limitation of the printed page. 
+We should embrace the fact that the web doesn’t have the same constraints, 
+and design for this flexibility. 
+But first, we must “accept the ebb and flow of thing.” 
+- John Allsop, A Dao of Web Design*
+
+
+!
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.3.1 - 20 minuten
+## Units: Flexible typesetting
+
+### I know so little about you
+
+
+Je weet niet hoe groot je gebruiker de tekst wil lezen. 
+Je wil wel de verhoudingen bepalen, wat is belangrijk kan het ietsje minder? 
+
+
+Maak dit na:
+<img src="assets/4.3.1.png" width="100%" alt="I know so little about you - read more">
+
+    <h1>I know so little about you.<a href=”#”>Read More &gt;</a></h1>
+
+    background-color: #eee
+    h1: 24 px, #333
+    a: 10 px, uppercase, #666
+
+
+
+!
+
+
+### Bespreken Opdracht 4.3.1
+## Units: Flexible typesetting
+
+### I know so little about you
+
+Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
+
+
+    Verhouding is target / context = result 
+
+    Standaard web font, 100% = 16px
+
+    h1 : 24/16=1.5
+
+    24px is 1,5 groter dan 16px
+
+    a : 10/16 = 0.626 ? Nee 
+    verhouding ten opzicht van de context: a zit in de H1 
+    a: 10/24 = 0.416666667 
+
+!
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.3.2 - 20 minuten
 ## Units voor layout
 
 
 * Margin en padding in rem
 * Layout in procenten
-* of alles in viewport relative units
+* of ... alles in viewport relative units
 
 
 
@@ -256,9 +383,11 @@ Maak de title + read more na
 
 Wat hebben we behandeld (lesdoelen)?
 
-*
-*
-* 
+* Leren over layout met CSS, floating, positioning, display
+* Positionering van elementen
+* Fonts in verhouding/em, rem, relative font-size
+* Layout in verhouding/vw, vh, relative viewport size
+
 
 
 !
