@@ -263,6 +263,38 @@ Wat hebben we behandeld (lesdoelen)?
 
 !
 
+
+
+##### 5. Terugkijken (20 - 200/200 minuten)
+# Huiswerk aankondigen
+
+* **Weekly Nerd** voorbereiden:  
+  Lezen wat op Moodle staat bij les 5.
+  
+* **Klussen** Hoe ver moet je zijn?
+Deeltoets 2 is een mondeling over 
+CSS bling, CSS selectors, de Flexbox en Javascript Classlist object en query selector. 
+Aan de artikel- en formulierpagina moet extra html worden toegevoegd: 
+Beide pagina's moeten de extra header met HTML hebben, uit les 3.
+Aan de artikelpagina moet HTML voor een aantal artikelen en projecten worden toegevoegd.
+
+**Criteria Deeltoets 2**
+
+De artikel- en formulierpagina bevatten alle onderwerpen zoals die in de lessen zijn behandeld: CSS bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions.  
+De student moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om de pagina's te stylen, de student moet laten zien hoe het Javscript Classlist object en de query selectors werkten, en (een deel van) de layout moet opgemaakt zijn met Flexbox. 
+De student toont begrip en inzicht in het gebruik van verschillende CSS mogelijkheden en Javascript.
+
+
+Volgende week wordt deeltoets 2 afgenomen,
+in duo's
+10 minuten per duo
+
+52/2 = 26 duo's/2 (docenten) = 13 mondelingen * 10 minuten = 130 minuten
+
+
+
+!
+
 ##### 5. Terugkijken (10 - 195/200 minuten)
 # Feedback verzamelen
 
@@ -282,21 +314,6 @@ Honger? Dorst? none-of-the-above?
 
 !
 
-
-
-
-##### 5. Terugkijken (20 - 200/200 minuten)
-# Huiswerk aankondigen
-
-* **Weekly Nerd** voorbereiden:  
-  Lezen wat op Moodle staat bij les 5.
-  
-* **Klussen** Hoe ver moet je zijn?
-    1. Artikel pagina
-    2. Formulier pagina
-
-
-!
 
 ## op.
 
