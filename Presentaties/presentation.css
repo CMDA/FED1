@@ -17,6 +17,11 @@ html, body {
     background-image: -ms-radial-gradient(center center, ellipse cover, #eee, #999 100%);
     background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
 }
+@media all and (max-width: 420px) {
+    body > header, section{
+        font-size: 1.2em;
+    }
+}
 td{
     vertical-align: top;
     padding-top:4%;
