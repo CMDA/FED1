@@ -238,6 +238,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/64c00123c655a866ce24)
 Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
 **Gebruik float ...**
 
+<img src="assets/4.2.1.png" width="100%" alt="floating">
 
 **Resources**
 [box-sizing](http://css-tricks.com/box-sizing/) 
@@ -268,6 +269,9 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/0992755f1152de27b4e9)
 Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
 **Gebruik position ...**
 
+<img src="assets/4.2.2.png" width="100%" alt="positioning">
+
+
 **Resources**
 [positioning](http://css-tricks.com/almanac/properties/p/position/)
 [absolute positioning inside relative positioning](http://css-tricks.com/absolute-positioning-inside-relative-positioning/)
@@ -293,6 +297,9 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/b7ad46cb2843bb5b5e83)
 
 Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
 **Gebruik inline-block ...**
+
+<img src="assets/4.2.3.png" width="100%" alt="inline block">
+
 
 **Resources**
 [display](http://css-tricks.com/almanac/properties/d/display/)
