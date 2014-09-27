@@ -167,7 +167,7 @@ Nieuwe duos maken
 
 Laatste opdracht uit les 3 herhalen
 
-*Hoe werkt de Flex Wrap?* Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
+**Hoe werkt de Flex Wrap?** Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
 
     display
     flex-direction
