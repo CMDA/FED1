@@ -232,7 +232,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/64c00123c655a866ce24)
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.2.1 - 20 minuten
+### Opdracht 4.2.1 - 10 minuten
 ## Positioning: Floating
 
 Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
@@ -262,7 +262,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/0992755f1152de27b4e9)
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.2.2 - 20 minuten
+### Opdracht 4.2.2 - 10 minuten
 ## Positioning: Position
 
 Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
@@ -288,7 +288,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/b7ad46cb2843bb5b5e83)
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.2.3 - 20 minuten
+### Opdracht 4.2.3 - 10 minuten
 ## Positioning: Display: Inline block
 
 Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
@@ -314,7 +314,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/6321f539abb0664e2ae0)
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.3 - 20 minuten
+### Opdracht 4.3 - 50 minuten
 ## Units: The Flexible Web
 
 *I know so little about you - Ethan Marcotte, Responsive Web Design*
@@ -380,7 +380,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.3.2 - 20 minuten
+### Opdracht 4.3.2 - 30 minuten
 ## Units voor layout
 
 
