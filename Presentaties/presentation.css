@@ -18,8 +18,8 @@ html, body {
     background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
 }
 @media all and (max-width: 420px) {
-    body > header, section{
-        font-size: 1.2em;
+    html,body {
+        font-size: 4em;
     }
 }
 td{
