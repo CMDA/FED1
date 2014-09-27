@@ -215,15 +215,6 @@ onderaan het artikel zetten met behulp van de Flexbox.
 
 !
 
-4.1 Box model
-4.2 Positioneren elementen in een container
-4.3 Display
-4.4 Units: I know so little about you (typografie en de em)
-4.5 Units: layout opzetten in verhoudigen
-
-
-!
-
 ### Bespreken Opdracht 4.1
 ## Flexbox toepassen op artikelen
 
