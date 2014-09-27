@@ -113,6 +113,7 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 [Panic](http://youtu.be/5cSKnCBcEDo?t=1m44s)
 
 Com'n just look at the problem:
+
 - Bill has 3 goldfish
 - He buys 2 more
 - How many dogs live in London?
@@ -168,10 +169,36 @@ Laatste opdracht uit les 3 herhalen
 
 Hoe werkt de Flex Wrap?
 
+Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
+
+    display
+    flex-direction
+    flex-wrap
+    justify-content
+
+
+<img src="assets/3.3.6.png" width="100%" alt="Flexbox example">
+
+**Resources**
+[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
+
 !
 
 ### Bespreken Opdracht 3.3.6
 ## Flexbox: netjes flex-wrap
+
+Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
+
+Kun je ook een paar items breder maken?
+Bijvoorbeeld de Nav en H1?
+    
+    child {
+        flex-grow: <number>; /* default 0 */
+        }
+
+
 
 
 
@@ -350,14 +377,13 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 
 
     Verhouding is target / context = result 
-
     Standaard web font, 100% = 16px
-
     h1 : 24/16=1.5
 
     24px is 1,5 groter dan 16px
 
     a : 10/16 = 0.626 ? Nee 
+
     verhouding ten opzicht van de context: a zit in de H1 
     a: 10/24 = 0.416666667 
 
