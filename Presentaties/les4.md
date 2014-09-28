@@ -34,12 +34,26 @@ en we gaan oefenen met units voor typografie en layout.
 ## Lesdoelen
 * Leren over layout met CSS, floating, positioning, display
 * Positionering van elementen
-* units for Fonts/EM,REM, relative font-size
-* Units for Layout/EM,REM,VW,VH,VMIN,VMAX relative viewport size
+* Units for Fonts: EM, REM, relative font-size
+* Units for Layout: EM, REM, VW, VH, VMIN, VMAX, relative viewport size
 
 
 !
 
+# 1. Introduktie - 5 minuten
+## Op naar deeltoets 2 
+In werkgroep 5 (volgende week) in duo's (10 minuten).  
+Verder met het formulier en het artikel:  
+
+* Nieuwe header en extra content
+* CSS bling: effecten, transforms en transities
+* CSS selectoren
+* Query selector en Classlist object
+* Flexbox
+
+!
+
+# 1. Introduktie - 5 minuten
 ## Op naar deeltoets 2  
   
 Een nieuwe header **voor je formulier**:  
@@ -48,6 +62,7 @@ Een nieuwe header **voor je formulier**:
 
 !
 
+# 1. Introduktie - 5 minuten
 ## Op naar deeltoets 2  
   
 Een nieuwe header en extra content **voor je artikel**:  
@@ -153,13 +168,12 @@ Vond je het vorige week moeilijk?
 
 Leerstrategie aanpassen:
 
-Nieuwe duos maken
-	 top of the pop > links
-	 ja best wel > midden
-	 hulp behoefende soort > rechts 
+Nieuwe duo's maken:
+
+* top of the pop > links
+* ja best wel > midden
+* hulp behoefende soort > rechts
     
-
-
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
@@ -473,7 +487,7 @@ Aan de artikelpagina moet HTML voor een aantal artikelen en projecten worden toe
 **Criteria Deeltoets 2**
 
 De artikel- en formulierpagina bevatten alle onderwerpen zoals die in de lessen zijn behandeld: CSS bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions.  
-De student moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om de pagina's te stylen, de student moet laten zien hoe het Javscript Classlist object en de query selectors werkten, en (een deel van) de layout moet opgemaakt zijn met Flexbox. 
+De student moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om de pagina's te stylen, de student moet laten zien hoe het Javscript Classlist object en de query selectors werken, en (een deel van) de layout moet opgemaakt zijn met Flexbox. 
 De student toont begrip en inzicht in het gebruik van verschillende CSS mogelijkheden en Javascript.
 
 
