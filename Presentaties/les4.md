@@ -197,10 +197,6 @@ Bijvoorbeeld de Nav en H1?
         flex-grow: <number>; /* default 0 */
         }
 
-
-
-
-
 !
 
 ##### 4. Klussen (120 - 185/200 minuten)
@@ -260,9 +256,12 @@ Positioneer de artikelen en/of projecten, onder de header naast elkaar.
 Voorbeeld in [Dablet](http://dabblet.com/gist/0992755f1152de27b4e9)
 
     float: left;
+    clear: left;
     
+of
+
+    float: left;
     float: right;
-    
     clear: both;
 
 
