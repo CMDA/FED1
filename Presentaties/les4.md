@@ -360,6 +360,7 @@ But first, we must “accept the ebb and flow of thing.”
 !
 
 - Units for Fonts
+    - px, EM, %, pt, Keyword
 - Units for Layout
     - EM voor max/min breedtes
         - Anything from 45 to 75 characters is widely regarded as a satisfactory length of line
@@ -385,8 +386,8 @@ But first, we must “accept the ebb and flow of thing.”
 Je weet niet hoe groot je gebruiker de tekst wil lezen. 
 Wel wil je de verhoudingen bepalen. Wat is belangrijk? Kan het ietsje minder? 
 
-
 Maak dit na, en gebruik EM waardes:
+
 <img src="assets/4.3.1.png" width="100%" alt="I know so little about you - read more">
 
     <h1>I know so little about you.<a href=”#”>Read More &gt;</a></h1>
@@ -427,33 +428,69 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 
 
 ##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 4.3.2 - 30 minuten
+### Opdracht 4.3.2 - 10 minuten
 ## Units voor layout
 
+Zet de tekst voor het artikel op een goed leesbare grootte 
+en bepaal de lengte van de zinnen. 
+Gebruik de em waarde. Staat de regelafstand goed? 
 
-* Margin en padding in rem
-* Layout in procenten
-* of ... alles in viewport relative units
+<img src="assets/4.3.2.png" width="100%" alt="Easy to read">
 
-
-    article > section {
-        column-width: 22rem;
-        column-gap: 2.6rem;
-
-        height: 80vh;
-        width: 80vw;
-
-        overflow: scroll;
-    }
-
-
-**Resources***
+**Resources**
 [Font sizing with REM (root em)](http://css-tricks.com/font-sizing-with-rem/)
 [Theres more to the css REM unit than font sizing](http://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/)
 [Viewport sized Typography](http://css-tricks.com/viewport-sized-typography/)
 
+
 !
 
+
+### Bespreken Opdracht 4.3.2
+## Units voor layout
+
+Voorbeeld in [Dablet](http://dabblet.com/gist/fad9c1a6c78c3842259c)
+
+    font-size: 1.2em;
+    line-height: 1.2em;
+	max-width: 26em;
+
+!
+
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 4.3.3 - 10 minuten
+## Units voor layout
+
+Zet de tekst van het artikel in meerdere kolommen, 
+en bepaal de verhoudingen in em of rem. 
+Hoe breed moeten de kolommen zijn voor een goede regellengte?
+Hoeveel ruimte moet er tussen de kolommen?
+
+<img src="assets/4.3.3.png" width="100%" alt="Easy to read column">
+
+**Resources**
+[CSS Columns](http://css-tricks.com/guide-responsive-friendly-css-columns/)
+
+
+!
+
+
+### Bespreken Opdracht 4.3.3
+## Units voor layout
+
+Voorbeeld in [Dablet](http://dabblet.com/gist/127115c338ee05559b4f)
+
+
+    column-width: 24rem;
+    column-gap: 2rem;
+
+    height: 50vh; /* helft van de viewport height */
+    width: 100%; /*max breedte beschikbaar in de parent */ 
+    overflow: scroll;
+
+
+!
 
 # 5. Terugkijken 20 minuten
 ###### Frontend development - les 4
