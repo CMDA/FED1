@@ -7,7 +7,8 @@
 # Display: none
 ###### Frontend development - les 4
 Deze les gaan we verder met de Flexbox. 
-We gaan het Box-model bespreken met positionering, en we gaan oefenen met units voor typografie en layout.
+We gaan het Box-model bespreken met positionering, 
+en we gaan oefenen met units voor typografie en layout.
 
 <img src="http://image.spreadshirt.com/image-server/v1/products/110832180/views/1,width=280,height=280.png" alt="kledingvoorschriften">
 
@@ -33,8 +34,8 @@ We gaan het Box-model bespreken met positionering, en we gaan oefenen met units 
 ## Lesdoelen
 * Leren over layout met CSS, floating, positioning, display
 * Positionering van elementen
-* Fonts in verhouding/em, rem, relative font-size
-* Layout in verhouding/vw, vh, relative viewport size
+* units for Fonts/EM,REM, relative font-size
+* Units for Layout/EM,REM,VW,VH,VMIN,VMAX relative viewport size
 
 
 !
@@ -207,12 +208,18 @@ Bijvoorbeeld de Nav en H1?
 ## Flexbox toepassen op artikelen
 
 Voeg deze HTML toe aan je artikel-pagina:
-[Artikelen](Maakopdracht/Artikelen.html) en [Projecten](Maakopdracht/Projecten.html).
+[Artikelen](../Maakopdracht/Artikelen.html) en [Projecten](../Maakopdracht/Projecten.html).
 
-Nu gaan we de auteur-informatie, die in het footer element staat, 
+Nu gaan we de auteur-informatie, die in het footer-element staat, 
 onderaan het artikel zetten met behulp van de Flexbox.
 
-
+    <article>
+        <header></header>
+        <footer></footer> <<< TOON FOOTER ONDERAAN ARTICLE
+        <section>
+            <p></p>
+        </section>
+    </article>
 !
 
 ### Bespreken Opdracht 4.1
@@ -336,6 +343,23 @@ But first, we must “accept the ebb and flow of thing.”
 - John Allsop, A Dao of Web Design*
 
 
+
+!
+
+- Units for Fonts
+- Units for Layout
+    - EM voor max/min breedtes
+        - Anything from 45 to 75 characters is widely regarded as a satisfactory length of line
+        - a column is easy to read if it's wide enough to accommodate an average of 10 words per line
+    - REM voor margins & paddings
+        - Altijd gerelateerd aan de grootte van de font-size van het html-element
+        - Perfect voor margins en paddings, die gelijk kunnen blijven, ongeacht de font-grootte 
+    - Viewport relative units
+        - VW - viewport width
+        - VH - viewport height
+        - VMAX - de grootste van de width of de height
+        - VMIN - de kleinste van de width of de height
+
 !
 
 
@@ -345,12 +369,11 @@ But first, we must “accept the ebb and flow of thing.”
 
 ### I know so little about you
 
-
 Je weet niet hoe groot je gebruiker de tekst wil lezen. 
-Je wil wel de verhoudingen bepalen, wat is belangrijk kan het ietsje minder? 
+Wel wil je de verhoudingen bepalen. Wat is belangrijk? Kan het ietsje minder? 
 
 
-Maak dit na:
+Maak dit na, en gebruik EM waardes:
 <img src="assets/4.3.1.png" width="100%" alt="I know so little about you - read more">
 
     <h1>I know so little about you.<a href=”#”>Read More &gt;</a></h1>
@@ -360,12 +383,15 @@ Maak dit na:
     a: 10 px, uppercase, #666
 
 
+**Resources**
+[Font size px - em - % - pt](http://css-tricks.com/css-font-size/)
+
 
 !
 
 
 ### Bespreken Opdracht 4.3.1
-## Units: Flexible typesetting
+## Units for Typografie: Flexible typesetting
 
 ### I know so little about you
 
@@ -386,6 +412,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 !
 
 
+
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 4.3.2 - 30 minuten
 ## Units voor layout
@@ -396,6 +423,21 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 * of ... alles in viewport relative units
 
 
+    article > section {
+        column-width: 22rem;
+        column-gap: 2.6rem;
+
+        height: 80vh;
+        width: 80vw;
+
+        overflow: scroll;
+    }
+
+
+**Resources***
+[Font sizing with REM (root em)](http://css-tricks.com/font-sizing-with-rem/)
+[Theres more to the css REM unit than font sizing](http://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/)
+[Viewport sized Typography](http://css-tricks.com/viewport-sized-typography/)
 
 !
 
@@ -407,8 +449,8 @@ Wat hebben we behandeld (lesdoelen)?
 
 * Leren over layout met CSS, floating, positioning, display
 * Positionering van elementen
-* Fonts in verhouding/em, rem, relative font-size
-* Layout in verhouding/vw, vh, relative viewport size
+* Units for Fonts/em,rem, relative font-size
+* Units for Layout/em,rem,vw,vh,vmin,vmax relative viewport size
 
 
 
