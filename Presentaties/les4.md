@@ -41,6 +41,8 @@ en we gaan oefenen met units voor typografie en layout.
 !
 
 # 1. Introduktie - 5 minuten
+###### Frontend development - les 4
+
 ## Op naar deeltoets 2 
 In werkgroep 5 (volgende week) in duo's (10 minuten).  
 Verder met het formulier en het artikel:  
@@ -54,6 +56,8 @@ Verder met het formulier en het artikel:
 !
 
 # 1. Introduktie - 5 minuten
+###### Frontend development - les 4
+
 ## Op naar deeltoets 2  
   
 Een nieuwe header **voor je formulier**:  
@@ -63,6 +67,8 @@ Een nieuwe header **voor je formulier**:
 !
 
 # 1. Introduktie - 5 minuten
+###### Frontend development - les 4
+
 ## Op naar deeltoets 2  
   
 Een nieuwe header en extra content **voor je artikel**:  
