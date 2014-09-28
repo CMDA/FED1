@@ -11,9 +11,13 @@
             margin: 0;
             background: #333;
             font-family: Helvetica, Verdana;
-            font-size: 1em;
+            font-size: 2vw;
             
-            overflow:hidden;
+        }
+        @media all and (max-width: 420px) {
+            body {
+                font-size: 3vw;
+            }
         }
         #videoElement {
             width: 100%;
@@ -40,7 +44,7 @@
         }
         header p:first-child {
             margin-top: -2em;
-            margin-left: -4em;
+            margin-left: 1em;
         }
         header p:nth-of-type(2) {
             margin-top: 2em;
@@ -55,8 +59,8 @@
   
 <body>
 <header>
-    <p>Kijk jezelf aan in de spiegel</p>
-    <p><i>(Webcam spiegel voor Chrome, Firefox & Opera)</i></p>
+    <p>Kijk jezelf aan (in de spiegel)</p>
+    <p><i>Webcam spiegel voor Chrome, Firefox & Opera</i></p>
 </header>
     
 <video autoplay="true" id="videoElement">
@@ -79,45 +83,41 @@
         // do something
     }
     
-var reflection = 0;
+var m = 0; //message
+var reflectie = new Array();
 var feedback = document.querySelector('header');
 
-    
 document.onkeypress=function(e){
-    //console.log("CharCode value: "+e.charCode);
-    if (e.charCode == 32) console.log("SPACE - "+e.charCode);
-    feedback.innerHTML = "<p>Volgende Reflectie vraag<p>";
+    if (e.charCode == 32) {
+        message = reflectie[m++]
+        if(m<=reflectie.length)feedback.innerHTML = "<p>"+message+"</p>";
+        //console.log("m:"+m+": "+ message);
+    }
 }
 
-/* 
-## Hoe gaat het tot nu toe?
 
-- had je vorige week moeite met het CSS file in je html plaatst? 
-- Had je moeite met hoe je een extern Javascript aan je HTMl kan koppelen? 
-- Waarom een Javascript bepaalde dom elementen niet kon selecteren?
-- Dit heb je gehad in de P, bij programmeren
-    1. We bouwen door op de kennis die je hebt geleerd in de P
-
-- Had je moeite met de attribute selector en het sterretje in het formulier? 
-- En de opdracht met de pdf download link?
-- Heb je alle (!) oefeningen uit les 2 thuis gemaakt? 
-- Heb je  thuis doorgeklust aan je 2 pagina's?
-    - De 1e opdracht in les 3 (3 bij required elementen in een form) 
-    was gelijk aan de laatste opdracht in les 2. 
-    - De 2e opdracht in les 3 (pdf download link) 
-    was bijna hetzelfde als de eerste opdracht en is precies behandeld in het college van les 2
-    2. We gaan ervan uit dat je je goed voorbereid    
-    
-- Had je moeite met het javascript classlist object en query selector in les 3?
-- Heb je het artikel over het classlist object écht bestudeert? 
-- Heb je de voorbeelden uitgeprobeerd? 
-- Heb je het artikel nog een keer gelezen?
-- Alles wat je de vorige les hebt gedaan zit daar in ...
-    2. We gaan ervan uit dat je je goed voorbereid
-
-
-
-*/
+reflectie.push("Had je vorige week moeite met het CSS file aan je HTML te koppelen?");
+reflectie.push("Moeite met hoe je een extern Javascript aan je HTML kan koppelen?");
+reflectie.push("Waarom een Javascript bepaalde dom elementen niet kon selecteren?");
+reflectie.push("Dit heb je gehad in de P ... bij Programmeren");
+reflectie.push("1. We bouwen door op de kennis die je hebt geleerd in de P");
+reflectie.push("");
+reflectie.push("Had je moeite met de attribute selector en het sterretje in het formulier? ");
+reflectie.push("En de opdracht met de pdf download link?");
+reflectie.push("Heb je alle (!) oefeningen uit les 2 thuis gemaakt?");
+reflectie.push("Heb je  thuis doorgeklust aan je 2 pagina's?");
+reflectie.push("De 1e opdracht in les 3 (* in form) was gelijk aan de laatste opdracht in les 2");
+reflectie.push("De 2e opdracht in les 3 (pdf link) is behandeld in het college van les 2");
+reflectie.push("2. We gaan ervan uit dat je je goed voorbereid");
+reflectie.push("");
+reflectie.push("Had je moeite met het javascript classlist object en query selector in les 3?");
+reflectie.push("Heb je het artikel over het classlist object écht bestudeert? ");
+reflectie.push("Heb je de voorbeelden uitgeprobeerd?");
+reflectie.push("Heb je het artikel nog een keer gelezen?");
+reflectie.push("Alles wat je de vorige les hebt gedaan zit daar in ...");
+reflectie.push("2. We gaan ervan uit dat je je goed voorbereid");
+reflectie.push("");
+reflectie.push("Kom op, we gaan toffe dingen maken ...");
     
 </script>
 </body>

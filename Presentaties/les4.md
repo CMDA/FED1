@@ -141,7 +141,7 @@ Com'n just look at the problem:
 
 
 ## Hoe gaat het tot nu toe?
-### Let's go! <br>We gaan toffe dingen maken
+### Kom op, <br>we gaan toffe dingen maken
 
 !
 
