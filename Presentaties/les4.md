@@ -58,7 +58,7 @@ Een nieuwe header en extra content **voor je artikel**:
 # 2. College - 30 minuten
 ###### Frontend development - les 4
 
-College [titel](http://cmda.github.io/FED1/Colleges/???.html)
+College [titel](../Colleges/les4-display-none/index.html)
 Over ...
 
 <img src="assets/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
@@ -461,7 +461,8 @@ Lesprogramma, lesstructuur, discussiesessie, werkdruk?
 Mondeling duidelijk? Over de feedback?   
 
 <strong style="background-color:pink">Anders?</strong>
-Honger? Dorst? none-of-the-above? 
+Honger? Dorst? none-of-the-above?
+
 
 !
 
