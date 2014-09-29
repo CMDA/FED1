@@ -386,7 +386,7 @@ But first, we must “accept the ebb and flow of thing.”
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 4.3.1 - 20 minuten
 ## Units: Flexible typesetting
-
+<br>
 ### I know so little about you
 
 Je weet niet hoe groot je gebruiker de tekst wil lezen. 
@@ -412,7 +412,7 @@ Maak dit na, en gebruik EM waardes:
 
 ### Bespreken Opdracht 4.3.1
 ## Units for Typografie: Flexible typesetting
-
+<br>
 ### I know so little about you
 
 Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
@@ -551,8 +551,8 @@ in duo's
 ##### 5. Terugkijken (10 - 195/200 minuten)
 # Feedback verzamelen
 
-<br />
-## stickies
+<br>
+## Stickies
 Schrijf je feedback op een sticky en plak op het bord.
 
 
