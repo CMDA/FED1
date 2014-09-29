@@ -12,7 +12,7 @@
             background: #333;
             font-family: Helvetica, Verdana;
             font-size: 2vw;
-            
+            overflow:hidden;
         }
         @media all and (max-width: 420px) {
             body {
@@ -82,20 +82,44 @@
     function videoError(e) {
         // do something
     }
+
+window.FOCUS;
     
-var m = 0; //message
+var m = 1; //message
 var reflectie = new Array();
 var feedback = document.querySelector('header');
 
-document.onkeypress=function(e){
-    if (e.charCode == 32) {
-        message = reflectie[m++]
-        if(m<=reflectie.length)feedback.innerHTML = "<p>"+message+"</p>";
+document.onkeydown=function(event){
+    var keyValue = event.keyCode;
+    console.log("keyValue: " + keyValue);
+    if (keyValue == 32) {
+        //spacebar 32
+        //right arrow 38
+        message = reflectie[m++];
+        if(m<=0){
+            m=1;
+            message = reflectie[m];
+        }
+        //console.log("m: "+m);
+        if(m<=reflectie.length){
+            feedback.innerHTML = "<p>"+message+"</p>";
+            
+        }
         //console.log("m:"+m+": "+ message);
+    }else if(keyValue == 37){
+        //backspace 8
+        //left arrow 37
+        message = reflectie[m--];
+        if(m>=0){
+            feedback.innerHTML = "<p>"+message+"</p>";
+        }
+        
     }
+    console.log("m: "+m);
+    
 }
 
-
+reflectie.push("Kijk jezelf aan (in de spiegel)");
 reflectie.push("Had je vorige week moeite met het CSS file aan je HTML te koppelen?");
 reflectie.push("Moeite met hoe je een extern Javascript aan je HTML kan koppelen?");
 reflectie.push("Waarom een Javascript bepaalde dom elementen niet kon selecteren?");
