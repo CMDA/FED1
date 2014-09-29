@@ -182,49 +182,14 @@ Nieuwe duo's maken:
     
 !
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 3.3.6 - 10 minuten
-## Flexbox: netjes flex-wrap
-
-Laatste opdracht uit les 3 herhalen
-
-**Hoe werkt de Flex Wrap?** Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
-
-    display
-    flex-direction
-    flex-wrap
-    justify-content
-
-
-<img src="assets/3.3.6.png" width="100%" alt="Flexbox example">
-
-**Resources**
-[A guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-
-
-!
-
-### Bespreken Opdracht 3.3.6
-## Flexbox: netjes flex-wrap
-
-Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
-
-Kun je ook een paar items breder maken?
-Bijvoorbeeld de Nav en H1?
-    
-    child {
-        flex-grow: <number>; /* default 0 */
-        }
-
-!
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 4.1 - 10 minuten
 ## Flexbox toepassen op artikelen
 
 Voeg deze HTML toe aan je artikel-pagina:
-[Artikelen](../Maakopdracht/Artikelen.html) en [Projecten](../Maakopdracht/Projecten.html).
+[Artikelen](../Maakopdracht/Artikelen.html) 
+en [Projecten](../Maakopdracht/Projecten.html).
 
 Nu gaan we de auteur-informatie, die in het footer-element staat, 
 onderaan het artikel zetten met behulp van de Flexbox.
