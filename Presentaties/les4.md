@@ -64,6 +64,9 @@ Een nieuwe header **voor je formulier**:
   
 <img src="assets/FormulierUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
 
+
+* [Header](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/header.html) 
+
 !
 
 # 1. Introduktie - 5 minuten
@@ -75,6 +78,9 @@ Een nieuwe header en extra content **voor je artikel**:
 
 <img src="assets/ArtikelUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
 
+* 
+* [Artikelen](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelen.html) 
+* [Projecten](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Projecten.html)
 !
 
 # 2. College - 30 minuten
@@ -188,8 +194,8 @@ Nieuwe duo's maken:
 ## Flexbox toepassen op artikelen
 
 Voeg deze HTML toe aan je artikel-pagina:
-[Artikelen](../Maakopdracht/Artikelen.html) 
-en [Projecten](../Maakopdracht/Projecten.html).
+[Artikelen](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelen.html) 
+en [Projecten](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Projecten.html).
 
 Nu gaan we de auteur-informatie, die in het footer-element staat, 
 onderaan het artikel zetten met behulp van de Flexbox.
