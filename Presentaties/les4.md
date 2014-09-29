@@ -100,9 +100,9 @@ Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 s
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Artikelen voor vandaag
 
-* [The 100% Easy-2-Read Standard by Oliver Reichenstein](link)
-* [Web Design is 95% Typograph by Oliver Reichenstein](link)
-* [CSS Positioning by Noah Stokes](link)
+* [The 100% Easy-2-Read Standard by Oliver Reichenstein](http://ia.net/blog/100e2r)
+* [Web Design is 95% Typograph by Oliver Reichenstein](http://ia.net/blog/the-web-is-all-about-typography-period)
+* [CSS Positioning by Noah Stokes](http://alistapart.com/article/css-positioning-101)
 
 
 !
@@ -390,7 +390,7 @@ But first, we must “accept the ebb and flow of thing.”
 ### I know so little about you
 
 Je weet niet hoe groot je gebruiker de tekst wil lezen. 
-Wel wil je de verhoudingen bepalen. Wat is belangrijk? Kan het ietsje minder? 
+Wel wil je de verhoudingen bepalen. 
 
 Maak dit na, en gebruik EM waardes:
 
@@ -435,25 +435,29 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 4.3.2 - 10 minuten
-## Units voor layout
+## Units voor layout: Easy to Read
 
 Zet de tekst voor het artikel op een goed leesbare grootte 
 en bepaal de lengte van de zinnen. 
-Gebruik de em waarde. Staat de regelafstand goed? 
+Gebruik de em waarde. 
+Staat de regelafstand goed? 
+
+Je weet niet hoe groot je gebruiker de tekst wil lezen. 
+Wel wil je de verhoudingen bepalen. 
+Kan het ietsje minder? Window Licking?
 
 <img src="assets/4.3.2.png" width="100%" alt="Easy to read">
 
 **Resources**
-[Font sizing with REM (root em)](http://css-tricks.com/font-sizing-with-rem/)
-[Theres more to the css REM unit than font sizing](http://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/)
 [Viewport sized Typography](http://css-tricks.com/viewport-sized-typography/)
-
+[Em or REM](http://nerd.vasilis.nl/use-em-rem-right-use-cases/)
+[Theres more to the css REM unit than font sizing](http://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/)
 
 !
 
 
 ### Bespreken Opdracht 4.3.2
-## Units voor layout
+## Units voor layout: Easy to Read
 
 Voorbeeld in [Dablet](http://dabblet.com/gist/fad9c1a6c78c3842259c)
 
