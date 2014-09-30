@@ -87,8 +87,8 @@ Een nieuwe header en extra content **voor je artikel**:
 # 2. College - 30 minuten
 ###### Frontend development - les 4
 
-College [titel](../Colleges/les4-display-none/index.html)
-Over ...
+College [Display: none](../Colleges/les4-display-none/index.html)
+Over het Box moddel, Positioning en Units for typografie en layout
 
 <img src="assets/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
 
@@ -98,7 +98,10 @@ Over ...
 ###### Frontend development - les 4
 Iedere les gaan we artikelen bespreken in kleine groepen. 
 
-Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
+Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. 
+Als je niet voldoet aan de criteria voor de Weekly Nerd 
+dan moet dit onderdeel herkanst worden met een tentamen.
 
 <img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
 
