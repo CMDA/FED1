@@ -33,7 +33,6 @@ en we gaan oefenen met units voor typografie en layout.
 
 ## Lesdoelen
 * Leren over layout met CSS, floating, positioning, display
-* Positionering van elementen
 * Units for Fonts: EM, REM, relative font-size
 * Units for Layout: EM, REM, VW, VH, VMIN, VMAX, relative viewport size
 
@@ -78,7 +77,6 @@ Een nieuwe header en extra content **voor je artikel**:
 
 <img src="assets/ArtikelUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
 
-* 
 * [Artikelen](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelen.html) 
 * [Projecten](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Projecten.html)
 
@@ -182,9 +180,7 @@ Com'n just look at the problem:
 
 Vond je het vorige week moeilijk?
 
-Leerstrategie aanpassen:
-
-Nieuwe duo's maken:
+Leerstrategie aanpassen: Nieuwe duo's maken:
 
 * top of the pop > links
 * ja best wel > midden
@@ -233,7 +229,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/64c00123c655a866ce24)
 ### Opdracht 4.2.1 - 10 minuten
 ## Positioning: Floating
 
-Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
+Positioneer de artikelen en/of projecten (onder de header) naast elkaar. 
 **Gebruik float ...**
 
 <img src="assets/4.2.1.png" width="100%" alt="floating">
@@ -267,7 +263,7 @@ of
 ### Opdracht 4.2.2 - 10 minuten
 ## Positioning: Position
 
-Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
+Positioneer de artikelen en/of projecten (onder de header) naast elkaar. 
 **Gebruik position ...**
 
 <img src="assets/4.2.2.png" width="100%" alt="positioning">
@@ -296,7 +292,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/b7ad46cb2843bb5b5e83)
 ### Opdracht 4.2.3 - 10 minuten
 ## Positioning: Display: Inline block
 
-Positioneer de artikelen en/of projecten, onder de header naast elkaar. 
+Positioneer de artikelen en/of projecten (onder de header) naast elkaar. 
 **Gebruik inline-block ...**
 
 <img src="assets/4.2.3.png" width="100%" alt="inline block">
@@ -325,8 +321,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/6321f539abb0664e2ae0)
 ### Opdracht 4.3 - 50 minuten
 ## Units: The Flexible Web
 
-*I know so little about you - Ethan Marcotte, Responsive Web Design*
-<img src="assets/4.3Iknowsolittleaboutyou.jpg" width="100%" alt="I know so little about you">
+I know so little about you - Ethan Marcotte, Responsive Web Design
 
 *(t)he control which designers know in the print medium, 
 and often desire in the web medium, 
@@ -336,9 +331,13 @@ and design for this flexibility.
 But first, we must “accept the ebb and flow of thing.” 
 - John Allsop, A Dao of Web Design*
 
+<img src="assets/4.3Iknowsolittleaboutyou.jpg" width="100%" alt="I know so little about you">
+
 
 
 !
+
+**Reminder**
 
 - Units for Fonts
     - px, EM, %, pt, Keyword
@@ -361,7 +360,6 @@ But first, we must “accept the ebb and flow of thing.”
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 4.3.1 - 20 minuten
 ## Units: Flexible typesetting
-<br>
 ### I know so little about you
 
 Je weet niet hoe groot je gebruiker de tekst wil lezen. 
@@ -387,7 +385,6 @@ Maak dit na, en gebruik EM waardes:
 
 ### Bespreken Opdracht 4.3.1
 ## Units for Typografie: Flexible typesetting
-<br>
 ### I know so little about you
 
 Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
@@ -414,7 +411,7 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/f9bc9f740e89db92f28c)
 
 Zet de tekst voor het artikel op een goed leesbare grootte 
 en bepaal de lengte van de zinnen. 
-Gebruik de em waarde. 
+Gebruik de EM waarde. 
 Staat de regelafstand goed? 
 
 Je weet niet hoe groot je gebruiker de tekst wil lezen. 
@@ -466,14 +463,13 @@ Hoeveel ruimte moet er tussen de kolommen?
 
 Voorbeeld in [Dablet](http://dabblet.com/gist/127115c338ee05559b4f)
 
-
-    column-width: 24rem;
-    column-gap: 2rem;
-
-    height: 50vh; /* helft van de viewport height */
-    width: 100%; /*max breedte beschikbaar in de parent */ 
-    overflow: scroll;
-
+	line-height: 1.2em;
+    
+	column-width: 24rem;
+	column-gap: 2em;
+	
+    height: 52vh;
+	width: 100%; 
 
 !
 
@@ -483,7 +479,6 @@ Voorbeeld in [Dablet](http://dabblet.com/gist/127115c338ee05559b4f)
 Wat hebben we behandeld (lesdoelen)?
 
 * Leren over layout met CSS, floating, positioning, display
-* Positionering van elementen
 * Units for Fonts/em,rem, relative font-size
 * Units for Layout/em,rem,vw,vh,vmin,vmax relative viewport size
 
