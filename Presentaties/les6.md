@@ -132,7 +132,30 @@ Wat hebben we behandeld (lesdoelen)?
     2. Formulier pagina
 
 
+
 !
+
+
+##### 5. Terugkijken (20 - 200/200 minuten)
+# Feedback verzamelen
+
+<br>
+## Stickies
+Schrijf je feedback op een sticky en plak op het bord.
+
+
+<strong style="background-color:yellow">Feedback op werkwijze</strong>
+Lesprogramma, lesstructuur, discussiesessie, werkdruk?  
+
+<strong style="background-color:PaleGreen">Feedback op deeltoets 1</strong> 
+Mondeling duidelijk? Over de feedback?   
+
+<strong style="background-color:pink">Anders?</strong>
+Honger? Dorst? none-of-the-above?
+
+
+!
+
 
 ## op.
 
