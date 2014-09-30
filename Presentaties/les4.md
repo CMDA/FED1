@@ -81,6 +81,7 @@ Een nieuwe header en extra content **voor je artikel**:
 * 
 * [Artikelen](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelen.html) 
 * [Projecten](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Projecten.html)
+
 !
 
 # 2. College - 30 minuten
