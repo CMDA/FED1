@@ -182,6 +182,23 @@ Nieuwe duo's maken:
     
 !
 
+## Op naar deeltoets 2 
+
+Een nieuwe header **voor je formulier**:  
+  
+<img src="assets/FormulierUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
+
+!
+
+## Op naar deeltoets 2  
+  
+Een nieuwe header en extra content **voor je artikel**:  
+
+<img src="assets/ArtikelUitbreiden.png" width="100%" alt="Vervang de header in je formulier.">
+
+!
+
+
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 3.3.6 - 10 minuten
 ## Flexbox: netjes flex-wrap
