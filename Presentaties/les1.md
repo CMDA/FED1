@@ -149,7 +149,10 @@ Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers e
 ###### Frontend development - les 1
 Iedere les gaan we artikelen bespreken in kleine groepen. 
 
-Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. Als je niet voldoen aan de gestelde criteria voor de Weekly Nerd dan moet dit onderdeel herkanst worden met een tentamen.
+Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
+Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. 
+Als je niet voldoet aan de criteria voor de Weekly Nerd 
+dan moet dit onderdeel herkanst worden met een tentamen.
 
 <img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
 
