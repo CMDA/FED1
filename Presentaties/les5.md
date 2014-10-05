@@ -9,7 +9,7 @@
 Deze les gaat over de principes van het web, the multi screen world 
 en we gaan aan de slag met Mediaqueries.
 
-<img src="http://images.cdn.bigcartel.com/bigcartel/product_images/66597677/max_h-1000+max_w-1000/CSStoHTMLSlate_2445.jpg" alt="kledingvoorschriften">
+<img src="http://images.cdn.bigcartel.com/bigcartel/product_images/66597677/max_h-1000+max_w-1000/CSStoHTMLSlate_2445.jpg" width="100%"  alt="kledingvoorschriften">
 
 
 !
