@@ -65,7 +65,7 @@ nb. Mocht het onverhoopt misgaan - _**48 uur later herkansen**_
 # 2. College - 30 minuten
 ###### Frontend development - les 5
 
-College [You are the CSs to my HTML](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html)
+College [You are the CSS to my HTML](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html)
 Over de principes van het web, over Mobile first, over Mediaqueries en Responsive design
 
 <img src="assets/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
@@ -134,61 +134,128 @@ Opstelling werkeilanden van 6 personen - **nieuwe** duo's zitten naast elkaar
 
 Je artikelpagina bestaat nu uit 
 
-* Een header, met nav, titel, logo, search en meer
-* Het hoofdartikel, in een < main >
-* 5 nieuws-artikelen, in een < aside > of < section >
-* 3 project-artikelen, in een < aside > of < section >
+* Een header - met nav, titel, logo, search en meer
+* Het hoofdartikel - in een < main >
+* 5 nieuws-artikelen - in een < aside > of < section >
+* 3 project-artikelen - in een < aside > of < section >
 
+[Voorbeeldplaatje HMTL Artikelpagina]()
 
+**Maak je artikelpagina Mobile first**
 
-1. Maak je artikelpagina Mobile first
-    Pas de marges en/of padding van de pagina aan (deze mogen dichter op de rand van je telefoon - kijk maar)
-    Goede leesbare teksten voor mobile (font-size, line-height, regel-lengte)
-    Hoeveel ruimte heeft de header nodig op mobiel?
-    Misschien wil je van de project-artikelen en nieuws-artikelen op mobiel wel alleen de titel laten zien? Met een toggle inklappen/uitklappen ?
-2. Pas de artikelpagina layout aan aan het tablet-formaat met een mediaquery
-    Zijn de regels van het < main > artikel niet te lang?
-    Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
-    Kunnen de project-artikelen en nieuws-artikelen in 2 kolommen?
-3. Maak je formulierpagina Mobile first
-    Pas de marges en/of padding van de pagina aan (deze mogen dichter op de rand van je telefoon - kijk maar)
-    Met goede bedienbare input-velden
-    Hoeveel ruimte heeft de header nodig op mobiel?    
-4. Pas de formulierpagina-layout aan aan het tablet-formaat met een mediaquery
-    Hoe ziet het formulier er uit op een breder scherm?
-    
-    Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
+1. Pas de marges en/of padding van de pagina aan (deze mogen dichter op de rand van je telefoon - probeer maar eens)
+2. Goede leesbare teksten voor mobiel (font-size, line-height, regel-lengte)
+3. Hoeveel ruimte heeft de header nodig op mobiel?
+4. Misschien wil je van de project-artikelen en nieuws-artikelen op mobiel wel alleen de titel laten zien? Met een toggle inklappen/uitklappen ?
 
 !
 
 ### Bespreken Opdracht 5.1
 ## Mobile first: Artikelpagina
 
-Tekst en uitleg
-Voorbeeld van studenten in Dabblet tonen.
-Antwoord in Dablet tonen
+Voorbeeld mobiele view van een website.
 
-
+* Marges en Padding op 0, of weinig
+* Hoe groot staat de letter?
+* Line-height?
+* Lengte van de zinnen hoef je je meestal niet druk om te maken
+staan er meer dan 10 woorden in één zin?
+Is de max-width 24-26em? (easy-to-read-column les 4)
 
 
 !
 
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 5.2 - 50 minuten
+## Tablet view: Artikelpagina
+
+<br>
+**Pas de artikelpagina layout aan aan het tablet-formaat met een mediaquery**
+    
+1. Zijn de regels van het < main > artikel niet te lang?
+2. Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
+3. Kunnen de project-artikelen en nieuws-artikelen in 2 kolommen?
+
+
+!
+
+### Bespreken Opdracht 5.2
+## Tablet view: Artikelpagina
+
+**Mediaquery**
+
+Zet de Meta Viewport
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<br>
+Bepaal de Mediaquery. Vanaf welke breedte ga je over?
+
+    @media (min-width: 30em) {
+    body {
+            max-width: 50em;
+	   }
+    }
+
+!
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 5.3 - 30 minuten
-## Mobile first: Formulierpaagina
+## Mobile first: Formulierpagina
 
 Je formulierpagina bestaat nu uit
 
 * Een header, met nav, titel, logo, search en meer
 * Het formulier, in een < main >
-* Misschien wil je hier ook een serie voorbeeld projecten laten zien? 
-Voeg dan de 3 project-artikelen toen aan de formulierpagina
+* Misschien wil je op de formulierpagina ook een serie voorbeeld projecten laten zien? 
+Voeg dan de 3 project-artikelen toen aan de formulierpagina ...
+
+[Voorbeeldplaatje HTML Formulierpagina]()
+
+**Maak je formulierpagina Mobile first**
+    
+1. Pas de marges en/of padding van de pagina aan
+2. Met goede bedienbare input-velden
+3. Hoeveel ruimte heeft de header nodig op mobiel?    
 
 
-[Voorbeeldplaastje]()
+!
+
+### Bespreken Opdracht 5.3
+## Mobile first: Formulierpagina
+
+Voorbeeld formulier in een mobiele view.
+
+* Wat werkt goed op mobiel?
+* Hoe groot mogen die input-velden?
+* Animatie op tab, als het input-veld een focus krijgt?
+* De input-velden de hele breedte laten gebruiken op mobiel werkt vaak goed
 
 
+!
+
+##### 4. Klussen (120 - 185/200 minuten)
+### Opdracht 5.4 - 50 minuten
+## Tablet view: Formulierpagina
+
+<br>
+**Pas de formulierpagina-layout aan aan het tablet-formaat met een mediaquery**
+
+1. Hoe ziet het formulier er uit op een breder scherm?
+2. Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
+3. ?
+
+!
+
+### Bespreken Opdracht 5.4
+## Tablet view: Formulierpagina
+
+Zet de Meta Viewport en de Mediaquerie
+
+*  
+
+
+!
 
 # 5. Terugkijken 20 minuten
 ###### Frontend development - les 5
@@ -208,8 +275,8 @@ Wat hebben we behandeld (lesdoelen)?
 * **Weekly Nerd** voorbereiden:  
   Lezen wat op Moodle staat bij les 6.
   
-* **Klussen** Oefen alle opdrachten van deze les (nog een keer)
-    Deze moet je volgende week kunnen toepassen
+* **Klussen** Maak de opdrachten van deze les af. 
+    Volgende week gaan we verder met Responsive design 
   
 * **Deeltoets 2** niet gehaald?
     ≈ 48 uur is de herkansing. Zie je rooster.
@@ -221,12 +288,9 @@ Wat hebben we behandeld (lesdoelen)?
 4. **Groep 4** David & Jonathan -  donderdag 12:00 - 14:30
 5. **Groep 5** Vasilis & Jonathan -  vrijdag 10:20 - 12:50
 
-
-
-
 !
 
 ## op.
 
-
+<br>
 < / section >
