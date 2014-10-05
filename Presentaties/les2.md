@@ -44,7 +44,7 @@ Deze les gaat over:  CSS3 Effecten, transities & transforms en CSS 3 selectors.
 
 ##Deeltoets 1
 - De deeltoets wordt **tijdens de les** afgenomen.  
-- Het **schema komt op bord**, achter in de klas (Jan of Sanne).  
+- Het **schema komt op bord**, achter in de klas.  
 - **15 minuten per quatro** (dubbele duo's).   
 - Toetsen **terwijl de klas doorwerkt** aan de lesopdrachten.     
 .  

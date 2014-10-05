@@ -560,7 +560,9 @@ Aan de artikelpagina moet HTML voor een aantal artikelen en projecten worden toe
 **Criteria Deeltoets 2**
 
 De artikel- en formulierpagina bevatten alle onderwerpen zoals die in de lessen zijn behandeld: CSS bling, zoals border-radius, box-shadow, text-shadow, transforms en transitions.  
-De student moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om de pagina's te stylen, de student moet laten zien hoe het Javscript Classlist object en de query selectors werken, en (een deel van) de layout moet opgemaakt zijn met Flexbox. 
+De student moet selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om de pagina's te stylen, 
+de student moet laten zien hoe het Javscript Classlist object en de query selectors werken, 
+en (een deel van) de layout moet opgemaakt zijn met Flexbox. 
 De student toont begrip en inzicht in het gebruik van verschillende CSS mogelijkheden en Javascript.
 
 
