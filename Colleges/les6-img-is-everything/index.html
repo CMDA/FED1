@@ -176,7 +176,24 @@ iframe {
 							Deze mediaquery werkt voor alle huidige en toekomstige browsers op apparaten met retina schermen.
 						</aside>
 					</section>
+					<section>
+						<h2>Oplossingen voor art-direction-issues</h2>
+						<ul>
+							<li class="fragment">SVG gebruiken voor graphics</li>
+							<li class="fragment">Afmetingen die passen bij de resolutie gebruiken</li>
+							<li class="fragment"><em>Extreme</em> compressie toepassen</li>
+						</ul>
+						
+						<aside class="notes">
+							Tekenen op het bord: op een retina scherm is één CSS pixel gelijk aan vier hardware-pixels. Alles is dus superscherp. Behalve foto's. Die zijn ineens blurry. Gebruik dus zo veel mogelijk vector graphics zoals SVG of icon-fonts: relatief klein, superscherp. Voor foto's: val mensen zonder retina-scherm niet lastig met hoge resoluties. Serveer die alleen aan retina schermen, bijvoorbeeld via een mediaquery. Of het picture element (waar we later op komen). Er is ook een bizarre hack met extreme compressie die resulteert in grote afmetingen maar superweinig KB. Een foto van 2000x1500px die je toont als 1000x750px blijkt er superscherp uit te zien, en de lelijke JPG-compressie artefacten zijn vaak onzichtbaar. Bizarre hack, niet goed voor batterijen…
+						</aside>
+					</section>
 				</section>
+
+
+
+
+
 				<section>
 					<section>
 						<h1>Responsive Design</h1>
