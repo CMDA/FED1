@@ -179,13 +179,29 @@ iframe {
 					<section>
 						<h2>Oplossingen voor art-direction-issues</h2>
 						<ul>
-							<li class="fragment">SVG gebruiken voor graphics</li>
-							<li class="fragment">Afmetingen die passen bij de resolutie gebruiken</li>
-							<li class="fragment"><em>Extreme</em> compressie toepassen</li>
+							<li class="fragment">Complexe upload tool maken</li>
+							<li class="fragment">Slimme fotografie gebruiken</li>
 						</ul>
 						
 						<aside class="notes">
-							Tekenen op het bord: op een retina scherm is één CSS pixel gelijk aan vier hardware-pixels. Alles is dus superscherp. Behalve foto's. Die zijn ineens blurry. Gebruik dus zo veel mogelijk vector graphics zoals SVG of icon-fonts: relatief klein, superscherp. Voor foto's: val mensen zonder retina-scherm niet lastig met hoge resoluties. Serveer die alleen aan retina schermen, bijvoorbeeld via een mediaquery. Of het picture element (waar we later op komen). Er is ook een bizarre hack met extreme compressie die resulteert in grote afmetingen maar superweinig KB. Een foto van 2000x1500px die je toont als 1000x750px blijkt er superscherp uit te zien, en de lelijke JPG-compressie artefacten zijn vaak onzichtbaar. Bizarre hack, niet goed voor batterijen…
+							Art direction voor fotografie: hiermee wordt bedoeld dat je soms een andere uitsnede wilt hebben voor verschillende afmetingen van het plaatje: bijvoorbeeld een persoon + omgeving op een breed beeld, maar alleen de persoon op een smal scherm. Zie de volgende pagina. Je kan hiervoor een complexe tool bouwen die het mogelijk maakt om verschillende uitsnedes te maken, ja kan ook de fotograaf de opdracht geven om een duidelijk grid te gebruiken waardoor de verschillende varianten automatisch gegenereerd kunnen worden.
+						</aside>
+					</section>
+					<section data-background="img/art-direction.png" data-background-size="contain">
+						
+						<aside class="notes">
+							Hier is gebruik gemaakt van een duidelijk grid waardoor de verschillende uitsnedes automatisch gegenereerd kunnen worden. 
+						</aside>
+					</section>
+					<section>
+						<h2>Oplossingen voor afmetingen van het plaatje</h2>
+						<ul>
+							<li class="fragment">Meerdere formaten laten genereren</li>
+							<li class="fragment">Het juiste plaatje serveren in de juiste situatie.</li>
+						</ul>
+						
+						<aside class="notes">
+							The Guardian laadt eerst een kleine foto die scherp is op een klein apparaat. Pas als de hele pagina geladen is wordt die vervangen door dezelfde afbeelding in een hogere resolutie, als dat nodig is. Dit is nu nog redelijk complex. Meestal is er een combinatie nodig van HTML, JavaScript, cookies en de backend om dit goed op te lossen. Maar het is zo'n veevoorkomende use case dat we tegenwoordig langzaamaan gebruik kunnen maken van het picture-element.
 						</aside>
 					</section>
 				</section>
@@ -196,80 +212,151 @@ iframe {
 
 				<section>
 					<section>
-						<h1>Responsive Design</h1>
+						<h1>&lt;Picture> en srcset</h1>
 
 						<aside class="notes">
-							In 2010 publiceerde Ethan Marcotte een artikel over responsive web design. De technieken die hij hierin beschrijft bestonden al langer, alleen gaf hij er een naam aan. Dat werkte. Sindsdien ontwerpt bijna iedereen sites die in principe op elk beeldscherm zouden moeten werken.
+							Bovenstaande use cases zijn reëel. Je wil graag dat dit op de client, zonder JavaScript wordt opgelost. Browsers kunnen dit prima zelf. Vandaar dat er twee nieuwe oplossingen zijn.
 						</aside>
 					</section>
 					<section>
-						<h2>Hoe deden we dat in het begin?</h2>
+						<h2>Srcset</h2>
+<pre><code class="HTML"><img src="klein.jpg"
+	srcset="large.jpg 1024w,
+	medium.jpg 640w,
+	small.jpg 320w" 
+	sizes="(min-width: 36em) 33.3vw,
+	100vw" alt="">
+</code></pre>
+						<aside class="notes">
+							De nieuwe syntax van de sourceset + sizes attributen. We gaan zo naar de details kijken.
+						</aside>
+					</section>
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img src="klein.jpg" … >
+</code></pre>
+						<aside class="notes">
+							Laad eerst het kleine plaatje. Hiermee laadt je geen onnodige pixels voor apparaten die het srcset-attribuut niet begrijpen.
+						</aside>
+					</section>
 
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img … 
+	srcset="large.jpg 1024w,
+	medium.jpg 640w,
+	small.jpg 320w" 
+	… >
+</code></pre>
 						<aside class="notes">
-							Niet al te best, maar we moetsen ergens beginnen
+							In de srcset geef je aan welke plaatjes er zijn en hoe breed ze zijn. Als plaatjes op 100% van de viewport breedte getoond worden is dit genoeg: de browser kiest nu het plaatje wat het beste past, gebaseerd op schermgrootte én resolutie.
 						</aside>
 					</section>
-					<section data-background="img/content-7.jpg" data-background-size="contain">
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img … 
+	sizes="(min-width: 36em) 33.3vw,
+	100vw" … >
+</code></pre>
 						<aside class="notes">
-							Stel dat we een site over een mooie oude auto zouden willen maken. Zo deden we dat tot voor kort.
+							Als de plaatjes niet altijd op 100vw getoond worden kan je dat aangeven in het sizes attribuut. Bijvoorbeeld "50vw" geeft aan dat plaatjes altijd 50% van de viewport breedte zijn. Je kan hier ook meerdere mediaqueries invoeren. Dan doe je iets als "(min-width: 36em) 33.3vw, 100vw". Hier staat. Als het scherm breder is dan 36em, dan is het plaatje 33.33vw. Anders is het 100vw. Je kunt hier zo veel waardes invoeren als je maar nodig hebt. De laatste is dus de default. Het is dan telkens [media query] [length], [media query] [length] ... etc
 						</aside>
 					</section>
-					<section data-background="img/content-1.png" data-background-size="contain">
+					<section>
+						<h2>Wat lost srcset op?</h2>
+						<ul>
+							<li>Breedte van het scherm</li>
+							<li>Breedte van het <em>plaatje</em></li>
+							<li>Resolutie</li>
+							<li>Netwerksnelheid</li>
+							<li>Netwerk<em>prijs</em></li>
+						</ul>
 						<aside class="notes">
-							Elke website tot 2010 ontwierpen we door eerst een header toe te voegen
+							Deze use cases worden allemaal opgelost met deze twee nieuwe attributen. Leg even uit hoezo. 
 						</aside>
 					</section>
-					<section data-background="img/content-2.png" data-background-size="contain">
+					<section>
+						<h2>Wat lost srcset <em>NIET</em> op?</h2>
+						<ul>
+							<li>Hoogte van het scherm</li>
+							<li>Hoogte van het <em>plaatje</em></li>
+							<li>Art Direction</li>
+						</ul>
 						<aside class="notes">
-							Daarna een navigatie
+							Op dit moment kan er nog geen hoogte aangegeven worden in het sizes attribuut. Dat zou je wel willen. Op deze site bijvoorbeeld zijn de plaatjes maximaal 90vh — http://vvg.gr/im — hier kan nog niks mee, in de toekomst wellicht wel.
 						</aside>
 					</section>
-					<section data-background="img/content-3.png" data-background-size="contain">
+					<section>
+						<h2>Hoe los je art direction op?</h2>
 						<aside class="notes">
-							Widgets, waar die ook goed voor mogen zijn
+							Srcset + sizes is genoeg voor 90% van de gevallen. Voor die gevallen waarin je wel verschillende plaatjes aan verschillende resoluties wilt tonen is er meer nodig. Het Picture element.
 						</aside>
 					</section>
-					<section data-background="img/content-4.png" data-background-size="contain">
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;picture>
+  &lt;source media="(min-width: 45em)" srcset="large.jpg">
+  &lt;source media="(min-width: 32em)" srcset="med.jpg">
+  &lt;img src="small.jpg" alt="The president giving an award.">
+&lt;/picture>
+</code></pre>
 						<aside class="notes">
-							Een footer natuurlijk
-						</aside>
-					</section>
-					<section data-background="img/content-5.png" data-background-size="contain">
-						<aside class="notes">
-							En daarna pas datgene waar het om gaat. De content vrotten we er als laatste nog even in. Dark ages.
-						</aside>
-					</section>
-					<section data-background="img/content-6.jpg" data-background-size="contain">
-						<aside class="notes">
-							Terwijl dit toch juist is waar men voor kwam.
+							Zo los je dat op, op zich. Eens kijken naar de details:
 						</aside>
 					</section>
 					
-					<section data-background="img/hard.jpg" data-background-size="contain">
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;picture>
+  …
+&lt;/picture>
+</code></pre>
 						<aside class="notes">
-							<p>Toen we gingen proberen om dit soort sites ook te laten werken op kleinere schermen merkten we dat dat echt heel erg moeilijk is. Veel, en veel te veel cruft. Het past gewoon niet. Het samenpersen van grote dingen tot iets kleiners kan, maar het is niet makkelijk. En of het nog echt functioneel is als je klaar bent is nog maar de vraag.</p>
+							een picture is een lege huls. In het picture element kan je een aantal specifieke dingen stoppen.
 						</aside>
 					</section>
-					<section data-background="img/amputeren.jpg" data-background-size="contain">
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;source media="(min-width: 45em)" srcset="large.jpg">
+  &lt;source media="(min-width: 32em)" srcset="med.jpg">
+</code></pre>
 						<aside class="notes">
-							Eerst probeerden we dit: content verbergen voor kleinere apparaten. "Mensen met mobiel hebben dit niet nodig", zeiden we. We deden allemaal aannames over mobiel, vooral dat mensen het alleen gebruiken als ze haast hebben, even snel, kort. Het tegenovergestelde blijkt waar. Content weg laten is dus niet zo'n goed idee. Vooral als iemand zeker weet dat bepaalde content wél beschikbaar was net op de desktop computer op het werk, en nu in de trein ineens niet meer. Frustrerend
+							In het source element geef je een mediaquery aan, plus een srcset waarin de (mogelijke) bron(nen) staan. Hiermee kan je dus 
 						</aside>
 					</section>
-					<section data-background="img/growing.jpg" data-background-size="contain">
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;source media="(min-width: 45em)" srcset="large.jpg, large-hd.jpg 2x">
+  &lt;source media="(min-width: 32em)" srcset="med.jpg">
+</code></pre>
 						<aside class="notes">
-							Alles groeit. Babies, bomen, planten, dieren, kennis. Er moet wel iets voor gebeuren, maar niet zo heel erg veel. Het gaat bijna vanzelf. Itt krimpen. Alles wat in een klein scherm past past vanzelf ook in een groot scherm. Bovendien dwingt deze manier van werken je om goed na te denken over welke content er nu echt toe doet. Vroeger wilden we die prachtige white-space nog wel eens opvullen met domme ideeën, nu is daar gelukkig geen plek meer voor.
+							Met het 2x ding in de eerste srcset geef je aan dat een plaatje bedoeld is voor retina schermen. Hoei, dat is die use case weer! Je kan ook het sizes attribuut in het source-element gebruiken. Ruimte voor alle mogelijke complexiteit dus. Behalve hoogte, dat kan niet.
+						</aside>
+					</section>
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;&lt;img src="small.jpg" alt="The president giving an award.">
+</code></pre>
+						<aside class="notes">
+							Tot slot staat er nog een image element in. Als fallback voor als de picture- en source-elementen niet ondersteund worden. 
 						</aside>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h1>Mobile first</h1>
+						<h1>Feature detection</h1>
 						<aside class="notes">
-							En zo werd Mobile First geboren
+							Met het picture element detecteer je eigenschappen van het scherm én eigenschappen van het plaatje zelf. We kunnen meer dingen detecteren. Zoals bijvoorbeeld CSS properties.
 						</aside>
 					</section>
 					<section>
-						<h1>Structured content first</h1>
+						<h1>@supports</h1>
+						<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="CSS">@supports (transform-origin: 5% 5%) {
+	body {
+		background: papayawhip;
+	}
+}
+</code></pre>
 						<aside class="notes">
 							Eigenlijk gaat het niet over mobiel, maar het gaat over gestructureerde content. Daar moet je mee beginnen. 
 						</aside>
