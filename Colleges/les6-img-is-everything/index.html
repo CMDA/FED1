@@ -350,118 +350,41 @@ iframe {
 						</aside>
 					</section>
 					<section>
-						<h1>@supports</h1>
-						<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="CSS">@supports (transform-origin: 5% 5%) {
+						<h2>@supports</h2>
+						<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="CSS">body {
+	background: green;
+}
+@supports (transform-origin: 5% 5%) {
 	body {
 		background: papayawhip;
 	}
 }
 </code></pre>
 						<aside class="notes">
-							Eigenlijk gaat het niet over mobiel, maar het gaat over gestructureerde content. Daar moet je mee beginnen. 
+							Als transform-origin: 5% 5% niet ondersteund wordt dan wordt de body groen. Anders is ie papayawhip. Wat zou er gebeuren als @supports niet wordt ondersteund? Precies. Dan blijft de background:green. Eens zien of er iemand een nuttige use case kan verzinnen.
 						</aside>
 					</section>
-					<section data-background="img/groeien-2.png" data-background-size="contain">
+					<section>
+						<h2>Andere features</h2>
+						
+						<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="JavaScript">if('querySelector' in document
+     && 'localStorage' in window
+     && 'addEventListener' in window) {
+     // bootstrap the javascript application
+     }
+</code></pre>
 						<aside class="notes">
-							Ongestijlde maar gestructureerde content is misschien niet zo mooi, maar het werkt wel. Zeker op kleine schermen
+							Er zijn veel features die je zou willen detecteren. Bijvoorbeeld geolocation: als dat er wel is kan je er bijvoorbeeld voor kiezen om het standaard lokatieformulier te vervangen door iets slimmers. Je kan het ook, zoals de BBC gebruiken om te zien of de JavaScript engine van de browser wel slim genoeg is voor de JavaScript die er gebruikt wordt. Zo niet, dan krijg je de simpelere versie, zo wel, dan krijg je de volle laag met features.
 						</aside>
 					</section>
-					<section data-background="img/groeien-3.png" data-background-size="contain">
+					<section>
+						<h2>Feature vs device detection</h2>
 						<aside class="notes">
-							Met een beetje styling ziet het er zelfs best mooi uit.
-						</aside>
-					</section>
-					<section data-background="img/groeien-4.png" data-background-size="contain">
-						<aside class="notes">
-							Op een breed scherm is het natuurlijk lelijk…
-						</aside>
-					</section>
-					<section data-background="img/groeien-5.png" data-background-size="contain">
-						<aside class="notes">
-							Maar ook dat is eenvoudig op te lossen. VOlgens bepaalde designers is het nu af. Dit is een prima site. Hij werkt en hij is mooi.
-						</aside>
-					</section>
-					<section data-background="img/groeien-6.png" data-background-size="contain">
-						<aside class="notes">
-							Maar je kan ook verder gaan en de boel optimaliseren voor grotere schermen. Extra layout toevoegen bijvoorbeeld. Of dingen in een rechter of linker kolom tonen. 
-						</aside>
-					</section>
-					<section data-background="img/groeien-7.png" data-background-size="contain">
-						<aside class="notes">
-							Als laatste zou je er voor kunnen kiezen om nog extra verf toe te voegen. 
-							Wellicht kan je hier een paar voorbeelden laten zien van briljante sites die op deze manier gemaakt zijn. Bijvoorbeeld het Rijksmuseum is er zo een — http://vvg.gr/gq — complete focus op de content, alle cruft is helemaal weg. Zelfs geen logo!
+							Kennen mensen voor en nadelen van device detection? Bijvoorbeeld: in iOS 7 zat een hele vervelende bug met de vh unit. Door te detectrern of iemand mobile safari gebruikt kan je een alternatieve oplossing aanbieden. Die bug is opgelost in iOS 8. De alternatieve oplossing wordt nog steeds aangeboden als je device detection gebruikt. Als je had getest of het probleem optreedt dan bied je het alternatief alleen aan als het echt nodig is. ga hier, indien er tijd is, vooral even dieper op in. De term "Progressive enhancement" verwacht ik wel te horen in dit verhaal.
 						</aside>
 					</section>
 				</section>
 
-				<section>
-					<section>
-						<h1>Mediaqueries</h1>
-						
-						
-						<aside class="notes">
-							Layout veranderen voor verschillende schermresoluties doe je met mediaqueries. 
-						</aside>
-					</section>
-					<section>
-						<h2>Meta viewport</h2>
-						
-<pre><code class="HTML"><meta name="viewport" content="width=device-width, initial-scale=1">
-</code></pre>
-						<aside class="notes">
-							Voordat we mediaqueries echt kunnen gebruiken moeten we deze regel code aan onze head toevoegen. Deze regel vertelt ons dat de browser op mobiele devices zo breed moet zijn als het apparaat zelf, en dat de zoom-factor gewoon op 1 moet staan. Als je deze regel niet toevoegd doen ook kleine schermen alsof ze 1120px breed zijn en zoomen vervolgens uit. Dat willen we voorkomen.
-						</aside>
-					</section>
-					<section>
-						<h2>Mediaquery</h2>
-						
-<pre><code class="css">body {
-    max-width: 30em;
-}
-@media (min-width: 30em) {
-	body {
-	    max-width: 50em;
-	}
-}
-</code></pre>
-						<aside class="notes">
-							Wat doet deze? Als het window breder is dan 30em (doet het er toe hoe breed dat is?) dan wordt de maximale breedte van de body 50em.
-						</aside>
-					</section>
-					<section>
-						<h2>Mediaquery</h2>
-						
-<pre><code class="css">body {
-    padding: 5.5555vh 11.1111vw;
-}
-@media (min-aspect-ratio: 1/1) {
-	body {
-	    padding: 11.1111vh 11.1111vw;
-	}
-}
-</code></pre>
-						<aside class="notes">
-							Wat doet deze? Als de browser een aspect ratio heeft die groter is dan 1/1 (het scherm is breder dan dat het hoog is) dan verandert de padding. Op de volgende slide staan nog een paar mediaqueries, een vragen of mensen er een paar kennen
-						</aside>
-					</section>
-					<section>
-						<h2>Mediaqueries</h2>
-<pre><code data-trim contenteditable>
-&lt;link media="(min-width: 50em)" rel="stylesheet" href="css.css">
-</code></pre>
-						
-<pre><code class="css">@media (print) { … }
-@media (orientation: landscape) { … }
-@media (monochrome) { … }
-@media (min-width: 70em), handheld and (orientation: landscape) { … }
-</code></pre>
-						<aside class="notes">
-							Er zijn twee manieren om een mediaquert te gebruiken: in de link-tag in het media-attribuut, of in de CSS zelf. Die laatste scheelt een http-request en dat is waarschijnlijk beter: http-requests zijn een grotere aanslag op performance dan een paar kb.<br>
-							Een komma betekent 'of'. In de laatste regel staat dus: de minimale breedte is 70em, OF het is een handheld apparaat waarvan de orientatie in landschapsmodus staat. Probeer dit soort complexe mediaqueries altijd te voorkomen. Er is waarschijnlijk iets mis met je ontwerp als je hierop uitkomt. Zijn er nog vragen?
-						</aside>
-					</section>
-					
-					
 				</section>
 			</div>
 
