@@ -189,7 +189,7 @@ Zet de Meta Viewport
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
 <br>
-Bepaal de Mediaquery. Vanaf welke breedte ga je over?
+Bepaal de Mediaquery. Vanaf welke breedte ga je over naar een andere layout?
 
     @media (min-width: 30em) {
     body {
@@ -253,6 +253,8 @@ Voorbeeld formulier in een mobiele view.
 Zet de Meta Viewport en de Mediaquerie
 
 *  
+
+Bepaal de Mediaquery. Vanaf welke breedte ga je de layout aanpassen?
 
 
 !

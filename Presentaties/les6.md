@@ -93,9 +93,17 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 6.1 - 15 minuten
-## Semantic Markup #1 
+## Titel 
 
-Tekst en uitleg
+HTMl toevoegen:
+
+3 projecten ook aan de formulier-pagina toevoegen
+
+Footer html toevoegen
+
+Sidebar informatie toevoegen
+
+
 
 
 !
