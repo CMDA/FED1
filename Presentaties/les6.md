@@ -196,7 +196,7 @@ Feauture detection met [Modernizr](http://modernizr.com/)
 
 
 1. Voeg het modernizr script toe. [http://modernizr.com](http://modernizr.com)
-2. Zorg er voor dat de marges op Smartphone en Tablet worden aangepast
+2. Zorg er voor dat de marges op Smartphone en Tablet worden aangepast (immers, op touch apparaten heb je eigenlijk al marges)
 3. Marges op een desktop wil je wel om de website (teksten) te laten ademen
 
 Om te oefenen:
