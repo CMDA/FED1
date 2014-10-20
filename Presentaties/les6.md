@@ -142,10 +142,10 @@ Zoals deze zijn beschreven in het artikel
 
 Stappenplan:
 
-2. Waar gaat de Sidebar heen als het scherm smal is?
-2. Hoe staan de sections met Projecten en nieuwartikelen?
-3. Wat doe je met de header in een smal scherm?
-5. Wat gebeuert er als de gebruiker de pagina gaat zoomen?
+1. Waar gaat de Sidebar heen als het scherm breed is?
+2. Hoe staan de sections met Projecten en Nieuwartikelen?
+3. Wat doe je met de Header in een smal scherm?
+5. Wat gebeurt er als de gebruiker de pagina gaat zoomen?
 
 
 
@@ -196,8 +196,13 @@ Feauture detection met [Modernizr](http://modernizr.com/)
 
 
 1. Voeg het modernizr script toe. [http://modernizr.com](http://modernizr.com)
-2. Zorg er voor dat browsers die géén boxshadow ondersteunen wel een border zien
-3. Browsers die text-stadow ondersteunen hebben witte letters met een grijze text-shadow
+2. Zorg er voor dat de marges op Smartphone en Tablet worden aangepast
+3. Marges op een desktop wil je wel om de website (teksten) te laten ademen
+
+Om te oefenen:
+
+1. Zorg er voor dat browsers die géén boxshadow ondersteunen wel een border zien
+2. Browsers die text-stadow ondersteunen hebben witte letters met een grijze text-shadow
 
 
 !
@@ -211,7 +216,6 @@ Feauture detection met [Modernizr](http://modernizr.com/)
 Tekst en uitleg
 
 Voorbeeld in Dablet tonen
-
 
 
 !
@@ -229,7 +233,6 @@ Wat hebben we behandeld (lesdoelen)?
 - Leren over Feature detection
 - Lezen over Responsive design problems
 - Werken met (proportionele) Mediaqueries 
-
 
 !
 
