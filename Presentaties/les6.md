@@ -196,20 +196,17 @@ Feauture detection met [Modernizr](http://modernizr.com/)
     <html class=’no-js’>
     <html class=’js no-touch geolocation>
 
-
+**Opdracht 6.4.1**
 1. Voeg het modernizr script toe. [http://modernizr.com](http://modernizr.com)
 2. Zorg er voor dat de marges op Smartphone en Tablet worden aangepast (immers, op touch apparaten heb je eigenlijk al marges)
 3. Marges op een desktop wil je wel om de website (teksten) te laten ademen
 
-Of, om te oefenen met Modernizr:
-
-1. Zorg er voor dat browsers die géén boxshadow ondersteunen wel een border zien
-2. Browsers die text-stadow ondersteunen hebben witte letters met een grijze text-shadow
-
+**Opdracht 6.4.2**
+1. Zorg er voor dat gebruikers met Internet Explorer 8 en lager een bredere layout te zien krijgen
+2. Zorg er voor dat deze gebruikers een melding te zien krijgen waarin ze links naar andere browsers aangeboden krijgen
+	Andere gebruikers zien deze melding niet. 
 
 !
-
-
 
 ### Bespreken Opdracht 6.2
 ### Opdracht 6.4
