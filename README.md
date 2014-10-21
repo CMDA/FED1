@@ -16,7 +16,7 @@ Picture element en feature detection.
 !
 
 ###### Frontend development
-# Intentie van het vak
+## Intentie van het vak
 
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. 
 Wat moeten de studenten aan het eind van de cursus kunnen? 
@@ -30,7 +30,7 @@ Frontend development is een kernvak. In dit vak wordt de basis gelegd voor de be
 !
 
 ###### Frontend development
-# Lessen
+## Lessen
 
 Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3 en Javascript. 
 In 8 weken werken studenten in de les en thuis aan de eindopdracht. 
