@@ -45,5 +45,5 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 5. You are the CSS to my HTML [Presentatie](Presentaties/les5-you-are-the-css-to-my-html.html) [College](Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) [pdf](Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
 6. < img > is everything [Presentatie](Presentaties/les6-img-is-everything.html) [College](Colleges/les6-img-is-everything/index.html) [pdf](Colleges/les6-img-is-everything/img-is-everything.pdf)
 7. /* no comment */ [Presentatie](Presentaties/les7-no-comment.html) [College](Colleges/les7-no-comment/index.html) [pdf](Colleges/les7-no-comment/no-comment.pdf)
-8. < / HTML >
+8. < / HTML > [Toetsing](#)
 
