@@ -1,5 +1,5 @@
 
-# Frontend development
+# Frontend development 2014
 ###### 2e jaars kernvak CMD Amsterdam
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
@@ -13,23 +13,9 @@ Box model, Positioning,
 Responsive design, media queries, 
 Picture element en feature detection.
 
-!
 
-###### Frontend development
-## Intentie van het vak
-
-Het tweedejaars vak Frontend development is een techniek vak voor design studenten. 
-Wat moeten de studenten aan het eind van de cursus kunnen? 
-Aan het eind van de cursus zijn studenten in staat een responsive website te maken. 
-Dat is een website die zich automatisch aanpast aan de context waarin de website wordt bekeken. 
-De context wordt bepaald door de verschillende eigenschappen van de verschillende apparaten, zoals desktop, mobile en tablet, de interactie mogelijkheden en de omgeving waarin de website wordt bekeken. 
-De website kunnen ze maken met behulp van de webtechnieken HTML5, CSS3 en Javascript en deze technieken worden volgens de juiste semantiek en gevalideerd toegepast.  Het vak geeft inzicht in de mogelijkheden en beperkingen van deze technieken. Voor het maken van de website zijn studenten in staat betrouwbare bronnen te zoeken en raadplegen en de studenten zijn in staat code van anderen te lezen en te hergebruiken.
-
-Frontend development is een kernvak. In dit vak wordt de basis gelegd voor de beroepsrollen Webdeveloper, Webdesigner en Interaction designer, ook een CMD Content manager moet in staat zijn een responsive website te maken en begrijpen.
-
-!
-
-###### Frontend development
+<br>
+###### Frontend development 2014
 ## Lessen
 
 Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3 en Javascript. 
@@ -46,4 +32,19 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 6. < img > is everything [Presentatie](Presentaties/les6-img-is-everything.html) [College](Colleges/les6-img-is-everything/index.html) [pdf](Colleges/les6-img-is-everything/img-is-everything.pdf)
 7. /* no comment */ [Presentatie](Presentaties/les7-no-comment.html) [College](Colleges/les7-no-comment/index.html) [pdf](Colleges/les7-no-comment/no-comment.pdf)
 8. < / HTML > [Toetsing en beoordeling](#)
+
+
+<br>
+###### Frontend development 2014
+## Intentie van het vak
+
+Het tweedejaars vak Frontend development is een techniek vak voor design studenten. 
+Wat moeten de studenten aan het eind van de cursus kunnen? 
+Aan het eind van de cursus zijn studenten in staat een responsive website te maken. 
+Dat is een website die zich automatisch aanpast aan de context waarin de website wordt bekeken. 
+De context wordt bepaald door de verschillende eigenschappen van de verschillende apparaten, zoals desktop, mobile en tablet, de interactie mogelijkheden en de omgeving waarin de website wordt bekeken. 
+De website kunnen ze maken met behulp van de webtechnieken HTML5, CSS3 en Javascript en deze technieken worden volgens de juiste semantiek en gevalideerd toegepast.  Het vak geeft inzicht in de mogelijkheden en beperkingen van deze technieken. Voor het maken van de website zijn studenten in staat betrouwbare bronnen te zoeken en raadplegen en de studenten zijn in staat code van anderen te lezen en te hergebruiken.
+
+Frontend development is een kernvak. In dit vak wordt de basis gelegd voor de beroepsrollen Webdeveloper, Webdesigner en Interaction designer, ook een CMD Content manager moet in staat zijn een responsive website te maken en begrijpen.
+
 
