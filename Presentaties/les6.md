@@ -247,9 +247,10 @@ Wat hebben we behandeld (lesdoelen)?
 
 Artikel- en Formulierpagina hebben extra HTML.
 
-Vandaag ben je begonnen met (proportionele) mediaqueries, die moet je thuis afmaken voor 3 schermgroottes.
+Vandaag ben je begonnen met (proportionele) mediaqueries, 
+die moet je thuis afmaken voor verschillende schermgroottes.
 
-Volgende week gaan we verder met Feature detection toevoegen 
+Volgende week gaan we verder met Feature detection  
 en we gaan (responsive) Images en Video toevoegen aan de Artikelpagina.
 
 Dan is je responsive design af...
