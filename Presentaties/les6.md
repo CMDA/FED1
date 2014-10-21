@@ -41,7 +41,7 @@ Deze les gaat over responsive images, het picture element en feature detection, 
 # 2. College - 30 minuten
 ###### Frontend development - les 6
 
-College [titel](http://cmda.github.io/FED1/Colleges/les6-img-is-everything/index.html)
+College [< img > is everything](http://cmda.github.io/FED1/Colleges/les6-img-is-everything/index.html)
 Over plaatjes
 
 <img src="assets/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
@@ -50,7 +50,7 @@ Over plaatjes
 
 # 3. Weekly Nerd - 30 minuten
 ###### Frontend development - les 6
-Iedere les gaan we artikelen bespreken in kleine groepen. 
+Iedere les bespreken we artikelen in kleine groepen. 
 
 Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
 Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. 
@@ -106,12 +106,12 @@ Voor de eindopdracht moeten aan de artikel- en formulierpagina nog een footer en
 
 De Artikelpagina bestaat  uit:
 
-- Header
-- Main: Artikel + plaatjes < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/plaatjes)
-- Section: 3 projecten
-- Section: 5 nieuws-artikelen
-- Sidebar < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Sidebar.html)
-- Footer < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Footer.html)
+1. Header
+2. Main: Artikel + plaatjes < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/plaatjes)
+3. Section: 5 nieuws-artikelen
+4. Section: 3 projecten
+5. Sidebar < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Sidebar.html)
+6. Footer < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Footer.html)
 
 !
 
@@ -121,11 +121,11 @@ De Artikelpagina bestaat  uit:
 
 De Formulierpagina bestaat  uit:
 
-- Header
-- Main: Formulier
-- Section: 3 projecten < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Projecten.html)
-- Sidebar < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Sidebar.html)
-- Footer < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Footer.html)
+1. Header
+2. Main: Formulier
+3. Section: 3 projecten < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Projecten.html)
+4. Sidebar < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Sidebar.html)
+5. Footer < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Footer.html)
 
 
 !
@@ -187,6 +187,8 @@ Stappenplan:
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 6.4 - 30 minuten
 ## Feature detection
+Met Feature detection kun je bepalen wat een browser wel en niet kan. 
+Vervolgens kun je een specifieke style uitvoeren.
 
 Feauture detection met [Modernizr](http://modernizr.com/)
 
@@ -229,7 +231,7 @@ Voorbeeld in Dablet tonen
 
 Wat hebben we behandeld (lesdoelen)?
 
-- Leren over Responsive images < Voor de Fronted nerds
+- Leren over Responsive images < Voor de Frontend nerds
 - Leren over Feature detection
 - Lezen over Responsive design problems
 - Werken met (proportionele) Mediaqueries 
