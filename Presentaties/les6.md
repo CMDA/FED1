@@ -64,10 +64,10 @@ dan moet dit onderdeel herkanst worden met een tentamen.
 ##### 3. Weekly Nerd (30 - 65/200 minuten)
 # Artikelen voor vandaag
 
-* [Responsive navigation patterns by Brad Frost](http://bradfrostweb.com/blog/web/responsive-nav-patterns/)
-* [11 reasons why Responsive Design isn’t that cool by Juan Pablo Sarmiento](http://www.webdesignshock.com/responsive-design-problems/)
-* [Native responsive Images by Yoav Weiss](https://dev.opera.com/articles/native-responsive-images/)
-* [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
+1. [Responsive navigation patterns by Brad Frost](http://bradfrostweb.com/blog/web/responsive-nav-patterns/)
+2. [11 reasons why Responsive Design isn’t that cool by Juan Pablo Sarmiento](http://www.webdesignshock.com/responsive-design-problems/)
+4. [Native responsive Images by Yoav Weiss](https://dev.opera.com/articles/native-responsive-images/)
+3. [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
 
 
