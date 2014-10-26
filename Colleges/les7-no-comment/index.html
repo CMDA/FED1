@@ -71,6 +71,74 @@ iframe {
 				</section>
 
 				<section>
+					<section>
+						<h2>Plaatjes en video</h2>
+						<p>Hier waren we nog niet klaar mee</p>
+						<aside class="notes">
+							We gaan een redelijk eenvoudige use case bekijken. Verschillende schermformaten met precies hetzelfde plaatje. 
+						</aside>
+					</section>
+					<section data-background-image="img/img-1.jpg" data-background-size="contain"></section>
+					<section data-background-image="img/img-2.jpg" data-background-size="contain"></section>
+					<section data-background-image="img/img.jpg" data-background-size="contain">
+						<aside class="notes">
+							Hoe pak je dat aan?
+						</aside>
+					</section>
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img src="klein.jpg"
+	srcset="very-large.jpg 1440w,
+	large.jpg 1024w,
+	medium.jpg 640w,
+	small.jpg 320w" alt="">
+</code></pre>
+						<aside class="notes">
+							Dit zou het probleem helemaal oplossen als het plaatje altijd over 100% van de breedte getoond werd. Maar dat is alleen zo op kleine apparaten. Schermen die groter zijn dan 36em tonen het plaatje op 77,77778% van de breedte. 
+						</aside>
+					</section>
+					<section data-background-image="img/img.jpg" data-background-size="contain">
+						<aside class="notes">
+							Zie je?
+						</aside>
+					</section>
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img src="klein.jpg"
+	srcset="very-large.jpg 1440w,
+	large.jpg 1024w,
+	medium.jpg 640w,
+	small.jpg 320w"
+	sizes="(min-width: 36em) 77.7777vw,
+	100vw" alt="">
+</code></pre>
+						<aside class="notes">
+							We moeten dus iets toevoegen: het sizes attribuut. Vragen die je de studenten kunt stellen hier is: welk plaatje wordt er gebruikt op een browser-scherm van 320px breed? En op een apparaat met een retina-scherm? Dit stukje code is wellicht wat je nodig hebt voor de eindopdracht.
+						</aside>
+					</section>
+					<section>
+						<h2>Video</h2>
+<pre><code class="HTML">&lt;video src="video.mp4" controls>&lt;/video>
+</code></pre>
+						<aside class="notes">
+							In de ideale wereld, zonder juristen en patenten, zou dit gewoon werken. Maar helaas, we leven niet in die wereld. We hebben dus iets anders nodig. Leg hier uit dat er patenten zitten op video-formaten. mp4 mag je gratis gebruiken totdat je 1 miljoen gebruikers hebt. Dan moet je ineens 1 miljoen dollar betalen (ofzo, het gaat om krankzinnige bedragen). Er zijn partijen, zoals Firefox en Opera die dit weigeren. En partijen die dit gewoon nooit kunnen betalen.
+						</aside>
+					</section>
+					<section>
+						<h2>Video</h2>
+<pre><code class="HTML">&lt;video controls>
+	&lt;source src="video.webm" type="video/webm">
+	&lt;source src="video.mp4" type="video/mp4">
+	&lt;p>&lt;a href="video.webm" download>Download deze film&lt;/a>&lt;/p>
+&lt;/video>
+</code></pre>
+						<aside class="notes">
+							Er zijn andere formaten, zoals webm, die wel gewoon gebruikt mogen worden. Maar browsers als Safari en IE ondersteunen dat weer niet (omdat zij in de mpeg-pool zitten, zij verdienen aan die patenten). Dit betekent dat video aanbieders hun videos op meerdere formaten moeten aanbieden. Krankzinnig natuurlijk. Maar goed, het is niet anders. Hier staat hoe je dat doet.
+						</aside>
+					</section>
+				</section>
+
+				<section>
 					<h2>Vorige weken</h2>
 					<ul>
 						<li>Semantische HTML</li>
