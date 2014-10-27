@@ -155,10 +155,10 @@ Gebruik srcset om verschillende .jpg files te tonen op verschillende schermgroot
 
 Gebruik voor deze oefening
 
-* [picture_fed_480.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_480.png)
-* [picture_fed_800.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_800.png)
-* [picture_fed_1280.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1280.png)
-* [picture_fed_1600.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1600.png)
+* [picture fed 480 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_480.png)
+* [picture fed 800 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_800.png)
+* [picture fed 1280 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1280.png)
+* [picture fed 1600 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1600.png)
 
 
 
