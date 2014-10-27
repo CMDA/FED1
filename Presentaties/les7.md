@@ -150,7 +150,6 @@ Vervolgens kun je een specifieke style uitvoeren.
 ### Opdracht 7.1 - 60 minuten
 ## Responsive images
 
-
 Gebruik srcset om verschillende .jpg files te tonen op verschillende schermgroottes
 
 Gebruik voor deze oefening
@@ -159,7 +158,6 @@ Gebruik voor deze oefening
 * [picture fed 800 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_800.png)
 * [picture fed 1280 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1280.png)
 * [picture fed 1600 pixels](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1600.png)
-
 
 
 **Resources**
@@ -173,14 +171,15 @@ Gebruik voor deze oefening
 ### Bespreken Opdracht 7.1
 ## Responsive images
 
-Tekst en uitleg.
+<br>
+**Tekst en uitleg**
 
     srcset
     sizes
     Wat moet je doen als je Retina hebt?
     
 
-Antwoord in [Dablet](http://dabblet.com/gist/e173b03e74e908cf3c29) tonen
+Antwoord in [Dablet](http://dabblet.com/gist/e173b03e74e908cf3c29)
 
 !
 
@@ -193,7 +192,7 @@ Plaats onderstaande bronbestanden in een < video > element.
 Hij moet voor iedereen met een hedendaagse browser werken.
 Zorg voor een fallback voor oude browsers. 
 
-Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/video)
+Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/videos)
 
 
 **Resources**
@@ -205,6 +204,7 @@ Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages
 ### Bespreken Opdracht 7.2
 ## HTML5 Video 
 
+<br>
 **Tekst en uitleg**
 
 Antwoord in [Dablet](https://gist.github.com/jorrit5477/2339628) 
@@ -231,7 +231,11 @@ track / type / width / height / fallback / controls
 
 !
 
-###HTML5 Video - Checlist
+### Bespreken Opdracht 7.2
+## HTML5 Video 
+
+<br>
+**Checklist**
 
 **Just get it working**
 
@@ -264,6 +268,7 @@ track / type / width / height / fallback / controls
 ###### Frontend development - les 7
 
 Wat hebben we behandeld (lesdoelen)?
+
 * Picture- en Video-element kunnen toepassen 
 * Klussen aan de eindopdracht
 * Eindopdracht bespreken
@@ -340,7 +345,6 @@ Het tentamen gaat over de artikelen: 1.1, 1.2, 1.3, 2.2, 2.3, 3.1, 4.1, 4.2, 5.1
 ##Oefenvraag
 
 <br>
-####Vraag 3
 *Betreft artikel: 
 The 100% Easy-2-Read Standard 
 & 
@@ -381,11 +385,7 @@ een artikelpagina en een formulierpagina
 
 ##### 5. Terugkijken (20 - 190/200 minuten)
 # Frontend development
-## Waar begonnen we 8 weken geleden?
-
-<br>
-
-###Intentie van het vak Frontend development
+## Intentie van het vak (intranet)
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. 
 In de propedeuse ligt de nadruk op het maken van een eenvoudige websites. 
 Dit vak gaat een stap verder. 
