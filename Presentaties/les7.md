@@ -150,12 +150,15 @@ Vervolgens kun je een specifieke style uitvoeren.
 ### Opdracht 7.1 - 60 minuten
 ## Responsive images
 
-Plaats onderstaande bronbestanden in een < video > element.
-Hij moet voor iedereen met een hedendaagse browser werken.
-Zorg voor een fallback voor oude browsers. 
 
-Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/video)
+Gebruik srcset om verschillende .jpg files te tonen op verschillende schermgroottes
 
+Gebruik voor deze oefening
+
+* [picture_fed_480.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_480.png)
+* [picture_fed_800.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_800.png)
+* [picture_fed_1280.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1280.png)
+* [picture_fed_1600.png](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/picture_fed_1600.png)
 
 
 
@@ -170,9 +173,13 @@ Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages
 ### Bespreken Opdracht 7.1
 ## Responsive images
 
-Tekst en uitleg
-Voorbeeld van studenten in Dabblet tonen.
-Antwoord in Dablet tonen
+Tekst en uitleg.
+
+    srcset
+    sizes
+    
+
+Antwoord in [Dablet](http://dabblet.com/gist/21b85cb4b5b2dd880d81) tonen
 
 !
 
@@ -199,6 +206,8 @@ Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages
 
 **Tekst en uitleg**
 
+Antwoord in [Dablet](https://gist.github.com/jorrit5477/2339628) 
+
 Je geeft het video element verschillende source files voor verschillende browser ondersteuning. 
 De volgorde is bepalend voor welk file wordt afgespeeld. 
 Een browser ‘pakt’ een source als deze wordt herkend. 
@@ -215,10 +224,8 @@ De ogg versie staat alleen als fallback voor een beperkt aantal oude browsers di
 Als je deze bovenaan zet wordt deze ook door browsers gepakt die ook mp4 of webm zouden kunnen afspelen. 
 En dat wil je niet. ogg is groot en minder van kwaliteit.
 
-track / type / width / height / fallback
+track / type / width / height / fallback / controls
 
-
-Antwoord in [Dablet](https://gist.github.com/jorrit5477/2339628) tonen
 
 
 !
@@ -527,9 +534,9 @@ De website bevat alle onderwerpen zoals die in de lessen zijn behandeld:
 (fed is)
 ## op.
 
-<img src="../Maakopdracht/plaatjes/fed_code.png" width="22%" alt="CMDA Totums">
-<img src="../Maakopdracht/plaatjes/fed_hipster.png" width="20%" alt="CMDA Totums">
-<img src="../Maakopdracht/plaatjes/fed_handje.png" width="15%" alt="CMDA Totums">
+<img src="../Maakopdracht/plaatjes/fed_code.png" width="22%" alt="Code">
+<img src="../Maakopdracht/plaatjes/fed_hipster.png" width="20%" alt="Geek">
+<img src="../Maakopdracht/plaatjes/fed_handje.png" width="15%" alt="Don't touch the hair">
 
 
 
