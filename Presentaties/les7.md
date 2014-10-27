@@ -22,7 +22,7 @@ In de les gaan we doorwerken aan de eindopdracht en bespreken we de eindopdracht
 2. College (30)
 3. Weekly Nerd (30)
 4. Klussen (100)
-5. Terugkijken (20)
+5. Terugkijken = Tentamen & Eindopdracht bespreken (20)
 
 
 !
@@ -271,6 +271,7 @@ Wat hebben we behandeld (lesdoelen)?
 <br>
 
 ###Agenda terugkijken
+Terugkijken = Tentamen & Eindopdracht bespreken
 
 **1. Moet je een tentamen maken?**
 
