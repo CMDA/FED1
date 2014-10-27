@@ -31,7 +31,7 @@ In de les gaan we doorwerken aan de eindopdracht en bespreken we de eindopdracht
 ###### Frontend development - les 7
 
 ## Lesdoelen
-* Picture- en Video-element kunnen toepassen 
+* Responsive images/Img srcset en Video-element kunnen toepassen 
 * Klussen aan de eindopdracht
 * Eindopdracht bespreken
 * Weekly Nerd herkansing: Tentamen vraag
@@ -177,12 +177,10 @@ Gebruik voor deze oefening
     srcset
     sizes
     Wat moet je doen als je Retina hebt?
-    
 
 Antwoord in [Dablet](http://dabblet.com/gist/e173b03e74e908cf3c29)
 
 !
-
 
 ##### 4. Klussen (100 - 180/200 minuten)
 ### Opdracht 7.2 - 30 minuten
@@ -269,7 +267,7 @@ track / type / width / height / fallback / controls
 
 Wat hebben we behandeld (lesdoelen)?
 
-* Picture- en Video-element kunnen toepassen 
+* Responsive images/Img srcset en Video-element kunnen toepassen 
 * Klussen aan de eindopdracht
 * Eindopdracht bespreken
 * Weekly Nerd herkansing: Tentamen vraag
