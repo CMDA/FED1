@@ -6,9 +6,8 @@
 
 # /* no comment */
 ###### Frontend development - les 7
-Deze les gaat over: 
-Deze les gaat over het picture en video element. 
-In de les gaan we doorwerken aan de eindopdracht.
+Deze les gaat over het picture en het video element. 
+In de les gaan we doorwerken aan de eindopdracht en bespreken we de eindopdracht.
 
 <img src="http://asset.zcache.com/assets/graphics/s.gif" alt="kledingvoorschriften">
 
@@ -19,11 +18,11 @@ In de les gaan we doorwerken aan de eindopdracht.
 ###### Frontend development - les 7
 
 ## Programma (200 minuten)
-1. Introduktie (5)
+1. Introduktie (10)
 2. College (30)
 3. Weekly Nerd (30)
-4. Klussen (120)
-5. Terugkijken (10)
+4. Klussen (100)
+5. Terugkijken (20)
 
 
 !
@@ -32,11 +31,29 @@ In de les gaan we doorwerken aan de eindopdracht.
 ###### Frontend development - les 7
 
 ## Lesdoelen
+* Picture- en Video-element kunnen toepassen 
 * Klussen aan de eindopdracht
-* Images en Video kunnen toepassen 
 * Eindopdracht bespreken
-* Weekly nerd herkansing: Tentamen vraag
+* Weekly Nerd herkansing: Tentamen vraag
 
+
+!
+
+# 1. Introduktie - 10 minuten
+###### Frontend development - les 7
+## Feedback evalueren
+
+Klik naar feedback overzicht
+
+
+<strong style="background-color:yellow">Feedback op werkwijze</strong>
+Lesprogramma, lesstructuur, discussiesessie, werkdruk?  
+
+<strong style="background-color:PaleGreen">Feedback op deeltoets 1 & 2</strong> 
+Mondeling duidelijk? Over de feedback?   
+
+<strong style="background-color:pink">Anders?</strong>
+Honger? Dorst? none-of-the-above?
 
 !
 
@@ -63,7 +80,7 @@ dan moet dit onderdeel herkanst worden met een tentamen.
 !
 
 
-##### 3. Weekly Nerd (30 - 65/200 minuten)
+##### 3. Weekly Nerd (30 - 70/200 minuten)
 # Artikelen voor vandaag
 
 * [A new element will make the web faster by Scott Gilbertson](http://arstechnica.com/information-technology/2014/09/how-a-new-html-element-will-make-the-web-faster/)
@@ -73,7 +90,7 @@ dan moet dit onderdeel herkanst worden met een tentamen.
 
 !
 
-##### 3. Weekly Nerd (30 - 65/200 minuten)
+##### 3. Weekly Nerd (30 - 70/200 minuten)
 # Wie zit waar?
 
 lijst op Drive laten zien
@@ -82,7 +99,7 @@ lijst op Drive laten zien
 
 !
 
-# 4 Klussen - 120 minuten
+# 4 Klussen - 100 minuten
 ###### Frontend development - les 7
 Laptop en internet  
 Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
@@ -92,8 +109,8 @@ Opstelling werkeilanden van 6 personen - duo's zitten naast elkaar
 
 !
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 6.4 - 20 minuten
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 6.4 - 10 minuten
 ## Feature detection
 Met Feature detection kun je bepalen wat een browser wel en niet kan. 
 Vervolgens kun je een specifieke style uitvoeren.
@@ -110,22 +127,42 @@ Vervolgens kun je een specifieke style uitvoeren.
 ### Bespreken Opdracht 6.4
 ## Feature detection 
 
-Tekst en uitleg
-Antwoord in Dablet tonen
+* Modernizr script checkt of er features beschikbaar zijn.
+* It adds classes to the html element that explain precisely what features are and are not natively supported
+
+        <script src=‘modernizr.js’></script>
+        <html class=’no-js’>
+        <html class=’js no-touch geolocation> 
+
+
+[Features detected by Modernizr](http://modernizr.com/docs/#s2)
+* Dan kun je een style aanpassen die de marges op een touch device aanpast.
+
+        .touch {
+            margin: 0 1em;
+        }
 
 !
 
 
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 7.1 - 50 minuten
-## Responsive images 
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 7.1 - 60 minuten
+## Responsive images
 
-(responsive) image toevoegen aan de artikelpagina
-a) ander achtergrond plaatje op een media query
-b) responsive picture in Chrome
+Plaats onderstaande bronbestanden in een < video > element.
+Hij moet voor iedereen met een hedendaagse browser werken.
+Zorg voor een fallback voor oude browsers. 
+
+Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/video)
 
 
+
+
+**Resources**
+[Caniuse Picture-element in Chrome?](http://caniuse.com/#search=picture) 
+[Responsive Images Done Right: A Guide To < picture > And srcset](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
+[Responsive Images: Use Cases and Documented Code Snippets to Get You Started](https://dev.opera.com/articles/responsive-images/)
 
 !
 
@@ -140,8 +177,8 @@ Antwoord in Dablet tonen
 !
 
 
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 7.2 - 50 minuten
+##### 4. Klussen (100 - 180/200 minuten)
+### Opdracht 7.2 - 30 minuten
 ## HTML5 Video 
 
 Plaats onderstaande bronbestanden in een < video > element.
@@ -219,16 +256,144 @@ Antwoord in [Dablet](https://gist.github.com/jorrit5477/2339628) tonen
 ###### Frontend development - les 7
 
 Wat hebben we behandeld (lesdoelen)?
+* Picture- en Video-element kunnen toepassen 
 * Klussen aan de eindopdracht
-* Images en Video kunnen toepassen 
-* Eindopdracht bespreken <<<
-* Weekly nerd herkansing: Tentamen vraag <<<
+* Eindopdracht bespreken
+* Weekly Nerd herkansing: Tentamen vraag
 
 
 !
 
-##### 5. Terugkijken 20 minuten
-# Wat kun je nu maken?
+
+# 5. Terugkijken 20 minuten
+###### Frontend development - les 7
+
+<br>
+
+###Agenda terugkijken
+
+**1. Moet je een tentamen maken?**
+
+Datum: Vrijdag 7 november, 12:50, TTH
+
+Oefenvraag slide 22
+
+
+**2. Criteria, beschrijving, werkwijze en inspiratie voor de eindopdracht?**
+
+Schrijf je in voor het mondeling op [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131)
+
+Beschrijving en criteria slide 23-32
+
+
+!
+
+
+##### 5. Terugkijken (20 - 190/200 minuten)
+#Tentamen
+Tentamen over de artikelen die zijn besproken tijdens de Weekly Nerd. 
+
+* Het tentamen bestaat uit 5 open vragen (a, b, soms c)
+* Duur van de toets is maximaal 100 minuten
+* Geschreven aantekeningen mag je erbij houden 
+* Geen laptop open. Geen mobile en/of tablet 
+
+Het tentamen gaat over de artikelen: 1.1, 1.2, 1.3, 2.2, 2.3, 3.1, 4.1, 4.2, 5.1, 5.2, 6.1, 6.2, 7.1, 7.2
+
+
+!
+
+##### 5. Terugkijken (20 - 190/200 minuten)
+#Tentamen 
+##gaat over deze artikelen
+
+* 1.1 [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
+* 1.2 [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
+* 1.3 [Importance of sections by Haydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
+* 2.2 [How to use pseudo classes by Richard Shepherd](http://www.smashingmagazine.com/2011/03/30/how-to-use-css3-pseudo-classes/)
+* 2.3 [The Design of HTML5 by Jeremy Keith](https://vimeo.com/15755349)
+* 3.1 [Using pixels is not very polite by Vasilis van Gemert](http://nerd.vasilis.nl/using-pixels-polite/)
+* 4.1 [The 100% Easy-2-Read Standard by Oliver Reichenstein](http://ia.net/blog/100e2r)
+* 4.2 [Web Design is 95% Typograph by Oliver Reichenstein](http://ia.net/blog/the-web-is-all-about-typography-period)
+* 5.1 [Responsive Design tips & tricks by Andreas Bovens](https://vimeo.com/48433478)
+* 5.2 [Fixed vs Fluid vs Elastic layout by Kayla Knight](http://www.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)
+* 6.1 [Responsive navigation patterns by Brad Frost](http://bradfrostweb.com/blog/web/responsive-nav-patterns/)
+* 6.2 [11 reasons Responsive Design noy cool by Juan Sarmiento](http://www.webdesignshock.com/responsive-design-problems/)
+* 7.1 [A new element will make the web faster by Scott Gilbertson](http://arstechnica.com/information-technology/2014/09/how-a-new-html-element-will-make-the-web-faster/)
+* 7.2 [A Dao of Web Design by John Allsopp ](http://alistapart.com/article/dao)
+
+
+!
+
+
+##### 5. Terugkijken (20 - 190/200 minuten)
+#Tentamen 
+##Oefenvraag
+
+<br>
+####Vraag 3
+*Betreft artikel: 
+The 100% Easy-2-Read Standard 
+& 
+Web Design is 95% Typograph 
+by Oliver Reichenstein*
+
+
+Beschrijf wat volgens het artikel de taak is van een webdesigner. 
+Ben je het hiermee eens? Verwoord je mening over de stelling van Oliver Reichstein.
+
+-- taak van de webdesigner (1 punt)
+
+-- Ben je het hiermee eens? (2 punten) 
+
+
+
+!
+
+
+
+##### 5. Terugkijken (20 - 190/200 minuten)
+# Frontend development
+## Waar begonnen we 8 weken geleden?
+
+<br>
+
+###Beschrijving van het vak Frontend development
+In het vak Frontend development leren studenten een responsive website maken, 
+een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden. 
+
+###Beschrijving eindopdracht 
+Eindopdracht is een responsive website maken van het intranet: 
+een artikelpagina en een formulierpagina
+
+
+!
+
+
+##### 5. Terugkijken (20 - 190/200 minuten)
+# Frontend development
+## Waar begonnen we 8 weken geleden?
+
+<br>
+
+###Intentie van het vak Frontend development
+Het tweedejaars vak Frontend development is een techniek vak voor design studenten. 
+In de propedeuse ligt de nadruk op het maken van een eenvoudige websites. 
+Dit vak gaat een stap verder. 
+
+Wat moeten de studenten aan het eind van de cursus kunnen? 
+Aan het eind van de cursus zijn studenten in staat een responsive website te maken, 
+dat is een website die zich automatisch aanpast aan de context waarin de website wordt bekeken. 
+De context wordt bepaald door de verschillende eigenschappen van de verschillende apparaten, 
+zoals desktop, mobile en tablet, de interactie mogelijkheden 
+en de omgeving waarin de website wordt bekeken. De website kunnen ze maken met behulp van de webtechnieken HTML5, CSS3 en Javascript en deze technieken worden volgens de juiste semantiek en gevalideerd toegepast.  Het vak geeft inzicht in de mogelijkheden en beperkingen van deze technieken. Voor het maken van de website zijn studenten in staat betrouwbare bronnen te zoeken en raadplegen en de studenten zijn in staat code van anderen te lezen en te hergebruiken.
+
+
+!
+
+##### 5. Terugkijken (20 - 190/200 minuten)
+# Eindopdracht
+## Wat kun je nu maken?
 Stap voor stap heb je geleerd een responsive design te maken.
 
 
@@ -241,20 +406,6 @@ Wat kun je over 8 weken?
 * [decorrespondent.nl](https://decorrespondent.nl/home#) 100% Leesbaar multi device
 * [Komkommersalade](http://vasilis.nl/presentaties/eretail/site/shop.php) Voorbeeld Responsive webshop (P4)
 
-
-
-!
-
-
-##### 5. Terugkijken 20 minuten
-# Wat kun je nu maken?
-Stap voor stap heb je geleerd een responsive design te maken.
-
-
-*In het vak Frontend development leer je een responsive website maken. 
-Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactiemogelijkheden.*
-
-**Eindopdracht is een responsive website maken van het intranet: een artikelpagina en een formulierpagina**
 
 
 !
@@ -307,7 +458,7 @@ Dit kun je gebruiken om je pagina's te stylen.
 
 Op de website [mediaqueri.es](http://mediaqueri.es) staan veel voorbeelden van responsive layouts.
 
-De website van het [Rijksmuseum](https://www.rijksmuseum.nl) met de collectie vinden we tof
+De website van het [Rijksmuseum](https://www.rijksmuseum.nl) met de collecties vinden we tof
 
 De [omroep.nl](http://www.omroep.nl) website doet het responsive goed, met plaatjes en video die mooi mee schalen.
 
@@ -353,7 +504,7 @@ De twee pagina's moeten minimaal op je laptop en één touch apparaat worden gep
 
 ##### 5. Terugkijken 20 minuten
 # Eindopdracht
-## Criteria 
+## Toetsing 
 
 De website bevat alle onderwerpen zoals die in de lessen zijn behandeld:
 
@@ -371,46 +522,15 @@ De website bevat alle onderwerpen zoals die in de lessen zijn behandeld:
 
 !
 
-# 5. Terugkijken 20 minuten
-###### Frontend development - les 7
 
-##Tentamen
-Student krijgt 5 (a, b, soms c) vragen over de stof
-
-Duur van de toets is maximaal 100 minuten
-
-Geschreven aantekeningen mag je erbij houden 
-
-Geen laptop open. Geen mobile en/of tablet 
-
-!
-
-# 5. Terugkijken 20 minuten
-###### Frontend development - les 7
-
-##Tentamen oefenvraag
-
-<br>
-####Vraag 3
-*Betreft artikel: 
-The 100% Easy-2-Read Standard 
-& 
-Web Design is 95% Typograph 
-by Oliver Reichenstein*
-
-
-Beschrijf wat volgens het artikel de taak is van een webdesigner. 
-Ben je het hiermee eens? Verwoord je mening over de stelling van Oliver Reichstein.
-
--- taak van de webdesigner (1 punt)
-
--- Ben je het hiermee eens? (2 punten) 
-
-
-
-!
-
+(fed is)
 ## op.
+
+<img src="../Maakopdracht/plaatjes/fed_code.png" width="22%" alt="CMDA Totums">
+<img src="../Maakopdracht/plaatjes/fed_hipster.png" width="20%" alt="CMDA Totums">
+<img src="../Maakopdracht/plaatjes/fed_handje.png" width="15%" alt="CMDA Totums">
+
+
 
 
 < / section >
