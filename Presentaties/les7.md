@@ -163,7 +163,7 @@ Gebruik voor deze oefening
 
 
 **Resources**
-[Caniuse Picture-element in Chrome?](http://caniuse.com/#search=picture) 
+[Caniuse Picture-element?](http://caniuse.com/#search=picture) 
 [Responsive Images Done Right: A Guide To < picture > And srcset](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
 [Responsive Images: Use Cases and Documented Code Snippets to Get You Started](https://dev.opera.com/articles/responsive-images/)
 
@@ -177,9 +177,10 @@ Tekst en uitleg.
 
     srcset
     sizes
+    Wat moet je doen als je Retina hebt?
     
 
-Antwoord in [Dablet](http://dabblet.com/gist/21b85cb4b5b2dd880d81) tonen
+Antwoord in [Dablet](http://dabblet.com/gist/e173b03e74e908cf3c29) tonen
 
 !
 
