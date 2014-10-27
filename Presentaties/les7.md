@@ -162,11 +162,21 @@ Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/blob/gh-pages
 
 **Tekst en uitleg**
 
-Je geeft het video element verschillende source files voor verschillende browser ondersteuning. De volgorde is bepalend voor welk file wordt afgespeeld. Een browser ‘pakt’ een source als deze wordt herkend. Dus bovenaan zet je het ‘belangrijkste’ video file.
+Je geeft het video element verschillende source files voor verschillende browser ondersteuning. 
+De volgorde is bepalend voor welk file wordt afgespeeld. 
+Een browser ‘pakt’ een source als deze wordt herkend. 
+Dus bovenaan zet je het ‘belangrijkste’ video file.
 
-De volgorde wordt mp4 als eerste ... Mp4 is het kleinste bestand met de hoogste kwaliteit. Dat wil je eigenlijk: Meest voor het minst. Voor een dubbeltje op de eerste rang zitten.
-Dus je bepaalt  de volgorde op basis van de kwaliteit van de video. Het file dat bovenaan staat probeert een browser als eerst af te spelen. Als dat lukt wordt de rest van de code overgeslagen. 
-De ogg versie staat alleen als fallback voor een beperkt aantal oude browsers die dit alleen kunnen lezen. Als je deze bovenaan zet wordt deze ook door browsers gepakt die ook mp4 of webm zouden kunnen afspelen. En dat wil je niet. ogg is groot en minder van kwaliteit.
+De volgorde wordt mp4 als eerste ... 
+Mp4 is het kleinste bestand met de hoogste kwaliteit. 
+Dat wil je eigenlijk: Meest voor het minst. 
+Voor een dubbeltje op de eerste rang zitten.
+Dus je bepaalt  de volgorde op basis van de kwaliteit van de video. 
+Het file dat bovenaan staat probeert een browser als eerst af te spelen. 
+Als dat lukt wordt de rest van de code overgeslagen. 
+De ogg versie staat alleen als fallback voor een beperkt aantal oude browsers die dit alleen kunnen lezen. 
+Als je deze bovenaan zet wordt deze ook door browsers gepakt die ook mp4 of webm zouden kunnen afspelen. 
+En dat wil je niet. ogg is groot en minder van kwaliteit.
 
 track / type / width / height / fallback
 
