@@ -515,15 +515,20 @@ De twee pagina's moeten minimaal op je laptop en één touch apparaat worden gep
 
 De website bevat alle onderwerpen zoals die in de lessen zijn behandeld:
 
+**Minimaal:**
+
 * De website is gemaakt met behulp van HTML5, CSS3 en Javascript
 * De pagina's bevatten alle HTML zoals die is aangeleverd
 * HTML5 moet correct gevalideerd zijn, danwel je moet kunnen uitleggen hoe je een error melding van een validator kan oplossen
 * De CSS3 wordt extern ingeladen
+* Met behulp van javascript worden dynamisch classes toegevoegd of weggehaald
 * De layout en vormgeving is responsive en past zich aan aan de schermgrootte
 * Er wordt correct gebruik gemaakt van verschillende Media queries
-* Met behulp van javascript worden dynamisch classes toegevoegd of weggehaald
+
+**Hoger cijfer:**
+
 * Met Feature detection wordt de layout en/of interactie aangepast aan een specifiek apparaat
-* Minimaal één van de pagina's bevat een foto en een video die responsive zijn
+* Minimaal één van de pagina's bevat een  picture, video, audio en/of sourceset-element die functioneel zijn toegepast
 
 
 
