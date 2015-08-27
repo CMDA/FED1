@@ -1,5 +1,5 @@
 
-# Frontend development 2014
+# Frontend development 2015/16
 ###### 2e jaars kernvak CMD Amsterdam
 In het vak Frontend development leren studenten een responsive website maken, een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactie mogelijkheden.
 
@@ -15,7 +15,7 @@ Picture element en feature detection.
 
 
 <br>
-###### Frontend development 2014
+###### Frontend development 2015/16
 ## Lessen
 
 Voor de eindopdracht moet een responsive webdesign worden gemaakt in HTML5, CSS3 en Javascript. 
@@ -35,7 +35,7 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
 <br>
-###### Frontend development 2014
+###### Frontend development 2015/16
 ## Intentie van het vak
 
 Het tweedejaars vak Frontend development is een techniek vak voor design studenten. 
