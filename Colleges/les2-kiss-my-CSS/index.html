@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Kiss my CSS — Hoorcollege 2 — Front-end development V1</title>
+
+		<meta name="description" content="Hoorcollege bij les 2 van Frontend Development in de V1 op de HvA.">
+		<meta name="author" content="Vasilis van Gemert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<script src="prefixfree/prefixfree.min.js"></script>
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<style>
+		.reveal video {
+			max-height: 90vh;
+		}
+textarea,
+iframe {
+	height: 50vh;
+	width: 100%;
+	font-size: 1.2em;
+	background: hsl(210, 13%, 50%);
+	color: white;
+	text-shadow: 0.05em 0.05em 0.1em hsla(0, 0%, 0%, 0.3);
+}
+iframe {
+	height: 80vh;
+}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Kiss my CSS</h1>
+					<h3>Frontend Development Les 2</h3>
+				</section>
+
+				<section>
+					<h1>Vorige week</h1>
+					<ul>
+						<li>Geschiedenis van HTML</li>
+						<li>Nieuwe, semantische elementen</li>
+						<li>Formulieren</li>
+					</ul>
+					<aside class="notes">
+						Even heel kort samenvatten waar we het ook al weer over hebben gehad vorige week. Niet te lang bij stilstaan want er is heel veel materiaal te behandelen.
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>CSS</h2>
+						<p><em>Cascading</em> Stylesheets</p>
+						<blockquote class="fragment"><p>The process of combining several style sheets and resolving conflicts between them.</p><cite>Håkon Wium Lie</cite></blockquote>
+
+						<aside class="notes">
+							Wat is een cascade? Volgens woordenboeken is het een waterval. Een opeenvolging van dingen. Vooral één richtingsverkeer dus. De code wordt lineair gelezen. Lekker simpel. De definitie van Håkon Wium Lie, een van de bedenkers van CSS is lekker duidelijk. Cascading heeft een paar toffe eigenschappen tot gevolg:
+						</aside>
+					</section>
+					<section>
+						<h2>Overerving</h2>
+						<pre><code data-trim contenteditable>
+body {
+	color: green;
+	border: 1px solid green;
+}
+p {
+	/* Kleur is vanzelf green,
+	Border is niet vanzelf 1px solid green */
+	border: inherit;
+}</pre></code>
+						<aside class="notes">
+							Sommige eigenschappen worden vanzelf overgeërfd, andere niet. Het lijkt dat vooral eigenschappen om tekst en tabellen te stijlen overgeërfd worden. Met het woordje 'inherit' kan je het forceren.
+						</aside>
+					</section>
+					<section>
+						<h2>CSS is tolerant</h2>
+						<pre><code data-trim contenteditable>
+bdoy {
+	colour: #gghhjj;
+}</code></pre>
+						<aside class="notes">
+							Een andere fijne eigenschap is het feit dat code die niet begrepen wordt gewoon genegeerd wordt. Dit lijkt een <em>minor detail</em>, maar dit is essentieel om te kunnen innoveren:
+						</aside>
+					</section>
+					<section>
+						<h2>CSS is dus handig</h2>
+						<pre><code data-trim contenteditable>
+body {
+	background: green; /* oude browsers */
+	background: hsla(0,50%,50%,.5); /* nieuwe browsers */
+}</code></pre>
+						
+						<aside class="notes">
+							Zonder deze eigenschap hadden we nooit nieuwe CSS kunnen gebruiken. Wat niet begrepen wordt wordt genegeerd, wat wel begrepen wordt overschrijft datgene wat er aan vooraf ging. Hoera, vooruitgang!
+						</aside>
+					</section>
+					<section>
+						<h2>CSS is dus handig</h2>
+						<pre><code data-trim contenteditable>body {
+	background: green;
+}
+body {
+	background: white;
+}</code></pre>
+<pre class="fragment"><code data-trim contenteditable>.night-modus {
+	background: black;
+}</code></pre>
+						
+						<aside class="notes">
+							Door een class toe te voegen kunnen we er dus voor zorgen dat dingen er anders uit gaan zien. 
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Bling!</h2>
+						<aside class="notes">
+							De overgang van de vorige slide naar deze is met CSS gedaan. 
+						</aside>
+					</section>
+					<section>
+						<h2>Vroeger</h2>
+<pre><code data-trim contenteditable>body {
+	font: 100%/1.5 helvetica, arial, sans-serif;
+	color: papayawhip;
+	border: 1em solid olivedrab;
+}</code></pre>
+						<aside class="notes">
+							CSS is ooit ontwikkeld om tekstdocumenten mee vorm te geven. Het is in de eerste 15 jaar eigenlijk nauwelijks geüpdatet. Omdat we toch ook mooie dingen wilden maken gingen we hacken. Ook bij CSS3 gold: mensen willen dit doen, laten we er voor zorgen dat dat dan ook kan.
+						</aside>
+					</section>
+					<section>
+						<h2>Dus</h2>
+<pre><code style="border-radius: .3em;" data-trim contenteditable>div {
+	border-radius: .3em;
+}</code></pre>
+						<aside class="notes">
+							Mensen willen ronde hoekjes? Dat kan. 
+						</aside>
+					</section>
+					
+				</section>
+
+				<section>
+					<section>
+						<h2>Opacity</h2>
+						<textarea class="snippet demo-box dont-adjust" data-subject>opacity: 1;</textarea>
+						<aside class="notes">
+							LIVE CODING! De CSS die je in deze box typt beinvloedt de box! 
+							Laat hier zien dat je ook hsla(0,50%,50%,0.5) kunt doen om alleen de achtergrond transparant te maken. Toon het duidelijke verschil met opacity. Als je zin hebt kun je ook nog background: currentColor; laten zien.
+						</aside>
+					</section>
+					<section>
+						<h2>Border-radius</h2>
+						<textarea class="snippet demo-box dont-adjust" data-subject>border-radius: 20px;</textarea>
+						<aside class="notes">
+							Laat zien dat je alle hoeken apart kunt aanpassen door bijvoorbeeld 20px 80px 40px 0 te typen. Laat ook horizontale en verticale border radius zien door dingen als '20px / 80px;' of 20px 100px 0 100% / 80px of percentages te laten zien. Hier gaan ze mee oefenen, niet te lang op doorgaan dus!
+						</aside>
+					</section>
+					<section>
+						<h2>Box-shadow</h2>
+						<textarea class="snippet demo-box dont-adjust" data-subject>box-shadow: 5px 5px 20px black;</textarea>
+						<aside class="notes">
+							Laat zien waar elke waarde voor dient. Voeg ook het vierde cijfer, spread, toe. Laat ook zien dat hsla() of rgba() voor mooiere resultaten kan zorgen. Toon wat het woordje 'inset' doet: box-shadow: inset 0 0 15px 14px white;<br>
+							Laat ook multiple backgrounds zien. bijvoorbeeld: <br>
+							box-shadow: 0 0 0 2px black,0 0 0 4px green,0 0 0 6px red, 0 0 0 8px yellow, 0 0 0 10px olivedrab, 0 0 0 12px purple, 0 0 0 14px white;
+						</aside>
+					</section>
+					<section>
+						<iframe src="http://mothereffingtextshadow.com/">Voorbeeld</iframe>
+						<aside class="notes">
+							Klik vooral even op de All the way button
+						</aside>
+					</section>
+					<section>
+						<h2>Transform</h2>
+						<textarea class="snippet demo-box dont-adjust" data-subject>transform: rotate(1deg);</textarea>
+						<aside class="notes">
+							 Laat zien: scale(1.1) en skew(0deg, 20deg) en translate(10px, 10px). Laat ook combinaties zien, of leg ze uit dat combinaties mogelijk zijn. transform-origin: 0 0; is ook goed om te laten zien. 
+						</aside>
+					</section>
+					<section>
+						<h2>Transities</h2>
+						<iframe src="transitions.html">Voorbeeld</iframe>
+						<aside class="notes">
+							soms doet deze slide het niet. Open dan http://vvg.gr/ih in een nieuwe tab
+							 Je kan alleen een enkele propertie animeren, bijvoorbeeld<br>
+							 textarea { transition: color 1s; }<br>
+							textarea:hover { background: green; color: yellow }<br>
+							Je kan ook een trasition delay toevoegen: <br>
+							textarea { transition: color 1s 1s; }
+							Voor easing kan je keywords gebruiken zoals linear, ease-in, ease-out. 
+						</aside>
+					</section>
+					<section>
+						<h2>Transities</h2>
+						<iframe src="http://cubic-bezier.com/#.17,.67,.83,.67"></iframe>
+						<aside class="notes">
+							Laat ze hier mee spelen. Zeker voor de mensen die motion design tof vinden is deze pagina heel belangrijk: hiermee hebben ze fine control over hoe een component animeert. Geef ze de URL cubic-bezier.com/
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Selectors</h1>
+					</section>
+					<section>
+						<h2>Universal selector</h2>
+						<pre><code data-trim contenteditable>
+* {
+	color: green;
+	border: 1px solid green;
+}</code></pre>
+						<aside class="notes">
+							Wat vooral belangrijk is is dat studenten begrijpen wát ze kunnen vormgeven. Het is interessant als een designer weet dat je een element wat na een ander element staat kunt stijlen (maar niet iets wat er voor staat). Of dat je de laatste drie dingen kunt stijlen (hoewel we daar pas volgende week mee aan de slag gaan).
+						</aside>
+					</section>
+					<section>
+						<h2>Type selector</h2>
+						<pre><code data-trim contenteditable>
+body {
+	background: white;
+}</code></pre>
+					</section>
+					<section>
+						<h2>Descendant selector</h2>
+						<pre><code data-trim contenteditable>
+body div {
+	background: white;
+}</code></pre>
+					</section>
+					<section>
+						<h2>Direct child selector</h2>
+						<pre><code data-trim contenteditable>
+body > div {
+	background: white;
+}</code></pre>
+<pre class="fragment"><code data-trim contenteditable>
+body div {
+	background: white;
+}</code></pre>
+						<aside class="notes">
+							Wat is het verschil. Dat lijkt me een prima vraag om even in de klas te stellen.
+						</aside>
+					</section>
+					<section>
+						<h2>Adjacent sibling selector</h2>
+						<pre><code data-trim contenteditable>
+label + input {
+	background: none;
+}</code></pre>
+						<aside class="notes">
+							Dit is een hele krachtige waarmee je relaties kunt leggen.
+						</aside>
+					</section>
+					<section>
+						<h2>Attribute selector</h2>
+						<pre><code data-trim contenteditable>
+[for="email"] {
+    background: slategray;
+}</code></pre>
+<pre><code data-trim contenteditable>
+a[href^="https://"] {
+    background: url(veiligelink.svg);
+}</code></pre>
+<pre><code data-trim contenteditable>
+img[src$=".jpg"] + p {
+    font-style: italic;
+}</code></pre>
+						<aside class="notes">
+							Geen classes nodig, gewoon dingen stijlen aan de hand van attributen die ze al hebben. Kan je dingen <em>semantisch</em> stijlen. Veilig icoontje als een link met https// begint. De paragraaf die direct na een jpg staat anders stijlen dan die na een gif staat. ETC.
+							Dit moet allemaal in een half uur passen. 
+						</aside>
+					</section>
+					
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+//var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+	</body>
+</html>

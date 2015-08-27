@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>I've got em — Hoorcollege 3 — Front-end development V1</title>
+
+		<meta name="description" content="Hoorcollege bij les 3 van Frontend Development in de V1 op de HvA.">
+		<meta name="author" content="Vasilis van Gemert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<script src="prefixfree/prefixfree.min.js"></script>
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<style>
+		.reveal video {
+			max-height: 90vh;
+		}
+textarea,
+iframe {
+	height: 50vh;
+	width: 100%;
+	font-size: 1.2em;
+	background: hsl(210, 13%, 50%);
+	color: white;
+	text-shadow: 0.05em 0.05em 0.1em hsla(0, 0%, 0%, 0.3);
+}
+iframe {
+	height: 80vh;
+}
+.reveal section img[src$=".svg"] {
+	background: white;
+}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>I've got em</h1>
+					<h3>Frontend Development Les 3</h3>
+				</section>
+
+				<section>
+					<h1>Vorige week</h1>
+					<ul>
+						<li>CSS bling</li>
+						<li>Selectors deel 1</li>
+					</ul>
+					<aside class="notes">
+						Even heel kort samenvatten waar we het ook al weer over hebben gehad vorige week. Niet te lang bij stilstaan want er is heel veel materiaal te behandelen.
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Selectors</h2>
+						<p>Deel 2</p>
+						
+						<aside class="notes">
+							We gaan verder in op selectors. Even nog de nth-child en nth-of-type selectors bespreken en dan vooral bekijken wat we er allemaal mee kunnen doen.
+						</aside>
+					</section>
+					<section>
+						<h2>Rechts naar links</h2>
+						<pre><code data-trim contenteditable>
+body > div {
+	color: green;
+}
+h1 + p {
+	margin-top: -1em;
+}
+h1, p {
+	font-weight: normal;
+}</pre></code>
+						<aside class="notes">
+							De makkelijkste manier om een selector te lezen is om van rechts naar links te lezen: een div die direct in de body staat. Een p die direct na een h1 staat. Die derde staat er bij omdat mensen soms denken dat de + hetzelfde is als de komma.
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
+						<aside class="notes">
+							De meeste studenten kunnen wel verzinnen wat dit betekent
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
+<pre><code data-trim contenteditable>
+p:first-of-type {
+	font-size: 1.414em;
+}</code></pre>
+						<aside class="notes">
+							Vraag ze naar het verschil tussen deze twee. De eerste is alleen voor paragrafen die daadwerkelijk de eerste child zijn van hun parent. De tweede is voor elke eerste paragraaf in een parent, ook als er bijvoorbeeld een h1 voor staat. Of 100 ul's.
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+li:nth-of-type(2) {
+	background: papayawhip;
+}</code></pre>
+<pre><code data-trim contenteditable>
+li:nth-of-type(2n) {
+	background: papayawhip;
+}</code></pre>
+						<aside class="notes">
+							Zebrastriping doe je zo
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+<pre><code data-trim contenteditable>
+li {
+	background: rebeccapurple;
+}
+li:nth-of-type(3n + 2) {
+	background: papayawhip;
+}
+li:nth-of-type(3n + 3) {
+	background: olivedrab;
+}</code></pre>
+						<aside class="notes">
+							Clownstriping — met drie kleuren — doe je zo. Laat zien dat het makkelijk is als je rechts begint met lezen: Selecteer de derde, neem vervolgens telkens een stap van drie.
+						</aside>
+					</section>
+					<section>
+						<h2>De laatste drie selecteren</h2>
+<pre class="fragment"><code data-trim contenteditable>
+div:nth-last-of-type(-n + 3) {
+	width: 33.33333%;
+}
+</code></pre>			
+						<aside class="notes">
+							Begin op de derde vanaf en eind, en tel er dan telkens -1 bij op (is hetzelfde als trek er telkens 1 van af ja).
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>JavaScript!</h2>
+						<aside class="notes">
+							Deze selectors kunnen we ook in JavaScript gebruiken, om een class te togglen op een element.
+						</aside>
+					</section>
+					<section>
+						<h2>querySelector</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>querySelectorAll</h2>
+<pre><code data-trim contenteditable>
+var secondSteps = document.querySelectorAll('fieldset:nth-of-type(2n)');</code></pre>
+						<aside class="notes">
+							querySelectorAll maakt een nodelist van elke tweede fieldset. Als er zes fieldsets zijn dan zijn er drie items in deze nodelist. secondSteps[1] zou de tweede daarvan aanspreken.
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+					<p><a href="examples/fieldsets.html">voorbeeld</a></p>
+						<aside class="notes">
+							Met classList kan je heel makkelijk classes toevoegen, verwijderen of togglen
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+nextStep.classList.add('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.remove('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.toggle('is-visible');</code></pre>
+					
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Flexbox</h2>
+						<p><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">Zie hier</a></p>
+						
+						<aside class="notes">
+							CSS was voor teksten. We misbruikten proprties om layouts te kunnen maken. Er was behoefte aan krachtigere tools om mee te layouten. Een daarvan is Flexbox.
+							Het idee achter flexbox is dat je het parent-element de mogelijkheid om de beschikbare ruimte zo goed mogelijk te verdelen onder de children. 
+							Lees deze pagina goed door. Dat is voor een groot deel onze les: http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+							Bekijk ook deze pagina, want daar staan hele goed voorbeelden: http://philipwalton.github.io/solved-by-flexbox/
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<img src="img/flex-container.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  display: flex;
+}</code></pre>
+						<aside class="notes">
+							Zo maak je een container een flexbox. 
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<p>flex-direction</p>
+						<img src="img/flex-direction1.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}</code></pre>
+						<aside class="notes">
+							Je kan de content vier richtingen meegeven
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<p>justify-content</p>
+						<img src="img/justify-content.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}</code></pre>
+						<aside class="notes">
+							Uitlijning kan op een aantal manieren. Lekker flexibel!
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<p>align-items</p>
+						<img src="img/align-items.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
+						<aside class="notes">
+							Uitlijning kan op een aantal manieren. Lekker flexibel!
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<p>flex-wrap</p>
+						<img src="img/flex-wrap.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+	flex-wrap: nowrap | wrap | wrap-reverse;
+}</code></pre>
+						<aside class="notes">
+							Je kan ook over meerdere regels flexen. Zonder deze property zal alles op een regel gepropt worden
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the parent</h2>
+						<p>align-content</p>
+						<img src="img/align-content.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}</code></pre>
+						<aside class="notes">
+							Met flex-wrap aan kan je ook bepalen wat er met de content tussen de regels gebeurt
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>order</p>
+						<img src="img/order.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  order: &lt;integer>;
+}</code></pre>
+						<aside class="notes">
+							Op welke plek moet dit ding staan. Superhandig voor responsive designs waar de volgorde van de code niet altijd overeenkomt met de ideale visuele volgorde.
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>flex-grow</p>
+						<img src="img/flex-grow.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  flex-grow: &lt;number>; /* default 0 */
+}</code></pre>
+						<aside class="notes">
+							Hoeveel ruimte moet dit ding innemen in verhouding tot de andere items? Als alles op 1 staat, dan is alles even breed. Als er echter eentje op 2 staat dan is die twee keer zo breed dan de andere items.
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>align-self</p>
+						<img src="img/align-self.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
+						<aside class="notes">
+							Om één item anders uit te laten lijnen dan de standaard uitlijning.
+						</aside>
+					</section>
+					<section>
+						<h2>Flexbox in de praktijk</h2>
+						<p><a href="http://philipwalton.github.io/solved-by-flexbox/">Mooie voorbeelden</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Units voor typografie</h1>
+					</section>
+					<section>
+						<h2>Vroeger</h2>
+						<pre><code data-trim contenteditable>
+
+
+h1 {
+    font-size: 32px;
+}
+h2{
+    font-size:22px;
+}
+h3{
+    font-size:15px;
+}
+h4{
+    font-size:13px;
+}
+button {
+    font-size: 14px;
+}
+body {
+    font-size: 12px;
+}</code></pre>
+						<aside class="notes">
+							Vroeger gebruikten we pixels voor typografie. Daar zitten een aantal nadelen aan. Dat is alsof bokvorbeeld je een liedje laat horen en de geluidsinstellingen van de luisteraar negeert. Onbeleefd. 
+						</aside>
+					</section>
+					<section data-background="img/font-pref-1.jpg" data-background-size="contain"></section>
+					<section data-background="img/font-pref-2.jpg" data-background-size="contain">
+						
+						<aside class="notes">
+							Wat zou er gebeuren als we de grootte van ons font aanpassen in de voorkeuren?
+						</aside>
+					</section>
+					<section data-background="img/font-pref-3.jpg" data-background-size="contain">
+						<aside class="notes">
+							Als we besluiten dat de fonts allemaal eigenlijk te klein zijn, zoals hier overduidelijk het geval is, dan moeten we alle font-size declaraties aan gaan passen.
+						</aside>
+					</section>
+					<section data-background="img/death-to-the-pixels.jpg" data-background-size="contain"></section>
+					<section>
+						<h2>EM</h2>
+						<pre><code data-trim contenteditable>
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}</code></pre>
+						<aside class="notes">
+							In plaats van pixels kunnen we typografie beter opzetten in verhoudingen. De unit die we daarvoor gebruiken is de em. Hiermee worden de voorkeuren van gebruikers niet genegeerd. Bovendien, als wij besluiten dat de font-size voortaan groter moet, dan kunnen we dat gewoon doen door alleen de font-size op de html te vergroten.
+						</aside>
+					</section>
+					<section data-background="img/em-layout-2.png" data-background-size="contain"></section>
+					<section data-background="img/em-layout-3.png" data-background-size="contain"></section>
+					
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+//var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+	</body>
+</html>

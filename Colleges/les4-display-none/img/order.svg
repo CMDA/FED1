@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="400px" height="122.5px" viewBox="0 0 400 122.5" enable-background="new 0 0 400 122.5" xml:space="preserve">
+<rect x="13.5" y="23.75" fill="#88499C" width="341" height="31.75"/>
+<rect x="19.333" y="27.006" fill="#E77F24" width="44.423" height="24.966"/>
+<rect x="69.814" y="27.006" fill="#48A54F" width="71.346" height="24.966"/>
+<rect x="147.442" y="27.006" fill="#E77F24" width="44.423" height="24.966"/>
+<text transform="matrix(1 0 0 1 13.5 23.584)" fill="#88499C" font-family="'GothamRounded-Book'" font-size="16">order: 2</text>
+<rect x="13.5" y="76.75" fill="#88499C" width="341" height="31.75"/>
+<rect x="19.333" y="80.006" fill="#E77F24" width="44.423" height="24.966"/>
+<rect x="119.519" y="80.006" fill="#48A54F" width="71.346" height="24.966"/>
+<rect x="69.814" y="80.006" fill="#E77F24" width="44.423" height="24.966"/>
+<text transform="matrix(1 0 0 1 13.5 76.584)" fill="#88499C" font-family="'GothamRounded-Book'" font-size="16">order: 3</text>
+</svg>

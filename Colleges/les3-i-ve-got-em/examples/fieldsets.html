@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fieldset test</title>
+<style>
+html {
+	font: 100%/1.5 helvetica, arial;
+}
+label {
+	display: block;
+	margin: 0 0 1em;
+}
+label > input {
+	display: block;
+}
+input, button {
+	font: inherit;
+}
+fieldset:nth-of-type(2) {
+	display: none;
+}
+fieldset.is-visible {
+	display: block;
+}
+</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Name: <input type=text></label>
+			<label>Email: <input type=email></label>
+			<button>Go on!</button>
+		</fieldset>
+		<fieldset>
+			<legend>Favorites</legend>
+			<label>Colour: <input type=color></label>
+			<label>Month: <input type=month></label>
+			<button>Done!</button>
+		</fieldset>
+	</form>
+<script>
+var nextStep = document.querySelector('fieldset:nth-of-type(2)');
+var clickNext = document.querySelector('button');
+clickNext.onclick = function() {
+	nextStep.classList.add('is-visible');
+	return false;
+}
+//console.log(nextStep);
+</script>
+</body>
+</html>

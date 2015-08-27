@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+}
+html, body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    /*font-weight: 300;*/
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #333;
+
+    background-color:#efefef;
+    background-image: -moz-radial-gradient(center center, ellipse cover, #eee, #999 100%);
+    background-image: -webkit-radial-gradient(center center, ellipse cover, #eee, #999 100%);
+    background-image: -o-radial-gradient(center center, ellipse cover, #eee, #999 100%);
+    background-image: -ms-radial-gradient(center center, ellipse cover, #eee, #999 100%);
+    background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
+}
+@media all and (max-width: 420px) {
+    html,body {
+        font-size: 1.4em;
+    }
+}
+td{
+    vertical-align: top;
+    padding-top:4%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.2em 0;
+    clear:both;
+}
+h1{
+    margin-bottom: 0.4em;
+}
+h6{ /* subtitle */
+    background-color:gold;
+    font-size: 1em;
+    display: inline-block;
+    margin-bottom: 0.4em;
+}
+h5{ /* subsubtitle */
+    background-color:gold;
+    font-size: 0.6em;
+    display: inline-block;
+    /* position:fixed; */
+    /* bottom: 1%; */
+    padding: 0 1em; 
+    margin-bottom: 0.6em;
+} 
+p {
+    margin: 0 0 1em 0;
+    text-align: left;
+}
+a:link,a:visited { 
+    color:DarkGoldenrod;
+}
+a:hover{
+    background-color: Goldenrod ;
+    color: #333;
+}
+code {
+    display: block;
+    margin: .5em 0;
+    padding: .2em;
+    background: #666;
+    color: #fff;
+    line-height: 1.4em;
+    word-wrap:break-word;
+}
+ul, ol {
+    margin: .5em 1.3em;
+    text-align: left; 
+    line-height: 1.2em;
+}
+ul {
+    list-style: square;
+}
+li {
+    margin: .4em 0;
+}
+img {
+    /*width: 100%;*/
+    display: block;
+    margin: 0 auto;
+}
+blockquote {
+    font-family: Garamond;
+    font-style: italic;
+    line-height: 1.1em
+}
+
+.print .content-holder {
+    font-size: 12px;
+    font-family: Garamond;
+}
