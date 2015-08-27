@@ -24,8 +24,14 @@ In de les komen de verschillende onderwerpen aan bod en wordt geoefend met versc
 Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
-1. Give me a fucking < br / > [Presentatie](/FED1/Presentaties/les1-gimme-a-fucking-br.html) [College](FED1/Colleges/les1-gimme-a-fucking-br/index.html) [pdf](/FED1/Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
-2. Kiss my CSS [Presentatie](/FED1/Presentaties/les2-kiss-my-css.html) [College](/FED1/Colleges/les2-kiss-my-CSS/index.html) [pdf](/FED1/Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
+1. Give me a fucking < br / > 
+2. [Presentatie](/FED1/Presentaties/les1-gimme-a-fucking-br.html)
+3. [College](FED1/Colleges/les1-gimme-a-fucking-br/index.html)
+4. [pdf](/FED1/Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
+2. Kiss my CSS 
+3. [Presentatie](/FED1/Presentaties/les2-kiss-my-css.html) 
+4. [College](/FED1/Colleges/les2-kiss-my-CSS/index.html) 
+5. [pdf](/FED1/Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
 3. I’ve got < em > [Presentatie](/FED1/Presentaties/les3-i-ve-got-em.html) [College](/FED1/Colleges/les3-i-ve-got-em/index.html) [pdf](/FED1/Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
 4. Display: none [Presentatie](/FED1/Presentaties/les4-display-none.html) [College](/FED1/Colleges/les4-display-none/index.html) [pdf](/FED1/Colleges/les4-display-none/display-none.pdf)
 5. You are the CSS to my HTML [Presentatie](/FED1/Presentaties/les5-you-are-the-css-to-my-html.html) [College](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) [pdf](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
