@@ -24,7 +24,7 @@ In de les komen de verschillende onderwerpen aan bod en wordt geoefend met versc
 Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
-1. Give me a fucking < br / > [Presentatie](/Presentaties/les1-gimme-a-fucking-br.html) [College](Colleges/les1-gimme-a-fucking-br/index.html) [pdf](Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
+1. Give me a fucking < br / > [Presentatie](/FED1/Presentaties/les1-gimme-a-fucking-br.html) [College](FED1/Colleges/les1-gimme-a-fucking-br/index.html) [pdf](Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
 2. Kiss my CSS [Presentatie](/Presentaties/les2-kiss-my-css.html) [College](Colleges/les2-kiss-my-CSS/index.html) [pdf](Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
 3. I’ve got < em > [Presentatie](/Presentaties/les3-i-ve-got-em.html) [College](Colleges/les3-i-ve-got-em/index.html) [pdf](Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
 4. Display: none [Presentatie](/Presentaties/les4-display-none.html) [College](Colleges/les4-display-none/index.html) [pdf](Colleges/les4-display-none/display-none.pdf)
