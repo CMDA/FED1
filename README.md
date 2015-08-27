@@ -24,7 +24,8 @@ In de les komen de verschillende onderwerpen aan bod en wordt geoefend met versc
 Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
-1. Give me a fucking < br / > [Presentatie](/FED1/Presentaties/les1-gimme-a-fucking-br.html)
+1. Give me a fucking < br / > 
+ [Presentatie](/FED1/Presentaties/les1-gimme-a-fucking-br.html)
  [College](/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
  [pdf](/FED1/Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
 
@@ -39,25 +40,25 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
  [pdf](/FED1/Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
  
 4. Display: none 
-5. [Presentatie](/FED1/Presentaties/les4-display-none.html) 
-6. [College](/FED1/Colleges/les4-display-none/index.html) 
-7. [pdf](/FED1/Colleges/les4-display-none/display-none.pdf)
-8. 
+ [Presentatie](/FED1/Presentaties/les4-display-none.html) 
+ [College](/FED1/Colleges/les4-display-none/index.html) 
+ [pdf](/FED1/Colleges/les4-display-none/display-none.pdf)
+ 
 5. You are the CSS to my HTML 
-6. [Presentatie](/FED1/Presentaties/les5-you-are-the-css-to-my-html.html) 
-7. [College](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) 
-8. [pdf](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
-9. 
+ [Presentatie](/FED1/Presentaties/les5-you-are-the-css-to-my-html.html) 
+ [College](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) 
+ [pdf](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
+
 6. < img > is everything 
-7. [Presentatie](/FED1/Presentaties/les6-img-is-everything.html) 
-8. [College](/FED1/Colleges/les6-img-is-everything/index.html) 
-9. [pdf](/FED1/Colleges/les6-img-is-everything/img-is-everything.pdf)
-10. 
+ [Presentatie](/FED1/Presentaties/les6-img-is-everything.html) 
+ [College](/FED1/Colleges/les6-img-is-everything/index.html) 
+ [pdf](/FED1/Colleges/les6-img-is-everything/img-is-everything.pdf)
+ 
 7. /* no comment */ 
-8. [Presentatie](/FED1/Presentaties/les7-no-comment.html) 
-9. [College](/FED1/Colleges/les7-no-comment/index.html) 
-10. [pdf](/FED1/Colleges/les7-no-comment/no-comment.pdf)
-11. 
+ [Presentatie](/FED1/Presentaties/les7-no-comment.html) 
+ [College](/FED1/Colleges/les7-no-comment/index.html) 
+ [pdf](/FED1/Colleges/les7-no-comment/no-comment.pdf)
+ 
 8. < / HTML > [Toetsing en beoordeling](#)
 
 
