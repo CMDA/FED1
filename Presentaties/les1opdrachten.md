@@ -12,14 +12,13 @@
 ###### Frontend development - les 1
 
 ### 1. Maak een **Artikelpagina** in HTML 5
-Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina en gebruik passende HTML 5 elementen. 
+Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina. Gebruik de juiste HTML 5 elementen. Vermijd het gebruik van < div >.
 
 **Resources**
 
-* Resource: [Importance of sections by Heydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
-* [HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
+* Resource: [Importance of sections by Heydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)  
 * [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
-* [HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
+* [HTML5 element flowchart - Section content](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 
 
 !
@@ -32,7 +31,7 @@ Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maak
 
 **Resources**
 
-* Resource [Dive intro HTML 5: Forms By Mark Pilgrim](http://diveintohtml5.info/forms.html)
+* Resource [Dive intro HTML 5 Forms By Mark Pilgrim](http://diveintohtml5.info/forms.html)
 
 
 !
@@ -60,7 +59,7 @@ En verbeter de fouten.
 
 !
 
-###Opmerkingen over html5 sematiek
+###Opmerkingen over HTML5 sematiek
 
 Gebruik de HTML5 tags: Nav, Section, Article, Aside, Footer en bedenk welke content daarin hoort.
 

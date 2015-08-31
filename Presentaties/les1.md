@@ -90,7 +90,21 @@ In het vak Frontend development leer je een responsive website maken. Dat is een
 * Inspiratie
     * [Mediaqueri.es](http://www.mediaqueri.es)
 
+!
 
+##### 1. Introduktie (20/200 minuten)
+# Wat ga je vandaag leren?
+
+Programma & leerdoelen voor vandaag:
+
+* **Werkwijze en planning** van het vak doornemen
+* **Introductie HTML5.** Recap van vorg jaar.
+* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
+    Doctype, Meta, Script, 
+    Header, Main, Footer, Nav, Aside, 
+    Section, Article, 
+    Formulieren, input types
+* **Formulieren** maken
 
 !
 
@@ -100,11 +114,11 @@ Hoe zien de lessen van 4 uur eruit?
 
 1. Iedere les krijg je een **college** van een half uur.
 2. Daarna gaan we artikelen bespreken in de **Weekly Nerd**. 
-De artikelen moet je als huiswerk lezen.
-3. Dan is het **coden, klussen, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De docenten lopen rond om te helpen. De opdracht van de les moet je af hebben voor de volgende les. 
+De artikelen die op Moodle staan moet je als huiswerk lezen.
+3. Dan is het **coden, klussen, nerden**. Ongeveer 2 uur per les gaan we werken aan de eindopdracht. De docenten lopen rond om te helpen. De opdracht van de les moet je af hebben voor de volgende les. 
 
-Zie [Moodle](Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor het lesprogramma. 
-De colleges en lesplannen staan ook [online](http://cmda.github.io/FED1/).
+Zie [Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor het lesprogramma. 
+De colleges en lesplannen staan allemaal [online](http://cmda.github.io/FED1/).
 Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 
@@ -122,28 +136,27 @@ Over CSS3 effecten, selectors, flexbox & boxmodel
 3. **Eindopdracht** (Cijfer) - Les 8.
 Een Responsive webdesign
 4. **Weekly Nerd** (AVV) - iedere week.
-Artikelen lezen en bespreken.
+Artikelen lezen en bespreken. 
 
-Als je niet voldoet aan de gestelde criteria voor de Weekly Nerd dan kun je dat onderdeel herkansen door een tentamen te maken.
+** De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
 
-De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
+** Als je niet voldoet aan de gestelde criteria voor de Weekly Nerd dan kun je dat onderdeel herkansen door een tentamen te maken.
+
 
 !
 
-##### 1. Introduktie (20/200 minuten)
-# Wat ga je vandaag leren?
 
-Programma & leerdoelen voor vandaag:
+Je
 
-* **Werkwijze en planning** van het vak doornemen
-* **Introductie HTML5.** Recap van vorg jaar.
-* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
-    Doctype, Meta, Script, 
-    Header, Main, Footer, Nav, Aside, 
-    Section, Article, 
-    Formulieren, input types
-* **Formulieren** maken
+vakantie
 
+is
+
+voor
+
+bij 
+
+...
 
 !
 
@@ -166,6 +179,7 @@ Als je niet voldoet aan de criteria voor de Weekly Nerd
 dan wordt dit onderdeel herkanst met een tentamen in lesweek 8.
 
 
+### In groepjes van 4
 ### Weekly Nerd artikelen
 
 * [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
@@ -179,4 +193,6 @@ dan wordt dit onderdeel herkanst met een tentamen in lesweek 8.
 In 7 opdrachten een responsive website maken.
 
 [Klik hier voor opdracht 1.1](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html)
+
+< / section >
 
