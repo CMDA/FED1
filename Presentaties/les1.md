@@ -93,22 +93,6 @@ In het vak Frontend development leer je een responsive website maken. Dat is een
 !
 
 ##### 1. Introduktie (20/200 minuten)
-# Wat ga je vandaag leren?
-
-Programma & leerdoelen voor vandaag:
-
-* **Werkwijze en planning** van het vak doornemen
-* **Introductie HTML5.** Recap van vorg jaar.
-* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
-    Doctype, Meta, Script, 
-    Header, Main, Footer, Nav, Aside, 
-    Section, Article, 
-    Formulieren, input types
-* **Formulieren** maken
-
-!
-
-##### 1. Introduktie (20/200 minuten)
 # Werkwijze
 Hoe zien de lessen van 4 uur eruit?
 
@@ -160,12 +144,27 @@ bij
 
 !
 
+##### 1. Introduktie (20/200 minuten)
+# Wat ga je vandaag leren?
+
+Programma & leerdoelen voor vandaag:
+
+* **Werkwijze en planning** van het vak doornemen
+* **Introductie HTML5.** Recap van vorg jaar.
+* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
+    Doctype, Meta, Script, 
+    Header, Main, Footer, Nav, Aside, 
+    Section, Article, 
+* **Formulieren** maken
+    Formulieren, input types
+   
+!
+
 # 2. College - 30 minuten
 ###### Frontend development - les 1
 
 College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html#/)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
-
 
 !
 

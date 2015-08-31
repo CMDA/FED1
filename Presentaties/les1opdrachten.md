@@ -42,12 +42,14 @@ Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maak
 ### 3. Valideer de Artikelpagina en de Formulierpagina 
 En verbeter de fouten.
 
+Zet je code op Github voor de deeltoets. 
+
 
 **Resources**
 
 * [http://validator.w3.org](http://validator.w3.org)  
 * [http://html5.validator.nu/](http://html5.validator.nu/)  
-
+* [Github: Simple collaboration from your desktop](https://desktop.github.com)
 
 
 
