@@ -13,6 +13,9 @@
 
 ### 1. Bling Bling
 
+In de website zijn de border-radius, box-shadow, text-shadow, transforms en transitions gebruikt
+
+
 **Resources**
 
 * Resource: [The Humble Border-Radius by Lea Verou](https://www.youtube.com/watch?v=JSaMl2OKjfQ/)
@@ -24,6 +27,7 @@
 ###### Frontend development - les 1
 
 ### 2. Selectors
+In de website zijn selectors, sibling combinators, pseudo classes en attribute selectors gebruiken om de pagina's te stylen
 
 
 **Resources**
