@@ -12,7 +12,7 @@
 ###### Frontend development - les 1
 
 ### 1. Maak een **Artikelpagina** in HTML 5
-Zet het PDF file []artikelpagina.pdf]() om in een HTML pagina en gebruik passende HTML 5 elementen. 
+Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina en gebruik passende HTML 5 elementen. 
 
 **Resources**
 
@@ -28,7 +28,7 @@ Zet het PDF file []artikelpagina.pdf]() om in een HTML pagina en gebruik passend
 ###### Frontend development - les 1
 
 ### 2. Maak een **Formulierpagina** in HTML 5
-Zet het PDF file formulier.pdf om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen.
+Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Formulierpagina%20-%20Aanmelden%2020140908.pdf) om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen.
 
 **Resources**
 
