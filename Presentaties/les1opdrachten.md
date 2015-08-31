@@ -1,46 +1,48 @@
 
-# Coden
+
+## Coden - Opdracht 1.1
+###### Frontend development - les 1
+#Artikel- & Formulierpagina maken in HTML 5
+
+
+
+!
+
+## Coden - Opdracht 1.1
 ###### Frontend development - les 1
 
-
-
-##### 4. Coden (100 - 180/200 minuten)
-### Opdracht 1 - 15 minuten
-## Artikelpagina & Formulierpagina maken maken 
-
-
-Artikelpagina
-
-Zet deze 
+### 1. Maak een **Artikelpagina** in HTML 5
+Zet het PDF file artikelpagina.pdf om in een HTML pagina en gebruik passende HTML 5 elementen. 
 
 **Resources**
 
 * [Importance of sections by Heydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
-
-
 * [HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
-
 * [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
-
 * [HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 
 
+!
 
-Formulier:
+## Coden - Opdracht 1.1
+###### Frontend development - les 1
 
-Maak het volgende formulier met valide, toegankelijke HTML. 
-Gebruik labels voor de verschillende elementen, vb:
-
-    <label for=”naam”>naam</label>
-	<input id=”naam”>
+### 2. Maak een **Formulierpagina** in HTML 5
+Zet het PDF file formulier.pdf om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen.
 
 **Resources**
 
 * [Dive intro HTML 5: Forms By Mark Pilgrim](http://diveintohtml5.info/forms.html)
 
 
+!
 
-Valideer de pagina's op correct gebruitk van HTML 5. 
+## Coden - Opdracht 1.1
+###### Frontend development - les 1
+
+### 3. Valideer de Artikelpagina en de Formulierpagina 
+En verbeter de fouten.
+
 
 **Resources**
 
@@ -49,20 +51,20 @@ Valideer de pagina's op correct gebruitk van HTML 5.
 
 
 
-!
-Meer resources
-
-
 
 !
 
-Opmerkingen over html5 sematiek
+###Meer resources
 
-Gebruik hiervoor de HTML5 tags: Nav, Section, Article, Aside, Footer
 
-Wanneer is een pagina een html pagina?
 
-Met: HTML, HEAD, BODY tags/elementen
+!
+
+###Opmerkingen over html5 sematiek
+
+Gebruik de HTML5 tags: Nav, Section, Article, Aside, Footer en bedenk welke content daarin hoort.
+
+Wanneer is een pagina een html pagina? Met: HTML, HEAD, BODY tags/elementen
 
 De doctype-tag staat helemaal bovenaan een HTML document, nog boven de < html > tag. Het zorgt ervoor dat de browser weet welke HTML-variant er wordt gebruikt.
 Zo weet een validator op basis van welke regels het document moet worden beoordeeld.
@@ -98,7 +100,7 @@ Firebug Lite
 
 !
 
-Opmerkingen over formulieren
+###Opmerkingen over formulieren
 
 Waar zitten de fieldsets? 
 Met de fieldset groepeer je content die thematisch bij elkaar hoort.
