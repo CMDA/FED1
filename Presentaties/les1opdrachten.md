@@ -16,7 +16,7 @@ Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/
 
 **Resources**
 
-* [Importance of sections by Heydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
+* Resource: [Importance of sections by Heydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
 * [HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
 * [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
 * [HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
@@ -32,7 +32,7 @@ Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maak
 
 **Resources**
 
-* [Dive intro HTML 5: Forms By Mark Pilgrim](http://diveintohtml5.info/forms.html)
+* Resource [Dive intro HTML 5: Forms By Mark Pilgrim](http://diveintohtml5.info/forms.html)
 
 
 !

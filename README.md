@@ -26,11 +26,13 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 1. Give me a fucking < br / > 
  [Presentatie](/FED1/Presentaties/les1-gimme-a-fucking-br.html)
+ [Opdrachten](/FED1/Presentaties/les1-opdrachten.html)
  [College](/FED1/Colleges/les1-gimme-a-fucking-br/index.html)
  [pdf](/FED1/Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
 
 2. Kiss my CSS 
- [Presentatie](/FED1/Presentaties/les2-kiss-my-css.html) 
+ [Presentatie](/FED1/Presentaties/les2-kiss-my-css.html)
+ [Opdrachten](/FED1/Presentaties/les2-opdrachten.html)
  [College](/FED1/Colleges/les2-kiss-my-CSS/index.html) 
  [pdf](/FED1/Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
  

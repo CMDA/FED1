@@ -48,7 +48,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 * **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
 * Het lesprogramma en de mededelingen komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**, 
 * Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen** (alleen leuke dingen).
 
 !
 
@@ -58,7 +58,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 * **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
 * Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)** 
 * Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen** (alleen leuke dingen).
 * **Laptop** nodig voor de werkopdrachten  
 
 !
@@ -69,7 +69,7 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 * **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
 * Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**
 * Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen** (alleen leuke dingen).
 * **Laptop** nodig voor de werkopdrachten  
 * **Papier en pen** voor de Weekly Nerd en het college
 
@@ -145,16 +145,6 @@ Programma & leerdoelen voor vandaag:
 * **Formulieren** maken
 
 
-! 
-
-##### 1. Introduktie (20/200 minuten)
-## Programma (200 minuten)
-1. Introductie ()
-2. College (30)
-3. Weekly Nerd (30)
-4. Coden (120)
-
-
 !
 
 # 2. College - 30 minuten
@@ -175,17 +165,18 @@ Van de 7 sessies mag je er *niet* meer dan 1 missen of een onvoldoende halen.
 Als je niet voldoet aan de criteria voor de Weekly Nerd 
 dan wordt dit onderdeel herkanst met een tentamen in lesweek 8.
 
-!
 
-##### 3. Weekly Nerd (30 - 80/200 minuten)
-# Weekly Nerd artikelen
+### Weekly Nerd artikelen
 
 * [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
 * [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
 
 
-
 !
 
+# 4. Coden
+###### Frontend development - les 1
+In 7 opdrachten een responsive website maken.
 
+[Klik hier voor opdracht 1.1](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html)
 
