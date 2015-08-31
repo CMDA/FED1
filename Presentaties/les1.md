@@ -18,20 +18,65 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 
 !
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie (10/200 minuten)
 # Huishoudelijke mededelingen
 
 * **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-* Mededelingen komen op **[Moodle](https://cmd.dmci.hva.nl/NL/Paginas/default.aspx)**, 
-het lesprogramma staat op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**, alle sources op **[Github](https://github.com/CMDA/FED1)**
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
-* **Laptop** nodig voor de werkopdrachten  
-* **Papier en pen** voor discussies en college
-
 
 !
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie (10/200 minuten)
+# Huishoudelijke mededelingen
+
+* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**
+
+!
+
+##### 1. Introduktie (10/200 minuten)
+# Huishoudelijke mededelingen
+
+* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**
+* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
+
+!
+
+##### 1. Introduktie (10/200 minuten)
+# Huishoudelijke mededelingen
+
+* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Het lesprogramma en de mededelingen komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**, 
+* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+
+!
+
+##### 1. Introduktie (10/200 minuten)
+# Huishoudelijke mededelingen
+
+* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)** 
+* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+* **Laptop** nodig voor de werkopdrachten  
+
+!
+
+##### 1. Introduktie (10/200 minuten)
+# Huishoudelijke mededelingen
+
+* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
+* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**
+* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
+* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen.**
+* **Laptop** nodig voor de werkopdrachten  
+* **Papier en pen** voor de Weekly Nerd en het college
+
+!
+
+
+##### 1. Introduktie (10/200 minuten)
 # Wat gaan we doen?
 In het vak Frontend development leer je een responsive website maken. Dat is een website die zich automatisch aanpast aan de context, het apparaat, de omgeving en de interactiemogelijkheden.
 
@@ -56,9 +101,9 @@ Hoe zien de lessen van 4 uur eruit?
 1. Iedere les krijg je een **college** van een half uur.
 2. Daarna gaan we artikelen bespreken in de **Weekly Nerd**. 
 De artikelen moet je als huiswerk lezen.
-3. Dan is het **klussen, coden, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De studentassistenten en docenten lopen rond om te helpen. Je werk in duo's aan je eigen opdracht. 
+3. Dan is het **coden, klussen, nerden**. Ongeveer 2 uur per les gaan we werken aan oefenopdrachten en de eindopdracht. De docenten lopen rond om te helpen. De opdracht van de les moet je af hebben voor de volgende les. 
 
-Zie [Moodle](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=131) voor het lesprogramma. 
+Zie [Moodle](Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor het lesprogramma. 
 De colleges en lesplannen staan ook [online](http://cmda.github.io/FED1/).
 Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
@@ -85,6 +130,24 @@ De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing 
 
 !
 
+##### 1. Introduktie (20/200 minuten)
+# Wat ga je vandaag leren?
+
+Programma & leerdoelen voor vandaag:
+
+* **Werkwijze en planning** van het vak doornemen
+* **Introductie HTML5.** Recap van vorg jaar.
+* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
+    Doctype, Meta, Script, 
+    Header, Main, Footer, Nav, Aside, 
+    Section, Article, 
+    Formulieren, input types
+* **Formulieren** maken
+
+
+! 
+
+##### 1. Introduktie (20/200 minuten)
 ## Programma (200 minuten)
 1. Introductie ()
 2. College (30)
@@ -121,132 +184,8 @@ dan wordt dit onderdeel herkanst met een tentamen in lesweek 8.
 * [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
 
 
-!
-
-##### 4. Klussen (100 - 180/200 minuten)
-### Opdracht 1 - 15 minuten
-## Artikelpagina & Formulierpagina maken maken 
-
-
-Artikelpagina
-
-Zet deze 
-
-**Resources**
-
-* [Importance of sections by Heydon Pickering](http://www.smashingmagazine.com/2013/01/18/the-importance-of-sections/)
-
-
-* [HTML5 Periodic Table of Elements](http://joshduck.com/periodic-table.html)  
-
-* [HTML5 Cheatsheet](http://www.testking.com/techking/infographics/ultimate-html5-cheatsheat/)  
-
-* [HTML5Doctor section flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
-
-
-
-Formulier:
-
-Maak het volgende formulier met valide, toegankelijke HTML. 
-Gebruik labels voor de verschillende elementen, vb:
-
-    <label for=”naam”>naam</label>
-	<input id=”naam”>
-
-**Resources**
-
-* [Dive intro HTML 5: Forms By Mark Pilgrim](http://diveintohtml5.info/forms.html)
-
-
-
-Valideer de pagina's op correct gebruitk van HTML 5. 
-
-**Resources**
-
-* [http://validator.w3.org](http://validator.w3.org)  
-* [http://html5.validator.nu/](http://html5.validator.nu/)  
-
-
-
-
-
-!
-
-Opmerkingen over html5 sematiek
-
-
-
-
-!
-
-Opmerkingen over formulieren
-
-Waar zitten de fieldsets? 
-Met de fieldset groepeer je content die thematisch bij elkaar hoort.
-
-Een < legend > geeft aan waar het fieldset over gaat. Een titel van de fieldset. Dit element is primair gekoppeld aan de fieldset.
-
-Kloppen de label/input paren?
-Een label is gekoppeld aan een input of textarea. Dit is ook belangrijk voor screenreaders. Handig voor gebruik is dat je op een label kan klikken om een element focus te geven.
-
-Met required (bool) geef je aan welke form elementen verplicht zijn (overigens kun je die ook heel makkelijk stylen).
-
-Het attribuut placeholder kun je heel eenvoudig een standaard tekst in een input laten zien. Oude browsers negeren dit.
-
-Bij het number type krijg je in sommige browsers automatisch pijltjes naast het element. Als je geen pijltjes wil, bijvoorbeeld omdat je dit lelijk vindt, zou je een pattern kunnen gebruiken. Dan geef je met een regular-expression aan wat de gebruiker mag invullen... Let op, browsers verwerken dit niet allemaal hetzelfde.
-
-Color type en date geven in sommige browsers een color picker en calender object.
-
-Op mobiele telefoons, verandert het toetsenbord afhankelijk van het type dat je meegeeft. Bijvoorbeeld type="email" geeft een toetsenbord met een @, type="number" geeft een numeriek toetsenbord. Vasilis is helemaal fan van type="date" op iOS. Probeer dit maar eens met de verschillende HTML5 input types .... (OS heeft voor de mac een Iphone emulator die je kan gebruiken met de development kit.)
-
-Bij type="search" laat IOS bijvoorbeeld standaard een x (clear) in het field zien: Handig!
-
-
-
-
-!
-
-# 5. Wat heb je geleerd vandaag?
-###### Frontend development - les 1
-
-Wat hebben we behandeld?
-
-* **Werkwijze en planning** van het vak doornemen
-* **Introductie HTML5.** Recap van vorg jaar.
-* Belangrijkste **HTML5 structuur elementen** begrijpen en toepassen:
-    Doctype, Meta, Script, 
-    Header, Main, Footer, Nav, Aside, 
-    Section, Article, 
-    Formulieren, input types
-* **Formulieren** maken
-
-
-! 
-
-##### 5. Terugkijken (20 - 200/200 minuten)
-# Volgende week
-
-* **Weekly Nerd** voorbereiden:  
-  Lezen wat op Moodle staat bij les 2.
-  
-* **Deeltoets 1** voorbereiden: 2 pagina's maken:
-    1. Artikel pagina
-    2. Formulier pagina
-    3. Code op Github zetten
-
-Beoordelingsformulier & criteria staat op Moodle bij Les 2
-
 
 !
 
 
-## op.
-
-<br/>
-<br/>
-
-[Tussenstand AVV's en Weekly Nerd](https://docs.google.com/spreadsheets/d/1Uo9a3xRDhs6M3dWl0AgJ05UZNJDh6REjCwpxT3aZs2w/pubhtml) klik klik klik
-
-
-< / section >
 
