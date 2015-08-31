@@ -41,7 +41,7 @@ Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maak
 ###### Frontend development - les 1
 
 ### 3. Valideer de Artikelpagina en de Formulierpagina 
-En verbeter de fouten.
+En verbeter de fouten ...
 
 Zet je code op Github voor de deeltoets. 
 
