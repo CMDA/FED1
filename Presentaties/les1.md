@@ -163,7 +163,7 @@ bij
 # 2. College - 30 minuten
 ###### Frontend development - les 1
 
-College [Give me a Fucking < br / >](../Colleges/les1-gimme-a-fucking-br/index.html)
+College [Give me a Fucking < br / >](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html#/)
 Over waarom dit vak? Over vroeger. Over HTML5 elementen, formulieren, browsers en devices.
 
 
@@ -195,7 +195,7 @@ In 7 opdrachten een responsive website maken.
 [Klik hier voor opdracht 1.1](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html)
 
 
-Voor deeltoets 1 van volgende week moet je deze opdracht helemaal af hebben. Tijdens de les wordt in een een mondeling je code bekeken en beoordeeeld. 
+Voor deeltoets 1 van volgende week moet je deze opdracht helemaal af hebben. Tijdens de les wordt in een een mondeling je code bekeken en beoordeeeld. Check [Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor de bechrijving en beoordelingscriteria.
 
 < / section >
 
