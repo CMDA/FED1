@@ -12,7 +12,7 @@
 ###### Frontend development - les 1
 
 ### 1. Maak een **Artikelpagina** in HTML 5
-Zet het PDF file artikelpagina.pdf om in een HTML pagina en gebruik passende HTML 5 elementen. 
+Zet het PDF file []artikelpagina.pdf]() om in een HTML pagina en gebruik passende HTML 5 elementen. 
 
 **Resources**
 
