@@ -1,26 +1,33 @@
-* {
-    margin:0;
-    border:0;
-    padding:0;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
-html, body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+html{
+    background: url("assets/deathToThePixel.jpg")top left no-repeat;
+    background-color:#efefef;
+}
+body {
+    font-family: "Open Sans",Helvetica,"Lucida Grande", Arial,sans-serif;
     /*font-weight: 300;*/
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.4em;
     color: #333;
-
-    background-color:#efefef;
+    /*
     background-image: -moz-radial-gradient(center center, ellipse cover, #eee, #999 100%);
     background-image: -webkit-radial-gradient(center center, ellipse cover, #eee, #999 100%);
     background-image: -o-radial-gradient(center center, ellipse cover, #eee, #999 100%);
     background-image: -ms-radial-gradient(center center, ellipse cover, #eee, #999 100%);
     background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
+    */
 }
 @media all and (max-width: 420px) {
-    html,body {
+    body {
         font-size: 1.4em;
     }
+}
+div.centered, div.slideCount{
+    background-color:#efefef;
+    padding: 0.4em;
 }
 td{
     vertical-align: top;
@@ -32,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     clear:both;
 }
 h1{
+    padding: 0.2em 0;
     margin-bottom: 0.4em;
 }
 h6{ /* subtitle */
@@ -70,7 +78,7 @@ code {
     word-wrap:break-word;
 }
 ul, ol {
-    margin: .5em 1.3em;
+    margin: 0;
     text-align: left; 
     line-height: 1.2em;
 }
