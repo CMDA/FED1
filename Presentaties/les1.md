@@ -194,5 +194,8 @@ In 7 opdrachten een responsive website maken.
 
 [Klik hier voor opdracht 1.1](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html)
 
+
+Voor deeltoets 1 van volgende week moet je deze opdracht helemaal af hebben. Tijdens de les wordt in een een mondeling je code bekeken en beoordeeeld. 
+
 < / section >
 
