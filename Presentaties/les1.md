@@ -128,7 +128,7 @@ Artikelen lezen en bespreken.
 
 ** De deeltoetsen en eindopdracht worden getoetst met een mondeling. De herkansing van de deeltoetsen is ongeveer 48 uur later. Als je een deeltoets niet haalt kun je het vak niet meer halen.
 
-** Als je niet voldoet aan de gestelde criteria voor de Weekly Nerd dan kun je dat onderdeel herkansen door een tentamen te maken.
+** Als je niet voldoet aan de gestelde criteria voor de Weekly Nerd dan moet je dat onderdeel herkansen door een tentamen te maken.
 
 
 !
@@ -179,7 +179,7 @@ Iedere les gaan we artikelen bespreken in kleine groepen.
 Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
 Van de 7 sessies mag je er *niet* meer dan 1 missen of een onvoldoende halen. 
 Als je niet voldoet aan de criteria voor de Weekly Nerd 
-dan wordt dit onderdeel herkanst met een tentamen in lesweek 8.
+dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 
 
 ### In groepjes van 4
@@ -198,7 +198,7 @@ In 7 opdrachten een responsive website maken.
 [Klik hier voor opdracht 1.1](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html)
 
 
-Voor deeltoets 1 van volgende week moet je deze opdracht helemaal af hebben. Tijdens de les wordt in een een mondeling je code bekeken en beoordeeeld. Check [Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor de bechrijving en beoordelingscriteria.
+Voor deeltoets 1 van volgende week moet je deze opdracht helemaal af hebben. Tijdens de les wordt in een een mondeling je code bekeken en beoordeeeld. Check [Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor de beschrijving en beoordelingscriteria.
 
 < / section >
 
