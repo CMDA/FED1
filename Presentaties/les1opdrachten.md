@@ -21,6 +21,7 @@ Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/
 * [HTML5 element flowchart - Section content](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 
 
+
 !
 
 ## Coden - Opdracht 1.1
