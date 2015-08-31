@@ -96,7 +96,7 @@ In het vak Frontend development leer je een responsive website maken. Dat is een
 
 !
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie (10/200 minuten)
 # Werkwijze
 Hoe zien de lessen van 4 uur eruit?
 
@@ -112,7 +112,7 @@ Zie [Github](https://github.com/CMDA/FED1) voor de source files.
 
 !
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie (10/200 minuten)
 # Planning & toetsplan
 
 Het vak bestaat uit 2 deeltoetsen, de eindopdracht en de Weekly Nerd.
@@ -146,7 +146,7 @@ bij
 
 !
 
-##### 1. Introduktie (20/200 minuten)
+##### 1. Introduktie (10/200 minuten)
 # Wat ga je vandaag leren?
 
 Programma & leerdoelen voor vandaag:
