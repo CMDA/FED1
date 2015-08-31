@@ -3,6 +3,10 @@
 ###### Frontend development - les 1
 
 
+
+Death to the Pixel background
++ mobile typo
+
 !
 
 # Give me a fucking &lt;br /&gt;
