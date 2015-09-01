@@ -4,8 +4,8 @@
     padding:0;
 }
 html{
-    background: url("assets/deathToThePixel.jpg")top left no-repeat;
-    background-color:#efefef;
+    background: url("assets/deathToThePixel.jpg")50% -160px no-repeat;
+    background-color:#fff;
 }
 body {
     font-family: "Open Sans",Helvetica,"Lucida Grande", Arial,sans-serif;
@@ -20,21 +20,9 @@ body {
     background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
     */
 }
-@media all and (max-width: 420px) {
-    html{
-        background-position: -40px -160px;
-    }
-    body {
-        /*font-size: 1.4em;*/
-    }
-    div.centered{
-        padding: 0.1em;
-        margin: 0.2em;
-    }
-    
-}
 div.centered{
-    background-color:#efefef;
+    /*background-color:#efefef;*/
+    background-color:rgba(255, 255, 255,.97);
     padding: 0.4em;
 }
 div.slideCount{
@@ -44,8 +32,7 @@ div.slideCount{
 }
 td{
     vertical-align: top;
-    padding-top: 1em;
-    
+    padding-top: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -117,4 +104,20 @@ blockquote {
 .print .content-holder {
     font-size: 12px;
     font-family: Garamond;
+}
+
+@media all and (max-width: 420px) {
+    html{
+        background-position: -40px -160px;
+    }
+    body {
+        /*font-size: 1.4em;*/
+    }
+    div.centered{
+        padding: 0.1em;
+        margin: 0.2em;
+    }
+    td{
+        padding-top: 0.4em;
+    }
 }

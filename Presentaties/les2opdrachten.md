@@ -4,6 +4,10 @@
 ###### Frontend development - les 2
 #CSS3 Bling Bling & Selectors
 
+1. [Bling Bling doen](#2)
+2. [Selectors gebruiken](#3)
+
+
 
 
 !
