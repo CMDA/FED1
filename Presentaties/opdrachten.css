@@ -1,14 +1,12 @@
-* {
+*, *:before, *:after {
+    box-sizing: border-box;
     margin:0;
-    border:0;
     padding:0;
 }
 html, body {
-    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-    /*font-weight: 300;*/
+    font-family: "Open Sans",Helvetica,"Lucida Grande", Arial,sans-serif;
     font-size: 1.2em;
-    line-height: 1.2em;
-    color: #333;
+    line-height: 1.4em;
 
     background-color:#efefef;
     background-image: -moz-radial-gradient(center center, ellipse cover, #eee, #999 100%);
@@ -18,22 +16,36 @@ html, body {
     background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
 }
 @media all and (max-width: 420px) {
-    html,body {
-        font-size: 1.4em;
+    html{
+        background-position: -40px -160px;
     }
+    body {
+        /*font-size: 1.4em;*/
+    }
+    div.centered{
+        padding: 0.1em;
+        margin: 0.2em;
+    }
+}
+div.centered{
+    padding: 0.4em;
+}
+div.slideCount{
+    background-color: GreenYellow ;
+    color: #333;
+    padding: 0.4em;
 }
 td{
     vertical-align: top;
-    padding-top:4%;
+    padding-top: 1em;
 }
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0.2em 0;
     clear:both;
 }
 h1{
+    padding: 0.2em 0;
     margin-bottom: 0.4em;
-    line-height: 1em;
 }
 h6{ /* subtitle */
     background-color:GreenYellow;
@@ -71,7 +83,8 @@ code {
     word-wrap:break-word;
 }
 ul, ol {
-    margin: .5em 1.3em;
+    margin: 0;
+    margin-left: 1em;
     text-align: left; 
     line-height: 1.2em;
 }
