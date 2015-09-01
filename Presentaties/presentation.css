@@ -1,5 +1,7 @@
 *, *:before, *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 html{
     background: url("assets/deathToThePixel.jpg")top left no-repeat;
@@ -7,7 +9,6 @@ html{
 }
 body {
     font-family: "Open Sans",Helvetica,"Lucida Grande", Arial,sans-serif;
-    /*font-weight: 300;*/
     font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
@@ -20,17 +21,31 @@ body {
     */
 }
 @media all and (max-width: 420px) {
+    html{
+        background-position: -40px -160px;
+    }
     body {
         /*font-size: 1.4em;*/
     }
+    div.centered{
+        padding: 0.1em;
+        margin: 0.2em;
+    }
+    
 }
-div.centered, div.slideCount{
+div.centered{
     background-color:#efefef;
+    padding: 0.4em;
+}
+div.slideCount{
+    background-color: Goldenrod ;
+    color: #000;
     padding: 0.4em;
 }
 td{
     vertical-align: top;
-    padding-top:4%;
+    padding-top: 1em;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
