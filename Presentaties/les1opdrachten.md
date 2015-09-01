@@ -4,9 +4,12 @@
 ###### Frontend development - les 1
 #Artikel- & Formulierpagina maken in HTML 5
 
-
+1. [Maak een Artikelpagina in HTML 5](#2)
+2. [Maak een Formulierpagina in HTML 5](#3)
+3. [Valideer de Artikelpagina en de Formulierpagina](#4)
 
 !
+
 
 ## Coden - Opdracht 1.1
 ###### Frontend development - les 1
