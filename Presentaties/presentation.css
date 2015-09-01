@@ -1,7 +1,6 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 html{
     background: url("assets/deathToThePixel.jpg")top left no-repeat;
     background-color:#efefef;
@@ -22,7 +21,7 @@ body {
 }
 @media all and (max-width: 420px) {
     body {
-        font-size: 1.4em;
+        /*font-size: 1.4em;*/
     }
 }
 div.centered, div.slideCount{
