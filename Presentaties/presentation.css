@@ -6,19 +6,13 @@
 html{
     background: url("assets/deathToThePixel.jpg")50% -160px no-repeat;
     background-color:#fff;
+    background-attachment: fixed;
 }
 body {
     font-family: "Open Sans",Helvetica,"Lucida Grande", Arial,sans-serif;
     font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
-    /*
-    background-image: -moz-radial-gradient(center center, ellipse cover, #eee, #999 100%);
-    background-image: -webkit-radial-gradient(center center, ellipse cover, #eee, #999 100%);
-    background-image: -o-radial-gradient(center center, ellipse cover, #eee, #999 100%);
-    background-image: -ms-radial-gradient(center center, ellipse cover, #eee, #999 100%);
-    background-image: radial-gradient(center center, ellipse cover, #eee, #999 100%)
-    */
 }
 div.centered{
     /*background-color:#efefef;*/
