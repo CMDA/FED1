@@ -10,6 +10,7 @@ html{
 }
 body {
     font-family: "Open Sans",Helvetica,"Lucida Grande", Arial,sans-serif;
+    font-weight: 300;
     font-size: 1.2em;
     line-height: 1.4em;
 }
@@ -100,7 +101,9 @@ blockquote {
         background-position: -40px -160px;
     }
     body {
+        font-weight: normal;
         /*font-size: 1.4em;*/
+        /*line-height: 1.4em;*/
     }
     div.centered{
         padding: 0.1em;
