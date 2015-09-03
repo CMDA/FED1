@@ -17,7 +17,7 @@
 ### 1. Maak een **Artikelpagina** in HTML 5
 Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina. Gebruik de juiste HTML 5 elementen. Vermijd het gebruik van < div >.
 
-Als de url van een link niet staat vermeld in het PDF file, gebruik dan een ancor. 
+Als de url van een link niet in het PDF file staat, gebruik dan een ancor. 
 
 	<a href="#">tekst</a>
 
