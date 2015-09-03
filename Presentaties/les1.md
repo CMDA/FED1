@@ -140,7 +140,7 @@ vakantie
 
 is
 
-voor
+voor-
 
 bij 
 
