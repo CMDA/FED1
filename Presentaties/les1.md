@@ -7,8 +7,6 @@
 
 
 
-
-
 !
 
 # Give me a fucking &lt;br /&gt;
@@ -20,52 +18,6 @@ We gaan aan de slag met HTML semantiek en de belangrijkste structuur elementen k
 Én we gaan formulieren maken.
 
 <img src="http://drive.google.com/uc?export=view&id=0B_S6YavJbbFJaWhGUXpIVHRtcXc" alt="Will Code HTML For Food">
-
-
-!
-
-##### 1. Introduktie (10/200 minuten)
-# Huishoudelijke mededelingen
-
-* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-
-!
-
-##### 1. Introduktie (10/200 minuten)
-# Huishoudelijke mededelingen
-
-* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**
-
-!
-
-##### 1. Introduktie (10/200 minuten)
-# Huishoudelijke mededelingen
-
-* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**
-* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
-
-!
-
-##### 1. Introduktie (10/200 minuten)
-# Huishoudelijke mededelingen
-
-* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-* Het lesprogramma en de mededelingen komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)**, 
-* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen** (alleen leuke dingen).
-
-!
-
-##### 1. Introduktie (10/200 minuten)
-# Huishoudelijke mededelingen
-
-* **Op tijd komen**, anders buiten wachten tot we klaar zijn en naar het volgende onderdeel gaan (deur dicht == wachten)
-* Het **lesprogramma** en de **mededelingen** komen op **[Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49)** 
-* Alle sources staan op **[Github](https://github.com/CMDA/FED1)**
-* Stel je vragen het aan je mede-studenten of wacht tot volgende week (of loop even een andere FeD les in). **Niet mailen** (alleen leuke dingen).
-* **Laptop** nodig voor de werkopdrachten  
 
 !
 
