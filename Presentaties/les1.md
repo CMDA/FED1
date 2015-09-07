@@ -85,21 +85,6 @@ Artikelen lezen en bespreken.
 
 !
 
-
-Je
-
-vakantie
-
-is
-
-voor-
-
-bij 
-
-...
-
-!
-
 ##### 1. Introduktie (10/200 minuten)
 # Wat ga je vandaag leren?
 
@@ -137,7 +122,7 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 ### Artikelen bespreken in groepjes van 4
 
 * [Concept to Code: Code literacy in UX by by Ryan Betts](http://uxmag.com/articles/concept-to-code)
-* [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)
+* [Semantics in HTML 5 by John Allsopp](http://alistapart.com/article/semanticsinhtml5)* 
 
 
 !

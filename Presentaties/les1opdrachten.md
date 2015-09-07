@@ -11,10 +11,10 @@
 !
 
 
-## Coden - Opdracht 1.1
+## Coden - Opdracht les 1
 ###### Frontend development - les 1
 
-### 1. Maak een **Artikelpagina** in HTML 5
+### Maak een **Artikelpagina** in HTML 5
 Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina. Gebruik de juiste HTML 5 elementen. Vermijd het gebruik van < div >.
 
 Als de url van een link niet in het PDF file staat, gebruik dan een ancor. 
@@ -34,10 +34,10 @@ Dit [plaatje](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/b
 
 !
 
-## Coden - Opdracht 1.1
+## Coden - Opdracht 1.2
 ###### Frontend development - les 1
 
-### 2. Maak een **Formulierpagina** in HTML 5
+### Maak een **Formulierpagina** in HTML 5
 Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Formulierpagina%20-%20Aanmelden%2020140908.pdf) om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen. 
 
 **Resources**
@@ -47,10 +47,10 @@ Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maak
 
 !
 
-## Coden - Opdracht 1.1
+## Coden - Opdracht 1.3
 ###### Frontend development - les 1
 
-### 3. Valideer de Artikelpagina en de Formulierpagina 
+### Valideer de Artikelpagina en de Formulierpagina 
 En verbeter de fouten ...
 
 Zet je code op Github voor de deeltoets. 
