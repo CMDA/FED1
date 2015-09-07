@@ -34,11 +34,8 @@ h1{
     padding: 0.2em 0;
     margin-bottom: 0.4em;
 }
-h6{ /* subtitle */
-    background-color:GreenYellow;
-    font-size: 1em;
-    display: inline-block;
-    margin-bottom: 0.4em;
+h3{
+    margin-top: 2em;
 }
 h5{ /* subsubtitle */
     background-color:GreenYellow;
@@ -49,6 +46,13 @@ h5{ /* subsubtitle */
     padding: 0 1em; 
     margin-bottom: 0.6em;
 } 
+h6{ /* subtitle */
+    background-color:GreenYellow;
+    font-size: 1em;
+    display: inline-block;
+    margin-bottom: 0.4em;
+}
+
 p {
     margin: 0 0 1em 0;
     text-align: left;
@@ -70,8 +74,7 @@ code {
     word-wrap:break-word;
 }
 ul, ol {
-    margin: 0;
-    margin-left: 1em;
+    margin: 0 0 1em 1em;
     text-align: left; 
     line-height: 1.2em;
 }
