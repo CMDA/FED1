@@ -1,13 +1,10 @@
 
-
 ## Coden - Opdracht les 2
 ###### Frontend development - les 2
 #CSS3 Bling Bling & Selectors
 
 1. [Bling Bling doen](#2)
 2. [Selectors gebruiken](#3)
-
-
 
 
 !
@@ -21,7 +18,6 @@ Experimenteer en speel met een aantal CSS3 mogelijkheden.
 Gebruik de border-radius, box-shadow, text-shadow, transform en transition om je pagina mee te stylen. CSS3 biedt veel mogelijkheden voor CSS styling. Door te experimenteren laten we je kennis maken met hoe CSS werkt en wat je er allemaal mee kunt. Een kleine greep uit wat er zoal mogelijk is. Uiteindelijk moet je voor deeltoets 2 minimaal deze 5 methoden toepassen op de artikel- en formulierpagina. En kunnen uitleggen.
 
 
-
 ###Border-radius
 [4 opdrachten](http://vasilis.nl/hva/03/oefeningen.html#slide2) om de CSS border-radius te begrijpen.
 
@@ -33,7 +29,6 @@ Gebruik de border-radius, box-shadow, text-shadow, transform en transition om je
 * [Border-radius canIuse?](http://caniuse.com/#search=border-radius)
 
 
-
 ###Box-shadow
 [4 opdrachten](http://vasilis.nl/hva/03/oefeningen.html#slide7)   om de CSS box-shadow te begrijpen.   
 
@@ -42,8 +37,6 @@ Gebruik de border-radius, box-shadow, text-shadow, transform en transition om je
 * [Box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
 * [Box-shadow specs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 * [Box-shadow canIuse?](http://caniuse.com/#search=box-shadow)
-
-
 
 
 ###Text-shadow
@@ -112,7 +105,6 @@ Child selectors en sibling combinators [oefening](http://dabblet.com/gist/186465
 ###Attribute selectors
 
 Attribute selectors and bling [oefening](http://dabblet.com/gist/1865805)
-
 
 **Resources**    
 
