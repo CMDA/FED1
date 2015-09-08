@@ -87,7 +87,7 @@ Spelen met transities:
 ###### Frontend development - les 1
 
 ### 2. Selectors
-Met selectors, sibling combinators, pseudo classes en attribute selectors kun je elementen in de DOM selecteren en stylen. Hieronder staan een aantal experimenten om met deze selectors te oefenen. Het is de bedoeling dat je deze technieken ook gaat toepassen op de artikel- en formulierpagina en laat zien tijdens deeltoets 2.
+Met selectors, sibling combinators, pseudo classes en attribute selectors kun je elementen in de DOM selecteren en stylen. Hieronder staan een aantal experimenten om met deze selectors te oefenen. Het is de bedoeling dat je deze technieken ook gaat toepassen op de artikel- en formulierpagina en deze laat zien tijdens deeltoets 2.
 
 
 ###Child selectors en sibling combinators
