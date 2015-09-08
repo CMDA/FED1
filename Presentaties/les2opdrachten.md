@@ -81,7 +81,6 @@ Spelen met transities:
 
 
 
-
 !
 
 ## Coden - Opdracht 2.2
