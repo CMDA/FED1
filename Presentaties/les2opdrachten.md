@@ -100,7 +100,7 @@ Child selectors en sibling combinators [oefening](http://dabblet.com/gist/186465
 * De artikelpagina moet er ongeveer [zo](http://dabblet.com/gist/1864548) uitzien
 
 
-###2, Attribute selectors
+###2. Attribute selectors
 
 Attribute selectors and bling [oefening](http://dabblet.com/gist/1865805)
 
