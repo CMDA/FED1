@@ -37,7 +37,7 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
  [pdf](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
  
 3. I’ve got < em > 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les3-i-ve-got-em.html) 
+ [Presentatie](http://cmda.github.io/FED1/Presentaties/les3-i-ve-got-em.html) -
  [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les3-opdrachten.html) - 
  [College](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/index.html) 
  [pdf](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
