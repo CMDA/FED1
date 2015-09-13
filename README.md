@@ -55,13 +55,15 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
  [pdf](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
 
 6. < img > is everything 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les6-img-is-everything.html) 
- [College](http://cmda.github.io/FED1/Colleges/les6-img-is-everything/index.html) 
+ [Presentatie](http://cmda.github.io/FED1/Presentaties/les6-img-is-everything.html) -
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les6-opdrachten.html) - 
+ [College](http://cmda.github.io/FED1/Colleges/les6-img-is-everything/index.html) -
  [pdf](http://cmda.github.io/FED1/Colleges/les6-img-is-everything/img-is-everything.pdf)
  
 7. /* no comment */ 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les7-no-comment.html) 
- [College](http://cmda.github.io/FED1/Colleges/les7-no-comment/index.html) 
+ [Presentatie](http://cmda.github.io/FED1/Presentaties/les7-no-comment.html) -
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les7-opdrachten.html) - 
+ [College](http://cmda.github.io/FED1/Colleges/les7-no-comment/index.html) -
  [pdf](http://cmda.github.io/FED1/Colleges/les7-no-comment/no-comment.pdf)
  
 8. < / HTML > [Toetsing en beoordeling](#)
