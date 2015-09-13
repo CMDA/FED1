@@ -127,61 +127,6 @@ De Formulierpagina bestaat  uit:
 5. Footer < [toevoegen](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht/Footer.html)
 
 
-!
-
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 6.2 - 50 minuten
-## Proportionele medaqueries: Artikelpagina
-
-Zet je artikelpagina op met proportionele mediaqueries
-
-Zoals deze zijn beschreven in het artikel
-[The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
-
-Stappenplan:
-
-1. Waar gaat de Sidebar heen als het scherm breed is?
-2. Hoe staan de sections met Projecten en Nieuwartikelen?
-3. Wat doe je met de Header in een smal scherm?
-5. Wat gebeurt er als de gebruiker de pagina gaat zoomen?
-
-
-
-!
-
-### Bespreken Opdracht 6.2
-### Opdracht 6.2
-## Proportionele medaqueries: Artikelpagina
-
-(veelvoorkomende) Vragen uit de klas op het bord tonen
-
-!
-
-##### 4. Klussen (120 - 185/200 minuten)
-### Opdracht 6.3 - 50 minuten
-## Proportionele medaqueries: Formulierpagina
-
-Zet je formulierpagina op met proportionele mediaqueries
-
-Stappenplan:
-
-1. Staan alle onderdelen goed met de CSS die je voor de artikelpagina hebt gemaakt?
-2. Pas je formulier aan aan de schermbreedte/hoogte
-
-
-!
-
-
-
-### Bespreken Opdracht 6.2
-### Opdracht 6.3
-## Proportionele medaqueries: Formulierpagina
-
-(veelvoorkomende) Vragen uit de klas op het bord tonen
-
-!
-
 
 ##### 4. Klussen (120 - 185/200 minuten)
 ### Opdracht 6.4 - 30 minuten
