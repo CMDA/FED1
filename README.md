@@ -26,18 +26,19 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 1. Give me a fucking < br / > 
  [Presentatie](http://cmda.github.io/FED1/Presentaties/les1-gimme-a-fucking-br.html) - 
- [Opdrachten](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html) - 
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les1-opdrachten.html) - 
  [College](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html) - 
  [pdf](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
 
 2. Kiss my CSS 
  [Presentatie](http://cmda.github.io/FED1/Presentaties/les2-kiss-my-css.html) - 
- [Opdrachten](http://cmda.github.io/FED1/Presentaties/les2-opdrachten.html) - 
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les2-opdrachten.html) - 
  [College](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html) - 
  [pdf](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
  
 3. I’ve got < em > 
  [Presentatie](http://cmda.github.io/FED1/Presentaties/les3-i-ve-got-em.html) 
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les3-opdrachten.html) - 
  [College](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/index.html) 
  [pdf](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
  
