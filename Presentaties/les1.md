@@ -130,10 +130,9 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 # 4. Coden
 ###### Frontend development - les 1
 
-[Klik hier voor opdracht 1.1](http://cmda.github.io/FED1/Presentaties/les1-opdrachten.html)
+[Klik hier voor opdracht 1](http://cmda.github.io/FED1/Opdrachten/les1-opdrachten.html)
 
-
-Opdracht 1.1 is deeltoets 1 en wordt in les 2 beoordeeld. Deeltoets 1 is een mondelinge toets, je code bekeken, je moet je code kunnen uitleggen en je moet vragen beantwoorden. Check [Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor de beschrijving en beoordelingscriteria.
+Opdracht 1 is deeltoets 1 en wordt in les 2 beoordeeld. Deeltoets 1 is een mondelinge toets, je code bekeken, je moet je code kunnen uitleggen en je moet vragen beantwoorden. Check [Moodle](https://moodle.cmd.hva.nl/course/view.php?id=49) voor de beschrijving en beoordelingscriteria.
 
 < / section >
 

@@ -58,9 +58,9 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 # 4. Coden
 ###### Frontend development - les 2
 
-[Klik hier voor opdracht 2.1](http://cmda.github.io/FED1/Presentaties/les2-opdrachten.html)
+[Klik hier voor opdracht 2](http://cmda.github.io/FED1/Opdrachten/les2-opdrachten.html)
 
-Opdracht 2.1 bestaat uit het toepassen van CSS3 mogelijkheden en selectors.
+Opdracht 2 bestaat uit het toepassen van CSS3 mogelijkheden en selectors.
 
 < / section >
 

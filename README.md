@@ -43,13 +43,15 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
  [pdf](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
  
 4. Display: none 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les4-display-none.html) 
- [College](http://cmda.github.io/FED1/Colleges/les4-display-none/index.html) 
+ [Presentatie](http://cmda.github.io/FED1/Presentaties/les4-display-none.html) -
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les4-opdrachten.html) -
+ [College](http://cmda.github.io/FED1/Colleges/les4-display-none/index.html) -
  [pdf](http://cmda.github.io/FED1/Colleges/les4-display-none/display-none.pdf)
  
 5. You are the CSS to my HTML 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les5-you-are-the-css-to-my-html.html) 
- [College](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) 
+ [Presentatie](http://cmda.github.io/FED1/Presentaties/les5-you-are-the-css-to-my-html.html) - 
+ [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les5-opdrachten.html) - 
+ [College](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) -
  [pdf](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
 
 6. < img > is everything 
