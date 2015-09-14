@@ -80,234 +80,281 @@ iframe {
 				</section>
 
 				<!-- Example of nested vertical slides -->
+
+				<section>
+					<section>
+						<h2>Selectors</h2>
+						<p>Deel 2</p>
+						
+						<aside class="notes">
+							We gaan verder in op selectors. Even nog de nth-child en nth-of-type selectors bespreken en dan vooral bekijken wat we er allemaal mee kunnen doen.
+						</aside>
+					</section>
+					<section>
+						<h2>Rechts naar links</h2>
+						<pre><code data-trim contenteditable>
+body > div {
+	color: green;
+}
+h1 + p {
+	margin-top: -1em;
+}
+h1, p {
+	font-weight: normal;
+}</pre></code>
+						<aside class="notes">
+							De makkelijkste manier om een selector te lezen is om van rechts naar links te lezen: een div die direct in de body staat. Een p die direct na een h1 staat. Die derde staat er bij omdat mensen soms denken dat de + hetzelfde is als de komma.
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
+						<aside class="notes">
+							De meeste studenten kunnen wel verzinnen wat dit betekent
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
+<pre><code data-trim contenteditable>
+p:first-of-type {
+	font-size: 1.414em;
+}</code></pre>
+						<aside class="notes">
+							Vraag ze naar het verschil tussen deze twee. De eerste is alleen voor paragrafen die daadwerkelijk de eerste child zijn van hun parent. De tweede is voor elke eerste paragraaf in een parent, ook als er bijvoorbeeld een h1 voor staat. Of 100 ul's.
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+li:nth-of-type(2) {
+	background: papayawhip;
+}</code></pre>
+<pre><code data-trim contenteditable>
+li:nth-of-type(2n) {
+	background: papayawhip;
+}</code></pre>
+						<aside class="notes">
+							Zebrastriping doe je zo
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+<pre><code data-trim contenteditable>
+li {
+	background: rebeccapurple;
+}
+li:nth-of-type(3n + 2) {
+	background: papayawhip;
+}
+li:nth-of-type(3n + 3) {
+	background: olivedrab;
+}</code></pre>
+						<aside class="notes">
+							Clownstriping — met drie kleuren — doe je zo. Laat zien dat het makkelijk is als je rechts begint met lezen: Selecteer de derde, neem vervolgens telkens een stap van drie.
+						</aside>
+					</section>
+					<section>
+						<h2>De laatste drie selecteren</h2>
+<pre class="fragment"><code data-trim contenteditable>
+div:nth-last-of-type(-n + 3) {
+	width: 33.33333%;
+}
+</code></pre>			
+						<aside class="notes">
+							Begin op de derde vanaf en eind, en tel er dan telkens -1 bij op (is hetzelfde als trek er telkens 1 van af ja).
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>JavaScript!</h2>
+						<aside class="notes">
+							Deze selectors kunnen we ook in JavaScript gebruiken, om een class te togglen op een element.
+						</aside>
+					</section>
+					<section>
+						<h2>querySelector</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>querySelectorAll</h2>
+<pre><code data-trim contenteditable>
+var secondSteps = document.querySelectorAll('fieldset:nth-of-type(2n)');</code></pre>
+						<aside class="notes">
+							querySelectorAll maakt een nodelist van elke tweede fieldset. Als er zes fieldsets zijn dan zijn er drie items in deze nodelist. secondSteps[1] zou de tweede daarvan aanspreken.
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+					<p><a href="examples/fieldsets.html">voorbeeld</a></p>
+						<aside class="notes">
+							Met classList kan je heel makkelijk classes toevoegen, verwijderen of togglen
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+nextStep.classList.add('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.remove('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.toggle('is-visible');</code></pre>
+					
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+				</section>
 				
 				<section>
 					<section>
-						<h1>Box Model</h1>
-					</section>
-					<section>
-						<h2>CSS is gek</h2>
-
-						<pre><code data-trim contenteditable>
-aside {
-	width: 300px;
-	padding-left: 25px;
-	padding-right: 25px;
-	border: 1px solid black;
-}</code></pre>
-						<aside class="notes">
-							Hoe breed is dit ding? Iedereen vindt dat de aside in z'n geheel gewoon 300px breed zou moeten zijn, en dat *de content* in de aside 300-50-2 = 248px breed zou moeten zijn. Maar zo niet de opstellers van de spec. Die vonden dat de content 300px breed is, en dat padding en border er bij op worden geteld. 
-						</aside>
-					</section>
-					<section>
-						<h2>Het medicijn tegen deze gekte</h2>
-
-						<pre><code data-trim contenteditable>
-aside {
-	box-sizing: border-box;
-	width: 300px;
-	padding-left: 25px;
-	padding-right: 25px;
-	border: 1px solid black;
-}</code></pre>
-						<aside class="notes">
-							Nu doet het wel normaal. 
-						</aside>
-					</section>
-					<section>
-						<h2>Tip</h2>
-
-						<pre><code data-trim contenteditable>
-* {
-	box-sizing: border-box;
-}</code></pre>
-						<aside class="notes">
-							Nu doet alles normaal. En nee, dit is geen aanslag op de performance.
-						</aside>
-					</section>
-					<section>
-						<h2>Float</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411810036.png" style="width: 50%" alt="" />
-						<pre><code data-trim contenteditable>
-h1 + p::first-letter {
-	font-size: 3em;
-	float: left;
-}</code></pre>
-						<aside class="notes">
-							Iedereen zou moeten kunnen verzinnen wat dit betekent, maar voor de zekerheid: de eerste letter in elke paragraaf die direct na een h1 staat moet heel groot zijn en links floaten.
-						</aside>
-					</section>
-					<section>
-						<h2>Float clearen</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411810229.png" style="width: 50%" alt="" />
+						<h2>Flexbox</h2>
+						<p><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">Zie hier</a></p>
 						
 						<aside class="notes">
-							Soms wil je dat een heading altijd onder een float begint.
+							CSS was voor teksten. We misbruikten proprties om layouts te kunnen maken. Er was behoefte aan krachtigere tools om mee te layouten. Een daarvan is Flexbox.
+							Het idee achter flexbox is dat je het parent-element de mogelijkheid om de beschikbare ruimte zo goed mogelijk te verdelen onder de children. 
+							Lees deze pagina goed door. Dat is voor een groot deel onze les: http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+							Bekijk ook deze pagina, want daar staan hele goed voorbeelden: http://philipwalton.github.io/solved-by-flexbox/
 						</aside>
 					</section>
 					<section>
-						<h2>Float clearen</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411810482.png" style="width: 50%" alt="" />
-						<pre><code data-trim contenteditable>
-h2 {
-	clear: left;
+						<h2>Properties for the parent</h2>
+						<img src="img/flex-container.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  display: flex;
 }</code></pre>
 						<aside class="notes">
-							Soms wil je dat een heading altijd onder een float begint.
+							Zo maak je een container een flexbox. 
 						</aside>
 					</section>
 					<section>
-						<h2>Float voor layout</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411811148.png" alt="" />
-						<aside class="notes">
-							Werkt prima zolang alles even hoog is
-						</aside>
-					</section>
-					<section>
-						<h2>Float voor layout</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411811196.png" alt="" />
-						<aside class="notes">
-							Wordt een zooitje als dat niet zo is
-						</aside>
-					</section>
-					<section>
-						<h2>Float voor layout</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411811338.png" alt="" />
-						<pre><code data-trim contenteditable>
-div:nth-child(5n + 6) {
-	clear: left;
+						<h2>Properties for the parent</h2>
+						<p>flex-direction</p>
+						<img src="img/flex-direction1.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
 }</code></pre>
 						<aside class="notes">
-							Ingewikkeld gedoe om dat op te lossen. 
+							Je kan de content vier richtingen meegeven
 						</aside>
 					</section>
 					<section>
-						<h2>Display: inline-block;</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411811676.png" alt="" />
-						<pre><code data-trim contenteditable>
-div {
-	display: inline-block;
-	width: 20%;
+						<h2>Properties for the parent</h2>
+						<p>justify-content</p>
+						<img src="img/justify-content.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
 }</code></pre>
 						<aside class="notes">
-							Theoretisch zou display: inline-block; lekker simpel moeten zijn. Maar helaas laat het de whitespace tussen elementen altijd zien. Wat op zich logisch is, maar ook erg irritant.
+							Uitlijning kan op een aantal manieren. Lekker flexibel!
 						</aside>
 					</section>
 					<section>
-						<h2>Display: inline-block;</h2>
-						<img src="http://ndoe.nl/screen/screenshot-1411811912.png" alt="" />
-						<pre><code contenteditable>    <div></div><!--
- --><div></div></code></pre>
+						<h2>Properties for the parent</h2>
+						<p>align-items</p>
+						<img src="img/align-items.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
 						<aside class="notes">
-							Het is te fixen door geen white-space te gebruiken, of door white-space uit te commenten. Allebei niet echt tof. Fijn dat we dit niet meer hoeven te gebruiken.
-						</aside>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h2>Positioning</h2>
-						<ul>
-							<li>Relative</li>
-							<li>Absolute</li>
-							<li>Fixed</li>
-							<li>Static</li>
-						</ul>
-						<aside class="notes">
-							Er zijn vier values voor position.
+							Uitlijning kan op een aantal manieren. Lekker flexibel!
 						</aside>
 					</section>
 					<section>
-						<h2>position:static</h2>
-						<p>The box is a normal box, laid out according to the normal flow. The 'top', 'right', 'bottom', and 'left' properties do not apply. </p>
+						<h2>Properties for the parent</h2>
+						<p>flex-wrap</p>
+						<img src="img/flex-wrap.svg" alt="">
+<pre><code data-trim contenteditable>
+.container {
+	flex-wrap: nowrap | wrap | wrap-reverse;
+}</code></pre>
 						<aside class="notes">
-							De standaard waarde van position is static. Het doet niet zo veel en je kan er niet veel mee. Elementen die in een static element staan die bijvoorbeeld absoluut gepositioneerd zijn en gebruik maken van top en left negeren dezeparent en positioneren zich tov de eerstvolgende gepositioneerde parent in de DOM tree
-						</aside>
-					</section>
-					<section data-background="http://ndoe.nl/screen/screenshot-1411819097.png" data-background-size="contain">
-						
-					</section>
-					<section>
-						<h2>position:relative</h2>
-						<p>The box's position is calculated according to the normal flow (this is called the position in normal flow). Then the box is offset relative to its normal position. When a box B is relatively positioned, the position of the following box is calculated as though B were not offset. </p>
-						<aside class="notes">
-							Position:relative betekent dat je een element left, right, top en bottom properties mee kan geven. Als je dat doet, dan denken volgende elementen dat je dat niet hebt gedaan. Echt! Zie volgende slide. Z-index werkt nu ook.
-						</aside>
-					</section>
-					<section data-background="http://ndoe.nl/screen/screenshot-1411819207.png" data-background-size="contain">
-					</section>
-					
-					<section>
-						<h2>position:absolute</h2>
-						<p>The box's position (and possibly size) is specified with the 'top', 'right', 'bottom', and 'left' properties. These properties specify offsets with respect to the box's containing block. Absolutely positioned boxes are taken out of the normal flow. This means they have no impact on the layout of later siblings.</p>
-						<aside class="notes">
-							Position:absolute haalt iets uit de flow. Het heeft geen invloed meer op de dingen er omheen. De offset is gerelateerd aan z'n containing block: de eerste parent met position:relative, position:absolute of position:fixed; Een parent met position static wordt genegeerd.
+							Je kan ook over meerdere regels flexen. Zonder deze property zal alles op een regel gepropt worden
 						</aside>
 					</section>
 					<section>
-						<h2>position:fixed</h2>
-						<p>The box's position is calculated according to the 'absolute' model, but in addition, the box is fixed with respect to the viewport.</p>
+						<h2>Properties for the parent</h2>
+						<p>align-content</p>
+						<img src="img/align-content.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}</code></pre>
 						<aside class="notes">
-							…
+							Met flex-wrap aan kan je ook bepalen wat er met de content tussen de regels gebeurt
 						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>order</p>
+						<img src="img/order.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  order: &lt;integer>;
+}</code></pre>
+						<aside class="notes">
+							Op welke plek moet dit ding staan. Superhandig voor responsive designs waar de volgorde van de code niet altijd overeenkomt met de ideale visuele volgorde.
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>flex-grow</p>
+						<img src="img/flex-grow.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  flex-grow: &lt;number>; /* default 0 */
+}</code></pre>
+						<aside class="notes">
+							Hoeveel ruimte moet dit ding innemen in verhouding tot de andere items? Als alles op 1 staat, dan is alles even breed. Als er echter eentje op 2 staat dan is die twee keer zo breed dan de andere items.
+						</aside>
+					</section>
+					<section>
+						<h2>Properties for the Children</h2>
+						<p>align-self</p>
+						<img src="img/align-self.svg" alt="">
+<pre><code class="css" data-trim contenteditable>
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
+						<aside class="notes">
+							Om één item anders uit te laten lijnen dan de standaard uitlijning.
+						</aside>
+					</section>
+					<section>
+						<h2>Flexbox in de praktijk</h2>
+						<p><a href="http://philipwalton.github.io/solved-by-flexbox/">Mooie voorbeelden</a></p>
 					</section>
 				</section>
 
-				<section>
-					<section>
-						<h2>Units voor layout</h2>
-						<ul>
-							<li>em</li>
-							<li>rem</li>
-							<li>viewport relative units</li>
-						</ul>
-						
-						<aside class="notes">
-							Er zijn een paar mooie eenheden die je kunt gebruiken voor het definiëren van layout. Hieronder hun usecases
-						</aside>
-					</section>
-					<section>
-						<h2>em</h2>
-						<p>voor maximale en minimale breedtes</p>
-						<aside class="notes">
-							Gebruik deze site om een ideale breedte van een tekstcolom te bepalen:
-							http://nerd.vasilis.nl/code/measure-help/
-
-						</aside>
-					</section>
-					<section>
-						<h2>Ideale measure</h2>
-<blockquote>Anything from 45 to 75 characters is widely regarded as a satisfactory length of line…</blockquote>
-<p><font style="font-size: 24px;">Robert&nbsp;Bringhurst</font></p>
-<p><br></p>
-<blockquote>a column is easy to read if it's wide enough to accommodate an average of 10 words per line</blockquote>
-<p><font style="font-size: 24px;">Müller-Brockmann</font></p>
-<br>
-						<aside class="notes">
-							Gebruik deze site om een ideale breedte van een tekstcolom te bepalen:
-							http://nerd.vasilis.nl/code/measure-help/
-							
-						</aside>
-					</section>
-					<section>
-						<h2>rem</h2>
-						<p>perfect voor margins en paddings en border-radii</p>
-						
-						<aside class="notes">
-							Altijd gerelateerd aan de grootte van de font-size van het html-element. Voor typografie niet flexibel genoeg, maar dat gebrek aan flexibiliteit is juist weer perfect voor margins en paddings, die gelijk kunnen blijven, ongeacht de font-grootte van het element.
-						</aside>
-					</section>
-					<section>
-						<h2>Viewport relative units!</h2>
-						<p><a href="http://nerd.vasilis.nl/code/tschicholds-figures/responsive/">FTW!</a></p>
-						<p><a href="http://massivetangent.co.uk/">FTW!</a></p>
-						<p><a href="http://vasilis.nl/voto/boe/140927132517/">FTW!</a></p>
-						
-						<aside class="notes">
-							Units die gerelateerd zijn aan de viewport. vw = viewport width. vh = viewport height. vmin = de kleinste van de width of de height. vmax = de grootste van die twee. Je kan dit voorbeeld laten zien: http://nerd.vasilis.nl/code/tschicholds-figures/responsive/ of deze gekke waarbij de units voor font-size worden gebruikt: http://massivetangent.co.uk/ of deze waarbij je er voor zorgt dat er altijd een stuk van de caption zichtbaar is onder de foto: http://vasilis.nl/voto/boe/140927132517/ Hier is niks bij te zien als je de viewport niet groter en kleiner maakt.
-						</aside>
-					</section>
-					
-				</section>
+				
 			</div>
 
 		</div>
