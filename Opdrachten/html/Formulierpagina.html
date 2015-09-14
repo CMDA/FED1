@@ -39,113 +39,148 @@
             <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.</p>
 
             <form method="post" action="Formulierpagina.html">
-                <fieldset>
-                    <legend>Aanmeldingsformulier</legend>
 
+                <fieldset>
+                    <legend>Contactgegevens</legend>
+                    <label>
+                        <span>Naam:</span>
+                        <input type="text" name="name" required>
+                        <em>vereist</em>
+                    </label>
+                    <label>
+                        <span>Bedrijf:</span>
+                        <input type="text" name="company" required>
+                        <em>vereist</em>
+                    </label>
+                    <label>
+                        <span>Adres:</span>
+                        <input type="text" name="address" required>
+                        <em>vereist</em>
+                    </label>
+                    <label>
+                        <span>Postcode:</span>
+                        <input type="text" name="postal" required>
+                        <em>vereist</em>
+                    </label>
+                    <label>
+                        <span>Telefoon:</span>
+                        <input type="tel" name="phone">
+                    </label>
+                    <label>
+                        <span>E-mailadres:</span>
+                        <input type="email" name="email" required>
+                        <em>vereist</em>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ik wil mij aanmelden:</legend>
+                    <label>
+                        <input type="radio" name="submit-for" value="project">
+                        <span>Voor een project</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="submit-for" value="stage">
+                        <span>Als stagebedrijf</span>
+                    </label>
+                </fieldset>
+
+                <fieldset id="project">
+                    <legend>Project</legend>
+                    <label>
+                        <span>Titel:</span>
+                        <input type="text" name="project-title">
+                    </label>
+                    <label>
+                        <span>Opdrachtomschrijving:</span>
+                        <textarea name="project-description"></textarea>
+                    </label>
+                    <label>
+                        <span>Doelgroepomschrijving:</span>
+                        <textarea name="project-target-audience"></textarea>
+                    </label>
+                    <label>
+                        <span>Doelstelling/intentie van het project:</span>
+                        <textarea name="project-goal"></textarea>
+                    </label>
+                    <label>
+                        <span>Looptijd:</span>
+                        <input type="text" name="project-duration">
+                    </label>
+                    <label>
+                        <span>Deadline:</span>
+                        <input type="date" name="project-deadline">
+                    </label>
                     <fieldset>
-                        <legend>Contactgegevens</legend>
+                        <legend>Geschikt voor</legend>
+                        <label><input type="checkbox" name="project-eerstejaars"> Eerstejaars studenten</label>
+                        <label><input type="checkbox" name="project-tweedejaars"> Tweedejaars studenten</label>
+                        <label><input type="checkbox" name="project-derdejaars"> Derdejaars studenten</label>
+                        <label><input type="checkbox" name="project-afstudeer"> Afstudeer studenten</label>
+                        <label><input type="checkbox" name="project-onbekend"> Onbekend</label>
+                    </fieldset>
+                    <label>
+                        <span>Opmerking:</span>
+                        <textarea name="project-comments"></textarea>
+                    </label>
+                </fieldset>
+
+                <fieldset id="stage">
+                    <legend>Stage</legend>
+                    <fieldset>
+                        <legend>Geschikt voor</legend>
+                        <label><input type="checkbox" name="stage-tweedejaars"> Tweedejaars studenten</label>
+                        <label><input type="checkbox" name="stage-afstudeerders"> Afstudeer studenten</label>
+                        <label><input type="checkbox" name="stage-onbekend"> Onbekend</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Hoe lang is de stage</legend>
+                        <label><input type="radio" name="stage-duration" value="10"> 10 weken</label>
+                        <label><input type="radio" name="stage-duration" value="20"> 20 weken</label>
+                    </fieldset>
+                    <label>
+                        <span>Begindatum:</span>
+                        <input type="date" name="stage-startdate">
+                    </label>
+                    <label>
+                        <span>Beschrijving stagewerkzaamheden</span>
+                        <textarea name="stage-description"></textarea>
+                    </label>
+                    <fieldset>
+                        <legend>Beschrijving stagebedrijf</legend>
                         <label>
-                            <span>Naam:</span>
-                            <input type="text" name="name" required>
-                            <em>vereist</em>
-                        </label>
-                        <label>
-                            <span>Bedrijf:</span>
-                            <input type="text" name="company" required>
-                            <em>vereist</em>
+                            <span>Bedrijfsnaam:</span>
+                            <input type="text" name="stage-company-name">
                         </label>
                         <label>
                             <span>Adres:</span>
-                            <input type="text" name="address" required>
-                            <em>vereist</em>
+                            <input type="text" name="stage-address">
                         </label>
                         <label>
                             <span>Postcode:</span>
-                            <input type="text" name="postal" required>
-                            <em>vereist</em>
+                            <input type="text" name="stage-postal">
                         </label>
                         <label>
-                            <span>Telefoon:</span>
-                            <input type="tel" name="phone">
+                            <span>Plaats:</span>
+                            <input type="text" name="stage-place">
                         </label>
                         <label>
-                            <span>E-mailadres:</span>
-                            <input type="email" name="email" required>
-                            <em>vereist</em>
+                            <span>Sector:</span>
+                            <input type="text" name="stage-sector">
+                        </label>
+                        <label>
+                            <span>Core business:</span>
+                            <input type="text" name="stage-core-business">
                         </label>
                     </fieldset>
-
-                    <fieldset>
-                        <legend>Ik wil mij aanmelden:</legend>
-                        <label>
-                            <input type="radio" name="submit-for" value="project">
-                            <span>Voor een project</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="submit-for" value="stagebedrijf">
-                            <span>Als stagebedrijf</span>
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Project</legend>
-                        <label>
-                            <span>Titel:</span>
-                            <input type="text" name="project-title">
-                        </label>
-                        <label>
-                            <span>Opdrachtomschrijving:</span>
-                            <input type="text" name="project-description">
-                        </label>
-                        <label>
-                            <span>Doelgroepomschrijving:</span>
-                            <input type="text" name="project-target-audience">
-                        </label>
-                        <label>
-                            <span>Doelstelling/intentie van het project:</span>
-                            <input type="text" name="project-goal">
-                        </label>
-                        <label>
-                            <span>Looptijd:</span>
-                            <input type="text" name="project-duration">
-                        </label>
-                        <label>
-                            <span>Deadline:</span>
-                            <input type="date" name="project-deadline">
-                        </label>
-                        <fieldset>
-                            <legend>Geschikt voor</legend>
-                            <label><input type="checkbox" value="Eerstejaars"> Eerstejaars studenten</label>
-                            <label><input type="checkbox" value="Tweedejaars"> Tweedejaars studenten</label>
-                            <label><input type="checkbox" value="Derdejaars"> Derdejaars studenten</label>
-                            <label><input type="checkbox" value="Afstudeer"> Afstudeer studenten</label>
-                            <label><input type="checkbox" value="Onbekend"> Onbekend</label>
-                        </fieldset>
-                        
-                        <label>
-                            <span>Opmerking:</span>
-                            <textarea name="project-comments"></textarea>
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Stage</legend>
-                        <fieldset>
-                            <legend>Geschikt voor</legend>
-                            <label><input type="checkbox" value="Tweedejaars"> Tweedejaars studenten</label>
-                            <label><input type="checkbox" value="Afstudeerders"> Afstudeer studenten</label>
-                            <label><input type="checkbox" value="Onbekend"> Onbekend</label>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Hoe lang is de stage</legend>
-                            <label><input type="radio" name="stage-duration" value="10"> 10 weken</label>
-                            <label><input type="radio" name="stage-duration" value="20"> 20 weken</label>
-                        </fieldset>
-                    </fieldset>
-
+                    <label>
+                        <span>Opmerking:</span>
+                        <textarea name="stage-comments"></textarea>
+                    </label>
                 </fieldset>
 
-                <input type="submit" value="Versturen">
+                <input type="submit" value="Aanmelden">
+
             </form>
 
         </main>
@@ -302,7 +337,7 @@
                 </section>
             </article>
 
-        </section> <!-- #related -->
+        </section>
 
         <!-- Sidebar teksten en info: Laatste mededelingen, Agenda, Twitter -->
         <aside>
@@ -315,7 +350,7 @@
                         <time datetime="2012-02-14">14 februari 2012</time>
                         <span><a href="#">A.W.M. Feleus</a></span>
                         Beste studenten, Aanstaande maandag is het instructiecollege voor het usabilitylab en vanaf dinsdag starten de eerste teams met testen. In jullie rooster is aangegeven wanneer jullie gaan testen en kunnen jullie ook zien met welk team. Let er op dat ...
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
                 <article>
@@ -324,7 +359,7 @@
                         <time datetime="2012-02-15">15 februari 2012</time>
                         <span><a href="#">J.B. Wijnmaalen</a></span>
                         Het V2 assessment rooster voor Blok 3 kan je  downloaden van de vakpagina.
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
                 <article>
@@ -333,7 +368,7 @@
                         <time datetime="2012-02-27">27 februari 2012</time>
                         <span><a href="#">H.H.G. Konickx</a></span>
                         Het rooster voor mijn portfoliogesprekken staat online bij SLC Blok 3. Let op! Er kan nog eea veranderen. Houd het intranet in de gaten.
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
                 <article>
@@ -342,7 +377,7 @@
                         <time datetime="2012-02-27">27 februari 2012</time>
                         <span><a href="#">T. Ploeg</a></span>
                         Beste studenten Mediasociologie, Het tentamen Mediasociologie vindt plaats op maandag 26 maart van 16.50u tot 18.30u. Locatie wordt nog bekend gemaakt. Voor...
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
                 <article>
@@ -351,7 +386,7 @@
                         <time datetime="2012-02-29">29 februari 2012</time>
                         <span><a href="#">L.C.D.J. van der Vlies</a></span>
                         Interesse in online marketing? Verdien 2 SRP bij een project voor Knowhowww, een online marketingbureau in Amsterdam. Een van de projecten voor dit bureau is Pet Plan, een verzekeringsmaatschappij voor huisdieren. Knowhowww wil graag een viral ...
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
             </section>
@@ -366,7 +401,7 @@
                     <p>
                         <span><a href="#">M.S. t Hooft</a></span>
                          Audiovisueel netwerkfestival in Trouw Amsterdam. Meer info: http://www.fiber-space.nl
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
                 <article>
@@ -377,7 +412,7 @@
                     <p>
                         <span><a href="#">M.S. t Hooft</a></span>
                          Mobile is becoming increasingly important to web designers and developers because users expect a site to work on their phones. Simultaneously, the web is becoming increasingly important to the mobile world because it is the only way to deploy an ...
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
                 <article>
@@ -388,7 +423,7 @@
                     <p>
                         <span><a href="#">M. Blekemolen</a></span>
                          Apps zijn niet meer weg te denken uit het dagelijks leven van miljoenen gebruikers. Amsterdam heeft het ideale klimaat voor app ontwikkelaars. De stad is hard op weg om internationaal door te breken als Appsterdam, de gelijknamige organisatie die ook ...
-                        <a href="#">lees verder</a>
+                        <a href="#" rel="bookmark">lees verder</a>
                     </p>
                 </article>
             </section>
@@ -463,15 +498,14 @@
             <section id="search">
                 <h2>Zoeken</h2>
                 <form method="get" action="Formulierpagina.html">
-                    <input type="search">
+                    <input type="search" name="q">
                     <input type="submit" value="Zoeken">
                 </form>
             </section>
 
             <section id="about" lang="en">
                 <h2>About</h2>
-                <p>CMD Amsterdam is een ontwerp opleiding voor Interactieve Media. Op de opleiding Communication &amp; Multimedia Design (CMD) Amsterdam leer je alles over het ontwerpen van online interactieve media. Dit betekent begrijpen, bedenken en maken van interactieve mediatoepassingen zoals websites, mobiele applicaties en interactieve televisie. </p>
-
+                <p>CMD Amsterdam is een ontwerp opleiding voor Interactieve Media. Op de opleiding Communication &amp; Multimedia Design (CMD) Amsterdam leer je alles over het ontwerpen van online interactieve media. Dit betekent begrijpen, bedenken en maken van interactieve mediatoepassingen zoals websites, mobiele applicaties en interactieve televisie.</p>
             </section>
 
             <section id="credits" lang="en">
