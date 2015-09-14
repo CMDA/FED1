@@ -37,68 +37,119 @@
         <!-- Main article - Contact formulier  -->
         <main>
 
-            <h1>Here be content</h1>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>Aanmelden</h1>
+            <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+            <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.</p>
 
             <form method="post" action="Formulierpagina.html">
                 <fieldset>
-                    <legend>Contactformulier</legend>
-
-                    <label>
-                        <span>Naam:</span>
-                        <input type="text" name="name" required>
-                        <em>vereist</em>
-                    </label>
-
-                    <label>
-                        <span>E-mailadres:</span>
-                        <input type="email" name="email" required>
-                        <em>vereist</em>
-                    </label>
-
-                    <label>
-                        <span>Geboortedatum:</span>
-                        <input type="date" name="birthdate">
-                    </label>
+                    <legend>Aanmeldingsformulier</legend>
 
                     <fieldset>
-                        <legend>Voorkeur</legend>
+                        <legend>Contactgegevens</legend>
                         <label>
-                            <input type="radio" name="voorkeur" value="1">
-                            <span>Eerste voorkeur</span>
+                            <span>Naam:</span>
+                            <input type="text" name="name" required>
+                            <em>vereist</em>
                         </label>
                         <label>
-                            <input type="radio" name="voorkeur" value="2">
-                            <span>Tweede voorkeur</span>
+                            <span>Bedrijf:</span>
+                            <input type="text" name="company" required>
+                            <em>vereist</em>
+                        </label>
+                        <label>
+                            <span>Adres:</span>
+                            <input type="text" name="address" required>
+                            <em>vereist</em>
+                        </label>
+                        <label>
+                            <span>Postcode:</span>
+                            <input type="text" name="postal" required>
+                            <em>vereist</em>
+                        </label>
+                        <label>
+                            <span>Telefoon:</span>
+                            <input type="tel" name="phone">
+                        </label>
+                        <label>
+                            <span>E-mailadres:</span>
+                            <input type="email" name="email" required>
+                            <em>vereist</em>
                         </label>
                     </fieldset>
 
                     <fieldset>
-                        <legend>Meerdere voorkeuren</legend>
+                        <legend>Ik wil mij aanmelden:</legend>
                         <label>
-                            <input type="checkbox" name="voorkeur-1">
-                            <span>Eerste voorkeur</span>
+                            <input type="radio" name="submit-for" value="project">
+                            <span>Voor een project</span>
                         </label>
                         <label>
-                            <input type="checkbox" name="voorkeur-2">
-                            <span>Tweede voorkeur</span>
-                        </label>
-                        <label>
-                            <input type="checkbox" name="voorkeur-3">
-                            <span>Derde voorkeur</span>
+                            <input type="radio" name="submit-for" value="stagebedrijf">
+                            <span>Als stagebedrijf</span>
                         </label>
                     </fieldset>
 
-                    <label>
-                        <span>Een bijlage:</span>
-                        <input type="file" name="attachment">
-                    </label>
+                    <fieldset>
+                        <legend>Project</legend>
+                        <label>
+                            <span>Titel:</span>
+                            <input type="text" name="project-title">
+                        </label>
+                        <label>
+                            <span>Opdrachtomschrijving:</span>
+                            <input type="text" name="project-description">
+                        </label>
+                        <label>
+                            <span>Doelgroepomschrijving:</span>
+                            <input type="text" name="project-target-audience">
+                        </label>
+                        <label>
+                            <span>Doelstelling/intentie van het project:</span>
+                            <input type="text" name="project-goal">
+                        </label>
+                        <label>
+                            <span>Looptijd:</span>
+                            <input type="text" name="project-duration">
+                        </label>
+                        <label>
+                            <span>Deadline:</span>
+                            <input type="date" name="project-deadline">
+                        </label>
+                        <fieldset>
+                            <legend>Geschikt voor</legend>
+                            <label><input type="radio" name="project-for" value="1"> Eerstejaars studenten</label>
+                            <label><input type="radio" name="project-for" value="2"> Tweedejaars studenten</label>
+                            <label><input type="radio" name="project-for" value="3"> Derdejaars studenten</label>
+                            <label><input type="radio" name="project-for" value="4"> Afstudeer studenten</label>
+                            <label><input type="radio" name="project-for" value="5"> Onbekend</label>
+                        </fieldset>
+                        <label>
+                            <span>Opmerking:</span>
+                            <textarea name="project-comments"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Stage</legend>
+                        <fieldset>
+                            <legend>Geschikt voor</legend>
+                            <label><input type="radio" name="stage-for" value="1"> Tweedejaars studenten</label>
+                            <label><input type="radio" name="stage-for" value="2"> Afstudeer studenten</label>
+                            <label><input type="radio" name="stage-for" value="3"> Onbekend</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Hoe lang is de stage</legend>
+                            <label><input type="radio" name="stage-duration" value="10"> 10 weken</label>
+                            <label><input type="radio" name="stage-duration" value="20"> 20 weken</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Hoe lang is de stage</legend>
+                            <label><input type="radio" name="stage-duration" value="10"> 10 weken</label>
+                            <label><input type="radio" name="stage-duration" value="20"> 20 weken</label>
+                        </fieldset>
+                    </fieldset>
 
                 </fieldset>
 
