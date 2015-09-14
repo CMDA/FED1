@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Formulierpagina</title>
-</head>
-<body>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulierpagina</title>
+    </head>
+    <body>
 
-    <!-- header met logo & navigatie -->
+        <!-- header met logo & navigatie -->
         <header>
-            <h1>
-                CMD Amsterdam - Intranet
-            </h1>
-            <p>
-                Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.
-            </p>
-            <section>
+            <h1>CMD Amsterdam - Intranet</h1>
+            <p>Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.</p>
+            <div class="logo">
                 <img src="img/cmd_icon_letter_c.png" alt="">
                 <img src="img/cmd_icon_letter_m.png" alt="">
                 <img src="img/cmd_icon_letter_d.png" alt="">
-            </section>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -28,207 +24,316 @@
                     <li><a href="#">Stages en projecten</a></li>
                 </ul>
             </nav>
-            <form>
-                <input type="text" placeholder="zoek en klik">
+            <form method="get" action"Formulierpagina.html">
+                <label>
+                    Zoeken
+                    <input type="search" placeholder="Zoek op titel, beschrijving, etc..." name="q">
+                    <button type="submit">Zoek!</button>
+                </label>
             </form>
-            <a href="#">profielpagina Elena Harris</a>
+            <p class="to-profile"><a href="#">Profielpagina Elena Harris</a></p>
         </header>
 
-    <!-- Main article - Contact formulier  -->
+        <!-- Main article - Contact formulier  -->
         <main>
 
-            <p>Here be content</p>
+            <h1>Here be content</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Contactformulier</legend>
+
+                    <label>
+                        <span>Naam:</span>
+                        <input type="text" name="name" required>
+                        <em>vereist</em>
+                    </label>
+
+                    <label>
+                        <span>E-mailadres:</span>
+                        <input type="email" name="email" required>
+                        <em>vereist</em>
+                    </label>
+
+                    <label>
+                        <span>Geboortedatum:</span>
+                        <input type="date" name="birthdate" placeholder="dd-mm-jjjj">
+                    </label>
+
+                    <fieldset>
+                        <legend>Voorkeur</legend>
+                        <label>
+                            <input type="radio" name="voorkeur" value="1">
+                            <span>Eerste voorkeur</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="voorkeur" value="2">
+                            <span>Tweede voorkeur</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Meerdere voorkeuren</legend>
+                        <label>
+                            <input type="checkbox" name="voorkeur-1">
+                            <span>Eerste voorkeur</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="voorkeur-2">
+                            <span>Tweede voorkeur</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="voorkeur-3">
+                            <span>Derde voorkeur</span>
+                        </label>
+                    </fieldset>
+
+                    <label>
+                        <span>Een bijlage:</span>
+                        <input type="file" name="attachment">
+                    </label>
+
+                </fieldset>
+
+                <input type="submit" value="Versturen">
+            </form>
 
         </main>
 
-    <!-- 3 related projects - In the spotlight -->
-        <h1>3 Projecten</h1>
+        <!-- 3 related projects - In the spotlight -->
+        <section class="related">
 
-        <article>
-            <header>
-                <h1>Project: Moet ik Rennen?</h1>
-                <p>Tagline: Moet ik rennen is een applicatie voor de Nederlandse treinen. Hij toont je exact hoeveel tijd er nog is, voordat je trein vertrekt.</p>
-            </header>
-            <section>
-                <h1>Omschrijving</h1>
-                <p>De applicatie laat een aftellende klok zien tot de vertrektijd van het volgende vervoersmiddel in het traject. Aan de hand van de tijd en de afstand tot het perron wordt bepaald of de gebruiker moet rennen of dat hij of zij rustig aan kan doen. Er kan ook gekozen worden voor een alternatieve reisoptie als de gebruiker bijvoorbeeld geen zin heeft om te rennen.  Daarnaast kan er gekozen worden om een andere reis te plannen.  We hebben een prototype gemaakt en het concept is goed ontvangen. We hebben er een zilveren spinaward mee gewonnen en we hebben aandacht gekregen op blogs zoals bijvoorbeeld dutchcowboys, bright.nl, folia en nieuws.nl.</p>
-                <ul>
-                    <li>Studenten: Tom Hoogenboom, Bas Dobbelaer, Mari&euml;lle Rijkenberg, Sven ten Hove</li>
-                    <li>Opdrachtgever: Gemeeente Amsterdam, Dienst DIVV</li>
-                    <li>Jaar: 2012-2013</li>
-                    <li>Studiejaar: Derde jaar</li>
-                    <li>Tags: Mobiele Applicatie, Publieke ruimte, open data</li>
-                </ul>
-            </section>
-            <section>
-                <h1>Links</h1> 
-                <ul>
-                    <li><a href="https://vimeo.com/61573544">Promo</a></li>
-                </ul>
-            </section>
-            <section>
-                <h1>Download</h1>
-                <ul>
-                    <li><a href="bron.pdf" data-kb="1267">project_CMDA_Moet_ik_rennen.pdf</a></li>
-                    <li><a href="bron.vcf">Contactgegevens_CMDA_Moet_ik_rennen.vcf</a></li>
-                    <li><a href="bron.jpg" data-kb="569">Poster_CMDA_Moet_ik_rennen.jpg</a></li>
-                </ul>
-            </section>
-        </article>
+            <h2>3 Projecten</h2>
 
-        <article>
-            <header>
-                <h1>Project: Muzieknote </h1>
-                <p>Tagline: Muzieknote is een webapplicatie waarbij de kracht van muziek en bijzondere verhalen worden gecombineerd om bewoners van Amersfoort met elkaar in contact te brengen en muzikaal te laten inspireren.</p>
-            </header>
-            <section>
-                <h1>Omschrijving</h1>
-                <p>Zorgresidentie Bonafide was op zoek naar een interactieve toepassing om buurtbewoners dichter bij elkaar te brengen, met als nadruk een hechtere binding tussen jong en oud. Sociale binding en zingeving waren belangrijke uitgangspunten. Concreet betekende dit dat het product dat ontworpen moest worden een mogelijkheid tot contact moest bieden tussen buurtbewoners en bewoners van de zorgresidentie.</p>
-                <p>Het product bestaat uit twee onderdelen: een website en een jukebox, welke geplaatst is in de ontmoetingsruimte van de zorgresidentie. Buurtbewoners kunnen hun favoriete nummers indienen op de website en hun herinneringen bij deze nummers vertellen. Dit is zichtbaar voor de leden, die op muzieknummers en/of verhalen kunnen reageren. Hierdoor ontstaat er een eerste contactmoment dat wellicht kan uitgroeien tot een hechte vriendschap. Bewoners en de opdrachtgever hebben positief gereageerd op dit product, dat haarfijn is uitgewerkt. Een externe partij toonde belangstelling om het product te kopen.</p>
-                <ul>
-                    <li>Studenten: Roan Vlutters, Rowdy Boon, Jurgen Ploeger, Roy Visser</li>
-                    <li>Opdrachtgever: Stichting Bonafide</li>
-                    <li>Jaar: 2012-2013</li>
-                    <li>Studiejaar: Derde Jaar</li>
-                    <li>Tags: Installatie, Publieke ruimte, Teamproject, Web app</li>
-                </ul>
-            </section>
-            <section>
-                <h1>Links</h1>
-                <ul>
-                    <li><a href="https://vimeo.com/81740715">Promo</a></li>
-                    <li><a href="http://muzieknote.nl">Website</a></li>
-                    <li><a href="https://www.behance.net/gallery/Muzieknote/14149359">Project</a></li>
-                </ul>
-            </section>
-            <section>
-                <h1>Download</h1>
-                <ul>
-                    <li><a href="bron.pdf" data-kb="33671">Project_CMDA_Muzieknote.pdf</a></li>
-                    <li><a href="bron.vcf">Contactgegevens_CMDA_Muzieknote.vcf</a></li>
-                    <li><a href="bron.jpg" data-kb="678">Poster_CMDA_Muzieknote.jpg</a></li>
-                </ul>
-            </section>
-        </article>
-
-        <article>
-            <header>
-                <h1>Project: TWOSOME</h1>
-                <p>Tagline: TWOSOME is een smartphone applicatie voor jonge samenwonende stelletjes, die moeite hebben met het verdelen en bijhouden van het huishouden en dit een vervelende bezigheid vinden.</p>
-            </header>
-            <section>
-                <h1>Omschrijving</h1>
-                <p>Voor vele jonge samenwonende stelletjes, waarvan beide partners carri&egrave;re aan het maken zijn, wordt het huishouden gezien als een bron van ergernis. Het verdelen en bijhouden van het huishouden gaat dan ook met moeite en verloopt vaak op een oneerlijke manier. Dit komt door ingewortelde gewoontes die lastig te doorbreken zijn. Behavior design en gamification kan hier echter een uitkomst bieden in de vorm van een gebruiksvriendelijke applicatie: TWOSOME.</p>
-                <p>&lsquo;TWOSOME is een applicatie die - op basis van behaviour design en gamification - de doelgroep helpt bij het maken van een eerlijke verdeling van het huishouden, het huishouden helpt bij te houden en ervoor zorgt dat het huishouden als wat leuker ervaren kan worden. De applicatie biedt, per partner, een overzicht met huishoudelijke klusjes voor die week. Deze klusjes worden door de stelletjes zelf ingevoerd en vervolgens verdeeld door de applicatie. De applicatie speelt in op routine en onthoudt wie welke klus wanneer heeft gedaan.</p>
-                <p>De partners kunnen punten verdienen door klusjes af te vinken wanneer deze is uitgevoerd. Door punten te verdienen kunnen de partners ieder naar een eigen doel toe werken &eacute;n kunnen er tickets worden verdient. De tickets zijn een &lsquo;extraatje&rsquo; binnen de applicatie die voor spanning en uitdaging zorgt. Deze tickets kunnen worden ingezet, wat voor privileges in de applicatie en bij de partner kan zorgen.</p>
-                <p>Geen ergernissen, slechte gewoontes en oneerlijke verdelingen meer, TWOSOME maakt het huishouden eerlijker, makkelijker en leuker!</p>
-                <ul>
-                    <li>Student: Aim&eacute;e Rutten</li>
-                    <li>Opdrachtgever: n.v.t.</li>
-                    <li>Jaar: 2013-2014</li>
-                    <li>Studiejaar: Vierde jaar</li>
-                    <li>Tags: Creative Award, Afstudeerproject, Behaviour design, Gamification, Mobiele Applicatie, Social</li>
-                </ul>
-            </section>
-            <section>
-                <h1>Links</h1>
-                <ul>
-                    <li><a href="http://marvl.in/17b008">Promo</a></li>
-                    <li><a href="http://www.pinterest.com/pin/246783254555699159/">Designs</a></li>
-                    <li><a href="https://vimeo.com/98737277">Demo</a></li>
-                </ul>
-            </section>
-            <section>
-                <h1>Download</h1>
-                <ul>
-                    <li><a href="bron.pdf" data-kb="23513">Project_CMDA_TWOSOME.pdf</a></li>
-                    <li><a href="bron.vcf">Contactgegevens_CMDA_TWOSOME.vcf</a></li>
-                    <li><a href="bron.jpg" data-kb="1381">Poster_CMDA_TWOSOME.jpg</a></li>
-                </ul>
-            </section>
-        </article>
-
-    
-    <!-- Sidebar teksten en info: Laatste mededelingen, Agenda, Twitter -->
-        <aside>
-            <section>
-                <h1><a href="#">Laatste mededelingen</a></h1>
+            <article>
+                <header>
+                    <h3>Project: Moet ik Rennen?</h3>
+                    <p>Tagline: Moet ik rennen is een applicatie voor de Nederlandse treinen. Hij toont je exact hoeveel tijd er nog is, voordat je trein vertrekt.</p>
+                </header>
                 <section>
-                    <h1>Teamproject - Usabilitylab rooster</h1>
+                    <h4>Omschrijving</h4>
+                    <p>De applicatie laat een aftellende klok zien tot de vertrektijd van het volgende vervoersmiddel in het traject. Aan de hand van de tijd en de afstand tot het perron wordt bepaald of de gebruiker moet rennen of dat hij of zij rustig aan kan doen. Er kan ook gekozen worden voor een alternatieve reisoptie als de gebruiker bijvoorbeeld geen zin heeft om te rennen.  Daarnaast kan er gekozen worden om een andere reis te plannen.  We hebben een prototype gemaakt en het concept is goed ontvangen. We hebben er een zilveren spinaward mee gewonnen en we hebben aandacht gekregen op blogs zoals bijvoorbeeld dutchcowboys, bright.nl, folia en nieuws.nl.</p>
+                    <dl>
+                        <dt>Studenten</dt>
+                        <dd>Tom Hoogenboom</dd>
+                        <dd>Bas Dobbelaer</dd>
+                        <dd>Mariëlle Rijkenberg</dd>
+                        <dd>Sven ten Hove</dd>
+
+                        <dt>Opdrachtgever</dt>
+                        <dd>Gemeeente Amsterdam, Dienst DIVV</dd>
+
+                        <dt>Jaar</dt>
+                        <dd>2012-2013</dd>
+
+                        <dt>Studiejaar</dt>
+                        <dd>Derde jaar</dd>
+
+                        <dt>Tags</dt>
+                        <dd>Mobiele Applicatie</dd>
+                        <dd>Publieke ruimte</dd>
+                        <dd>open data</dd>
+                    </dl>
+                </section>
+                <section>
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://vimeo.com/61573544">Promo</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Downloads</h4>
+                    <ul>
+                        <li><a href="bron.pdf" data-kb="1267">project_CMDA_Moet_ik_rennen.pdf</a> (1.3MB)</li>
+                        <li><a href="bron.vcf">Contactgegevens_CMDA_Moet_ik_rennen.vcf</a></li>
+                        <li><a href="bron.jpg" data-kb="569">Poster_CMDA_Moet_ik_rennen.jpg</a> (569KB)</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Project: Muzieknote</h3>
+                    <p>Tagline: Muzieknote is een webapplicatie waarbij de kracht van muziek en bijzondere verhalen worden gecombineerd om bewoners van Amersfoort met elkaar in contact te brengen en muzikaal te laten inspireren.</p>
+                </header>
+                <section>
+                    <h4>Omschrijving</h4>
+                    <p>Zorgresidentie Bonafide was op zoek naar een interactieve toepassing om buurtbewoners dichter bij elkaar te brengen, met als nadruk een hechtere binding tussen jong en oud. Sociale binding en zingeving waren belangrijke uitgangspunten. Concreet betekende dit dat het product dat ontworpen moest worden een mogelijkheid tot contact moest bieden tussen buurtbewoners en bewoners van de zorgresidentie.</p>
+                    <p>Het product bestaat uit twee onderdelen: een website en een jukebox, welke geplaatst is in de ontmoetingsruimte van de zorgresidentie. Buurtbewoners kunnen hun favoriete nummers indienen op de website en hun herinneringen bij deze nummers vertellen. Dit is zichtbaar voor de leden, die op muzieknummers en/of verhalen kunnen reageren. Hierdoor ontstaat er een eerste contactmoment dat wellicht kan uitgroeien tot een hechte vriendschap. Bewoners en de opdrachtgever hebben positief gereageerd op dit product, dat haarfijn is uitgewerkt. Een externe partij toonde belangstelling om het product te kopen.</p>
+                    <dl>
+                        <dt>Studenten</dt>
+                        <dd>Roan Vlutters</dd>
+                        <dd>Rowdy Boon</dd>
+                        <dd>Jurgen Ploeger</dd>
+                        <dd>Roy Visser</dd>
+
+                        <dt>Opdrachtgever</dt>
+                        <dd>Stichting Bonafide</dd>
+
+                        <dt>Jaar</dt>
+                        <dd>2012-2013</dd>
+
+                        <dt>Studiejaar</dt>
+                        <dd>Derde Jaar</dd>
+
+                        <dt>Tags</dt>
+                        <dd>Installatie</dd>
+                        <dd>Publieke ruimte</dd>
+                        <dd>Teamproject</dd>
+                        <dd>Web app</dd>
+                    </dl>
+                </section>
+                <section>
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://vimeo.com/81740715">Promo</a></li>
+                        <li><a href="http://muzieknote.nl">Website</a></li>
+                        <li><a href="https://www.behance.net/gallery/Muzieknote/14149359">Project</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Downloads</h4>
+                    <ul>
+                        <li><a href="bron.pdf" data-kb="33671">Project_CMDA_Muzieknote.pdf</a></li>
+                        <li><a href="bron.vcf">Contactgegevens_CMDA_Muzieknote.vcf</a></li>
+                        <li><a href="bron.jpg" data-kb="678">Poster_CMDA_Muzieknote.jpg</a></li>
+                    </ul>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Project: TWOSOME</h3>
+                    <p>Tagline: TWOSOME is een smartphone applicatie voor jonge samenwonende stelletjes, die moeite hebben met het verdelen en bijhouden van het huishouden en dit een vervelende bezigheid vinden.</p>
+                </header>
+                <section>
+                    <h4>Omschrijving</h4>
+                    <p>Voor vele jonge samenwonende stelletjes, waarvan beide partners carrière aan het maken zijn, wordt het huishouden gezien als een bron van ergernis. Het verdelen en bijhouden van het huishouden gaat dan ook met moeite en verloopt vaak op een oneerlijke manier. Dit komt door ingewortelde gewoontes die lastig te doorbreken zijn. Behavior design en gamification kan hier echter een uitkomst bieden in de vorm van een gebruiksvriendelijke applicatie: TWOSOME.</p>
+                    <p>‘TWOSOME is een applicatie die - op basis van behaviour design en gamification - de doelgroep helpt bij het maken van een eerlijke verdeling van het huishouden, het huishouden helpt bij te houden en ervoor zorgt dat het huishouden als wat leuker ervaren kan worden. De applicatie biedt, per partner, een overzicht met huishoudelijke klusjes voor die week. Deze klusjes worden door de stelletjes zelf ingevoerd en vervolgens verdeeld door de applicatie. De applicatie speelt in op routine en onthoudt wie welke klus wanneer heeft gedaan.</p>
+                    <p>De partners kunnen punten verdienen door klusjes af te vinken wanneer deze is uitgevoerd. Door punten te verdienen kunnen de partners ieder naar een eigen doel toe werken én kunnen er tickets worden verdient. De tickets zijn een ‘extraatje’ binnen de applicatie die voor spanning en uitdaging zorgt. Deze tickets kunnen worden ingezet, wat voor privileges in de applicatie en bij de partner kan zorgen.</p>
+                    <p>Geen ergernissen, slechte gewoontes en oneerlijke verdelingen meer, TWOSOME maakt het huishouden eerlijker, makkelijker en leuker!</p>
+                    <dl>
+                        <li>Student: Aimée Rutten</li>
+                        <li>Opdrachtgever: n.v.t.</li>
+                        <li>Jaar: 2013-2014</li>
+                        <li>Studiejaar: Vierde jaar</li>
+                        <li>Tags: Creative Award, Afstudeerproject, Behaviour design, Gamification, Mobiele Applicatie, Social</li>
+                    </dl>
+                </section>
+                <section>
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="http://marvl.in/17b008">Promo</a></li>
+                        <li><a href="http://www.pinterest.com/pin/246783254555699159/">Designs</a></li>
+                        <li><a href="https://vimeo.com/98737277">Demo</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Downloads</h4>
+                    <ul>
+                        <li><a href="bron.pdf" data-kb="23513">Project_CMDA_TWOSOME.pdf</a></li>
+                        <li><a href="bron.vcf">Contactgegevens_CMDA_TWOSOME.vcf</a></li>
+                        <li><a href="bron.jpg" data-kb="1381">Poster_CMDA_TWOSOME.jpg</a></li>
+                    </ul>
+                </section>
+            </article>
+
+        </section> <!-- #related -->
+
+        <!-- Sidebar teksten en info: Laatste mededelingen, Agenda, Twitter -->
+        <aside>
+
+            <section>
+                <h2><a href="#">Laatste mededelingen</a></h2>
+                <article>
+                    <h3>Teamproject - Usabilitylab rooster</h3>
                     <p>
                         <time datetime="2012-02-14">14 februari 2012</time>
                         <span><a href="#">A.W.M. Feleus</a></span>
                         Beste studenten, Aanstaande maandag is het instructiecollege voor het usabilitylab en vanaf dinsdag starten de eerste teams met testen. In jullie rooster is aangegeven wanneer jullie gaan testen en kunnen jullie ook zien met welk team. Let er op dat ...
                         <a href="#">lees verder</a>
                     </p>
-                </section>
-                <section>
-                    <h1>V2 assessments rooster Blok 3</h1>
+                </article>
+                <article>
+                    <h3>V2 assessments rooster Blok 3</h3>
                     <p>
                         <time datetime="2012-02-15">15 februari 2012</time>
                         <span><a href="#">J.B. Wijnmaalen</a></span>
                         Het V2 assessment rooster voor Blok 3 kan je  downloaden van de vakpagina.
                         <a href="#">lees verder</a>
                     </p>
-                </section>
-                <section>
-                    <h1>Portfoliogesprekken V1</h1>
+                </article>
+                <article>
+                    <h3>Portfoliogesprekken V1</h3>
                     <p>
                         <time datetime="2012-02-27">27 februari 2012</time>
                         <span><a href="#">H.H.G. Konickx</a></span>
                         Het rooster voor mijn portfoliogesprekken staat online bij SLC Blok 3. Let op! Er kan nog eea veranderen. Houd het intranet in de gaten.
                         <a href="#">lees verder</a>
                     </p>
-                </section>
-                <section>
-                    <h1>Mediasociologie: tentamen en huiswerk week 7</h1>
+                </article>
+                <article>
+                    <h3>Mediasociologie: tentamen en huiswerk week 7</h3>
                     <p>
                         <time datetime="2012-02-27">27 februari 2012</time>
                         <span><a href="#">T. Ploeg</a></span>
                         Beste studenten Mediasociologie, Het tentamen Mediasociologie vindt plaats op maandag 26 maart van 16.50u tot 18.30u. Locatie wordt nog bekend gemaakt. Voor...
                         <a href="#">lees verder</a>
                     </p>
-                </section>
-                <section>
-                    <h1>Verdien 2 SRP!</h1>
+                </article>
+                <article>
+                    <h3>Verdien 2 SRP!</h3>
                     <p>
                         <time datetime="2012-02-29">29 februari 2012</time>
                         <span><a href="#">L.C.D.J. van der Vlies</a></span>
                         Interesse in online marketing? Verdien 2 SRP bij een project voor Knowhowww, een online marketingbureau in Amsterdam. Een van de projecten voor dit bureau is Pet Plan, een verzekeringsmaatschappij voor huisdieren. Knowhowww wil graag een viral ...
                         <a href="#">lees verder</a>
                     </p>
-                </section>
+                </article>
             </section>
             
             <section>
-                <h1><a href="#">Uitagenda</a></h1>
-                <section>
-                    <h1>Fiber Festival</h1>
-                    <h1>Op <time datetime="2012-03-24">24 maart</time> in het Trouw gebouw</h1>
+                <h2><a href="#">Uitagenda</a></h2>
+                <article>
+                    <h3>Fiber Festival</h3>
+                    <footer>
+                        <p>Op <time datetime="2012-03-24">24 maart</time> in het Trouw gebouw</p>
+                    </footer>
                     <p>
                         <span><a href="#">M.S. t Hooft</a></span>
                          Audiovisueel netwerkfestival in Trouw Amsterdam. Meer info: http://www.fiber-space.nl
                         <a href="#">lees verder</a>
                     </p>
-                </section>
-                <section>
-                    <h1>Mobilism 2012</h1>
-                    <h1>Van <time datetime="2012-05-10">10 mei</time> tot <time datetime="2012-05-11">11 mei</time> in Tuschinski</h1>
+                </article>
+                <article>
+                    <h3>Mobilism 2012</h3>
+                    <footer>
+                        <p>Van <time datetime="2012-05-10">10 mei</time> tot <time datetime="2012-05-11">11 mei</time> in Tuschinski</p>
+                    </footer>
                     <p>
                         <span><a href="#">M.S. t Hooft</a></span>
                          Mobile is becoming increasingly important to web designers and developers because users expect a site to work on their phones. Simultaneously, the web is becoming increasingly important to the mobile world because it is the only way to deploy an ...
                         <a href="#">lees verder</a>
                     </p>
-                </section>
-                <section>
-                    <h1>Appril</h1>
-                    <h1>Van <time datetime="2012-04-02">2 april</time> tot <time datetime="2012-04-30">30 april</time> in Amsterdam</h1>
+                </article>
+                <article>
+                    <h3>Appril</h3>
+                    <footer>
+                        <p>Van <time datetime="2012-04-02">2 april</time> tot <time datetime="2012-04-30">30 april</time> in Amsterdam</p>
+                    </footer>
                     <p>
                         <span><a href="#">M. Blekemolen</a></span>
                          Apps zijn niet meer weg te denken uit het dagelijks leven van miljoenen gebruikers. Amsterdam heeft het ideale klimaat voor app ontwikkelaars. De stad is hard op weg om internationaal door te breken als Appsterdam, de gelijknamige organisatie die ook ...
                         <a href="#">lees verder</a>
                     </p>
-                </section>
+                </article>
             </section>
             
             <!--
@@ -239,66 +344,86 @@
 
         </aside>
 
-    
-    <!-- Footer informatie -->
+        <!-- Footer informatie -->
         <footer>
-            <h1>Sitemap</h1>
-            <ul>
-                <li>Opleiding
-                    <ul>
-                        <li>Visie & Beleid</li>
-                        <li>Opbouw Studieprogramma</li>
-                        <li>Competenties</li>
-                        <li>Diploma</li>
-                        <li>Beroepen</li>
-                    </ul>
-                </li>
-                <li>Onderwijsprogramma
-                    <ul>
-                        <li>Mededelingen</li>
-                        <li>Uitagenda</li>
-                        <li>Propedeuse</li>
-                        <li>Verdieping 1</li>
-                        <li>Verdieping 2</li>
-                        <li>Afstuderen</li>
-                    </ul>
-                </li>
-                <li>Organisatie
-                    <ul>
-                        <li>Contact</li>
-                        <li>Blog</li>
-                        <li>Docenten</li>
-                        <li>Onderwijsbureau</li>
-                        <li>Stagebureau</li>
-                        <li>Buitenlandbureau</li>
-                        <li>Examencommissie</li>
-                        <li>Decaan</li>
-                    </ul>
-                </li>
-                <li>Stages en Projecten
-                    <ul>
-                        <li>Stages</li>
-                        <li>Projecten</li>
-                    </ul>
-                </li>
-            </ul>
-            <h1>Contact</h1>
-                CMD Amsterdam
-                Bezoekadres: Rhijnspoorplein 1, 1091 GC Amsterdam
-                Postadres: Postbus 1025, 1000 BA Amsterdam
-                Telefoon: 020 595 1855
-                Email: <a href="#">info@cmd.hva.nl</a>
-                RSS: <a href="#">Feed intranet</a>
-            <h1>Zoeken</h1>
-                <form>
-                    <input type="text">
-                    <input type="submit">
+            <section>
+                <h2>Sitemap</h2>
+                <ul>
+                    <li>
+                        <a href="#">Opleiding</a>
+                        <ul>
+                            <li><a href="#">Visie &amp; Beleid</a></li>
+                            <li><a href="#">Opbouw Studieprogramma</a></li>
+                            <li><a href="#">Competenties</a></li>
+                            <li><a href="#">Diploma</a></li>
+                            <li><a href="#">Beroepen</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Onderwijsprogramma</a>
+                        <ul>
+                            <li><a href="#">Mededelingen</a></li>
+                            <li><a href="#">Uitagenda</a></li>
+                            <li><a href="#">Propedeuse</a></li>
+                            <li><a href="#">Verdieping 1</a></li>
+                            <li><a href="#">Verdieping 2</a></li>
+                            <li><a href="#">Afstuderen</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Organisatie</a>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Docenten</a></li>
+                            <li><a href="#">Onderwijsbureau</a></li>
+                            <li><a href="#">Stagebureau</a></li>
+                            <li><a href="#">Buitenlandbureau</a></li>
+                            <li><a href="#">Examencommissie</a></li>
+                            <li><a href="#">Decaan</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Stages en Projecten</a>
+                        <ul>
+                            <li><a href="#">Stages</a></li>
+                            <li><a href="#">Projecten</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>CMD Amsterdam</p>
+                <p>Bezoekadres: Rhijnspoorplein 1, 1091 GC Amsterdam</p>
+                <p>Postadres: Postbus 1025, 1000 BA Amsterdam</p>
+                <p>Telefoon: 020 595 1855</p>
+                <p>Email: <a href="#" class="email">info@cmd.hva.nl</a></p>
+                <p>RSS: <a href="#" class="rss">Feed intranet</a></p>
+            </section>
+
+            <section id="search">
+                <h2>Zoeken</h2>
+                <form method="get" action="Formulierpagina.html">
+                    <input type="search">
+                    <input type="submit" value="Zoeken">
                 </form>
-            <h1>About</h1>
-                <p>CMD Amsterdam is een ontwerp opleiding voor Interactieve Media. Op de opleiding Communication & Multimedia Design (CMD) Amsterdam leer je alles over het ontwerpen van online interactieve media. Dit betekent begrijpen, bedenken en maken van interactieve mediatoepassingen zoals websites, mobiele applicaties en interactieve televisie. </p>
-            <h1>Credits</h1>
+            </section>
+
+            <section id="about" lang="en">
+                <h2>About</h2>
+                <p>CMD Amsterdam is een ontwerp opleiding voor Interactieve Media. Op de opleiding Communication &amp; Multimedia Design (CMD) Amsterdam leer je alles over het ontwerpen van online interactieve media. Dit betekent begrijpen, bedenken en maken van interactieve mediatoepassingen zoals websites, mobiele applicaties en interactieve televisie. </p>
+
+            </section>
+
+            <section id="credits" lang="en">
+                <h2>Credits</h2>
                 <p>© 2015 Hogeschool van Amsterdam - Domein Digitale Media en Creatieve Industrie - CMD Amsterdam</p>
-                <p><a href="#">Geef ons feedback</a></p>
+            </section>
+
+            <p id="feedback"><a href="#">Geef ons feedback</a></p>
+
         </footer>
 
     </body>
