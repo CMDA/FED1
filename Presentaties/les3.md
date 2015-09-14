@@ -2,13 +2,13 @@
 # I’ve got < em >
 ###### Frontend development - les 3
 
-<img src="http://image.spreadshirt.com/image-server/v1/products/110835203/views/1,width=280,height=280.png" alt="kledingvoorschriften">
+<img src="http://image.spreadshirt.com/image-server/v1/products/110835203/views/1,width=280,height=280.png" width="100%" alt="kledingvoorschriften">
 
 !
 
 # I’ve got < em >
 ###### Frontend development - les 3
-Deze les gaat over typografie, we gaan het hebben over het Box model, het gaat over het positioneren van elementen, en units, zoals pixels, ems en procenten. 
+Deze les gaat over typografie, we gaan het hebben over het Box model, het gaat over het positioneren van elementen, en units, zoals pixels, ems en procenten, die je o.a. voor de typografie kan gebruiken. 
 
 
 
@@ -57,11 +57,11 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 !
 
 # 4. Coden
-###### Frontend development - les 2
+###### Frontend development - les 3
 
-[Klik hier voor opdracht 3](http://cmda.github.io/FED1/Opdrachten/les3-opdrachten.html)
+[Klik hier voor opdrachten voor les 3](http://cmda.github.io/FED1/Opdrachten/les3-opdrachten.html)
 
-Opdracht 3 bestaat uit ...
+Opdracht 3 bestaat uit het box model, positioning, typografie en units voor layout
 
 < / section >
 
