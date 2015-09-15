@@ -20,7 +20,7 @@ Voor de CSS opdrachten van deze week moet je [deze](https://github.com/CMDA/FED1
 Naast de main krijg je een header, footer en aside. Ook zijn aan de artikelpagina 5 gerelateerde artikelen toegevoegd, na het lezen van het artikel is de bezoeker misschien geïnteresseerd nog een paar artikelen op de site te lezen? 
 Aan de formulierpagina zijn 3 voorbeeld projecten toegevoegd, het idee hierbij is dat als een bezoeker deze pagina bezoekt, ook een paar voorbeelden van projecten bekijken kunnen worden.
 
-* [Artikelpagina.html](https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/html/Arikelpagina.html)
+* [Artikelpagina.html](https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/html/Artikelpagina.html)
 * [Formulierpagina.html](https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/html/Formulierpagina.html)
 
 
