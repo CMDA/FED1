@@ -98,7 +98,7 @@ Hoeveel ruimte moet er tussen de kolommen?
 
 ###Meer resources
 
-* Resource: 
+* Resource: [Learn CSS layout](http://learnlayout.com/toc.html)
 
 
 
