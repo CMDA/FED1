@@ -32,10 +32,9 @@ Aan de formulierpagina zijn 3 voorbeeld projecten toegevoegd, het idee hierbij i
 
 ###Box model
 
-In deze oefening ga je de 5 gerelateerde artikelen naast elkaar tonen. Gebruik hiervoor de float, positioning en de inline-block methode. Wat is het verschil? Wat valt je op aan het gebruik van deze methoden?
+a) In deze oefening ga je de 5 gerelateerde artikelen naast elkaar tonen. Gebruik hiervoor de float, positioning en de inline-block methode. Wat is het verschil? Wat valt je op aan het gebruik van deze methoden?
 
-Dit kun je natuurlijk ook toepassen op andere elementen: Toon de gerelateerde artkelen (of projecten) samen met de mededelingen & agenda-items van de aside, in  blokken naast en onder elkaar, afhankelijk van de breedte van het scherm. Dit kan een interessante layout zijn als bv de pagina heel breed is ... 1440 pixels? 1920 pixels?
-
+b) Dit kun je natuurlijk ook toepassen op andere elementen: Toon de gerelateerde artkelen (of projecten) samen met de mededelingen & agenda-items van de aside, in  blokken naast en onder elkaar, afhankelijk van de breedte van het scherm. Dit kan een interessante layout zijn als bv de pagina heel breed is ... 1440 pixels? 1920 pixels?
 
 <img src="assets/3.1Wireframe projecten mededelingen agenda items.png" width="100%" alt="">
 
@@ -46,8 +45,7 @@ Dit kun je natuurlijk ook toepassen op andere elementen: Toon de gerelateerde ar
 * [box-sizing](http://css-tricks.com/box-sizing/) 
 * [all about floats](http://css-tricks.com/all-about-floats/)
 * [positioning](http://css-tricks.com/almanac/properties/p/position/)
-* [display](http://css-tricks.com/almanac/properties/d/display/)
-* [inline block](http://css-tricks.com/snippets/css/cross-browser-inline-block/)
+* [display: inline block](https://css-tricks.com/almanac/properties/d/display/)
 
 !
 
