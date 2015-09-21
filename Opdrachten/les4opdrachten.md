@@ -19,7 +19,7 @@
 
 Vorige week heb je geëxperimenteerd met positioning, float en display inline block om de layout aan te passen. Vandaag krijg je nog een methode: de Flexbox.
 
-a) Experimenteer met de Flexbox op de header: Zet alle items in de Header op een rij. Draai daarna de volgorde om, het laatste items vooraan (links) en de eerste achteraan (rechts). Kun je de 6 elementen ook zo naast elkaar plaatsen zodat ze netjes horizontaal worden uitgelijnd? Ook als je het browser venster kleiner/groter maakt?
+a) Experimenteer met de Flexbox op de header: Zet alle items in de Header op een rij. Draai daarna de volgorde om, het laatste items vooraan (links) en de eerste achteraan (rechts). Kun je de 6 elementen ook zo naast elkaar plaatsen dat ze netjes horizontaal worden uitgelijnd? Ook als je het browser venster kleiner of groter maakt?
 
 b) In de 5 'related' articles van de artikel-pagina staat een footer met de auteur-informatie. Kun je deze ook onder aan het artikel zetten met behulp van de Flexbox? 
 
@@ -35,16 +35,16 @@ b) In de 5 'related' articles van de artikel-pagina staat een footer met de aute
 ###### Frontend development - les 4
 
 
-###Mediaqueries
-De artikel- en formulierpagina heb je in les 2 en 3 gestyled naar goed leesbare content, met goede font-groottes, regel-lengte en line-height. 
+###Media queries
+De artikel- en formulierpagina heb je in les 2 en 3 gestyled naar goed leesbare content, met goede font-groottes, regel-lengte en line-height. Misschien wat schaduw en een blinky border-radius?
 
-Met behulp van Mediaquerie kun je verschillende breakpoints maken. Werk vanaf mobiel naar bredere schermen. Bepaal de Mediaquery. Vanaf welke breedte ga je over naar een andere layout? Dat kan bijvoorbeeld als de regels te lang worden en er genoeg (wit)ruimte is om een kolom naast het artikel te plaatsen. Enzovoort.
+Met behulp van Media querie kun je verschillende breakpoints maken. Werk nu vanaf mobiel naar bredere schermen. Bepaal de verschillende Media queries. Vanaf welke breedte ga je over naar een andere layout? Dat kan bijvoorbeeld als de regels te lang worden en er genoeg (wit)ruimte is om een kolom naast het artikel te plaatsen. Maak minimaal 3 breakpoints met behulp van Media queries, en maak voor elke een geschikte layout.
 
 
 **Resources**    
 
 * Resource: [How To Use CSS3 Media Queries To Create a Mobile Version of Your Website by Rachel Andrew ](http://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
-* [Mediaqueries](https://css-tricks.com/css-media-queries/)
+* [Media queries](https://css-tricks.com/css-media-queries/)
 * [W3C Media Queries Specs](http://www.w3.org/TR/css3-mediaqueries/)
 
 !
@@ -56,11 +56,11 @@ Deze breakpoints gaan we maken:
 <img src="assets/4.1 Wireframe Intranet responsive design 1.png" width="100%" alt=""></a>
 
 <a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.2%20Wireframe%20Intranet%20responsive%20design%202.png">
-Zo zien de verschillende layouts er dan uit:
+Zo kunnen de verschillende layouts er uit zien:
 <img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
 
 <a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
-Wireframe schetsen voor de 3 breakpoints:
+Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 <img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
 
 !
