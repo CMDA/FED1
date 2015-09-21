@@ -49,7 +49,7 @@ Met behulp van Media querie kun je verschillende breakpoints maken. Werk nu vana
 
 !
 
-###Voorbeeld layouts voor verschillende schermgroottes voor de artikelpagina.
+###Voorbeeld layouts van verschillende schermgroottes voor de artikelpagina.
 
 <a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
 Deze breakpoints gaan we maken:
