@@ -60,7 +60,7 @@ Zo zien de verschillende layouts er dan uit:
 <img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
 
 <a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
-Wireframe schetsen voor 3 breakpoints:
+Wireframe schetsen voor de 3 breakpoints:
 <img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
 
 !

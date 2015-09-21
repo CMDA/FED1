@@ -30,6 +30,7 @@ Programma & leerdoelen voor vandaag:
 
 College [Display: none](../Colleges/les4-display-none/index.html)
 over Flexbox en Mediaqueries
+
 !
 
 # 3. Weekly Nerd - 30 minuten
