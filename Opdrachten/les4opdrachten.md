@@ -19,10 +19,14 @@
 
 Vorige week heb je geëxperimenteerd met positioning, float en display inline block om de layout aan te passen. Vandaag krijg je nog een methode: de Flexbox.
 
+a) Experimenteer met de Flexbox op de header: Zet alle items in de Header op een rij. Draai daarna de volgorde om, het laatste items vooraan (links) en de eerste achteraan (rechts). Kun je de 6 elementen ook zo naast elkaar plaatsen zodat ze netjes horizontaal worden uitgelijnd? Ook als je het browser venster kleiner/groter maakt?
+
+b) In de 5 'related' articles van de artikel-pagina staat een footer met de auteur-informatie. Kun je deze ook onder aan het artikel zetten met behulp van de Flexbox? 
+
 
 * Resource: [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * Resource: [Flexbox insights](http://buildawesomewebsites.com/blog/46104/flexbox-insights)
-* Flexbox, [Can I Use?](http://caniuse.com/#feat=flexbox) 
+* [Flexbox - Can I Use?](http://caniuse.com/#feat=flexbox) 
 
 
 !
@@ -32,339 +36,60 @@ Vorige week heb je geëxperimenteerd met positioning, float en display inline bl
 
 
 ###Mediaqueries
+De artikel- en formulierpagina heb je in les 2 en 3 gestyled naar goed leesbare content, met goede font-groottes, regel-lengte en line-height. 
 
-Met behulp van een mediaquerie kun je breakpoints maken. 
+Met behulp van Mediaquerie kun je verschillende breakpoints maken. Werk vanaf mobiel naar bredere schermen. Bepaal de Mediaquery. Vanaf welke breedte ga je over naar een andere layout? Dat kan bijvoorbeeld als de regels te lang worden en er genoeg (wit)ruimte is om een kolom naast het artikel te plaatsen. Enzovoort.
 
 
 **Resources**    
 
 * Resource: [How To Use CSS3 Media Queries To Create a Mobile Version of Your Website by Rachel Andrew ](http://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
-* [mediaqueries](https://css-tricks.com/css-media-queries/)
+* [Mediaqueries](https://css-tricks.com/css-media-queries/)
 * [W3C Media Queries Specs](http://www.w3.org/TR/css3-mediaqueries/)
 
+!
+
+###Voorbeeld layouts voor verschillende schermgroottes voor de artikelpagina.
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
+Deze breakpoints gaan we maken:
+<img src="assets/4.1 Wireframe Intranet responsive design 1.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.2%20Wireframe%20Intranet%20responsive%20design%202.png">
+Zo zien de verschillende layouts er dan uit:
+<img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
+Wireframe schetsen voor 3 breakpoints:
+<img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
 
 !
 
-!
+###Stappenplan en checklist
 
-!
+1. Wat doe je met de Header in een smal scherm?
+2. Waar gaat de Sidebar heen als het scherm breed is?
+3. Hoe staan de sections met Projecten of related content?
+4. Wat gebeurt er als de gebruiker de pagina gaat zoomen?
 
+1. Zorg ervoor dat de Meta Viewport goed staat, waar is die ook alweer voor?
 
-
-
-## Flexbox
-
-In deze opdracht gaan we experimenteren met Flexbox. 
-
-Voeg eerst deze HTML toe aan je artikel-pagina, Stop dit in je header:
-1. Nav met menu-items in een < ul >
-2. Titel van de pagina
-3. Beschrijving
-3. Logo
-4. Formulier met zoekveld
-5. Naam van een persoon die is ingelogd, met een link naar zij/haar profielpagina
-
-[Hier](../Maakopdracht/header.html) staat voorbeeld HTML. Of pak het van Github: [header.html](https://github.com/CMDA/FED1/tree/gh-pages/Maakopdracht)
-
-!
-
-## Flexbox toepassen op artikelen
-
-Voeg deze HTML toe aan je artikel-pagina:
-[Artikelen](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelen.html) 
-en [Projecten](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Projecten.html).
-
-Nu gaan we de auteur-informatie, die in het footer-element staat, 
-onderaan het artikel zetten met behulp van de Flexbox.
-
-    <article>
-        <header></header>
-        <footer></footer> <<< TOON FOOTER ONDERAAN ARTICLE
-        <section>
-            <p></p>
-        </section>
-    </article>
-
-
-Voorbeeld in [Dablet](http://dabblet.com/gist/64c00123c655a866ce24)
-
-	display: flex;
-	flex-direction: column;
-	/*justify-content: space-between;
-	align-items: flex-start;*/
-
-    order: 1
-
-!
-
-
-## Flexbox: perfect centering
-
-Maak alle elementen in de header even breed/hoog, bv 200px/200px
-
-En centreer de elementen in het midden.
-
-    display
-    child: margin: auto
-
-
-
-Antwoord in [Dablet](http://dabblet.com/gist/72f1c1ce513026d36e67)
-
-    header{ 
-        display: flex; 
-    }
-    child { 
-        margin: auto; 
-    }
-
-
-!
-
-## Flexbox: Flex-direction
-
-Zet de volgorde van de 6 items andersom,
-het laatste items vooraan (links) en de eerste achteraan (rechts)
-
-    flex-direction: row | row-reverse | column | column-reverse;
-
-
-
-Antwoord in [Dablet](http://dabblet.com/gist/e90a247fc8c019aff341)
-
-    header{ 
-        display: flex; 
-        flex-direction: row-reverse; 
-    }
-
-
-!
-
-## Flexbox: justify-content
-
-Zorg dat alle 6 items netjes horizontaal verdeeld worden, zonder dat je marges aan de child elementen meegeeft. Zet die marge op 0.
-
-    justify-content: flex-start | flex-end | center | space-between | space-around;
-
-
-
-Antwoord in [Dablet](http://dabblet.com/gist/547ee2eb7ea4d05cf263)
-
-    header{ 
-        display: flex; 
-        justify-content: flex-end;
-    }
-
-
-
-!
-
-## Flexbox: align-items
-
-Maak de hoogte van de 6 items variable, afhankelijk van de content.
-Zet de items allemaal onder aan de header.
-
-    align-items: flex-start | flex-end | center | baseline | stretch;
-
-
-
-Antwoord in [Dablet](http://dabblet.com/gist/5d905d60ad8780fb3335)
-
-    header{ 
-        display: flex; 
-        align-items: flex-end;
-    }
-
-!
-
-## Flexbox: order
-
-Verander nu de volgorde van de 6 items: 
-Zet de section met het logo vooraan zonder in de HTML te prutsen ...
-
-
-    order
-
-
-
-
-Antwoord in [Dablet](http://dabblet.com/gist/2deaa9390b8a6051af1a)
-
-
-    child {
-        order: <integer>;
-    }
-
-!
-
-## Flexbox: netjes flex-wrap
-
-Zet de 6 elementen naast elkaar, behoudt de fixed breedte/hoogte. Zorg ervoor dat ze netjes horizontaal worden uitgelijnd, ook als je het browser venster kleiner/groter maakt.
-
-    display
-    flex-direction
-    flex-wrap
-    justify-content
-
-
-
-
-
-Antwoord in [Dablet](http://dabblet.com/gist/796748defc249089ce4a)
-
-Kun je ook een paar items breder maken?
-Bijvoorbeeld de Nav en H1?
-    
-    child {
-        flex-grow: <number>; /* default 0 */
-        }
-
-
-!
-
-
-## Proportionele medaqueries: Artikelpagina
-
-Zet je artikelpagina op met proportionele mediaqueries
-
-Zoals deze zijn beschreven in het artikel
-[The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
-
-Stappenplan:
-
-1. Waar gaat de Sidebar heen als het scherm breed is?
-2. Hoe staan de sections met Projecten en Nieuwartikelen?
-3. Wat doe je met de Header in een smal scherm?
-5. Wat gebeurt er als de gebruiker de pagina gaat zoomen?
-
-
-
-!
-
-
-
-## Proportionele medaqueries: Formulierpagina
-
-Zet je formulierpagina op met proportionele mediaqueries
-
-Stappenplan:
-
-1. Staan alle onderdelen goed met de CSS die je voor de artikelpagina hebt gemaakt?
-2. Pas je formulier aan aan de schermbreedte/hoogte
-
-
-!
-
-
-## Mobile first: Artikelpagina
-
-Je artikelpagina bestaat nu uit 
-
-* Een header - met nav, titel, logo, search en meer
-* Het hoofdartikel - in een < main >
-* 5 nieuws-artikelen - in een < aside > of < section >
-* 3 project-artikelen - in een < aside > of < section >
-
-[Voorbeeldplaatje HMTL Artikelpagina]()
-
-**Maak je artikelpagina Mobile first**
-
-1. Pas de marges en/of padding van de pagina aan (deze mogen dichter op de rand van je telefoon - probeer maar eens)
-2. Goede leesbare teksten voor mobiel (font-size, line-height, regel-lengte)
+1. Pas de marges en/of padding van de pagina aan in de mobile view (deze mogen dichter op de rand van je telefoon - probeer maar eens)
+2. Heb je goede leesbare teksten voor mobiel (font-size, line-height, regel-lengte)
 3. Hoeveel ruimte heeft de header nodig op mobiel?
-4. Misschien wil je van de project-artikelen en nieuws-artikelen op mobiel wel alleen de titel laten zien? Met een toggle inklappen/uitklappen ?
+4. Misschien wil je van de project-artikelen en related-artikelen op mobiel wel alleen de titel laten zien? Met een toggle inklappen/uitklappen ?
 
-
-
-Antwoord mobiele view van een website.
-
-* Marges en Padding op 0, of weinig
-* Hoe groot staat de letter?
-* Line-height?
-* Lengte van de zinnen hoef je je meestal niet druk om te maken
-staan er meer dan 10 woorden in één zin?
-Is de max-width 24-26em? (easy-to-read-column les 4)
-
-
-!
-
-## Tablet view: Artikelpagina
-
-<br>
-**Pas de artikelpagina layout aan aan het tablet-formaat met een mediaquery**
-    
 1. Zijn de regels van het < main > artikel niet te lang?
 2. Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
-3. Kunnen de project-artikelen en nieuws-artikelen in 2 kolommen?
-
-
-antwoord
-
-**Mediaquery**
-
-Zet de Meta Viewport
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-<br>
-Bepaal de Mediaquery. Vanaf welke breedte ga je over naar een andere layout?
-
-    @media (min-width: 30em) {
-    body {
-            max-width: 50em;
-	   }
-    }
-
-!
-
-
-## Mobile first: Formulierpagina
-
-Je formulierpagina bestaat nu uit
-
-* Een header, met nav, titel, logo, search en meer
-* Het formulier, in een < main >
-* Misschien wil je op de formulierpagina ook een serie voorbeeld projecten laten zien? 
-Voeg dan de 3 project-artikelen toen aan de formulierpagina ...
-
-[Voorbeeldplaatje HTML Formulierpagina]()
-
-**Maak je formulierpagina Mobile first**
-    
-1. Pas de marges en/of padding van de pagina aan
-2. Met goede bedienbare input-velden
-3. Hoeveel ruimte heeft de header nodig op mobiel?    
-
-Antwoord: 
-
-Voorbeeld formulier in een mobiele view.
+3. Kunnen de project-artikelen en related-artikelen in meedere kolommen naast elkaar?
 
 * Wat werkt goed op mobiel?
 * Hoe groot mogen die input-velden?
 * Animatie op tab, als het input-veld een focus krijgt?
 * De input-velden de hele breedte laten gebruiken op mobiel werkt vaak goed
 
-
-!
-
-
-## Tablet view: Formulierpagina
-
-
-**Pas de formulierpagina-layout aan aan het tablet-formaat met een mediaquery**
-
 1. Hoe ziet het formulier er uit op een breder scherm?
-2. Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
-3. ?
 
-Antwoord:
-
-
-Zet de Meta Viewport en de Mediaquerie
-
-*  
-
-Bepaal de Mediaquery. Vanaf welke breedte ga je de layout aanpassen?
 
 
 !
@@ -374,6 +99,7 @@ Bepaal de Mediaquery. Vanaf welke breedte ga je de layout aanpassen?
 ###Meer resources
 
 * Resource: [Learn CSS layout](http://learnlayout.com/toc.html)
+* Resource: [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
 
 
