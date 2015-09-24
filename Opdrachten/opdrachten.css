@@ -26,6 +26,13 @@ td{
     vertical-align: top;
     padding-top: 1em;
 }
+<!--//////////////////// -->
+img{
+    /*width: 100%;*/
+    display: block;
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0.2em 0;
     clear:both;
@@ -68,7 +75,7 @@ code {
     display: block;
     margin: .5em 0;
     padding: .2em;
-    background: #666;
+    background: DarkGoldenrod;
     color: #fff;
     line-height: 1.4em;
     word-wrap:break-word;
@@ -84,11 +91,7 @@ ul {
 li {
     margin: .4em 0;
 }
-img {
-    /*width: 100%;*/
-    display: block;
-    margin: 0 auto;
-}
+
 blockquote {
     font-family: Garamond;
     font-style: italic;
