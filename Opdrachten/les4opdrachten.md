@@ -93,16 +93,20 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 1. Hoe ziet het formulier er uit op een breder scherm?
 
 
-
 !
-
 
 
 ###Meer resources
 
 * Resource: [Learn CSS layout](http://learnlayout.com/toc.html)
+* Resource: [What the Flexbox?! by Wes Bos](http://flexbox.io/)
+* Resource: [Solved by Flexbox by Philip Walton](https://philipwalton.github.io/solved-by-flexbox/)
 * Resource: [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
+###Inspiratie
+
+* Flexbox voorbeeld ronw/column/order responsive [Michele's experiment](http://www.michele.nl/flexbox)
+* Layout en design voorbeelden [Mediagueri.es](http://www.mediaqueri.es)
 
 
 
