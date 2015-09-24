@@ -82,11 +82,8 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 4. Misschien wil je van de project-artikelen en related-artikelen op mobiel wel alleen de titel laten zien? Met een toggle inklappen/uitklappen ?
 
 1. Zijn de regels van het < main > artikel niet te lang?
-2. Hoeveel ruimte heeft de header nu nodig, en wat staat er in? 
-3. Kunnen de project-artikelen en related-artikelen in meedere kolommen naast elkaar?
+2. Kunnen de project-artikelen en related-artikelen in meedere kolommen naast elkaar?
 
-* Wat werkt goed op mobiel?
-* Hoe groot mogen die input-velden?
 * Animatie op tab, als het input-veld een focus krijgt?
 * De input-velden de hele breedte laten gebruiken op mobiel werkt vaak goed
 
