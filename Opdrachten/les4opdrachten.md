@@ -21,7 +21,9 @@ Vorige week heb je geëxperimenteerd met positioning, float en display inline bl
 
 a) Experimenteer met de Flexbox op de header: Zet alle items in de Header op een rij. Draai daarna de volgorde om, het laatste items vooraan (links) en de eerste achteraan (rechts). Kun je de 6 elementen ook zo naast elkaar plaatsen dat ze netjes horizontaal worden uitgelijnd? Ook als je het browser venster kleiner of groter maakt?
 
-b) In de 5 'related' articles van de artikel-pagina staat een footer met de auteur-informatie. Kun je deze ook onder aan het artikel zetten met behulp van de Flexbox? 
+b) In de articles van de artikel-pagina staat een footer met de auteur-informatie. Kun je deze ook onder aan het artikel zetten met behulp van de Flexbox? 
+
+(Use case: op een groot scherm kun je bovenaan het artikel de auteursinformatie tonen, met een fotootje van de schrijver, maar op een mobiel wil je de beperkte schermgrootte gebruiken voor het artikel zelf, daar waar de gebruiker voor komt, en dan kun je de auteursinformatie onderaan presenteren)
 
 
 * Resource: [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
