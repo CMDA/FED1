@@ -7,11 +7,11 @@
 
 
 0. [Javascript](#2)
-1. [Eindopdracht](#3)
+1. [Eindopdracht beschrijving](#3)
 
 !
 
-## Coden - Opdracht 5.1
+## Coden - Opdracht 5
 ###### Frontend development - les 5
 
 
