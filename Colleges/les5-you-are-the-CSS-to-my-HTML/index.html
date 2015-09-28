@@ -188,6 +188,7 @@ li:nth-of-type(3n + 2) {
 li:nth-of-type(3n + 3) {
 	background: olivedrab;
 }</code></pre>
+<p><a href="http://codepen.io/vasilisvg/pen/vNybjE">Voorbeeld</a></p>
 						<aside class="notes">
 							Clownstriping — met drie kleuren — doe je zo. Laat zien dat het makkelijk is als je rechts begint met lezen: Selecteer de derde, neem vervolgens telkens een stap van drie.
 						</aside>
@@ -198,7 +199,14 @@ li:nth-of-type(3n + 3) {
 div:nth-last-of-type(-n + 3) {
 	width: 33.33333%;
 }
-</code></pre>			
+</code></pre>
+<p class="fragment"><a href="http://codepen.io/vasilisvg/pen/qOqgow">Voorbeeld</a></p>
+<pre class="fragment"><code data-trim contenteditable>
+div:nth-last-of-type(4) ~ div {
+	width: 33.33333%;
+}
+</code></pre>
+<p class="fragment"><a href="http://codepen.io/vasilisvg/pen/epBxMK">Voorbeeld</a></p>
 						<aside class="notes">
 							Begin op de derde vanaf en eind, en tel er dan telkens -1 bij op (is hetzelfde als trek er telkens 1 van af ja).
 						</aside>
