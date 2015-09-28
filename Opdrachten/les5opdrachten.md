@@ -20,7 +20,7 @@
 
 #### Fieldset toggelen
 
-In deze oefening gaan we met de Javascript Classlist object en de query selector een Fieldset in je formulier toggelen. (aan/uit zetten)
+a) In deze oefening gaan we met de Javascript Classlist object en de query selector een Fieldset in je formulier toggelen. (aan/uit zetten)
 Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het formulier tonen.
 
 1. Maak een class aan die een fieldset displayed en/of 'uit' zet
@@ -32,7 +32,7 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
     * Koppel de functie die de toggle uitvoert
 
 
-Kun jij de toggle ook met een animatie maken ? 
+b) Kun jij de toggle ook met een animatie maken?
 
 
 **Resources** 
