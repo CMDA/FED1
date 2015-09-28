@@ -38,6 +38,7 @@ b) Kun jij de toggle ook met een animatie maken?
 **Resources** 
 
 * Resource: [Manipulating classes using the class list API by Matt West](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
+* Resource: [We Don’t Need Classes by Heydon Pickering](http://www.smashingmagazine.com/2012/06/classes-where-were-going-we-dont-need-classes/)
 * [Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
 * [Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
 * [Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
