@@ -1,9 +1,19 @@
 
+## Coden - les 6
+###### Frontend development - les 6
+#Maak een responsive website
 
 Zelfstandig werken. 
-Benatwoord deze vragen. En maak het !
+Beantwoord deze vragen. En maak het !
 
 
+0. [Stappenplan en checklist](#2)
+1. [Wireframe voorbeelden](#3)
+
+!
+
+## Coden - Opdracht 6
+###### Frontend development - les 5
 
 
 ###Stappenplan en checklist
@@ -28,6 +38,24 @@ Benatwoord deze vragen. En maak het !
 * De input-velden de hele breedte laten gebruiken op mobiel werkt vaak goed
 
 1. Hoe ziet het formulier er uit op een breder scherm?
+
+!
+
+
+###Voorbeeld layouts van verschillende schermgroottes voor de artikelpagina.
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
+Deze breakpoints gaan we maken:
+<img src="assets/4.1 Wireframe Intranet responsive design 1.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.2%20Wireframe%20Intranet%20responsive%20design%202.png">
+Zo kunnen de verschillende layouts er uit zien:
+<img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
+Voorbeeld van 3 wireframe schetsen voor de breakpoints:
+<img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
+
 
 
 
