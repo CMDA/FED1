@@ -20,8 +20,6 @@
 
 #### Fieldset toggelen
 
-In opdracht 2.7 en 3.1 heb je geleerd hoe je met CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
-
 In deze oefening gaan we met de Javascript Classlist object en de query selector een Fieldset in je formulier toggelen. (aan/uit zetten)
 Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het formulier tonen.
 
