@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>You Are The CSS to my HTML — Hoorcollege 5 — Front-end development V1</title>
+		<title>You Are The CSS to my HTML — Hoorcollege 5 — Front-end development V1</title>
 
 		<meta name="description" content="Hoorcollege bij les 5 van Frontend Development in de V1 op de HvA.">
 		<meta name="author" content="Vasilis van Gemert">
@@ -70,9 +70,9 @@ iframe {
 				<section>
 					<h1>Vorige week</h1>
 					<ul>
-						<li>Box Model</li>
-						<li>Positioning</li>
-						<li>Units for layout</li>
+						<li>Flexbox</li>
+						<li>Media queries</li>
+						<li>Het chaotische web</li>
 					</ul>
 					<aside class="notes">
 						Even heel kort samenvatten waar we het ook al weer over hebben gehad vorige week. Niet te lang bij stilstaan want er is heel veel materiaal te behandelen.
@@ -80,235 +80,200 @@ iframe {
 				</section>
 
 				<!-- Example of nested vertical slides -->
-				
 				<section>
 					<section>
-						<h1>Het Web Is Gek</h1>
-					</section>
-					<section>
-						<h2>Het Web is er voor iedereen</h2>
-						<aside class="notes">
-							Een van de mooiste principes van het web is dat het er echt is voor iedereen. Iedereen met een computer en een browser moet gebruik kunnen maken van het web. TBL heeft daarom bewust ook geen patenten op zijn idee genomen. Het moet vrij, open en toegankelijk zijn voor iedereen. Hierdoor heeft het web wellicht een paar vreemde eigenschappen
-						</aside>
-					</section>
-					<section>
-						<h2>Iedereen heeft een muis</h2>
-						<p class="fragment">behalve…</p>
-						<aside class="notes">
-							We ontwierpen website alleen voor de muis. Maar er zijn veel meer manieren om een site te bedienen. Vraag de klas om er een paar te benoemen. Denk aan muis, toetsenbord, dikke vingers, pennetjes, trackpads, game consoles, stem, oogbewegingen, gebaren in de lucht, etc. Alles moet met al deze dingen werken.
-						</aside>
-					</section>
-					<section>
-						<h2>Alle netwerkconnecties zijn goed</h2>
-						<p class="fragment">behalve…</p>
-						<aside class="notes">
-							We gingen er altijd van uit dat internetconnecties elk jaar beter zouden worden. Maar iedereen die wel eens met de trein reist, of in een hotel zit weet dat dat niet zomaar klopt. Alles op het web moet dus ook werken met trage verbindingen. Er wordt ook wel gesproken over Offline First. Hier moet je rekening mee houden.
-						</aside>
-					</section>
-					<section>
-						<h2>COmputers worden steeds sneller</h2>
-						<p class="fragment">behalve…</p>
-						<aside class="notes">
-							Computers werden steeds sneller. Totdat we ineens kleine computers in onze broekzak en tas stopten. Die moesten vooral een goede batterij hebben. Die dingen worden ook steeds sneller, maar tegelijkertijd is er een trend dat ze steeds goedkoper worden: de snelheid stagneert omdat andere dingen belangrijker zijn. Moore's Law gaat niet meer op!
-						</aside>
-					</section>
-					<section>
-						<h2>Alle beeldschermen zijn gekalibreerd</h2>
-						<p class="fragment">behalve…</p>
-						<aside class="notes">
-							Eigenlijk bijna niet. Ze zijn allemaal crappy. Heel belangrijk om rekening mee te houden. Gaan we zeker mee aan de slag in het volgende blok.
-						</aside>
-					</section>
-					<section>
-						<h2>Alle schermen zijn even groot</h2>
-						<p class="fragment">behalve…</p>
-						<aside class="notes">
-							Vroeger was het web 640px, daarna 800px, later 960px. Dat klopte nooit, maar dat wilden we: lekker makkelijk. Nu heeft het web elk mogelijk formaat. Alles wat we maken moet het op elk schermformaat doen. Daar gaan we vandaag iets dieper op in.
-						</aside>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h1>Responsive Design</h1>
-
-						<aside class="notes">
-							In 2010 publiceerde Ethan Marcotte een artikel over responsive web design. De technieken die hij hierin beschrijft bestonden al langer, alleen gaf hij er een naam aan. Dat werkte. Sindsdien ontwerpt bijna iedereen sites die in principe op elk beeldscherm zouden moeten werken.
-						</aside>
-					</section>
-					<section>
-						<h2>Hoe deden we dat in het begin?</h2>
-
-						<aside class="notes">
-							Niet al te best, maar we moetsen ergens beginnen
-						</aside>
-					</section>
-					<section data-background="img/content-7.jpg" data-background-size="contain">
-						<aside class="notes">
-							Stel dat we een site over een mooie oude auto zouden willen maken. Zo deden we dat tot voor kort.
-						</aside>
-					</section>
-					<section data-background="img/content-1.png" data-background-size="contain">
-						<aside class="notes">
-							Elke website tot 2010 ontwierpen we door eerst een header toe te voegen
-						</aside>
-					</section>
-					<section data-background="img/content-2.png" data-background-size="contain">
-						<aside class="notes">
-							Daarna een navigatie
-						</aside>
-					</section>
-					<section data-background="img/content-3.png" data-background-size="contain">
-						<aside class="notes">
-							Widgets, waar die ook goed voor mogen zijn
-						</aside>
-					</section>
-					<section data-background="img/content-4.png" data-background-size="contain">
-						<aside class="notes">
-							Een footer natuurlijk
-						</aside>
-					</section>
-					<section data-background="img/content-5.png" data-background-size="contain">
-						<aside class="notes">
-							En daarna pas datgene waar het om gaat. De content vrotten we er als laatste nog even in. Dark ages.
-						</aside>
-					</section>
-					<section data-background="img/content-6.jpg" data-background-size="contain">
-						<aside class="notes">
-							Terwijl dit toch juist is waar men voor kwam.
-						</aside>
-					</section>
-					
-					<section data-background="img/hard.jpg" data-background-size="contain">
-						<aside class="notes">
-							<p>Toen we gingen proberen om dit soort sites ook te laten werken op kleinere schermen merkten we dat dat echt heel erg moeilijk is. Veel, en veel te veel cruft. Het past gewoon niet. Het samenpersen van grote dingen tot iets kleiners kan, maar het is niet makkelijk. En of het nog echt functioneel is als je klaar bent is nog maar de vraag.</p>
-						</aside>
-					</section>
-					<section data-background="img/amputeren.jpg" data-background-size="contain">
-						<aside class="notes">
-							Eerst probeerden we dit: content verbergen voor kleinere apparaten. "Mensen met mobiel hebben dit niet nodig", zeiden we. We deden allemaal aannames over mobiel, vooral dat mensen het alleen gebruiken als ze haast hebben, even snel, kort. Het tegenovergestelde blijkt waar. Content weg laten is dus niet zo'n goed idee. Vooral als iemand zeker weet dat bepaalde content wél beschikbaar was net op de desktop computer op het werk, en nu in de trein ineens niet meer. Frustrerend
-						</aside>
-					</section>
-					<section data-background="img/growing.jpg" data-background-size="contain">
-						<aside class="notes">
-							Alles groeit. Babies, bomen, planten, dieren, kennis. Er moet wel iets voor gebeuren, maar niet zo heel erg veel. Het gaat bijna vanzelf. Itt krimpen. Alles wat in een klein scherm past past vanzelf ook in een groot scherm. Bovendien dwingt deze manier van werken je om goed na te denken over welke content er nu echt toe doet. Vroeger wilden we die prachtige white-space nog wel eens opvullen met domme ideeën, nu is daar gelukkig geen plek meer voor.
-						</aside>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h1>Mobile first</h1>
-						<aside class="notes">
-							En zo werd Mobile First geboren
-						</aside>
-					</section>
-					<section>
-						<h1>Structured content first</h1>
-						<aside class="notes">
-							Eigenlijk gaat het niet over mobiel, maar het gaat over gestructureerde content. Daar moet je mee beginnen. 
-						</aside>
-					</section>
-					<section data-background="img/groeien-2.png" data-background-size="contain">
-						<aside class="notes">
-							Ongestijlde maar gestructureerde content is misschien niet zo mooi, maar het werkt wel. Zeker op kleine schermen
-						</aside>
-					</section>
-					<section data-background="img/groeien-3.png" data-background-size="contain">
-						<aside class="notes">
-							Met een beetje styling ziet het er zelfs best mooi uit.
-						</aside>
-					</section>
-					<section data-background="img/groeien-4.png" data-background-size="contain">
-						<aside class="notes">
-							Op een breed scherm is het natuurlijk lelijk…
-						</aside>
-					</section>
-					<section data-background="img/groeien-5.png" data-background-size="contain">
-						<aside class="notes">
-							Maar ook dat is eenvoudig op te lossen. VOlgens bepaalde designers is het nu af. Dit is een prima site. Hij werkt en hij is mooi.
-						</aside>
-					</section>
-					<section data-background="img/groeien-6.png" data-background-size="contain">
-						<aside class="notes">
-							Maar je kan ook verder gaan en de boel optimaliseren voor grotere schermen. Extra layout toevoegen bijvoorbeeld. Of dingen in een rechter of linker kolom tonen. 
-						</aside>
-					</section>
-					<section data-background="img/groeien-7.png" data-background-size="contain">
-						<aside class="notes">
-							Als laatste zou je er voor kunnen kiezen om nog extra verf toe te voegen. 
-							Wellicht kan je hier een paar voorbeelden laten zien van briljante sites die op deze manier gemaakt zijn. Bijvoorbeeld het Rijksmuseum is er zo een — http://vvg.gr/gq — complete focus op de content, alle cruft is helemaal weg. Zelfs geen logo!
-						</aside>
-					</section>
-				</section>
-
-				<section>
-					<section>
-						<h1>Mediaqueries</h1>
-						
+						<h1>Selectors</h1>
+						<p>Deel 2</p>
 						
 						<aside class="notes">
-							Layout veranderen voor verschillende schermresoluties doe je met mediaqueries. 
+							We gaan verder in op selectors. Even nog de nth-child en nth-of-type selectors bespreken en dan vooral bekijken wat we er allemaal mee kunnen doen.
 						</aside>
 					</section>
 					<section>
-						<h2>Meta viewport</h2>
-						
-<pre><code class="HTML"><meta name="viewport" content="width=device-width, initial-scale=1">
-</code></pre>
-						<aside class="notes">
-							Voordat we mediaqueries echt kunnen gebruiken moeten we deze regel code aan onze head toevoegen. Deze regel vertelt ons dat de browser op mobiele devices zo breed moet zijn als het apparaat zelf, en dat de zoom-factor gewoon op 1 moet staan. Als je deze regel niet toevoegd doen ook kleine schermen alsof ze 1120px breed zijn en zoomen vervolgens uit. Dat willen we voorkomen.
-						</aside>
-					</section>
-					<section>
-						<h2>Mediaquery</h2>
-						
-<pre><code class="css">body {
-    max-width: 30em;
+						<h2>Rechts naar links</h2>
+						<pre><code data-trim contenteditable>
+body > div {
+	color: green;
 }
-@media (min-width: 30em) {
-	body {
-	    max-width: 50em;
-	}
+h1 + p {
+	margin-top: -1em;
 }
-</code></pre>
+input:focus ~ p {
+	margin-top: -1em;
+}
+h1, p {
+	font-weight: normal;
+}</pre></code>
 						<aside class="notes">
-							Wat doet deze? Als het window breder is dan 30em (doet het er toe hoe breed dat is?) dan wordt de maximale breedte van de body 50em.
+							De makkelijkste manier om een selector te lezen is om van rechts naar links te lezen: een div die direct in de body staat. Een p die direct na een h1 staat. Die derde staat er bij omdat mensen soms denken dat de + hetzelfde is als de komma.
 						</aside>
 					</section>
 					<section>
-						<h2>Mediaquery</h2>
-						
-<pre><code class="css">body {
-    padding: 5.5555vh 11.1111vw;
-}
-@media (min-aspect-ratio: 1/1) {
-	body {
-	    padding: 11.1111vh 11.1111vw;
-	}
-}
-</code></pre>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
 						<aside class="notes">
-							Wat doet deze? Als de browser een aspect ratio heeft die groter is dan 1/1 (het scherm is breder dan dat het hoog is) dan verandert de padding. Op de volgende slide staan nog een paar mediaqueries, een vragen of mensen er een paar kennen
+							De meeste studenten kunnen wel verzinnen wat dit betekent
 						</aside>
 					</section>
 					<section>
-						<h2>Mediaqueries</h2>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
 <pre><code data-trim contenteditable>
-&lt;link media="(min-width: 50em)" rel="stylesheet" href="css.css">
-</code></pre>
-						
-<pre><code class="css">@media (print) { … }
-@media (orientation: landscape) { … }
-@media (monochrome) { … }
-@media (min-width: 70em), handheld and (orientation: landscape) { … }
-</code></pre>
+p:first-of-type {
+	font-size: 1.414em;
+}</code></pre>
 						<aside class="notes">
-							Er zijn twee manieren om een mediaquert te gebruiken: in de link-tag in het media-attribuut, of in de CSS zelf. Die laatste scheelt een http-request en dat is waarschijnlijk beter: http-requests zijn een grotere aanslag op performance dan een paar kb.<br>
-							Een komma betekent 'of'. In de laatste regel staat dus: de minimale breedte is 70em, OF het is een handheld apparaat waarvan de orientatie in landschapsmodus staat. Probeer dit soort complexe mediaqueries altijd te voorkomen. Er is waarschijnlijk iets mis met je ontwerp als je hierop uitkomt. Zijn er nog vragen?
+							Vraag ze naar het verschil tussen deze twee. De eerste is alleen voor paragrafen die daadwerkelijk de eerste child zijn van hun parent. De tweede is voor elke eerste paragraaf in een parent, ook als er bijvoorbeeld een h1 voor staat. Of 100 ul's.
 						</aside>
 					</section>
-					
-					
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-child {
+	font-size: 1.414em;
+}</code></pre>
+<pre><code data-trim contenteditable>
+&lt;section>
+	&lt;h1>Kopje&lt;/h1>
+	&lt;p>Deze paragraaf wordt niet geselecteerd&lt;/p>
+&lt;/section></code></pre>
+						<aside class="notes">
+							Vraag ze naar het verschil tussen deze twee. De eerste is alleen voor paragrafen die daadwerkelijk de eerste child zijn van hun parent. De tweede is voor elke eerste paragraaf in een parent, ook als er bijvoorbeeld een h1 voor staat. Of 100 ul's.
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+p:first-of-type {
+	font-size: 1.414em;
+}</code></pre>
+<pre><code data-trim contenteditable>
+&lt;section>
+	&lt;h1>Kopje&lt;/h1>
+	&lt;p>Deze paragraaf wordt wel geselecteerd&lt;/p>
+&lt;/section></code></pre>
+						<aside class="notes">
+							Vraag ze naar het verschil tussen deze twee. De eerste is alleen voor paragrafen die daadwerkelijk de eerste child zijn van hun parent. De tweede is voor elke eerste paragraaf in een parent, ook als er bijvoorbeeld een h1 voor staat. Of 100 ul's.
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+						<pre><code data-trim contenteditable>
+li:nth-of-type(2) {
+	background: papayawhip;
+}</code></pre>
+<pre><code data-trim contenteditable>
+li:nth-of-type(2n) {
+	background: papayawhip;
+}</code></pre>
+						<aside class="notes">
+							Zebrastriping doe je zo
+						</aside>
+					</section>
+					<section>
+						<h2>child selectors</h2>
+<pre><code data-trim contenteditable>
+li {
+	background: rebeccapurple;
+}
+li:nth-of-type(3n + 2) {
+	background: papayawhip;
+}
+li:nth-of-type(3n + 3) {
+	background: olivedrab;
+}</code></pre>
+						<aside class="notes">
+							Clownstriping — met drie kleuren — doe je zo. Laat zien dat het makkelijk is als je rechts begint met lezen: Selecteer de derde, neem vervolgens telkens een stap van drie.
+						</aside>
+					</section>
+					<section>
+						<h2>De laatste drie selecteren</h2>
+<pre class="fragment"><code data-trim contenteditable>
+div:nth-last-of-type(-n + 3) {
+	width: 33.33333%;
+}
+</code></pre>			
+						<aside class="notes">
+							Begin op de derde vanaf en eind, en tel er dan telkens -1 bij op (is hetzelfde als trek er telkens 1 van af ja).
+						</aside>
+					</section>
+					<section>
+						<h2>Een uitzondering maken</h2>
+<pre class=""><code data-trim contenteditable>
+a[href$="/random"]:not(:last-of-type) {
+	border-bottom: 1px dotted red;
+}
+</code></pre>
+<a href="https://vasilis.nl/synonyms/">In gebruik</a>
+						<aside class="notes">
+							Een link waarvan de waarde van het href-attribuut op /random eindigt, zolang het maar niet de laatste link is. Wordt hier gebruikt: https://vasilis.nl/synonyms/
+						</aside>
+					</section>
 				</section>
+				<section>
+					<section>
+						<h1>JavaScript!</h1>
+						<aside class="notes">
+							Deze selectors kunnen we ook in JavaScript gebruiken, om een class te togglen op een element.
+						</aside>
+					</section>
+					<section>
+						<h2>querySelector</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>querySelectorAll</h2>
+<pre><code data-trim contenteditable>
+var secondSteps = document.querySelectorAll('fieldset:nth-of-type(2n)');</code></pre>
+						<aside class="notes">
+							querySelectorAll maakt een nodelist van elke tweede fieldset. Als er zes fieldsets zijn dan zijn er drie items in deze nodelist. secondSteps[1] zou de tweede daarvan aanspreken.
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+var nextStep = document.querySelector('fieldset:nth-of-type(2n)');
+nextStep.classList.add('is-visible');</code></pre>
+					<p><a href="examples/fieldsets.html">voorbeeld</a></p>
+						<aside class="notes">
+							Met classList kan je heel makkelijk classes toevoegen, verwijderen of togglen
+						</aside>
+					</section>
+					<section>
+						<h2>classList</h2>
+<pre><code data-trim contenteditable>
+nextStep.classList.add('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.remove('is-visible');</code></pre>
+<pre><code data-trim contenteditable>
+nextStep.classList.toggle('is-visible');</code></pre>
+					
+						<aside class="notes">
+							querySelector selecteert de eerst instance van een selector. In dit geval de tweede fieldset, ook als het er zes zijn
+						</aside>
+					</section>
+				</section>
+
+				
 			</div>
 
 		</div>
