@@ -1,14 +1,24 @@
 
 
 
+## Coden - Opdrachten les 5
+###### Frontend development - les 5
+#Javascript ClassList Object & de Query Selector
+
+
+0. [Javascript](#2)
+1. [Eindopdracht](#3)
+
+!
+
+## Coden - Opdracht 5.1
+###### Frontend development - les 5
 
 
 
-##### 4. Klussen (deel 1: 70 - 135/200 minuten)
-### Opdracht 3.2 - 40 minuten
-## Javascript ClassList Object aanspreken met query selector functie
+###Javascript ClassList Object aanspreken met de Query selector functie
 
-### Fieldset toggelen
+#### Fieldset toggelen
 
 In opdracht 2.7 en 3.1 heb je geleerd hoe je met CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
 
@@ -24,47 +34,59 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
     * Hang een functie aan de die de toggle uitvoert
 
 
-**Resources** 
-[Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
-[The Classlist Object](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
-[Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
-[Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
-
-
-!
-
-### Bespreken Opdracht 3.2
-## Fieldset toggelen
-
-Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b).
-
 Kun jij de toggle ook met een animatie maken ? 
 
+
+**Resources** 
+
+* Resource: [Manipulating classes using the class list API by Matt West](http://blog.teamtreehouse.com/manipulating-classes-using-classlist-api)
+* [Pseudo class selectors](http://css-tricks.com/pseudo-class-selectors/)
+* [Document.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
+* [Element.QuerySelectors](https://developer.mozilla.org/en-US/docs/Web/API/element.querySelector)
+
+
+
+<!-- Antwoord in [Dablet](http://dabblet.com/gist/e1f0e90f3020aef83c9b) -->
+
+
+
 !
 
 
-###Stappenplan en checklist
+###Eindopdracht beschrijving
 
-1. Wat doe je met de Header in een smal scherm?
-2. Waar gaat de Sidebar heen als het scherm breed is?
-3. Hoe staan de sections met Projecten of related content?
-4. Wat gebeurt er als de gebruiker de pagina gaat zoomen?
+De eindtoets is een mondeling over Reponsive Design. Voor deze toets moeten de artikel- en formulierpagina worden uitgewerkt. De artikelpagina heeft een 1. header, 2. main met artikel, 3. footer, 4. sidebar, 5. section met 5 gerelateerde artikelen. De formulierpagina heeft een 1. header, 2. main met formulier, 3. footer, 4. sidebar, 5 section met drie studentenprojecten.
+De artikelpagina en formulierpagina moeten responsive zijn. Het web bestaat uit verhoudingen, niet uit absolute waardes. De layout past zich aan aan de scherm-breedte en scherm-hoogte. je moet ontwerp beslissingen maken. Layout is belangrijker dan styling.  Er moet een layout worden  gemaakt voor minimaal 3 breakpoints. De twee pagina's moeten minimaal op je laptop en één touch apparaat worden gepresenteerd.
 
-1. Zorg ervoor dat de Meta Viewport goed staat, waar is die ook alweer voor?
+De eindopdracht wordt, net als deeltoets 1 en 2 in een mondeling getoetst. De docent bevraagt de student en beoordeelt het gemaakte werk op kwaliteit, uitleg en beargumentatie van gekozen (technische) oplossingen en ontwerppatronen.
 
-1. Pas de marges en/of padding van de pagina aan in de mobile view (deze mogen dichter op de rand van je telefoon - probeer maar eens)
-2. Heb je goede leesbare teksten voor mobiel (font-size, line-height, regel-lengte)
-3. Hoeveel ruimte heeft de header nodig op mobiel?
-4. Misschien wil je van de project-artikelen en related-artikelen op mobiel wel alleen de titel laten zien? Met een toggle inklappen/uitklappen ?
+De website bevat alle onderwerpen zoals die in de lessen zijn behandeld:
 
-1. Zijn de regels van het < main > artikel niet te lang?
-2. Kunnen de project-artikelen en related-artikelen in meedere kolommen naast elkaar?
+* De website is gemaakt met behulp van HTML5, CSS3 en Javascript
+* De pagina's bevatten alle HTML zoals die is aangeleverd
+* HTML5 moet correct gevalideerd zijn, danwel je moet kunnen uitleggen hoe je een error melding van een validator kan oplossen
+* De CSS3 wordt extern ingeladen
+* Met behulp van javascript worden dynamisch classes toegevoegd of weggehaald
+* De layout en vormgeving past zich aan aan de schermgrootte
+* Er wordt correct gebruik gemaakt van verschillende Media queries om 3 breakpoints vorm te geven
 
-* Hoe groot mogen die input-velden? En op mobiel met dikke vingers?
-* Animatie op tab, als het input-veld een focus krijgt?
-* De input-velden de hele breedte laten gebruiken op mobiel werkt vaak goed
 
-1. Hoe ziet het formulier er uit op een breder scherm?
+
+###Voorbeeld layouts van verschillende schermgroottes voor de artikelpagina.
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
+Deze breakpoints gaan we maken:
+<img src="assets/4.1 Wireframe Intranet responsive design 1.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.2%20Wireframe%20Intranet%20responsive%20design%202.png">
+Zo kunnen de verschillende layouts er uit zien:
+<img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
+Voorbeeld van 3 wireframe schetsen voor de breakpoints:
+<img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
+
+
 
 
 
