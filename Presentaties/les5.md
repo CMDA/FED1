@@ -2,73 +2,57 @@
 # You are the CSS to my HTML
 ###### Frontend development - les 5
 
-!
-
-# You are the CSS to my HTML
-###### Frontend development - les 5
-Deze les gaat over de principes van het web, the multi screen world 
-en we gaan aan de slag met Mediaqueries.
-
-<img src="http://images.cdn.bigcartel.com/bigcartel/product_images/66597677/max_h-1000+max_w-1000/CSStoHTMLSlate_2445.jpg" width="100%"  alt="kledingvoorschriften">
-
+<img src="http://rlv.zcache.com/you_are_the_css_to_my_html_t_shirts-rd53d2940606b4de08762c051c1c14873_jf4s8_512.jpg" width="100%"  alt="kledingvoorschriften">
 
 !
 
 # You are the CSS to my HTML
 ###### Frontend development - les 5
-
-## Programma (200 minuten)
-1. Introduktie (5)
-2. College (30)
-3. Weekly Nerd (30)
-4. Klussen (120)
-5. Terugkijken (10)
+Deze les gaat over het Javascript ClassList Object, waarmee je dom elementen kunt selecteren en classes kan toewijzen. Hiervoor gaan we ook meer selectors gebruiken.
 
 
 !
 
-# 1. Introduktie - 5 minuten
-###### Frontend development - les 5
+#Volgende week
+Volgende week zijn er geen klassikale lessen. Dit in verband met [Fronteers](https://fronteers.nl/congres/2015).
 
-## Lesdoelen
-* Leren over responsive design
-* Layout veranderen voor verschillende schermresoluties met mediaqueries
-* Mobile first gedachte
-* Deeltoets 2 afnemen: formatieve toets: 
-Wat is je niveau? 
-Ken je de CSS3 bling? 
-Kun je selectors gebruiken en uitleggen? 
-Weet je hoe het Javscript Classlist object en de query selectors werken?
-Begrijp je de Flexbox?  
-(Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
+Je moet zelfstandig doorwerken aan de eindopdracht. Zie Moodle voor de weekopdracht.
+
+Dinsdag 6 oktober is er een Javascript Workshop van Joost Faber. Speciaal voor de studenten die hun kennis uit de P weer even moeten ophalen...
 
 !
 
-# 1. Introduktie - 5 minuten
-###### Frontend development - les 2
+#Excellentieprogramma
 
-##Deeltoets 2
-- De deeltoets wordt **tijdens de les** afgenomen
-- Het **schema komt op bord**, achter in de klas
-- **10 minuten per duo**
-- Toetsen **terwijl de klas doorwerkt** aan de lesopdrachten
-  
-nb. Zorg dat je je _**documenten open**_ hebt in je editor
+Zit je in de V1 en kan je meer uitgedaagd worden? Meld je dan nu aan voor het Excellentieprogramma.
 
-nb. _**Vergroot je font**_, zodat 3 mensen je code kunnen lezen
+Meer informatie staat op [www.cmd-amsterdam.nl/excellentie/](https://www.cmd-amsterdam.nl/excellentie/);
 
-nb. Mocht het onverhoopt misgaan - _**48 uur later herkansen**_
+!
+
+##### 1. Introduktie (10/200 minuten)
+# Wat gaan we vandaag doen?
+
+Programma & leerdoelen voor vandaag:
+
+1. College over Javascript ClassList Object, de Query selector en meer selectors (30)
+2. Weekly Nerd: Over Responsive navigation patterns &  fixed, fluid, elastic or a hybrid layout (30)
+3. Coden (120)
+	- Attribute selector gebruiken
+	- Javascript classlist object
+	- Mondeling deeltoets 2: formatieve toets: Wat is je niveau? Kun je CSS bling toepassen? En CSS selectors? Kan uitleggen hoe het Box model en de Flexbox werkt? Hoe werken Media queries?(Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
+
 
 
 !
+
 
 # 2. College - 30 minuten
 ###### Frontend development - les 5
 
 College [You are the CSS to my HTML](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html)
-Over de principes van het web, over Mobile first, over Mediaqueries en Responsive design
+over Javascript ClassList Object, de Query selector en meer selectors
 
-<img src="assets/StoelenEnTafels1College01.jpg" width="100%" alt="College opstelling">
 
 !
 
@@ -77,28 +61,23 @@ Over de principes van het web, over Mobile first, over Mediaqueries en Responsiv
 Iedere les gaan we artikelen bespreken in kleine groepen. 
 
 Je wordt beoordeeld op je kennis niveau en inbreng tijdens de sessie. 
-Van de 7 sessies mag je er *niet* meer dan 1 missen of onvoldoende halen. 
+Van de 7 sessies mag je er *niet* meer dan 1 missen of een onvoldoende halen. 
 Als je niet voldoet aan de criteria voor de Weekly Nerd 
-dan moet dit onderdeel herkanst worden met een tentamen.
+dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 
-<img src="assets/StoelenEnTafels2WeeklyNerd01.jpg" width="100%" alt="Discussie rondje">
+### Artikelen bespreken in groepjes van 2
 
-!
-
-##### 3. Weekly Nerd (30 - 65/200 minuten)
-# Artikelen voor vandaag
-
-* [Responsive Design tips & tricks by Andreas Bovens](https://vimeo.com/48433478)
-* [Fixed vs Fluid vs Elastic layout by Kayla Knight](http://www.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)
-* [How To Use CSS3 Media Queries To Create a Mobile Version of Your Website by Rachel Andrew ](http://www.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
-
-
+* [Fixed vs Fluid vs Elastic layout by Kayla Knight](http://www.smashingmagazine.com/2009/06/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)
+* [Responsive navigation patterns by Brad Frost](http://bradfrost.com/blog/web/responsive-nav-patterns/)
 
 
 !
 
+# 4. Coden
+###### Frontend development - les 5
 
-## op.
+[Klik hier voor opdrachten voor les 5](http://cmda.github.io/FED1/Opdrachten/les5-opdrachten.html)
 
-<br>
+Opdracht 5 bestaat uit .
+
 < / section >
