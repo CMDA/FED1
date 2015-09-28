@@ -23,7 +23,7 @@
 a) In deze oefening gaan we met de Javascript Classlist object en de query selector een Fieldset in je formulier toggelen. (aan/uit zetten)
 Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het formulier tonen.
 
-1. Maak een class aan die een fieldset displayed en/of 'uit' zet
+1. Maak een Css class aan die een fieldset laat zien en/of verbergt
 2. Voeg een Javascript file aan je Formulier pagina toe
 3. Schrijf een functie die een classlist toevoegt aan de fieldset
     Tips:
