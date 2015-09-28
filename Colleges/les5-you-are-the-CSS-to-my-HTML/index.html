@@ -215,6 +215,51 @@ a[href$="/random"]:not(:last-of-type) {
 							Een link waarvan de waarde van het href-attribuut op /random eindigt, zolang het maar niet de laatste link is. Wordt hier gebruikt: https://vasilis.nl/synonyms/
 						</aside>
 					</section>
+					<section>
+						<h2>De :target selector</h2>
+<pre class=""><code data-trim contenteditable>
+a:target {
+    background: hsl(60, 100%, 50%);
+    /* Wat voor kleur is dit? */
+}
+</code></pre>
+<a href="https://vasilis.nl/synonyms/#r1443094621">In gebruik</a>
+						<aside class="notes">
+							De target selector. Hartstikke nuttig
+						</aside>
+					</section>
+					<section>
+						<h2>De :target selector</h2>
+<pre class=""><code data-trim contenteditable>
+&lt;html lang="en" id="g">
+</code></pre>						
+<pre class=""><code data-trim contenteditable>
+#g:target body {
+    columns: 15em;
+    column-gap: 0;
+}
+</code></pre>
+<a href="https://vasilis.nl/random/daily/rectangle/#g">In gebruik</a>
+						<aside class="notes">
+							Je kan er ook bizarre dingen mee. Zoals de layout veranderen. 
+						</aside>
+					</section>
+					<section>
+						<h2>De :target selector</h2>
+<pre class=""><code data-trim contenteditable>
+&lt;head id="m">
+</code></pre>						
+<pre class=""><code data-trim contenteditable>
+head:target + body {
+    /* flexbox magic */
+}
+</code></pre>
+<p><a href="https://vasilis.nl/random/daily/rectangle/#m">In gebruik</a></p>
+<p><a href="https://vasilis.nl/nerd/using-target-pseudo-selector-alternative-layouts/">Uitleg</a></p>
+						<aside class="notes">
+							Je kan er ook bizarre dingen mee. Zoals de layout veranderen. https://vasilis.nl/nerd/using-target-pseudo-selector-alternative-layouts/
+						</aside>
+					</section>
 				</section>
 				<section>
 					<section>
