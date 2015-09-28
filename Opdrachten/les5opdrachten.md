@@ -29,7 +29,7 @@ Afhankelijk van de keuze van een gebruiker kun je dan een ander deel van het for
     Tips:
     * Gebruik de querySelector om de juiste Fieldset te selecteren 
     * Gebruik de querySelector om de button of radio-button te selecteren
-    * Hang een functie aan de die de toggle uitvoert
+    * Koppel de functie die de toggle uitvoert
 
 
 Kun jij de toggle ook met een animatie maken ? 
