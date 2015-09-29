@@ -125,15 +125,14 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 <img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
 
 
-
-
-
 !
 
 ###Meer resources
 
 * Resource: 
-* 
+
+
+
 ###Inspiratie
 
 

@@ -3,9 +3,7 @@
 ###### Frontend development - les 6
 #Maak een responsive website
 
-Zelfstandig werken. 
-Beantwoord deze vragen. En maak het !
-
+Deze week moet je zelfstandig doorwerken aan de eindopdracht.
 
 0. [Stappenplan en checklist](#2)
 1. [Wireframe voorbeelden](#3)
@@ -14,6 +12,8 @@ Beantwoord deze vragen. En maak het !
 
 ## Coden - Opdracht 6
 ###### Frontend development - les 5
+
+Probeer deze deze vragen te beantwoorden voor je eigen design. En maak het !
 
 
 ###Stappenplan en checklist
@@ -64,7 +64,9 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 ###Meer resources
 
 * Resource: 
-* 
+
+
+
 ###Inspiratie
 
 
