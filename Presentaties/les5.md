@@ -24,9 +24,9 @@ Dinsdag 6 oktober is er een Javascript Workshop van Joost Faber. Speciaal voor d
 
 #Excellentieprogramma
 
-Zit je in de V1 en kan je meer uitgedaagd worden? Meld je dan nu aan voor het Excellentieprogramma.
+Zit je in de V1 en kan je meer uitgedaagd worden? Meld je dan nu aan voor het Excellentieprogramma. Joos Faber en Koop Reynders begeleiden je een half jaar met een eigen project.
 
-Meer informatie staat op [www.cmd-amsterdam.nl/excellentie/](https://www.cmd-amsterdam.nl/excellentie/);
+Meer informatie staat op [www.cmd-amsterdam.nl/excellentie/](https://www.cmd-amsterdam.nl/excellentie/)
 
 !
 
@@ -40,7 +40,8 @@ Programma & leerdoelen voor vandaag:
 3. Coden (120)
 	- Attribute selector gebruiken
 	- Javascript classlist object
-	- Mondeling deeltoets 2: formatieve toets: Wat is je niveau? Kun je CSS bling toepassen? En CSS selectors? Kan uitleggen hoe het Box model en de Flexbox werkt? Hoe werken Media queries?(Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
+	- Mondeling deeltoets 2: formatieve toets: Wat is je niveau? Kun je CSS bling toepassen? Snap je de CSS selectors? Kan je uitleggen hoe het Box model en de Flexbox werkt? Hoe werken Media queries? 
+(Een formatieve toets heeft de functie een oordeel over de kennis en vaardigheden van een leerling uit te spreken)
 
 
 
@@ -78,6 +79,8 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 
 [Klik hier voor opdrachten voor les 5](http://cmda.github.io/FED1/Opdrachten/les5-opdrachten.html)
 
-Opdracht 5 bestaat uit .
+Opdracht 5 bestaat uit: 
+Attribute selector toepassen (download een pdf file - plaatje dynamisch tonen) 
+Javascript ClassList Object aanspreken met de Query selector functie (f)ieldset toggelen)
 
 < / section >
