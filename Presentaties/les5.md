@@ -24,9 +24,12 @@ Dinsdag 6 oktober is er een Javascript Workshop van Joost Faber. Speciaal voor d
 
 #Excellentieprogramma
 
-Zit je in de V1 en kan je meer uitgedaagd worden? Meld je dan nu aan voor het Excellentieprogramma. Joos Faber en Koop Reynders begeleiden je een half jaar met een eigen project.
+Zit je in de V1 en kan je meer uitgedaagd worden? Meld je dan nu aan voor het Excellentieprogramma. Joost Faber en Koop Reynders begeleiden je een half jaar met een eigen project.
 
 Meer informatie staat op [www.cmd-amsterdam.nl/excellentie/](https://www.cmd-amsterdam.nl/excellentie/)
+
+<img src="https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/html/img/cmd_beeldbank_meerdere_02.jpg?raw=true">
+
 
 !
 
