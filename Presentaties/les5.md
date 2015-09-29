@@ -16,7 +16,7 @@ Deze les gaat over het Javascript ClassList Object, waarmee je dom elementen kun
 #Volgende week
 Volgende week zijn er geen klassikale lessen. Dit in verband met [Fronteers](https://fronteers.nl/congres/2015).
 
-Je moet zelfstandig doorwerken aan de eindopdracht. Zie Moodle voor de weekopdracht.
+Je moet zelfstandig doorwerken aan de eindopdracht. Zie Moodle voor de weekopdracht. Op donderdag- en vrijdagochtend kun je ook in de Medialounge(?) komen werken. Daar zal een docent aanwezig zijn om vragen te beantwoorden.
 
 Dinsdag 6 oktober is er een Javascript Workshop van Joost Faber. Speciaal voor de studenten die hun kennis uit de P weer even moeten ophalen...
 
