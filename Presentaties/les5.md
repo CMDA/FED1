@@ -6,7 +6,7 @@
 
 !
 
-# You are the CSS to my HTML
+#You are the CSS to my HTML
 ###### Frontend development - les 5
 Deze les gaat over het Javascript ClassList Object, waarmee je dom elementen kunt selecteren en classes kan toewijzen. Hiervoor gaan we ook meer selectors gebruiken.
 
