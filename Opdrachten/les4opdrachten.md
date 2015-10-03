@@ -76,6 +76,7 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 * Resource: [Learn CSS layout](http://learnlayout.com/toc.html)
 * Resource: [What the Flexbox?! by Wes Bos](http://flexbox.io/)
 * Resource: [Solved by Flexbox by Philip Walton](https://philipwalton.github.io/solved-by-flexbox/)
+* Resource: [Web layout with Flexbox](http://www.webdesignerdepot.com/2015/09/modern-web-layout-with-flexbox/)
 * Resource: [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
 ###Inspiratie

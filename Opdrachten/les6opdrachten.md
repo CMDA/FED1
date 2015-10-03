@@ -63,11 +63,32 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 
 ###Meer resources
 
-* Resource: 
+####Layout
+
+* Resource: [Learn CSS layout](http://learnlayout.com/toc.html)
+
+
+
+####Flexbox
+
+* Resource: [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Learn CSS layout](http://learnlayout.com/toc.html)
+* [What the Flexbox?! by Wes Bos](http://flexbox.io/)
+* [Solved by Flexbox by Philip Walton](https://philipwalton.github.io/solved-by-flexbox/)
+* [Web layout with Flexbox](http://www.webdesignerdepot.com/2015/09/modern-web-layout-with-flexbox/)
+* Flexbox voorbeeld row/column/order responsive [Michele's experiment](http://www.michele.nl/flexbox)
+
+####Units, EM, REM
+
+* [Em or REM](http://nerd.vasilis.nl/use-em-rem-right-use-cases/)
+* [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
 
 
 ###Inspiratie
+
+
+* Layout en design voorbeelden [Mediagueri.es](http://www.mediaqueri.es)
 
 
 
