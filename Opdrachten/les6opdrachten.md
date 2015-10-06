@@ -5,8 +5,38 @@
 
 Deze week moet je zelfstandig doorwerken aan de eindopdracht.
 
-0. [Stappenplan en checklist](#2)
-1. [Wireframe voorbeelden](#3)
+
+0. [Eindopdracht Responsive design](#2)
+1. [Opdracht 6: Stappenplan en checklist](#3)
+2. [Meer resources](#4)
+
+
+!
+
+
+###3 Wireframes voor 3 breakpoints 
+
+Maak deze layouts voor mobile, tablet en desktop.
+
+De wireframes zijn geschetst in EM's. Wanneer is een tekst goed leesbaar? Hoe lang is een lees-regel? Is er ruimte beschikbaar om een extra kolom te tonen? Baseer daar je breakpoints op ...
+
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
+Deze breakpoints gaan we maken (minimaal 3):
+<img src="assets/4.1 Wireframe Intranet responsive design 1.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.2%20Wireframe%20Intranet%20responsive%20design%202.png">
+Zo kunnen de verschillende layouts er uit zien:
+<img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
+
+<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
+Wireframe schetsen voor de breakpoints:
+<img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
+
+
+
+
+
 
 !
 
@@ -39,25 +69,6 @@ Probeer deze deze vragen te beantwoorden voor je eigen design. En maak het !
 
 1. Hoe ziet het formulier er uit op een breder scherm?
 
-!
-
-
-###Voorbeeld layouts van verschillende schermgroottes voor de artikelpagina.
-
-<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
-Deze breakpoints gaan we maken:
-<img src="assets/4.1 Wireframe Intranet responsive design 1.png" width="100%" alt=""></a>
-
-<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.2%20Wireframe%20Intranet%20responsive%20design%202.png">
-Zo kunnen de verschillende layouts er uit zien:
-<img src="assets/4.2 Wireframe Intranet responsive design 2.png" width="100%" alt=""></a>
-
-<a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.3%20Wireframe%20Intranet%20wireframe.png">
-Voorbeeld van 3 wireframe schetsen voor de breakpoints:
-<img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
-
-
-
 
 !
 
@@ -74,13 +85,14 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 * Resource: [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Learn CSS layout](http://learnlayout.com/toc.html)
 * [What the Flexbox?! by Wes Bos](http://flexbox.io/)
+* [Flexbox playground and code generator by Pete Boere](http://the-echoplex.net/flexyboxes/)
 * [Solved by Flexbox by Philip Walton](https://philipwalton.github.io/solved-by-flexbox/)
 * [Web layout with Flexbox](http://www.webdesignerdepot.com/2015/09/modern-web-layout-with-flexbox/)
 * Flexbox voorbeeld row/column/order responsive [Michele's experiment](http://www.michele.nl/flexbox)
 
 ####Units, EM, REM
 
-* [Em or REM](http://nerd.vasilis.nl/use-em-rem-right-use-cases/)
+* [Em or REM by Vasilis van Gemert](http://nerd.vasilis.nl/use-em-rem-right-use-cases/)
 * [The EMs have it: Proportional Media Queries by Lyza Gardner](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
 
