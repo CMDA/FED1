@@ -13,6 +13,8 @@ Deze week moet je zelfstandig doorwerken aan de eindopdracht.
 
 !
 
+## Eindopdracht Responsive design
+###### Frontend development - les 6
 
 ###3 Wireframes voor 3 breakpoints 
 
@@ -41,7 +43,7 @@ Wireframe schetsen voor de breakpoints:
 !
 
 ## Coden - Opdracht 6
-###### Frontend development - les 5
+###### Frontend development - les 6
 
 Probeer deze deze vragen te beantwoorden voor je eigen design. En maak het !
 
