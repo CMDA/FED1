@@ -20,7 +20,7 @@ Deze week moet je zelfstandig doorwerken aan de eindopdracht.
 
 Maak deze layouts voor mobile, tablet en desktop.
 
-De wireframes zijn geschetst in EM's. Wanneer is een tekst goed leesbaar? Hoe lang is een lees-regel? Is er ruimte beschikbaar om een extra kolom te tonen? Baseer daar je breakpoints op ...
+De wireframes zijn geschetst voor EM's. Wanneer is een tekst goed leesbaar? Hoe lang is een lees-regel? Is er ruimte beschikbaar om een extra kolom te tonen? Baseer daar je breakpoints op ...
 
 
 <a href="https://raw.githubusercontent.com/CMDA/FED1/gh-pages/Opdrachten/assets/4.1%20Wireframe%20Intranet%20responsive%20design%201.png">
