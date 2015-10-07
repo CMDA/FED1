@@ -85,7 +85,6 @@ Probeer deze deze vragen te beantwoorden voor je eigen design. En maak het !
 ####Flexbox
 
 * Resource: [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Learn CSS layout](http://learnlayout.com/toc.html)
 * [What the Flexbox?! by Wes Bos](http://flexbox.io/)
 * [Flexbox playground and code generator by Pete Boere](http://the-echoplex.net/flexyboxes/)
 * [Solved by Flexbox by Philip Walton](https://philipwalton.github.io/solved-by-flexbox/)
