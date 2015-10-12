@@ -64,7 +64,7 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 
 [Klik hier voor opdrachten voor les 7](http://cmda.github.io/FED1/Opdrachten/les7-opdrachten.html)
 
-Opdracht 7 bestaat uit: Audio & Video en het picture element.
+Opdracht 7 bestaat uit: HTML 5 Video en Responsive images.
 
 
 

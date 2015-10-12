@@ -2,9 +2,10 @@
 
 ## Coden - Opdracht les 7
 ###### Frontend development - les 7
-#HTML 5 video en het Picture element
+#HTML 5 video en Responsive images
 
-1. [picture element](#2)
+
+1. [Responsive images](#2)
 2. [HTML5 video](#3)
 
 !
@@ -30,9 +31,12 @@ Gebruik voor deze oefening de plaatjes die in het [Lesprogramma op Github](https
 
 !
 
-## HTML5 Video 
+## Coden - Opdracht 7.2
+###### Frontend development - les 7
 
-Plaats onderstaande bronbestanden in een < video > element.
+###HTML5 Video 
+
+Plaats onderstaande bronbestanden in een < video > element in jepagina.
 De video moet voor iedereen met een hedendaagse browser werken.
 Zorg voor een fallback voor oude browsers. 
 
