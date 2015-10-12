@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>IMG is everything — Hoorcollege 7 — Front-end development V1</title>
+
+		<meta name="description" content="Hoorcollege bij les 7 van Frontend Development in de V1 op de HvA.">
+		<meta name="author" content="Vasilis van Gemert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<script src="prefixfree/prefixfree.min.js"></script>
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<style>
+		.reveal video {
+			max-height: 90vh;
+		}
+textarea,
+iframe {
+	height: 50vh;
+	width: 100%;
+	font-size: 1.2em;
+	background: hsl(210, 13%, 50%);
+	color: white;
+	text-shadow: 0.05em 0.05em 0.1em hsla(0, 0%, 0%, 0.3);
+}
+iframe {
+	height: 80vh;
+}
+.reveal section img[src$=".svg"] {
+	background: white;
+}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>&lt;img> is everything</h1>
+					<h3>Frontend Development Les 7</h3>
+					<aside class="notes">
+						Is dit een HTML comment of een CSS comment? Dus inderdaad, dit is no comment in deze HTML slides. Nuttig!
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h1>Audio en video</h1>
+						<aside class="notes">
+							We gaan een redelijk eenvoudige use case bekijken. Verschillende schermformaten met precies hetzelfde plaatje. 
+						</aside>
+					</section>
+					
+					<section>
+						<h2>Video</h2>
+<pre><code class="HTML">&lt;video src="video.mp4" controls>&lt;/video>
+</code></pre>
+						<aside class="notes">
+							In de ideale wereld, zonder juristen en patenten, zou dit gewoon werken. Maar helaas, we leven niet in die wereld. We hebben dus iets anders nodig. Leg hier uit dat er patenten zitten op video-formaten. mp4 mag je gratis gebruiken totdat je 1 miljoen gebruikers hebt. Dan moet je ineens 1 miljoen dollar betalen (ofzo, het gaat om krankzinnige bedragen). Er zijn partijen, zoals Firefox en Opera die dit weigeren. En partijen die dit gewoon nooit kunnen betalen.
+						</aside>
+					</section>
+					<section>
+						<h2>Video</h2>
+<pre><code class="HTML">&lt;video controls>
+	&lt;source src="video.webm" type="video/webm">
+	&lt;source src="video.mp4" type="video/mp4">
+	&lt;p>&lt;a href="video.webm" download>Download deze film&lt;/a>&lt;/p>
+&lt;/video>
+</code></pre>
+						<aside class="notes">
+							Er zijn andere formaten, zoals webm, die wel gewoon gebruikt mogen worden. Maar browsers als Safari en IE ondersteunen dat weer niet (omdat zij in de mpeg-pool zitten, zij verdienen aan die patenten). Dit betekent dat video aanbieders hun videos op meerdere formaten moeten aanbieden. Krankzinnig natuurlijk. Maar goed, het is niet anders. Hier staat hoe je dat doet.
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Plaatjes</h1>
+					</section>
+					<section data-background="img/groot-knijn.jpg" data-background-size="contain">
+						
+						<aside class="notes">
+							Een van de eerste problemen waar we tegenaan liepen met responsive design was plaatjes. Hoe ga je er mee om dat een plaatje op sommige apparaten gigantisch moet zijn
+						</aside>
+					</section>
+					<section data-background="img/klein-knijn.png" data-background-size="contain">
+						
+						<aside class="notes">
+							en op andere juist klein…
+						</aside>
+					</section>
+					<section>
+						<pre><code class="HTML"><img src="groot.jpg" alt="Heel groot plaatje van veel MB">
+</code></pre>
+						<aside class="notes">
+							Het was lastig om dit voor elkaar te krijgen. Moet je een heel groot plaatje in een klein scherm tonen? 
+						</aside>
+					</section>
+					<section>
+						<h2>Voordat we gaan oplossen</h2>
+						<p class="fragment">wat zijn de problemen precies?</p>
+						<aside class="notes">
+							Vraag de studenten om een aantal use cases voor problemen met plaatjes te benoemen
+						</aside>
+					</section>
+					<section>
+						<h2>Use cases</h2>
+						<ul>
+							<li class="fragment">Breedte van het scherm</li>
+							<li class="fragment">Hoogte van het scherm</li>
+							<li class="fragment">Breedte van het <em>plaatje</em></li>
+							<li class="fragment">Hoogte van het <em>plaatje</em></li>
+							<li class="fragment">Compositie van het plaatje</li>
+							<li class="fragment">Resolutie</li>
+							<li class="fragment">Netwerksnelheid</li>
+							<li class="fragment">Netwerk<em>prijs</em></li>
+						</ul>
+						
+						<aside class="notes">
+							Dit zijn allemaal mogelijke problemen die je tegen kunt komen als je met plaatjes werkt op het web. Leg ze allemaal even uit, hoe relevant zijn ze: schermgrootte voor beeldvullende plaatjes, afmetingen van plaatjes voor content plaatjes, de compositie voor verschillende crops van het plaatje. Wat doe je met resolutie? Netwerksnelheid en prijs. Niet te diep op ingaan, we behandelen alle problemen apart, inclusief mogelijke oplossingen.
+						</aside>
+					</section>
+					<section>
+						<h2>Netwerk</h2>
+						
+						<aside class="notes">
+							Hoe kan je er voor zorgen dat je niet overdreven veel kb naar een bezoeker stuurt? En waarom is dit eigenlijk belangrijk? Laat studenten hier eventueel een antwoord op geven. Eigenlijk gaat dit over snelheid (ik wil niet wachten) en prijs (ik wil niet betalen). Verantwoordelijkheid van designers én developers om dit zo laag mogelijk te houden. Helaas is het niet mogelijk om de netwerksnelheid te meten. Het fluctueert ook. In Breukelen heb je misschien prima 4g, een paar minuten later rijd je door Loch Abcoude. Netwerksnelheid sniffen is onbetrouwbaar. Dat moet dus slimmer.
+						</aside>
+					</section>
+					<section>
+						<h2>Oplossingen voor netwerkissues</h2>
+						<ul>
+							<li class="fragment">Juiste bestandsformaat gebruiken</li>
+							<li class="fragment">Plaatjes die passen bij de afmetingen gebruiken</li>
+							<li class="fragment">Goede compressie toepassen</li>
+							<li class="fragment">Geen plaatjes gebruiken</li>
+						</ul>
+						
+						<aside class="notes">
+							Er zijn natuurlijk een paar oplossingen te bedenken. Gebruik geen plaatjes die veel te groot zijn. Dus geen 2000x1500px voor een 320x480px scherm. Sla een foto niet op als PNG maar als JPG. Sla een graphic op als SVG of eventueel PNG. Gebruik goede tools om plaatjes te comprimeren: imageOptim, imageAlpha en JPGMini kunnen een plaatje soms wel 80% kleiner maken zonder zichtbaar verlies. Als een plaatje van 2000x1500px dan ineens 10kb is kan je hem natuurlijk wél gewoon gebruiken op een klein scherm. Zo weinig kb is acceptabel, verdere optimalisatie scheelt weinig. De beste optimalisatie is natuurlijk géén plaatjes gebruiken. Rijksmuseum moet plaatjes, de Guardian laadt maar één plaatje op de homepage, en haalt de andere plaatjes op als de pagina eenmaal geladen is. Veel sites hebben helemaal geen plaatjes nodig. Carroussels zijn grote bandbreedteverkwisters zonder echt bestaansrecht.
+						</aside>
+					</section>
+
+					<section>
+						<h2>Oplossingen voor resolutie-issues</h2>
+						<ul>
+							<li class="fragment">SVG gebruiken voor graphics</li>
+							<li class="fragment">Afmetingen die passen bij de resolutie gebruiken</li>
+							<li class="fragment"><em>Extreme</em> compressie toepassen</li>
+						</ul>
+						
+						<aside class="notes">
+							Tekenen op het bord: op een retina scherm is één CSS pixel gelijk aan vier hardware-pixels. Alles is dus superscherp. Behalve foto's. Die zijn ineens blurry. Gebruik dus zo veel mogelijk vector graphics zoals SVG of icon-fonts: relatief klein, superscherp. Voor foto's: val mensen zonder retina-scherm niet lastig met hoge resoluties. Serveer die alleen aan retina schermen, bijvoorbeeld via een mediaquery. Of het picture element (waar we later op komen). Er is ook een bizarre hack met extreme compressie die resulteert in grote afmetingen maar superweinig KB. Een foto van 2000x1500px die je toont als 1000x750px blijkt er superscherp uit te zien, en de lelijke JPG-compressie artefacten zijn vaak onzichtbaar. Bizarre hack, niet goed voor batterijen…
+						</aside>
+					</section>
+					<section>
+						<h2>Mediaquery voor resolutie</h2>
+						<pre><code class="CSS">@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+}
+</code></pre>
+						
+						<aside class="notes">
+							Deze mediaquery werkt voor alle huidige en toekomstige browsers op apparaten met retina schermen.
+						</aside>
+					</section>
+					<section>
+						<h2>Oplossingen voor art-direction-issues</h2>
+						<ul>
+							<li class="fragment">Complexe upload tool maken</li>
+							<li class="fragment">Slimme fotografie gebruiken</li>
+						</ul>
+						
+						<aside class="notes">
+							Art direction voor fotografie: hiermee wordt bedoeld dat je soms een andere uitsnede wilt hebben voor verschillende afmetingen van het plaatje: bijvoorbeeld een persoon + omgeving op een breed beeld, maar alleen de persoon op een smal scherm. Zie de volgende pagina. Je kan hiervoor een complexe tool bouwen die het mogelijk maakt om verschillende uitsnedes te maken, ja kan ook de fotograaf de opdracht geven om een duidelijk grid te gebruiken waardoor de verschillende varianten automatisch gegenereerd kunnen worden.
+						</aside>
+					</section>
+					<section data-background="img/art-direction.png" data-background-size="contain">
+						
+						<aside class="notes">
+							Hier is gebruik gemaakt van een duidelijk grid waardoor de verschillende uitsnedes automatisch gegenereerd kunnen worden. 
+						</aside>
+					</section>
+					<section>
+						<h2>Oplossingen voor afmetingen van het plaatje</h2>
+						<ul>
+							<li class="fragment">Meerdere formaten laten genereren</li>
+							<li class="fragment">Het juiste plaatje serveren in de juiste situatie.</li>
+						</ul>
+						
+						<aside class="notes">
+							The Guardian laadt eerst een kleine foto die scherp is op een klein apparaat. Pas als de hele pagina geladen is wordt die vervangen door dezelfde afbeelding in een hogere resolutie, als dat nodig is. Dit is nu nog redelijk complex. Meestal is er een combinatie nodig van HTML, JavaScript, cookies en de backend om dit goed op te lossen. Maar het is zo'n veevoorkomende use case dat we tegenwoordig langzaamaan gebruik kunnen maken van het picture-element.
+						</aside>
+					</section>
+				</section>
+
+
+
+
+
+				<section>
+					<section>
+						<h1>&lt;Picture> en srcset</h1>
+
+						<aside class="notes">
+							Bovenstaande use cases zijn reëel. Je wil graag dat dit op de client, zonder JavaScript wordt opgelost. Browsers kunnen dit prima zelf. Vandaar dat er twee nieuwe oplossingen zijn.
+						</aside>
+					</section>
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML"><img src="klein.jpg"
+	srcset="large.jpg 1024w,
+	medium.jpg 640w,
+	small.jpg 320w" 
+	sizes="(min-width: 36em) 33.3vw,
+	100vw" alt="">
+</code></pre>
+						<aside class="notes">
+							De nieuwe syntax van de sourceset + sizes attributen. We gaan zo naar de details kijken.
+						</aside>
+					</section>
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img src="klein.jpg" … >
+</code></pre>
+						<aside class="notes">
+							Laad eerst het kleine plaatje. Hiermee laadt je geen onnodige pixels voor apparaten die het srcset-attribuut niet begrijpen.
+						</aside>
+					</section>
+
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img … 
+	srcset="large.jpg 1024w,
+	medium.jpg 640w,
+	small.jpg 320w" 
+	… >
+</code></pre>
+						<aside class="notes">
+							In de srcset geef je aan welke plaatjes er zijn en hoe breed ze zijn. Als plaatjes op 100% van de viewport breedte getoond worden is dit genoeg: de browser kiest nu het plaatje wat het beste past, gebaseerd op schermgrootte én resolutie.
+						</aside>
+					</section>
+					<section>
+						<h2>Srcset</h2>
+<pre><code class="HTML">&lt;img … 
+	sizes="(min-width: 36em) 33.3vw,
+	100vw" … >
+</code></pre>
+						<aside class="notes">
+							Als de plaatjes niet altijd op 100vw getoond worden kan je dat aangeven in het sizes attribuut. Bijvoorbeeld "50vw" geeft aan dat plaatjes altijd 50% van de viewport breedte zijn. Je kan hier ook meerdere mediaqueries invoeren. Dan doe je iets als "(min-width: 36em) 33.3vw, 100vw". Hier staat. Als het scherm breder is dan 36em, dan is het plaatje 33.33vw. Anders is het 100vw. Je kunt hier zo veel waardes invoeren als je maar nodig hebt. De laatste is dus de default. Het is dan telkens [media query] [length], [media query] [length] ... etc
+						</aside>
+					</section>
+					<section>
+						<h2>Wat lost srcset op?</h2>
+						<ul>
+							<li>Breedte van het scherm</li>
+							<li>Breedte van het <em>plaatje</em></li>
+							<li>Resolutie</li>
+							<li>Netwerksnelheid</li>
+							<li>Netwerk<em>prijs</em></li>
+						</ul>
+						<aside class="notes">
+							Deze use cases worden allemaal opgelost met deze twee nieuwe attributen. Leg even uit hoezo. 
+						</aside>
+					</section>
+					<section>
+						<h2>Wat lost srcset <em>NIET</em> op?</h2>
+						<ul>
+							<li>Hoogte van het scherm</li>
+							<li>Hoogte van het <em>plaatje</em></li>
+							<li>Art Direction</li>
+						</ul>
+						<aside class="notes">
+							Op dit moment kan er nog geen hoogte aangegeven worden in het sizes attribuut. Dat zou je wel willen. Op deze site bijvoorbeeld zijn de plaatjes maximaal 90vh — http://vvg.gr/im — hier kan nog niks mee, in de toekomst wellicht wel.
+						</aside>
+					</section>
+					<section>
+						<h2>Hoe los je art direction op?</h2>
+						<aside class="notes">
+							Srcset + sizes is genoeg voor 90% van de gevallen. Voor die gevallen waarin je wel verschillende plaatjes aan verschillende resoluties wilt tonen is er meer nodig. Het Picture element.
+						</aside>
+					</section>
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;picture>
+  &lt;source media="(min-width: 45em)" srcset="large.jpg">
+  &lt;source media="(min-width: 32em)" srcset="med.jpg">
+  &lt;img src="small.jpg" alt="The president giving an award.">
+&lt;/picture>
+</code></pre>
+						<aside class="notes">
+							Zo los je dat op, op zich. Eens kijken naar de details:
+						</aside>
+					</section>
+					
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;picture>
+  …
+&lt;/picture>
+</code></pre>
+						<aside class="notes">
+							een picture is een lege huls. In het picture element kan je een aantal specifieke dingen stoppen.
+						</aside>
+					</section>
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;source media="(min-width: 45em)" srcset="large.jpg">
+  &lt;source media="(min-width: 32em)" srcset="med.jpg">
+</code></pre>
+						<aside class="notes">
+							In het source element geef je een mediaquery aan, plus een srcset waarin de (mogelijke) bron(nen) staan. Hiermee kan je dus 
+						</aside>
+					</section>
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;source media="(min-width: 45em)" srcset="large.jpg, large-hd.jpg 2x">
+  &lt;source media="(min-width: 32em)" srcset="med.jpg">
+</code></pre>
+						<aside class="notes">
+							Met het 2x ding in de eerste srcset geef je aan dat een plaatje bedoeld is voor retina schermen. Hoei, dat is die use case weer! Je kan ook het sizes attribuut in het source-element gebruiken. Ruimte voor alle mogelijke complexiteit dus. Behalve hoogte, dat kan niet.
+						</aside>
+					</section>
+					<section>
+						<h2>&lt;picture></h2>
+					<pre style="margin: 0 -2em; width: calc(100% + 4em)"><code class="HTML">&lt;&lt;img src="small.jpg" alt="The president giving an award.">
+</code></pre>
+						<aside class="notes">
+							Tot slot staat er nog een image element in. Als fallback voor als de picture- en source-elementen niet ondersteund worden. 
+						</aside>
+					</section>
+				</section>
+				
+
+				<section>
+					<h2>Vorige weken</h2>
+					<ul>
+						<li>Semantische HTML</li>
+						<li>Geschiedenis van HTML</li>
+						<li>Progressive enhancement</li>
+						<li>CSS blingbling</li>
+						<li>CSS selectors</li>
+						<li>Javascript dingetjes</li>
+						<li>Flexbox!</li>
+						<li>Units</li>
+						<li>Box-model</li>
+						<li>Positioning</li>
+						<li>Meer units</li>
+						<li>Responsive design</li>
+						<li>Mediaqueries</li>
+						<li>Plaatjes</li>
+						<li>Feature detection</li>
+					</ul>
+					<aside class="notes">
+						Even kijken wat we allemaal al hebben gedaan. Best veel! OMG! Het past niet eens op de pagina! Prima momentje om eens te zien of mensen het tof vinden wat ze hebben geleerd. Waarom? Of is er niks aan? En ze er uiteraard even aan herinneren dat ze 7 weken geleden hier allemaal niks van wisten. We gaan zo alles nog even langs. Goed veel tijd voor eventuele vragen, of nog even de dingen aan elkaar knopen. 
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				
+				<section>
+					<section>
+						<h1>Principes!</h1>
+						<aside class="notes">
+							Het web is er voor iedereen. En iedereen consumeert het web op een andere manier. Iets ontwerpen en iets bouwen voor het web is dus redelijk complex. Je moet de verschillende lagen van het web dus goed begrijpen. Wat is de eerste laag?
+						</aside>
+					</section>
+					<section>
+						<h1>Semantische HTML!</h1>
+						<aside class="notes">
+							We begonnen met semantische HTML. Dat doen we omdat er zonder gestructureerde content gewoon niks valt vorm te geven. Stap 1 in het vormgevings-proces is het structureren van je content. 100% van je bezoekers kan er dan iets mee. De lagen die je toevoegt moeten het vervolgens prettiger maken voor je bezoekers. Wat zou de eerste laag zijn die je toevoegt?
+						</aside>
+					</section>
+					<section>
+						<h1>Typografie!</h1>
+						<aside class="notes">
+							Alle mensen, behalve blinden, zien typografie. Op smalle schermpjes zie je het, en ook op brede schermen. Ook op zwart/wit schermen. Noem eens een hele goede unit om typografie mee op te zetten op het web? Juist, de em. En wat zou de volgende laag zijn?
+						</aside>
+					</section>
+					<section>
+						<h1>CSS bling!</h1>
+						<aside class="notes">
+							Als je zeker weet dat iets leesbaar is wil je natuurlijk ook dat het aansluit bij de brand-identity van de klant. Herkenbaarheid is superbelangrijk. Daar hebben we bijzonder veel tools voor. Wat zijn de tofste? Inderdaad, border-radius is heel tof. Box-shadow ook, zeker. Gradients, en dingen als SVG, die we niet eens hebben behandeld zijn ook supertof.
+						</aside>
+					</section>
+					<section>
+						<h1>Layout!</h1>
+						<aside class="notes">
+							Als het leesbaar is en het heeft een identiteit, dan kan je gaan nadenken over layout. Niet iedereen heeft namelijk een breed scherm, dus dat heeft geen prioriteit. Waar kan je breakpoints op baseren? Op bijvoorbeeld de tekstbreedte. Welke technieken heb je allemaal op verschillende layouts te maken? Flexbox, floating, mediaqueries, etc.
+						</aside>
+					</section>
+					<section>
+						<h1>Fancy shit!</h1>
+						<aside class="notes">
+							Vaak is er meer nodig. Dingen in- en uitklappen bijvoorbeeld. Of iemands locatie achterhalen. Of een videoconference starten. Of bestanden peer-to-peeren. Dat lukt allemaal niet zonder JavaScript. JavaScript maakt het mogelijk om, zodra we zeker weten dat het fundament goed is, de boel nóg toffer te maken. Om zeker te weten dat iedereen gewoon alles wel kan blijven doen, moeten we natuurlijk gebruik maken van feature detection. Zo. Dat was het vak in een notendop.
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Vormgeving 2</h1>
+
+						<aside class="notes">
+							Hoe sluit dit allemaal aan op Vormgeving 2 in het volgende blok? Denk je dat het nuttig is om dit allemaal te weten? Wat heb je hier aan? We gaan ons in het volgende blok verdiepen in vormgeving. Dus hoe zit dat precies met typografie? Wat zijn de regels er achter. Wat valt er allemaal te weten over grids? Kleurenleer. Wat moeten we daar van weten. Maar vooral ook: al die dingen die we verzinnen, <em>kunnen die wel</em>, technisch gezien? Die kennis hebben we nu. Jullie kunnen nu zelfstandig je ontwerp wat je in het volgende blok maakt valideren: is dit realistisch? of een fantasie?
+						</aside>
+					</section>
+					<section>
+						<h1>Frontend <br>development 2</h1>
+						<aside class="notes">
+							Voor de mensen die dit eigenlijk hardstikke tof vonden. Die het te gek vonden om uit te zoeken wat de beste manier is om mediaqueries te gebruiken. De mensen die zelf gingen uitzoeken hoe gradients werken. De mensen die los gingen met CSS bling. Met andere woorden, de mensen die het te gek vinden om iets te bouwen wat echt werkt, Frontend 2 is voor jullie. Daar gaan we dieper in op JavaScript. Echte scripts schrijven. Een echt app maken. Met APIs aan de slag. Hele toffe dingen doen.
+						</aside>
+					</section>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+<script src="slideshow.js"></script>
+<script src="plugins/css-edit.js"></script>
+<script src="plugins/css-snippets.js"></script>
+<script src="plugins/css-controls.js"></script>
+<script src="plugins/code-highlight.js"></script>
+<script>
+//var slideshow = new SlideShow();
+
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+	new CSSSnippet(snippets[i]);
+}
+
+var cssControls = document.querySelectorAll('.css-control');
+for(var i=0; i<cssControls.length; i++) {
+	new CSSControl(cssControls[i]);
+}
+</script>
+	</body>
+</html>
