@@ -25,8 +25,8 @@ Programma & leerdoelen voor vandaag:
 1. College over Audio, Video, Picture element en pre-fixes  (30)
 2. Weekly Nerd: Over het Picture element en A Dao of Web Design (30)
 3. Coden (120)
-	- Audio & Video
-	- Picture element
+	- HTML 5 Video
+	- Responsice omages
 
 
 !
