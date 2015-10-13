@@ -9,7 +9,7 @@
 
 # < img > is everything
 ###### Frontend development - les 7
-Deze les gaat over responsive images, het picture element, audio, video en pre-fixes. 
+Deze les gaat over responsive images, audio, video en pre-fixes. 
 In de les gaan we doorwerken aan de eindopdracht.
 
 
@@ -22,8 +22,8 @@ In de les gaan we doorwerken aan de eindopdracht.
 
 Programma & leerdoelen voor vandaag:
 
-1. College over Audio, Video, Picture element en pre-fixes  (30)
-2. Weekly Nerd: Over het Picture element en A Dao of Web Design (30)
+1. College over Audio, Video, het Picture element en pre-fixes  (30)
+2. Weekly Nerd: Over een 'faster web' en A Dao of Web Design (30)
 3. Coden (120)
 	- HTML 5 Video
 	- Responsice omages
