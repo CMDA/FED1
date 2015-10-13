@@ -23,8 +23,7 @@ Gebruik voor deze oefening de plaatjes die in het [lesprogramma op Github](https
 **Resources**
 
 * Resource: [Native responsive Images by Yoav Weiss](https://dev.opera.com/articles/native-responsive-images/)
-* [Responsive Images: Use Cases and Documented Code Snippets to Get You Started](https://dev.opera.com/articles/responsive-images/)
-* [Responsive Images Done Right: A Guide To < picture > And srcset](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
+* [Built-in Browser Support for Responsive Images](hhttp://www.html5rocks.com/en/tutorials/responsive/picture-element/)
 * [Caniuse Picture-element?](http://caniuse.com/#search=picture) 
 
 <!--Antwoord in [Dablet](http://dabblet.com/gist/e173b03e74e908cf3c29)-->
