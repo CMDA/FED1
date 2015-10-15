@@ -17,7 +17,7 @@
 
 Gebruik srcset om verschillende .jpg files te tonen op verschillende schermgroottes
 
-Gebruik voor deze oefening de plaatjes die in het [lesprogramma op Github](https://github.com/CMDA/FED1/tree/gh-pages/Opdrachten/html/img/responsive_images) staan:
+Gebruik voor deze oefening de plaatjes die in het [lesprogramma op Github](https://github.com/CMDA/FED1/tree/gh-pages/Opdrachten/html/img/responsive_images) staan.
 
 
 **Resources**
@@ -40,6 +40,7 @@ De video moet voor iedereen met een hedendaagse browser werken.
 Zorg voor een fallback voor oude browsers. 
 
 Video bronbestanden staan op [Github](https://github.com/CMDA/FED1/tree/gh-pages/Opdrachten/html/videos)
+
 
 
 **Resources**
