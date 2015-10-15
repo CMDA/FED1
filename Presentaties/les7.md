@@ -26,7 +26,7 @@ Programma & leerdoelen voor vandaag:
 2. Weekly Nerd: Over een 'faster web' en A Dao of Web Design (30)
 3. Coden (120)
 	- HTML 5 Video
-	- Responsice omages
+	- Responsive images
 
 
 !
