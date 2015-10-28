@@ -100,13 +100,16 @@ De eindopdracht wordt, net als deeltoets 1 en 2 in een mondeling getoetst. De do
 
 De website bevat alle onderwerpen zoals die in de lessen zijn behandeld:
 
+Minimaal:
+
 * De website is gemaakt met behulp van HTML5, CSS3 en Javascript
-* De pagina's bevatten alle HTML zoals die is aangeleverd
+* De pagina's bevatten alle HTML zoals die is aangeleverd. Je mag alleen iets toevoegen of veranderen als de HTML niet toereiken is voor wat je wil vormgeven
 * HTML5 moet correct gevalideerd zijn, danwel je moet kunnen uitleggen hoe je een error melding van een validator kan oplossen
 * De CSS3 wordt extern ingeladen
 * Met behulp van javascript worden dynamisch classes toegevoegd of weggehaald
-* De layout en vormgeving past zich aan aan de schermgrootte
-* Er wordt correct gebruik gemaakt van verschillende Media queries om 3 breakpoints vorm te geven
+* Met behulp van media queries is een responsive design gerealiseerd voor minimaal 3 layouts, 2 breakpoints. De pagina’s passen zich aan aan de schermgrootte en de layout verandert voor mobile, tablet en/of desktop formaat
+* De layout is in verhoudingen opgemaakt. Er is gebruik gemaakt van procenten en/of Em waardes
+* De pagina's bevatten het picture-element om verschillende plaatjes te laden voor verschillende schermen/apparaten. Daarnaast is er een video en/of audio element gebruikt
 
 
 
