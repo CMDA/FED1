@@ -67,6 +67,10 @@ Geen les, maar zelfstandig werken
 8. < / HTML > [Toetsing en beoordeling](#)
 
 
+
+[Alle opdrachten](http://cmda.github.io/FED1/Opdrachten/alle-opdrachten.html)
+
+
 <br>
 ###### Frontend development 2015/16
 ## Intentie van het vak
