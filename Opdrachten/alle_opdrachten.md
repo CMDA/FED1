@@ -6,11 +6,12 @@
 
 1. [Opdracht 1: Artikel- & Formulierpagina maken in HTML 5](#2)
 1. [Opdracht 2: CSS3 Bling Bling & Selectors](#7)
-1. [Opdracht 3: Box model, Units & typografie](#10)
-1. [Opdracht 4: Media queries & Flexbox](#14)
-1. [Opdracht 5: Javascript ClassList Object & de Query Selector](#17)
+1. [Opdracht 3: Box model, Units & typografie](#11)
+1. [Opdracht 4: Media queries & Flexbox](#15)
+1. [Opdracht 5: Javascript ClassList Object & de Query Selector](#18)
 1. [Opdracht 6: Stappenplan en checklist voor een responsive design](#19)
 1. [Opdracht 7: HTML 5 video en Responsive images](#21)
+
 
 ###Eindopdracht beschrijving
 
@@ -55,7 +56,7 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 
 
 ## Coden - Opdracht 1.1
-###### Frontend development - les 1
+###### Frontend development - les 1: Artikel- & Formulierpagina maken in HTML 
 
 ### Maak een **Artikelpagina** in HTML 5
 Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina. Gebruik de juiste HTML 5 elementen. Vermijd het gebruik van < div >.
@@ -78,7 +79,7 @@ Dit [plaatje](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/b
 !
 
 ## Coden - Opdracht 1.2
-###### Frontend development - les 1
+###### Frontend development - les 1: Artikel- & Formulierpagina maken in HTML 
 
 ### Maak een **Formulierpagina** in HTML 5
 Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Formulierpagina%20-%20Aanmelden%2020140908.pdf) om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen. 
@@ -91,7 +92,7 @@ Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maak
 !
 
 ## Coden - Opdracht 1.3
-###### Frontend development - les 1
+###### Frontend development - les 1: Artikel- & Formulierpagina maken in HTML 
 
 ### Valideer de Artikelpagina en de Formulierpagina 
 En verbeter de fouten ...
@@ -109,7 +110,7 @@ Zet je code op Github voor de deeltoets.
 !
 
 ## Coden - Opdracht 1
-###### Frontend development - les 1
+###### Frontend development - les 1: Artikel- & Formulierpagina maken in HTML 
 
 ###Opmerkingen over HTML5 sematiek
 
@@ -152,7 +153,7 @@ Firebug Lite
 !
 
 ## Coden - Opdracht 1
-###### Frontend development - les 1
+###### Frontend development - les 1: Artikel- & Formulierpagina maken in HTML 
 
 ###Opmerkingen over formulieren
 
@@ -181,7 +182,7 @@ Bij type="search" laat IOS bijvoorbeeld standaard een x (clear) in het field zie
 !
 
 ## Coden - Opdracht 2.1
-###### Frontend development - les 2
+###### Frontend development - les 2: CSS3 Bling Bling & Selectors
 
 ###Bling Bling
 
@@ -254,7 +255,7 @@ Spelen met transities:
 !
 
 ## Coden - Opdracht 2.2
-###### Frontend development - les 1
+###### Frontend development - les 2: CSS3 Bling Bling & Selectors
 
 ###Selectors
 Met selectors, sibling combinators, pseudo classes en attribute selectors kun je elementen in de DOM selecteren en stylen. Hieronder staan een aantal experimenten om met deze selectors te oefenen. Het is de bedoeling dat je deze technieken ook gaat toepassen op de artikel- en formulierpagina en deze laat zien tijdens deeltoets 2.
@@ -283,8 +284,47 @@ Attribute selectors and bling [oefening](http://dabblet.com/gist/1865805)
 
 !
 
+## Coden - Opdracht 2.3
+###### Frontend development - les 2: CSS3 Bling Bling & Selectors
+
+###Attributes selector toepassen
+
+#### Download een pdf file - plaatje dynamisch tonen
+
+In de andere opdrachten van les 2 heb je geleerd hoe je in CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
+
+In deze oefening gaan we dat nogmaals gebruiken. Met het pseudo element Content kun je dynamisch HTML stylen. Als bv een download link eindigt op .pdf dan kun je met CSS een icoontje plaatsen.
+
+Je hebt deze HTML bij de '3 related projects' in de formulier-pagina:
+
+	<h4>Downloads</h4>
+      <ul>
+		<li><a href="bron.pdf" data-kb="1267">project_CMDA_Moet_ik_rennen.pdf</a> (1.3MB)</li>
+		<li><a href="bron.vcf">Contactgegevens_CMDA_Moet_ik_rennen.vcf</a></li>
+		<li><a href="bron.jpg" data-kb="569">Poster_CMDA_Moet_ik_rennen.jpg</a> (569KB)</li>
+	  </ul>
+
+Zorg er voor dat je bij de pdf en/of vcf en/of jpg link een bijhorend plaatje toont. Dat ziet er zo uit:
+
+<img src="assets/5.1downloadPdfFile.png" width="100%" alt="Download PDF file">
+
+
+
+**Resource**
+
+* [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors?redirectlocale=en-US&redirectslug=CSS%2FAttribute_selectors)
+* [Pseudo Element: Content](http://css-tricks.com/css-content/)
+* [plaatje pdf download](http://www.adobe.com/images/shared/product_mnemonics/50x50/acrobat_reader_50x50.gif)
+* [plaatje vcf download](http://www.sentinel-it.nl/Images/vcard-icon.png)
+* [plaatje jpg download](http://www.yudanaka-shibuonsen.com/userfiles/image/jpg.png)
+
+<!-- * [spoiler] Dat ziet er ongeveer [zo](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) uit -->
+
+
+!
+
 ## Coden - Opdracht 2
-###### Frontend development - les 1
+###### Frontend development - les 2: CSS3 Bling Bling & Selectors
 
 ###Meer resources
 
@@ -295,11 +335,11 @@ Attribute selectors and bling [oefening](http://dabblet.com/gist/1865805)
 
 
 ## Coden - Opdracht 3.1
-###### Frontend development - les 3
+###### Frontend development - les 3: Box model, Units & typografie
 
 ###Box model
 
-a) In deze oefening ga je de 5 gerelateerde artikelen naast elkaar tonen. Gebruik hiervoor de float, positioning en de inline-block methode. Wat is het verschil? Wat valt je op aan het gebruik van deze methoden?
+a) In deze oefening ga je met verschillende technieken de 5 gerelateerde artikelen naast elkaar tonen. Gebruik floating, positioning en de inline-block methode. Wat is het verschil? Hoe werkt het en wat valt je op aan het gebruik van de methoden?
 
 b) Dit kun je natuurlijk ook toepassen op andere elementen: Toon de gerelateerde artkelen (of projecten) samen met de mededelingen & agenda-items van de aside, in  blokken naast en onder elkaar, afhankelijk van de breedte van het scherm. Dit kan een interessante layout zijn als bv de pagina heel breed is ... 1440 pixels? 1920 pixels?
 
@@ -317,7 +357,7 @@ b) Dit kun je natuurlijk ook toepassen op andere elementen: Toon de gerelateerde
 !
 
 ## Coden - Opdracht 3.2
-###### Frontend development - les 3
+###### Frontend development - les 3: Box model, Units & typografie
 
 ###Typografie: Easy to Read
 
@@ -343,7 +383,7 @@ Kan het ietsje minder? Window Licking?
 
 
 ## Coden - Opdracht 3.3
-###### Frontend development - les 3
+###### Frontend development - les 3: Box model, Units & typografie
 
 ### Units voor layout
 
@@ -361,7 +401,7 @@ Hoeveel ruimte moet er tussen de kolommen?
 !
 
 ## Coden - Opdracht 3
-###### Frontend development - les 3
+###### Frontend development - les 3: Box model, Units & typografie
 
 ###Meer resources
 
@@ -390,7 +430,7 @@ Hoeveel ruimte moet er tussen de kolommen?
 !
 
 ## Coden - Opdracht 4.1
-###### Frontend development - les 4
+###### Frontend development - les 4: Media queries & Flexbox
 
 
 ###Flexbox
@@ -412,7 +452,7 @@ b) In de articles van de artikel-pagina staat een footer met de auteur-informati
 !
 
 ## Coden - Opdracht 4.2
-###### Frontend development - les 4
+###### Frontend development - les 4: Media queries & Flexbox
 
 
 ###Media queries
@@ -432,7 +472,7 @@ Check vooral ook de [wireframe voorbeelden](#1) van hoe de pagina's eruit kunnen
 !
 
 ## Coden - Opdracht 4
-###### Frontend development - les 4
+###### Frontend development - les 4: Media queries & Flexbox
 
 ###Meer resources
 
@@ -451,47 +491,9 @@ Check vooral ook de [wireframe voorbeelden](#1) van hoe de pagina's eruit kunnen
 
 !
 
-## Coden - Opdracht 5.1
-###### Frontend development - les 5
 
-###Attributes selector toepassen
-
-#### Download een pdf file - plaatje dynamisch tonen
-
-In opdrachten van les 2 heb je geleerd hoe je in CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
-
-In deze oefening gaan we dat nogmaals gebruiken. Met het pseudo element Content kun je dynamisch HTML stylen. Als bv een download link eindigt op .pdf dan kun je met CSS een icoontje plaatsen.
-
-Je hebt deze HTML bij de '3 related projects' in de formulier-pagina:
-
-	<h4>Downloads</h4>
-      <ul>
-		<li><a href="bron.pdf" data-kb="1267">project_CMDA_Moet_ik_rennen.pdf</a> (1.3MB)</li>
-		<li><a href="bron.vcf">Contactgegevens_CMDA_Moet_ik_rennen.vcf</a></li>
-		<li><a href="bron.jpg" data-kb="569">Poster_CMDA_Moet_ik_rennen.jpg</a> (569KB)</li>
-	  </ul>
-
-Zorg er voor dat je bij de pdf en/of vcf en/of jpg link een bijhorend plaatje toont. Dat ziet er zo uit:
-
-<img src="assets/5.1downloadPdfFile.png" alt="Download PDF file">
-
-
-
-**Resource**
-
-* [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors?redirectlocale=en-US&redirectslug=CSS%2FAttribute_selectors)
-* [Pseudo Element: Content](http://css-tricks.com/css-content/)
-* [plaatje pdf download](http://www.adobe.com/images/shared/product_mnemonics/50x50/acrobat_reader_50x50.gif)
-* [plaatje vcf download](http://www.sentinel-it.nl/Images/vcard-icon.png)
-* [plaatje jpg download](http://www.yudanaka-shibuonsen.com/userfiles/image/jpg.png)
-
-<!-- * [spoiler] Dat ziet er ongeveer [zo](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) uit -->
-
-
-!
-
-## Coden - Opdracht 5.2
-###### Frontend development - les 5
+## Coden - Opdracht 5
+###### Frontend development - les 5: Javascript ClassList Object & de Query Selector
 
 ###Javascript ClassList Object aanspreken met de Query selector functie
 
@@ -528,7 +530,7 @@ b) Kun jij de toggle ook met een animatie maken?
 
 
 ## Coden - Opdracht 6
-###### Frontend development - les 6
+###### Frontend development - les 6: Stappenplan en checklist voor een responsive design
 
 ###Probeer deze deze vragen te beantwoorden voor je eigen design. En maak het !
 
@@ -560,7 +562,7 @@ b) Kun jij de toggle ook met een animatie maken?
 !
 
 ## Coden - Opdracht 6
-###### Frontend development - les 6
+###### Frontend development - les 6: Stappenplan en checklist voor een responsive design
 
 ###Meer resources
 
@@ -596,7 +598,7 @@ b) Kun jij de toggle ook met een animatie maken?
 !
 
 ## Coden - Opdracht 7.1
-###### Frontend development - les 7
+###### Frontend development - les 7: HTML 5 video en Responsive images
 
 ###Responsive images
 
@@ -616,7 +618,7 @@ Gebruik voor deze oefening de plaatjes die in het [lesprogramma op Github](https
 !
 
 ## Coden - Opdracht 7.2
-###### Frontend development - les 7
+###### Frontend development - les 7: HTML 5 video en Responsive images
 
 ###HTML5 Video 
 

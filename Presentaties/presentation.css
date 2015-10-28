@@ -19,11 +19,14 @@ div.centered{
     background-color:rgba(255, 255, 255,.97);
     padding: 0.4em;
 }
-div.slideCount{
+
+.slideCount{
     background-color: Goldenrod;
     color: #000;
     padding: 0.4em;
 }
+
+
 td{
     vertical-align: top;
     padding-top: 2em;
