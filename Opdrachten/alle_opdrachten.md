@@ -420,7 +420,7 @@ De artikel- en formulierpagina heb je in les 2 en 3 gestyled naar goed leesbare 
 
 Met behulp van Media querie kun je verschillende breakpoints maken. Werk nu vanaf mobiel naar bredere schermen. Bepaal de verschillende Media queries. Vanaf welke breedte ga je over naar een andere layout? Dat kan bijvoorbeeld als de regels te lang worden en er genoeg (wit)ruimte is om een kolom naast het artikel te plaatsen. Maak minimaal 3 breakpoints met behulp van Media queries, en maak voor elke een geschikte layout.
 
-Op de volgende pagina staat een [wireframe voorbeeld](#4) van hoe de pagina's eruit kunnen komen te zien.
+Check vooral ook de [wireframe voorbeelden](#1) van hoe de pagina's eruit kunnen komen te zien. De layouts die getekent zijn in de Wireframes moet je kunnen maken.
 
 
 **Resources**    
