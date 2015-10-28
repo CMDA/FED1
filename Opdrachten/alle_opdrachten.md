@@ -9,7 +9,7 @@
 1. [Opdracht 3: Box model, Units & typografie](#10)
 1. [Opdracht 4: Media queries & Flexbox](#14)
 1. [Opdracht 5: Javascript ClassList Object & de Query Selector](#17)
-1. [Opdracht 6: Maak een responsive design - Stappenplan en checklist](#19)
+1. [Opdracht 6: Stappenplan en checklist voor een responsive design](#19)
 1. [Opdracht 7: HTML 5 video en Responsive images](#21)
 
 ###Eindopdracht beschrijving
