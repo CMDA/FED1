@@ -63,13 +63,6 @@ Zet je code op Github voor de deeltoets.
 * [Github: Simple collaboration from your desktop](https://desktop.github.com)
 
 
-
-!
-
-###Meer resources
-
-
-
 !
 
 ###Opmerkingen over HTML5 sematiek

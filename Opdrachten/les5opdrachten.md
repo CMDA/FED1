@@ -7,52 +7,14 @@
 #Javascript ClassList Object & de Query Selector
 
 
-0. [Atribute selector toepassen](#2)
-1. [Javascript ClassList Object](#3)
-2. [Eindopdracht beschrijving](#4)
+1. [Javascript ClassList Object](#2)
+2. [Eindopdracht beschrijving](#3)
 
 
 !
 
-## Coden - Opdracht 5.1
-###### Frontend development - les 5
 
-###Attributes selector toepassen
-
-#### Download een pdf file - plaatje dynamisch tonen
-
-In opdrachten van les 2 heb je geleerd hoe je in CSS met de Attribute selector en before/after content 'in je HTML schrijven'.
-
-In deze oefening gaan we dat nogmaals gebruiken. Met het pseudo element Content kun je dynamisch HTML stylen. Als bv een download link eindigt op .pdf dan kun je met CSS een icoontje plaatsen.
-
-Je hebt deze HTML bij de '3 related projects' in de formulier-pagina:
-
-	<h4>Downloads</h4>
-      <ul>
-		<li><a href="bron.pdf" data-kb="1267">project_CMDA_Moet_ik_rennen.pdf</a> (1.3MB)</li>
-		<li><a href="bron.vcf">Contactgegevens_CMDA_Moet_ik_rennen.vcf</a></li>
-		<li><a href="bron.jpg" data-kb="569">Poster_CMDA_Moet_ik_rennen.jpg</a> (569KB)</li>
-	  </ul>
-
-Zorg er voor dat je bij de pdf en/of vcf en/of jpg link een bijhorend plaatje toont. Dat ziet er zo uit:
-
-<img src="assets/5.1downloadPdfFile.png" alt="Download PDF file">
-
-
-
-**Resource**
-
-* [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors?redirectlocale=en-US&redirectslug=CSS%2FAttribute_selectors)
-* [Pseudo Element: Content](http://css-tricks.com/css-content/)
-* [plaatje pdf download](http://www.adobe.com/images/shared/product_mnemonics/50x50/acrobat_reader_50x50.gif)
-* [plaatje vcf download](http://www.sentinel-it.nl/Images/vcard-icon.png)
-* [plaatje jpg download](http://www.yudanaka-shibuonsen.com/userfiles/image/jpg.png)
-<!-- * [spoiler] Dat ziet er ongeveer [zo](http://dabblet.com/gist/77c4ad3f79e24b0dce8b) uit -->
-
-
-!
-
-## Coden - Opdracht 5.2
+## Coden - Opdracht 5
 ###### Frontend development - les 5
 
 ###Javascript ClassList Object aanspreken met de Query selector functie
@@ -128,15 +90,6 @@ Voorbeeld van 3 wireframe schetsen voor de breakpoints:
 <img src="assets/4.3 Wireframe Intranet wireframe.png" width="100%" alt=""></a>
 
 
-!
-
-###Meer resources
-
-* Resource: 
-
-
-
-###Inspiratie
 
 
 

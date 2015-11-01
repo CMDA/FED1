@@ -1,8 +1,7 @@
 
 ## Coden - les 6
 ###### Frontend development - les 6
-#Maak een responsive website
-
+#Stappenplan en checklist voor een responsive design
 Deze week moet je zelfstandig doorwerken aan de eindopdracht.
 
 
