@@ -6,12 +6,11 @@ In het vak Frontend development leren studenten een responsive website maken, ee
 ## Onderwerpen
 De onderwerpen die we gaan behandelen zijn HTML5 elementen, formulieren, 
 CSS3 effecten, CSS selectors, 
-Javascript classList object, 
-Flexbox, 
-Untis, pixels, em, procenten, 
-Box model, Positioning, 
+Units, pixels, em, procenten, 
+Box model, Positioning, Flexbox, 
+Javascript classList object,Query selector, 
 Responsive design, media queries, 
-Picture element en feature detection.
+Picture element en audio & video.
 
 
 <br>
@@ -25,50 +24,37 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
 1. Give me a fucking < br / > 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les1-gimme-a-fucking-br.html) - 
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les1-opdrachten.html) - 
- [College](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/index.html) - 
- [pdf](http://cmda.github.io/FED1/Colleges/les1-gimme-a-fucking-br/Give-me-a-fucking-br.pdf)
+ [Presentatie](presentaties/index.html?les1) - 
+ [Opdrachten les 1](opdrachten/index.html?les1) - 
 
 2. Kiss my CSS 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les2-kiss-my-css.html) - 
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les2-opdrachten.html) - 
- [College](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/index.html) - 
- [pdf](http://cmda.github.io/FED1/Colleges/les2-kiss-my-CSS/Kiss-my-css.pdf)
- 
+ [Presentatie](presentaties/index.html?les2) - 
+ [Opdrachten les 2](opdrachten/index.html?les2) - 
+  
 3. I’ve got < em > 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les3-i-ve-got-em.html) -
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les3-opdrachten.html) - 
- [College](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/index.html) 
- [pdf](http://cmda.github.io/FED1/Colleges/les3-i-ve-got-em/i-ve-got-em.pdf)
- 
+ [Presentatie](presentaties/index.html?les3) - 
+ [Opdrachten les 3](opdrachten/index.html?les3) - 
+  
 4. Display: none 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les4-display-none.html) -
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les4-opdrachten.html) -
- [College](http://cmda.github.io/FED1/Colleges/les4-display-none/index.html) -
- [pdf](http://cmda.github.io/FED1/Colleges/les4-display-none/display-none.pdf)
- 
+ [Presentatie](presentaties/index.html?les4) - 
+ [Opdrachten les 4](opdrachten/index.html?les4) - 
+  
 5. You are the CSS to my HTML 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les5-you-are-the-css-to-my-html.html) - 
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les5-opdrachten.html) - 
- [College](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) -
- [pdf](http://cmda.github.io/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/you-are-the-CSS-to-my-HTML.pdf)
- 
+ [Presentatie](presentaties/index.html?les5) - 
+ [Opdrachten les 5](opdrachten/index.html?les5) - 
+   
 6. /* no comment */ 
-Geen les, maar zelfstandig werken
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les7-opdrachten.html) - 
-
+ [Presentatie](presentaties/index.html?les6) - 
+ [Opdrachten les 6](opdrachten/index.html?les6) - 
+ 
 7. < img > is everything 
- [Presentatie](http://cmda.github.io/FED1/Presentaties/les7-img-is-everything.html) -
- [Opdrachten](http://cmda.github.io/FED1/Opdrachten/les7-opdrachten.html) - 
- [College](http://cmda.github.io/FED1/Colleges/les7-img-is-everything/index.html) -
- [pdf](http://cmda.github.io/FED1/Colleges/les7-img-is-everything/img-is-everything.pdf)
+ [Presentatie](presentaties/index.html?les7) - 
+ [Opdrachten les 7](opdrachten/index.html?les7) - 
 
 8. < / HTML > [Toetsing en beoordeling](#)
 
-
-
-[Alle opdrachten](http://cmda.github.io/FED1/Opdrachten/alle-opdrachten.html)
+<br>
+[Alle opdrachten](opdrachten/index.html?all)
 
 
 <br>

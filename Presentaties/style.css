@@ -20,17 +20,54 @@ div.centered{
     padding: 0.4em;
 }
 
-.slideCount{
-    background-color: Goldenrod;
-    color: #000;
-    padding: 0.4em;
-}
-
 
 td{
     vertical-align: top;
     padding-top: 2em;
 }
+
+
+/* Navigator */
+.slideCount{
+    
+}
+
+.slideCount{
+    padding: 0.4em;
+    position:fixed;
+    bottom:.5em;
+    right:.5em;
+    overflow:hidden
+}
+.slideCount button, .slideCount select{
+    background-color: Goldenrod;
+    padding: 0.2em;
+    border-radius: 0;
+    color:#333;
+    border:0;
+    font-size:.8em;    
+    -webkit-appearance:none;
+    -moz-appearance:none;
+     appearance:none;
+}
+.slideCount button:hover, .slideCount button:hover{
+    color: black;
+    background-color: DarkGoldenrod;
+}
+.slideCount button:active, .slideCount select:active{
+    background-color:DarkGoldenrod;
+    transform: translateY(0.15em);
+}
+.slideCount button:first-of-type{
+    padding-left: 0.6em;
+    border-radius: 0.4em 0 0 0.4em;
+}
+.slideCount button:last-of-type{
+    padding-right: 0.6em;
+    border-radius: 0 0.4em 0.4em 0;
+
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0.2em 0;
