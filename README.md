@@ -24,8 +24,8 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
 1. Give me a fucking < br / > 
- [Presentatie](Presentaties/index.html?les1) - 
- [Opdrachten les 1](Opdrachten/index.html?les1) - 
+ [Presentatie](/Presentaties/index.html?les1) - 
+ [Opdrachten les 1](/Opdrachten/index.html?les1) - 
 
 2. Kiss my CSS 
  [Presentatie](Presentaties/index.html?les2) - 
