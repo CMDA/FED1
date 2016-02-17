@@ -24,37 +24,37 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
 1. Give me a fucking < br / > 
- [Presentatie](/FED1/Presentaties/index.html?les1) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les1) - 
  [Opdrachten les 1](/FED1/Opdrachten/index.html?les1) - 
 
 2. Kiss my CSS 
- [Presentatie](Presentaties/index.html?les2) - 
- [Opdrachten les 2](Opdrachten/index.html?les2) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les2) - 
+ [Opdrachten les 2](/FED1/Opdrachten/index.html?les2) - 
   
 3. I’ve got < em > 
- [Presentatie](Presentaties/index.html?les3) - 
- [Opdrachten les 3](Opdrachten/index.html?les3) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les3) - 
+ [Opdrachten les 3](/FED1/Opdrachten/index.html?les3) - 
   
 4. Display: none 
- [Presentatie](Presentaties/index.html?les4) - 
- [Opdrachten les 4](Opdrachten/index.html?les4) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les4) - 
+ [Opdrachten les 4](/FED1/Opdrachten/index.html?les4) - 
   
 5. You are the CSS to my HTML 
- [Presentatie](Presentaties/index.html?les5) - 
- [Opdrachten les 5](Opdrachten/index.html?les5) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les5) - 
+ [Opdrachten les 5](/FED1/Opdrachten/index.html?les5) - 
    
 6. /* no comment */ 
- [Presentatie](Presentaties/index.html?les6) - 
- [Opdrachten les 6](Opdrachten/index.html?les6) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les6) - 
+ [Opdrachten les 6](/FED1/Opdrachten/index.html?les6) - 
  
 7. < img > is everything 
- [Presentatie](Presentaties/index.html?les7) - 
- [Opdrachten les 7](Opdrachten/index.html?les7) - 
+ [Lespresentatie](/FED1/Presentaties/index.html?les7) - 
+ [Opdrachten les 7](/FED1/Opdrachten/index.html?les7) - 
 
 8. < / HTML > [Toetsing en beoordeling](#)
 
 <br>
-[Alle opdrachten](Opdrachten/index.html?all)
+[Alle opdrachten](/FED1/Opdrachten/index.html?all)
 
 
 <br>
