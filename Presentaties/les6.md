@@ -11,7 +11,7 @@
 
 Deze week zelfstandig werken aan de eindopdracht.
 
-[Klik hier voor opdrachten voor les 6](http://cmda.github.io/FED1/Opdrachten/les6-opdrachten.html)
+[Klik hier voor opdrachten voor les 6](h/FED1/Opdrachten/index.html?les6)
 
 
 < / section >

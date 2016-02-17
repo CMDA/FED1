@@ -62,7 +62,7 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 # 4. Coden
 ###### Frontend development - les 7
 
-[Klik hier voor opdrachten voor les 7](http://cmda.github.io/FED1/Opdrachten/les7-opdrachten.html)
+[Klik hier voor opdrachten voor les 7](/FED1/Opdrachten/index.html?les7)
 
 Opdracht 7 bestaat uit: HTML 5 Video en Responsive images.
 

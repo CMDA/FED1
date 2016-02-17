@@ -80,7 +80,7 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 # 4. Coden
 ###### Frontend development - les 5
 
-[Klik hier voor opdrachten voor les 5](http://cmda.github.io/FED1/Opdrachten/les5-opdrachten.html)
+[Klik hier voor opdrachten voor les 5](/FED1/Opdrachten/index.html?les5)
 
 Opdracht 5 bestaat uit: 
 Attribute selector toepassen (download een pdf file - plaatje dynamisch tonen) 

@@ -51,7 +51,7 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 # 4. Coden
 ###### Frontend development - les 4
 
-[Klik hier voor opdrachten voor les 4](http://cmda.github.io/FED1/Opdrachten/les4-opdrachten.html)
+[Klik hier voor opdrachten voor les 4](/FED1/Opdrachten/index.html?les4)
 
 Opdracht 4 bestaat uit de Flexbox toepassen en Mediaqueries toepassen en verschillende layouts maken.
 

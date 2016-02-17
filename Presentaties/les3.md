@@ -59,7 +59,7 @@ dan moet je dit onderdeel herkansen met een tentamen in lesweek 8.
 # 4. Coden
 ###### Frontend development - les 3
 
-[Klik hier voor opdrachten voor les 3](http://cmda.github.io/FED1/Opdrachten/les3-opdrachten.html)
+[Klik hier voor opdrachten voor les 3](/FED1/Opdrachten/index.html?les3)
 
 Opdracht 3 bestaat uit het box model, positioning, typografie en units voor layout
 
