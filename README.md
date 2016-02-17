@@ -24,37 +24,37 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 
 1. Give me a fucking < br / > 
- [Presentatie](presentaties/index.html?les1) - 
- [Opdrachten les 1](opdrachten/index.html?les1) - 
+ [Presentatie](Presentaties/index.html?les1) - 
+ [Opdrachten les 1](Opdrachten/index.html?les1) - 
 
 2. Kiss my CSS 
- [Presentatie](presentaties/index.html?les2) - 
- [Opdrachten les 2](opdrachten/index.html?les2) - 
+ [Presentatie](Presentaties/index.html?les2) - 
+ [Opdrachten les 2](Opdrachten/index.html?les2) - 
   
 3. I’ve got < em > 
- [Presentatie](presentaties/index.html?les3) - 
- [Opdrachten les 3](opdrachten/index.html?les3) - 
+ [Presentatie](Presentaties/index.html?les3) - 
+ [Opdrachten les 3](Opdrachten/index.html?les3) - 
   
 4. Display: none 
- [Presentatie](presentaties/index.html?les4) - 
- [Opdrachten les 4](opdrachten/index.html?les4) - 
+ [Presentatie](Presentaties/index.html?les4) - 
+ [Opdrachten les 4](Opdrachten/index.html?les4) - 
   
 5. You are the CSS to my HTML 
- [Presentatie](presentaties/index.html?les5) - 
- [Opdrachten les 5](opdrachten/index.html?les5) - 
+ [Presentatie](Presentaties/index.html?les5) - 
+ [Opdrachten les 5](Opdrachten/index.html?les5) - 
    
 6. /* no comment */ 
- [Presentatie](presentaties/index.html?les6) - 
- [Opdrachten les 6](opdrachten/index.html?les6) - 
+ [Presentatie](Presentaties/index.html?les6) - 
+ [Opdrachten les 6](Opdrachten/index.html?les6) - 
  
 7. < img > is everything 
- [Presentatie](presentaties/index.html?les7) - 
- [Opdrachten les 7](opdrachten/index.html?les7) - 
+ [Presentatie](Presentaties/index.html?les7) - 
+ [Opdrachten les 7](Opdrachten/index.html?les7) - 
 
 8. < / HTML > [Toetsing en beoordeling](#)
 
 <br>
-[Alle opdrachten](opdrachten/index.html?all)
+[Alle opdrachten](Opdrachten/index.html?all)
 
 
 <br>
