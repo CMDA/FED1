@@ -25,31 +25,38 @@ Per les wordt een college aangeboden met theorie en praktijkvoorbeelden.
 
 1. Give me a fucking < br / > 
  [Lespresentatie](/FED1/Presentaties/index.html?les1) - 
- [Opdrachten les 1](/FED1/Opdrachten/index.html?les1) - 
+ [College](/FED1/Colleges/les1-gimme-a-fucking-br/index.html) - 
+ [Opdrachten les 1](/FED1/Opdrachten/index.html?les1)
 
 2. Kiss my CSS 
  [Lespresentatie](/FED1/Presentaties/index.html?les2) - 
- [Opdrachten les 2](/FED1/Opdrachten/index.html?les2) - 
+ [College](/FED1/Colleges/les2-kiss-my-CSS/index.html) - 
+ [Opdrachten les 2](/FED1/Opdrachten/index.html?les2)
   
 3. I’ve got < em > 
  [Lespresentatie](/FED1/Presentaties/index.html?les3) - 
- [Opdrachten les 3](/FED1/Opdrachten/index.html?les3) - 
+ [College](/FED1/Colleges/les3-i-ve-got-em/index.html) - 
+ [Opdrachten les 3](/FED1/Opdrachten/index.html?les3)
   
 4. Display: none 
  [Lespresentatie](/FED1/Presentaties/index.html?les4) - 
- [Opdrachten les 4](/FED1/Opdrachten/index.html?les4) - 
+ [College](/FED1/Colleges/les4-display-none/index.html) - 
+ [Opdrachten les 4](/FED1/Opdrachten/index.html?les4)
   
 5. You are the CSS to my HTML 
  [Lespresentatie](/FED1/Presentaties/index.html?les5) - 
- [Opdrachten les 5](/FED1/Opdrachten/index.html?les5) - 
+ [College](/FED1/Colleges/les5-you-are-the-CSS-to-my-HTML/index.html) - 
+ [Opdrachten les 5](/FED1/Opdrachten/index.html?les5) 
    
 6. /* no comment */ 
  [Lespresentatie](/FED1/Presentaties/index.html?les6) - 
- [Opdrachten les 6](/FED1/Opdrachten/index.html?les6) - 
+ [College](/FED1/Colleges/les6-no-comment/index.html) - 
+ [Opdrachten les 6](/FED1/Opdrachten/index.html?les6)
  
 7. < img > is everything 
  [Lespresentatie](/FED1/Presentaties/index.html?les7) - 
- [Opdrachten les 7](/FED1/Opdrachten/index.html?les7) - 
+ [College](/FED1/Colleges/les7-img-is-everything/index.html) - 
+ [Opdrachten les 7](/FED1/Opdrachten/index.html?les7)
 
 8. < / HTML > [Toetsing en beoordeling](#)
 
