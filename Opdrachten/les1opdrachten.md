@@ -21,7 +21,7 @@ Als de url van een link niet in het PDF file staat, gebruik dan een ancor.
 
 	<a href="#">tekst</a>
 
-Dit [plaatje](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/beroepen.jpg?raw=true) kun je gebruiken. 
+Dit [plaatje](https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/CMDA%20Beeldtaal/beroepen.jpg?raw=true) kun je gebruiken. 
 
 
 **Resources**
