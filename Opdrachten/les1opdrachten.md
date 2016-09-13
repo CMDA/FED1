@@ -15,7 +15,7 @@
 ###### Frontend development - les 1
 
 ### Maak een **Artikelpagina** in HTML 5
-Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina. Gebruik de juiste HTML 5 elementen. Vermijd het gebruik van < div >.
+Zet het PDF file [artikelpagina.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/assets/Artikelpagina%20-%20Opleiding%2020140908.pdf) om in een HTML pagina. Gebruik de juiste HTML 5 elementen. Vermijd het gebruik van < div >.
 
 Als de url van een link niet in het PDF file staat, gebruik dan een ancor. 
 
@@ -38,7 +38,7 @@ Dit [plaatje](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/plaatjes/b
 ###### Frontend development - les 1
 
 ### Maak een **Formulierpagina** in HTML 5
-Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Formulierpagina%20-%20Aanmelden%2020140908.pdf) om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen. 
+Zet het PDF file [formulier.pdf](https://github.com/CMDA/FED1/blob/gh-pages/Opdrachten/assets/Formulierpagina%20-%20Aanmelden%2020140908.pdf) om in een HTML pagina en maak het formulier met valide, toegankelijke HTML. Gebruik labels voor de verschillende elementen. 
 
 **Resources**
 
